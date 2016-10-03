@@ -6,8 +6,8 @@
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
-    "react": "15.3.1",
-    "react-dom": "^15.3.1",
+    "react": "15.3.2",
+    "react-dom": "^15.3.2",
     "react-native": "^0.33.0",
     "react-native-alphabetlistview": "git+https://github.com/marxsk/react-native-alphabetlistview.git",
     "react-native-camera": "git+https://github.com/lwansbrough/react-native-camera.git",
