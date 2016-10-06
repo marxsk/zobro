@@ -19,7 +19,7 @@ class AnimalImage extends React.Component {
           activeProps={this.props}
         >
           <Image
-            source={this.props.images[this.props.index]}
+            source={this.props.thumbnails[this.props.index]}
             resizeMode='cover'
             style={this.props.thumbnailStyle}
           />

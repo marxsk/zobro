@@ -16,6 +16,7 @@ class InPageImage extends React.Component {
           <AnimalImage
             index={this.props.indexes[0]}
             images={this.props.images}
+            thumbnails={this.props.thumbnails}
             thumbnailStyle={styles.inPageSingleThumbnail}
             navigator={this.props.navigator}
           />
@@ -27,12 +28,14 @@ class InPageImage extends React.Component {
         <AnimalImage
           index={this.props.indexes[0]}
           images={this.props.images}
+          thumbnails={this.props.thumbnails}
           thumbnailStyle={styles.inPageDuoThumbnailLeft}
           navigator={this.props.navigator}
         />
         <AnimalImage
           index={this.props.indexes[1]}
           images={this.props.images}
+          thumbnails={this.props.thumbnails}
           thumbnailStyle={styles.inPageDuoThumbnailRight}
           navigator={this.props.navigator}
         />
@@ -47,6 +50,7 @@ class InPageImage extends React.Component {
 
 InPageImage.propTypes = {
   images: React.PropTypes.array.isRequired,
+  thumbnails: React.PropTypes.array.isRequired,
   indexes: React.PropTypes.array.isRequired,
 //@fix  navigator: React.PropTypes.object.isRequired,
 };
