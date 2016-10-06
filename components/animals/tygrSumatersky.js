@@ -1,17 +1,11 @@
 import React, { Component } from 'react';
 import {
-  StyleSheet,
   View,
   Text,
   ScrollView,
-  Image,
 } from 'react-native';
 
-const Dimensions = require('Dimensions');
 const styles = require('../../styles/styles.ios');
-const Lightbox = require('react-native-lightbox');
-const Swiper = require('react-native-swiper');
-const AnimalImage = require('../animalImage');
 const InPageImage = require('../inPageImage');
 
 const IMAGES = [
