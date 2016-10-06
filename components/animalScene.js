@@ -17,7 +17,8 @@ class AnimalScene extends React.Component {
   }
 
   render() {
-    const AnimalDetail = animals[this.props.animal].content;
+    const AnimalDetailAdult = animals[this.props.animal].contentAdult;
+    const AnimalDetailChild = animals[this.props.animal].contentChild;
 
     // @fix: styles should be defined elsewhere
     return (
@@ -30,7 +31,14 @@ class AnimalScene extends React.Component {
           selected={this.state.selectedTab === 'adultTab'}
         onPress={() => {this.setState({selectedTab: 'adultTab'});}}
         >
-          <AnimalDetail bg={this.props.bg}/>
+          <AnimalDetailAdult bg={this.props.bg}/>
+        </TabBarIOS.Item>
+        <TabBarIOS.Item
+          title="Pro děti"
+          selected={this.state.selectedTab === 'childTab'}
+        onPress={() => {this.setState({selectedTab: 'childTab'});}}
+        >
+          <AnimalDetailChild bg={this.props.bg}/>
         </TabBarIOS.Item>
         <TabBarIOS.Item
           title="Sousedi"
