@@ -14,7 +14,7 @@ export default function configuration(state = initialState, action = {}) {
     case 'SET_READER_LEVEL':
       return {
         ...state,
-        readerLevel: action.readerLevel
+        readerLevel: action.level
       };
     case 'SET_LAST_ANIMAL':
       return {

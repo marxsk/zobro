@@ -14,6 +14,8 @@ class AnimalScene extends React.Component {
 
   componentWillMount() {
     this.props.setLastAnimal(this.props.animal);
+
+    this.setState({selectedTab: this.props.readerLevel + 'Tab'});
   }
 
   render() {
@@ -29,14 +31,20 @@ class AnimalScene extends React.Component {
         <TabBarIOS.Item
           title="Pro dospělé"
           selected={this.state.selectedTab === 'adultTab'}
-        onPress={() => {this.setState({selectedTab: 'adultTab'});}}
+          onPress={() => {
+            this.setState({selectedTab: 'adultTab'});
+            this.props.setReaderLevel('adult');
+          }}
         >
           <AnimalDetailAdult bg={this.props.bg}/>
         </TabBarIOS.Item>
         <TabBarIOS.Item
           title="Pro děti"
           selected={this.state.selectedTab === 'childTab'}
-        onPress={() => {this.setState({selectedTab: 'childTab'});}}
+          onPress={() => {
+            this.setState({selectedTab: 'childTab'});
+            this.props.setReaderLevel('child');
+          }}
         >
           <AnimalDetailChild bg={this.props.bg}/>
         </TabBarIOS.Item>

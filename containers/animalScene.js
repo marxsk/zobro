@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 
 import AnimalScene from '../components/animalScene';
-import {setLastAnimal} from '../actions'
+import {setLastAnimal, setReaderLevel} from '../actions'
 
 const mapStateToProps = (state) => {
   return {
@@ -13,7 +13,8 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return bindActionCreators({
-    setLastAnimal
+    setLastAnimal,
+    setReaderLevel,
   }, dispatch);
 }
 
@@ -30,6 +31,7 @@ class MainMenu extends React.Component {
           navigator={this.props.navigator}
           {...this.props.configuration}
           setLastAnimal={this.props.setLastAnimal}
+          setReaderLevel={this.props.setReaderLevel}
         />
       );
     }
