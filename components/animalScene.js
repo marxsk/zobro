@@ -53,7 +53,7 @@ class AnimalScene extends React.Component {
           selected={this.state.selectedTab === 'neighbourTab'}
           onPress={() => {this.setState({selectedTab: 'neighbourTab'});}}
         >
-          <AnimalNeighbourScene navigator={this.props.navigator} animal={this.props.animal} />
+          <AnimalNeighbourScene navigator={this.props.navigator} animal={this.props.animal} bg={this.props.bg}/>
         </TabBarIOS.Item>
       </TabBarIOS>
     );

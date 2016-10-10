@@ -17,6 +17,7 @@ class AnimalImage extends React.Component {
           swipeToDismiss={false}
           renderContent={this.renderModal}
           activeProps={this.props}
+          style={{borderColor: 'orange', borderRightWidth: 92}}
         >
           <Image
             source={this.props.thumbnails[this.props.index]}
@@ -50,7 +51,7 @@ class AnimalImage extends React.Component {
 AnimalImage.propTypes = {
     images: React.PropTypes.array.isRequired,
     index: React.PropTypes.number.isRequired,
-    thumbnailStyle: React.PropTypes.number.isRequired,
+//    thumbnailStyle: React.PropTypes.number.isRequired,
 //@fix    navigator: React.PropTypes.object.isRequired,
 };
 

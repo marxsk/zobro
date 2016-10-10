@@ -27,7 +27,11 @@ var AnimalDetail = React.createClass({
 
   render() {
     return (
-<ScrollView style={styles.scrollView}>
+<ScrollView>
+<View>
+  <InPageImage firstImage={true} indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
+</View>
+<View style={styles.scrollView}>
   <Text style={styles.ctext}>
   Když se podíváte do výběhu na naše tygry, určitě by vás nenapadlo, že patří mezi zástupce nejmenšího z pěti tygřích poddruhů. Vypadají nebezpečně – a nepopírám, že nejsou – a když je náhodou nachytáte ve chvíli, kdy zívají a přitom odhalují své veliké špičáky, rozhodně musíte být rádi, že nestojíte přímo vedle nich.
   </Text>
@@ -43,6 +47,7 @@ var AnimalDetail = React.createClass({
   Naše tygřice se jmenuje Satu. Narodila se 27. března 2004 v Dublinu a do Brna dorazila v říjnu 2005. Od té doby se v jejím výběhu vystřídalo už pět tygrů – Dick, Kampar, Dustin, Dua a Dandys. Poslední zmíněný se narodil 18. února 2012, do Brna přijel v březnu 2014 a je zde stále k vidění. Ale ani on zatím nebyl úspěšný v rozmnožení svého druhu. Že by za to mohlo jméno naší tygřice? Vždyť Satu znamená v indonéštině jeden – a tak i Satu nadále zůstává jen jedna.
   </Text>
   <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
+</View>
 </ScrollView>
     );
   }

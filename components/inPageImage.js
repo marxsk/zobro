@@ -10,7 +10,19 @@ class InPageImage extends React.Component {
   }
 
   render() {
-    if (this.props.indexes.length === 1) {
+    if (this.props.firstImage) {
+      return (
+        <View>
+          <AnimalImage
+            index={this.props.indexes[0]}
+            images={this.props.images}
+            thumbnails={this.props.thumbnails}
+            thumbnailStyle={[styles.inPageSingleThumbnail, {width: styles.WIDTH - 92}]}
+            navigator={this.props.navigator}
+          />
+        </View>
+      );
+    } else if (this.props.indexes.length === 1) {
       return (
         <View>
           <AnimalImage
@@ -52,6 +64,7 @@ InPageImage.propTypes = {
   images: React.PropTypes.array.isRequired,
   thumbnails: React.PropTypes.array.isRequired,
   indexes: React.PropTypes.array.isRequired,
+  firstImage: React.PropTypes.bool,
 //@fix  navigator: React.PropTypes.object.isRequired,
 };
 

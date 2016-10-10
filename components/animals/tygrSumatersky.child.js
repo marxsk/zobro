@@ -27,7 +27,11 @@ var AnimalDetail = React.createClass({
 
   render() {
     return (
-<ScrollView style={styles.scrollView}>
+<ScrollView>
+<View>
+  <InPageImage firstImage={true} indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
+</View>
+<View style={styles.scrollView}>
   <Text style={styles.ctext}>
   Ahoj! Jmenuji se Satu a v Brně žiji od roku 2005. Narodila jsem se v zoo v Dublinu, což je město v Irsku. Nejsem jen tak obyčejná tygřice, můj druh pochází se Sumatry. To je ostrov mezi Asií a Austrálií.
   </Text>
@@ -48,6 +52,7 @@ var AnimalDetail = React.createClass({
   <Text style={styles.ctext}>
   Tady v zoo nejsem sama. Sousední výběh obývá Dandys, který za mnou přijel z Varšavy. Moji chovatelé stejně jako já doufají, že s Dandysem budu mít malá tygřátka. Tak nám držte palce!
   </Text>
+</View>
 </ScrollView>
     );
   }
