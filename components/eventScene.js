@@ -6,6 +6,8 @@ import {
   StyleSheet,
   TouchableHighlight,
   Image,
+  PushNotificationIOS,
+  Alert,
 } from 'react-native';
 
 import styles from '../styles/styles.ios';
@@ -112,6 +114,29 @@ class EventsScene extends React.Component {
             <TouchableHighlight
             underlayColor='#aaaaaa'
             onPress={() => {
+                PushNotificationIOS.getScheduledLocalNotifications(
+                  (notif) => {
+                    Alert.alert(JSON.stringify(notif));
+                  }
+                );
+
+                PushNotificationIOS.scheduleLocalNotification(
+                {
+                  alertBody: 'Hello',
+                  fireDate: new Date(Date.now() + (30 * 1000)).getTime()
+                }
+              );
+              PushNotificationIOS.addEventListener(
+                'localNotification',
+                (notif) => {
+                  Alert.alert(JSON.stringify(notif));
+                }
+              );
+              PushNotificationIOS.checkPermissions((permissions) => {
+                if (permissions.alert == 0) {
+                  PushNotificationIOS.requestPermissions({alert: true}) ;
+                }
+              });
               this.refs.modal2.close();
             }} style={localStyles.button}>
             <Text style={localStyles.buttonText}>Ano</Text>
