@@ -18,6 +18,7 @@ class InPageImage extends React.Component {
             images={this.props.images}
             thumbnails={this.props.thumbnails}
             thumbnailStyle={[styles.inPageSingleThumbnail, {width: styles.WIDTH - 92}]}
+            lightboxStyle={{borderColor: 'orange', borderRightWidth: 92}}
             navigator={this.props.navigator}
           />
         </View>

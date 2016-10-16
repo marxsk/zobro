@@ -17,7 +17,7 @@ class AnimalImage extends React.Component {
           swipeToDismiss={false}
           renderContent={this.renderModal}
           activeProps={this.props}
-          style={{borderColor: 'orange', borderRightWidth: 92}}
+          style={this.props.lightboxStyle}
         >
           <Image
             source={this.props.thumbnails[this.props.index]}
@@ -52,6 +52,7 @@ AnimalImage.propTypes = {
     images: React.PropTypes.array.isRequired,
     index: React.PropTypes.number.isRequired,
 //    thumbnailStyle: React.PropTypes.number.isRequired,
+//    lightboxStyle
 //@fix    navigator: React.PropTypes.object.isRequired,
 };
 
