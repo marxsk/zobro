@@ -124,7 +124,7 @@ export default animalDb = {
     name: 'Bobr kanadský',
     contentAdult: require('./components/animals/bobrKanadsky.adult'),
     contentChild: require('./components/animals/bobrKanadsky.child'),
-    animal: '',
+    animal: 'bobrKanadsky',
     neighbours: [
       'tygrSumatersky',
     ]

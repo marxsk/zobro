@@ -10,15 +10,15 @@ const InPageImage = require('../inPageImage');
 const AnimalText = require('../animalText');
 
 const IMAGES = [
-  require('../../images/animals/medvedKamcatsky/image00.png'),
-  require('../../images/animals/medvedKamcatsky/image01.png'),
-  require('../../images/animals/medvedKamcatsky/image02.png'),
+  require('../../images/animals/jerabMandzusky/01.jpg'),
+  require('../../images/animals/jerabMandzusky/02.jpg'),
+  require('../../images/animals/jerabMandzusky/03.jpg'),
 ];
 
 const THUMBNAILS = [
-  require('../../images/animals/medvedKamcatsky/image00.png'),
-  require('../../images/animals/medvedKamcatsky/image01.png'),
-  require('../../images/animals/medvedKamcatsky/image02.png'),
+  require('../../images/animals/jerabMandzusky/01-thumb.jpg'),
+  require('../../images/animals/jerabMandzusky/02-thumb.jpg'),
+  require('../../images/animals/jerabMandzusky/03-thumb.jpg'),
 ];
 
 var AnimalDetail = React.createClass({
