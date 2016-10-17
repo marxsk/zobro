@@ -1,6 +1,6 @@
 export default animalDb = {
   'tygrSumatersky': {
-    name: 'Tygr Sumaterský',
+    name: 'Tygr sumaterský',
     contentAdult: require('./components/animals/tygrSumatersky.adult'),
     contentChild: require('./components/animals/tygrSumatersky.child'),
     animal: 'tygrSumatersky',
@@ -11,7 +11,7 @@ export default animalDb = {
   },
 
   'medvedKamcatsky': {
-    name: 'Medvěd Kamčatský',
+    name: 'Medvěd kamčatský',
     contentAdult: require('./components/animals/medvedKamcatsky.adult'),
     contentChild: require('./components/animals/medvedKamcatsky.child'),
     animal: 'medvedKamcatsky',
@@ -19,9 +19,20 @@ export default animalDb = {
       'tygrSumatersky',
     ]
   },
-  'zviera1' : {
-    name: 'Zviera 1',
-    animal: 'zviera1',
+
+  'rosomakSibirsky' : {
+    name: 'Rosomák sibiřský',
+    contentAdult: require('./components/animals/rosomakSibirsky.adult'),
+    contentChild: require('./components/animals/rosomakSibirsky.child'),
+    animal: 'rosomakSibirsky',
+    neighbours: [
+      'tygrSumatersky',
+    ]
+  },
+
+  'z' : {
+    name: 'Z',
+    animal: 'z',
     neighbours: [
 
     ]
