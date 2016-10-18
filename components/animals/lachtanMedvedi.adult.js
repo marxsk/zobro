@@ -8,19 +8,20 @@ import {
 const styles = require('../../styles/styles.ios');
 const InPageImage = require('../inPageImage');
 const AnimalText = require('../animalText');
-/*
+
 const IMAGES = [
   require('../../images/animals/lachtanMedvedi/01.jpg'),
   require('../../images/animals/lachtanMedvedi/02.jpg'),
-  require('../../images/animals/lachtanMedvedi/03.jpg'),
+// @todo: broken JPG
+//  require('../../images/animals/lachtanMedvedi/03.jpg'),
 ];
 
 const THUMBNAILS = [
   require('../../images/animals/lachtanMedvedi/01-thumb.jpg'),
   require('../../images/animals/lachtanMedvedi/02-thumb.jpg'),
-  require('../../images/animals/lachtanMedvedi/03-thumb.jpg'),
+//  require('../../images/animals/lachtanMedvedi/03-thumb.jpg'),
 ];
-*/
+
 var AnimalDetail = React.createClass({
   componentWillMount() {
     this.props.bg();
