@@ -23,6 +23,7 @@ var NavigationBarRouteMapper = {
     if (route.id === scenes.MAIN_MENU) {
       return null;
     } else {
+      const navBar = styles.otherFontNavBar;
       return (
         <TouchableHighlight onPress={() => {
           bgMainMenu();
@@ -31,7 +32,7 @@ var NavigationBarRouteMapper = {
             title: 'ZOO Brno',
           })
         }}>
-        <Text>Menu</Text>
+        <Text style={navBar}>Menu</Text>
         </TouchableHighlight>
       );
     }
@@ -42,7 +43,11 @@ var NavigationBarRouteMapper = {
   },
 
   Title: function(route, navigator, index, navState) {
-    return (<Text>{route.title}</Text>);
+    let navBar = styles.otherFontNavBar;
+    if (route.id === scenes.MAIN_MENU) {
+      navBar = styles.mainMenuFontNavBar;
+    }
+    return (<Text style={navBar}>{route.title}</Text>);
   },
 };
 
@@ -58,7 +63,7 @@ class ZooApp extends React.Component {
   }
 
   renderScene(route, navigator) {
-    const bgColor = scenes.sceneTitles[route.id].bgColor;
+    const bgColor = scenes.sceneTitles[route.id].barColor;
 
     switch (route.id) {
       case scenes.MAIN_MENU:

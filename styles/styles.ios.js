@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
   },
   eventItemText: {
     fontSize: 22,
+    color: '#e6e5eb',
   },
   scrollView: {
     backgroundColor: '#23190B',
@@ -52,7 +53,14 @@ const styles = StyleSheet.create({
     height: 100,
     width: (WIDTH - ANIMAL_RIGHT_BORDER - 10) / 2,
     marginRight: 12,
+  },
+  otherFontNavBar: {
+    color: '#e6e5eb',
+  },
+  mainMenuFontNavBar: {
+    color: 'black',
   }
+
 })
 
 module.exports = styles;

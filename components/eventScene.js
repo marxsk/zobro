@@ -31,11 +31,10 @@ class EventItem extends React.Component {
         style={[styles.eventItem, {backgroundColor: this.props.bgColor}]}
       >
         <View style={{flex:1, flexDirection: 'row'}}>
-          <View style={{flex: 0.7, flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+          <View style={{flex: 1, flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
             <Text style={styles.eventItemText}>{this.props.event.name}</Text>
             <Text style={styles.eventItemText}>Dnes ve {this.props.event.time}</Text>
           </View>
-          <Text style={{flex: 0.3, textAlign: 'right'}}>GHI</Text>
         </View>
     </TouchableHighlight>
   );}
@@ -63,7 +62,14 @@ class EventsScene extends React.Component {
   }
 
   render() {
-    const backgroundColors = [ '#e49c42', '#be8237', '#98672a', '#6f4c1e' ];
+    const backgroundColors = [
+      '#e69d37',
+      '#bf832e',
+      '#996823',
+      '#704c19',
+      '#493314',
+      '#23190a',
+    ];
     const d = new Date();
 
     return (
@@ -73,7 +79,7 @@ class EventsScene extends React.Component {
               .map((event, index) => (
             <EventItem
               key={index}
-              bgColor={backgroundColors[index % 4]}
+              bgColor={backgroundColors[index % backgroundColors.length]}
               event={event}
               onPress={() => {this.refs.modal2.open(event);}}
             />

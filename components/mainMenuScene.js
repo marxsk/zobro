@@ -19,6 +19,7 @@ class MainMenuItem extends React.Component {
 
   render() {
     const bgColor = scenes.sceneTitles[this.props.scene].bgColor;
+    const barColor = scenes.sceneTitles[this.props.scene].barColor;
     const title = scenes.sceneTitles[this.props.scene].title;
     return (
       <TouchableHighlight
@@ -69,23 +70,23 @@ class mainMenuScene extends React.Component {
     return (
       <ScrollView style={localStyles.container} contentContainerStyle={localStyles.scrollItems}>
         <MainMenuItem navigator={this.props.navigator}
-          alignText='right'
-          scene={scenes.CONTACTS}
+          alignText='left'
+          scene={scenes.QR_READER}
         />
 
         <MainMenuItem navigator={this.props.navigator}
-          alignText='left'
+          alignText='right'
           scene={scenes.ANIMAL_LIST}
         />
 
         <MainMenuItem navigator={this.props.navigator}
-          alignText='right'
+          alignText='left'
           scene={scenes.EVENTS}
         />
 
         <MainMenuItem navigator={this.props.navigator}
-          alignText='left'
-          scene={scenes.QR_READER}
+          alignText='right'
+          scene={scenes.CONTACTS}
         />
       </ScrollView>
     );

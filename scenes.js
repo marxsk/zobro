@@ -8,13 +8,15 @@ export const QR_READER = 'qr-scene';
 
 const animals = require('./animals').default;
 export const sceneTitles = {
-  [MAIN_MENU]: { bgColor: 'yellow' },
-  [CONTACTS]: { title: 'Kontakty', bgColor: 'red' },
-  [ANIMAL_DETAIL]: { bgColor: 'green' },
-  [EVENTS]: { title: 'Události', bgColor: 'orange' },
-  [ANIMAL_NEIGHBOURS]: { title: 'Sousedi', bgColor: 'blue' },
-  [ANIMAL_LIST]: { title: 'Seznam zvířat', bgColor: 'gray'},
-  [QR_READER]: { title: 'Načíst QR kód', bgColor: 'pink' },
+  [MAIN_MENU]: { barColor: '#f6f6f6' },
+  [QR_READER]: { title: 'Načíst QR kód', bgColor: '#e69d37', barColor: '#3c3c3b'},
+  [ANIMAL_LIST]: { title: 'Zvířata', bgColor: '#bf832e', barColor: '#3c3c3b'},
+  [EVENTS]: { title: 'Události', bgColor: '#996823', barColor: '#3c3c3b' },
+
+  [CONTACTS]: { title: 'Kontakty', bgColor: '#704c19', barColor: '#3c3c3b' },
+
+  [ANIMAL_DETAIL]: { bgColor: 'green', barColor: '#3c3c3b' },
+  [ANIMAL_NEIGHBOURS]: { title: 'Sousedi', bgColor: 'blue', barColor: '#3c3c3b' },
 }
 
 export function navigatePush(navigator, scene, props) {
