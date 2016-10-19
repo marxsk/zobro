@@ -34,6 +34,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#23190B',
     borderRightWidth: ANIMAL_RIGHT_BORDER,
     borderColor: 'orange',
+    paddingRight: 5,
+    paddingLeft: 5,
   },
   ctext: {
     fontSize: 18,
@@ -56,9 +58,13 @@ const styles = StyleSheet.create({
   },
   otherFontNavBar: {
     color: '#e6e5eb',
+    fontSize: 16,
+    fontWeight: 'bold',
   },
   mainMenuFontNavBar: {
     color: 'black',
+    fontSize: 16,
+    fontWeight: 'bold',
   }
 
 })

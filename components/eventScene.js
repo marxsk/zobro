@@ -69,6 +69,11 @@ class EventsScene extends React.Component {
       '#704c19',
       '#493314',
       '#23190a',
+      '#493314',
+      '#704c19',
+      '#996823',
+      '#bf832e',
+      '#e69d37',
     ];
     const d = new Date();
 
