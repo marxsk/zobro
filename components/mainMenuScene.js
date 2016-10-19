@@ -18,17 +18,19 @@ class MainMenuItem extends React.Component {
   }
 
   render() {
+    const bgColor = scenes.sceneTitles[this.props.scene].bgColor;
+    const title = scenes.sceneTitles[this.props.scene].title;
     return (
       <TouchableHighlight
         underlayColor='#aaaaaa'
         onPress={() => scenes.navigatePush(this.props.navigator, this.props.scene, this.props.sceneProps)}
         >
-          <View style={[styles.mainMenuItem, {backgroundColor: this.props.backgroundColor}]}>
+          <View style={[styles.mainMenuItem, {backgroundColor: bgColor}]}>
             <Text style={[styles.mainMenuItemText, {
               textAlign: this.props.alignText,
               paddingRight: 32,
               paddingLeft: 32,
-            }]}>{this.props.title}</Text>
+            }]}>{title}</Text>
           </View>
         </TouchableHighlight>
     );
@@ -36,9 +38,7 @@ class MainMenuItem extends React.Component {
 }
 
 MainMenuItem.propTypes = {
-  title: React.PropTypes.string,
   alignText: React.PropTypes.oneOf(['left', 'right']),
-  backgroundColor: React.PropTypes.string,
   scene: React.PropTypes.string,
   sceneProps: React.PropTypes.object,
 }
@@ -54,7 +54,6 @@ class mainMenuScene extends React.Component {
 
   componentWillMount() {
     if (this.props.bg) {
-      Alert.alert('11');
       this.props.bg();
     }
   }
@@ -63,41 +62,29 @@ class mainMenuScene extends React.Component {
     const lastAnimalItem = (this.props.lastAnimal === undefined) ? null : (
       <MainMenuItem navigator={this.props.navigator}
         alignText='right'
-        title={this.props.lastAnimal}
-        backgroundColor='gray'
         scene={scenes.ANIMAL_DETAIL}
         sceneProps={{animal: this.props.lastAnimal}}
       />);
 
     return (
       <ScrollView style={localStyles.container} contentContainerStyle={localStyles.scrollItems}>
-        { lastAnimalItem }
-
         <MainMenuItem navigator={this.props.navigator}
           alignText='right'
-          title='Kontakty'
-          backgroundColor='#0083B5'
           scene={scenes.CONTACTS}
         />
 
         <MainMenuItem navigator={this.props.navigator}
           alignText='left'
-          title='Seznam zvířat'
-          backgroundColor='#CF2B2D'
           scene={scenes.ANIMAL_LIST}
         />
 
         <MainMenuItem navigator={this.props.navigator}
           alignText='right'
-          title='Události'
-          backgroundColor='#9545A8'
           scene={scenes.EVENTS}
         />
 
         <MainMenuItem navigator={this.props.navigator}
           alignText='left'
-          title='Načíst QR kód'
-          backgroundColor='#0ECD7C'
           scene={scenes.QR_READER}
         />
       </ScrollView>

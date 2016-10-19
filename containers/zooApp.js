@@ -51,28 +51,30 @@ class ZooApp extends React.Component {
     super(props);
 
     this.state = {
-      backgroundColor: 'red',
+      backgroundColor: scenes.sceneTitles[scenes.MAIN_MENU].bgColor,
     }
 
-    bgMainMenu = () => {this.changeColor('pink')};
+    bgMainMenu = () => {this.changeColor(scenes.sceneTitles[scenes.MAIN_MENU].bgColor)};
   }
 
   renderScene(route, navigator) {
+    const bgColor = scenes.sceneTitles[route.id].bgColor;
+
     switch (route.id) {
       case scenes.MAIN_MENU:
-        return (<MainMenuScene navigator={navigator} bg={bgMainMenu}/>);
+        return (<MainMenuScene navigator={navigator} bg={bgColor}/>);
       case scenes.ANIMAL_DETAIL:
-        return (<AnimalScene animal={route.animal} xyz='bbb' navigator={navigator} bg={() => {this.changeColor('yellow')}}/>);
+        return (<AnimalScene animal={route.animal} navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
       case scenes.CONTACTS:
-        return (<ContactsScene navigator={navigator} bg={() => {this.changeColor('yellow')}}/>);
+        return (<ContactsScene navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
       case scenes.ANIMAL_LIST:
-        return (<AnimalListScene navigator={navigator} bg={() => {this.changeColor('purple')}}/>);
+        return (<AnimalListScene navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
       case scenes.EVENTS:
-        return (<EventScene bg={() => {this.changeColor('red')}}/>);
+        return (<EventScene bg={() => {this.changeColor(bgColor)}}/>);
       case scenes.ANIMAL_NEIGHBOURS:
-        return (<AnimalNeighbourScene animal='medvedKamcatsky' navigator={navigator} bg={() => {this.changeColor('green')}}/>);
+        return (<AnimalNeighbourScene animal='medvedKamcatsky' navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
       case scenes.QR_READER:
-        return (<QrScene cancelButtonVisible={true} navigator={navigator} bg={() => {this.changeColor('green')}}/>);
+        return (<QrScene cancelButtonVisible={true} navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
     }
   }
 
@@ -83,7 +85,7 @@ class ZooApp extends React.Component {
   render() {
     return (
       <Navigator
-        initialRoute={{ title: 'ZOO Brno', id: scenes.MAIN_MENU, bg: () => {this.changeColor('pink')} }}
+        initialRoute={{ title: 'ZOO Brno', id: scenes.MAIN_MENU }}
         renderScene={(route, navigator) => {
           return this.renderScene(route, navigator);
         }}
