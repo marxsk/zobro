@@ -12,6 +12,7 @@
 #import "RCTBundleURLProvider.h"
 #import "RCTRootView.h"
 #import "RCTPushNotificationManager.h"
+#import "RCTSplashScreen.h"
 
 @implementation AppDelegate
 
@@ -25,6 +26,9 @@
                                                       moduleName:@"zoobrno"
                                                initialProperties:nil
                                                    launchOptions:launchOptions];
+  
+  [RCTSplashScreen open:rootView]; //activate splashscreen
+  
   rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];
 
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -59,5 +63,7 @@
 {
   NSLog(@"%@", error);
 }
+
+
 
 @end
