@@ -35,7 +35,7 @@ var AnimalDetail = React.createClass({
         </View>
         <View style={styles.scrollView}>
           <AnimalText>
-          Seznamte se, zde bydlí Callorhinus ursinus, ploutvonožci z čeledi lachtanovitých. Žijí zde tři, konkrétně samec Sema a samičky Vafla a Cherabushka. Zdají se vám ta jména zvláštní? Právem, všichni lachtani dostali jméno v Rusku, odkud jsme si je přivezli. Z Rostova na Donu k nám dorazili v noci z 19. na 20. prosince 2013.
+          Seznamte se, zde bydlí <Text style={styles.ctextItalic}>Callorhinus ursinus</Text>, ploutvonožci z čeledi lachtanovitých. Žijí zde tři, konkrétně samec Sema a samičky Vafla a Cherabushka. Zdají se vám ta jména zvláštní? Právem, všichni lachtani dostali jméno v Rusku, odkud jsme si je přivezli. Z Rostova na Donu k nám dorazili v noci z 19. na 20. prosince 2013.
           </AnimalText>
           <AnimalText>
             Ač je jejich chov v zoologických zahradách velmi malý, patří k nejoblíbenějším zvířatům. Proč? Nelze se nepozastavit nad jejich tak trochu komickým vzhledem, který jen podtrhuje velmi hravá povaha. Jsou navíc velice inteligentní a i díky tomu je lze srovnávat například se psem. Nesnášejí nudu a baví se třeba i tím, že pod vodou vypouštějí bublinky, kolem kterých pak krouží. Taky vynášejí ze dna kameny, jež následně nechávají klesat zpět. Vzhledem k tomu, že se moc rádi předvádějí a milují publikum, pořádáme tady v zoo pravidelná komentovaná krmení, při nichž lachtani vykonávají jednoduché cviky. Cvičení a hra s chovatelem je pro ně velmi důležitá. Zachovává jejich bystrost, přináší jim radost ze života a udržuje dobrý psychický i fyzický stav.

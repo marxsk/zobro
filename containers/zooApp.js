@@ -7,6 +7,7 @@ import {TouchableHighlight, View, Text, Navigator, TouchableOpacity, Alert} from
 import styles from '../styles/styles.ios';
 
 import ContactsScene from '../components/contactsScene';
+import AboutScene from '../components/aboutScene';
 import MainMenuScene from '../containers/mainMenuScene';
 import AnimalListScene from '../components/animalListScene';
 import EventScene from '../components/eventScene';
@@ -72,6 +73,8 @@ class ZooApp extends React.Component {
         return (<AnimalScene animal={route.animal} navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
       case scenes.CONTACTS:
         return (<ContactsScene navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
+      case scenes.ABOUT:
+          return (<AboutScene navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
       case scenes.ANIMAL_LIST:
         return (<AnimalListScene navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
       case scenes.EVENTS:

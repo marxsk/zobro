@@ -34,7 +34,7 @@ var AnimalDetail = React.createClass({
         </View>
         <View style={styles.scrollView}>
           <AnimalText>
-            Jespáci bojovní (Philomachus pugnax) jsou pěkní ptáčci. Žijí si na vysoké noze, a když je to na severu Evropy nebo Asie přestane bavit (komu by se chtělo zůstávat celý rok v takové zimě), táhnou na jih, nejlépe do subsaharské Afriky, někdy však také do Indie nebo Arábie, a to v hejnech, která mohou čítat až tisíce jedinců. Když jsou právě na tahu, můžete je zahlédnout i v České republice.
+            Jespáci bojovní (<Text style={styles.ctextItalic}>Philomachus pugnax</Text>) jsou pěkní ptáčci. Žijí si na vysoké noze, a když je to na severu Evropy nebo Asie přestane bavit (komu by se chtělo zůstávat celý rok v takové zimě), táhnou na jih, nejlépe do subsaharské Afriky, někdy však také do Indie nebo Arábie, a to v hejnech, která mohou čítat až tisíce jedinců. Když jsou právě na tahu, můžete je zahlédnout i v České republice.
           </AnimalText>
           <AnimalText>
             Zbožňují vodu, a tak nejraději pobývají na březích jezer a mokřadů, kde se s oblibou brodí bahnem (ne nadarmo se řadí mezi bahňáky) a čas od času odchytí i nějakou tu rybku, jinak ale vezmou zavděk hmyzem a drobnými živočichy, nepohrdnou však ani vodními rostlinami nebo semeny.

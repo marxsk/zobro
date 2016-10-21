@@ -34,7 +34,7 @@ var AnimalDetail = React.createClass({
         </View>
         <View style={styles.scrollView}>
           <AnimalText>
-            Medvěd kamčatský (lat. Ursus arctos beringianus) je největší euroasijská suchozemská šelma, a jak už sám název napovídá, pochází z Kamčatky, poloostrova na Dálném východě v Rusku. Vyskytuje se také na přilehlých ostrovech a poloostrovech (Sachalin, Mandžusko). V České republice ho můžeme najít jen v naší zoo. Příroda, ze které k nám přicestoval, je skutečně krásná – většinu jejího povrchu tvoří vulkány, sopky, gejzíry a rozsáhlé lesy.
+            Medvěd kamčatský (lat. <Text style={styles.ctextItalic}>Ursus arctos beringianus</Text>) je největší euroasijská suchozemská šelma, a jak už sám název napovídá, pochází z Kamčatky, poloostrova na Dálném východě v Rusku. Vyskytuje se také na přilehlých ostrovech a poloostrovech (Sachalin, Mandžusko). V České republice ho můžeme najít jen v naší zoo. Příroda, ze které k nám přicestoval, je skutečně krásná – většinu jejího povrchu tvoří vulkány, sopky, gejzíry a rozsáhlé lesy.
           </AnimalText>
           <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>

@@ -34,7 +34,7 @@ var AnimalDetail = React.createClass({
         </View>
         <View style={styles.scrollView}>
           <AnimalText>
-            Jeřáb mandžuský (latinsky Grus japonensis) je druhým největším žijícím druhem jeřába. Dospělí jedinci mohou být až 150 cm vysocí s rozpětím křídel 220 až 250 cm. Jejich průměrná váha se pohybuje kolem 7 až 10 kg, nejtěžší jedinci mohou vážit až 15 kg. Dospělci mají bílé peří, pouze na krku a na části křídel je černě zbarveno. Na hlavě si můžete všimnout červené lysinky, která se s přibývajícím věkem zvětšuje. Své typické zbarvení získají dospívající jedinci ve věku přibližně dvou let, mláďata mohou do té doby připomínat čápa.
+            Jeřáb mandžuský (latinsky <Text style={styles.ctextItalic}>Grus japonensis</Text>) je druhým největším žijícím druhem jeřába. Dospělí jedinci mohou být až 150 cm vysocí s rozpětím křídel 220 až 250 cm. Jejich průměrná váha se pohybuje kolem 7 až 10 kg, nejtěžší jedinci mohou vážit až 15 kg. Dospělci mají bílé peří, pouze na krku a na části křídel je černě zbarveno. Na hlavě si můžete všimnout červené lysinky, která se s přibývajícím věkem zvětšuje. Své typické zbarvení získají dospívající jedinci ve věku přibližně dvou let, mláďata mohou do té doby připomínat čápa.
           </AnimalText>
           <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>

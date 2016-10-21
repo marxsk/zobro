@@ -34,7 +34,7 @@ var AnimalDetail = React.createClass({
         </View>
         <View style={styles.scrollView}>
           <AnimalText>
-Zdravím tě, bezkřídlý, dvounohý, tvore! Já jsem ústřičník velký, latinsky Haematopus ostralegus. Těší mě. Pocházím z pražské zoo, zde v brněnské jsem asi šest let a létám si tu spolu s ostatními bahňáky. Říká se nám bahňáci, protože se vyskytujeme v mokřadních a pobřežních oblastech.
+Zdravím tě, bezkřídlý, dvounohý, tvore! Já jsem ústřičník velký, latinsky <Text style={styles.ctextItalic}>Haematopus ostralegus</Text>. Těší mě. Pocházím z pražské zoo, zde v brněnské jsem asi šest let a létám si tu spolu s ostatními bahňáky. Říká se nám bahňáci, protože se vyskytujeme v mokřadních a pobřežních oblastech.
           </AnimalText>
           <AnimalText>
           Velký jsem přibližně jako vrána obecná a stejně tak černý, jen mám bílé břicho. Zdobí mne svítivě oranžový zobák, který je silný, jelikož ho využívám k otevírání ulit měkkýšů. Používám ho také, když bráním své malé potomstvo před vylupovači hnízd – například před racky nebo vránami. Mám dobře vyvinuté solné žlázy pod očima, jimiž se separuje přebytečná sůl, které je někdy moc z pití mořské vody a ulovené kořisti. Když roztáhnu svá křídla, zabral bych celou šíři postele – rozpětí křídel mám až 83 cm.

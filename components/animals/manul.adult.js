@@ -34,7 +34,7 @@ var AnimalDetail = React.createClass({
         </View>
         <View style={styles.scrollView}>
           <AnimalText>
-            Stojíte před výběhem manula (Otocolobus manul). Kdo se skrývá pod tímto tajemným jménem?
+            Stojíte před výběhem manula (<Text style={styles.ctextItalic}>Otocolobus manul</Text>). Kdo se skrývá pod tímto tajemným jménem?
           </AnimalText>
           <AnimalText>
             Manul je kočkovitá šelma pocházející z centrální Asie, kde se vyskytuje na území od Kaspického moře po Čínu a Mongolsko. Je velký asi jako kočka domácí, ale hustá a dlouhá srst jej činí mohutnějším. Srst manula také chrání před chladem, když se pohybuje v zasněžené a zmrzlé krajině, která je jeho přirozeným působištěm. Barva kožichu se během roku mění ze zimní jednotnější šedé barvy na jarní šedookrovou s tmavšími proužky na ocasu a na tvářích. Na rozdíl od domácích koček má manul kruhovité zorničky, kratší nohy, kvůli kterým běhá pomaleji, a taky vydává zvuk, který se podobá štěkotu malého psa, tedy žádné mňoukání.

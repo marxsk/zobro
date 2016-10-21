@@ -37,7 +37,7 @@ var AnimalDetail = React.createClass({
           Sovice sněžní se nejvíce proslavily díky Hedvice, sově Harryho Pottera. To na nich ale zdaleka není to nejzajímavější.
           </AnimalText>
           <AnimalText>
-            S vzrůstem k 70 cm a váhou až 3 kg patří k největším z řádu sov. Na rozdíl od klasických sov (latinsky Tyto) však nepatří do čeledi sovovitých, ale mezi puštíkovité, přesněji výry (latinsky Bubo).
+            S vzrůstem k 70 cm a váhou až 3 kg patří k největším z řádu sov. Na rozdíl od klasických sov (latinsky <Text style={styles.ctextItalic}>Tyto</Text>) však nepatří do čeledi sovovitých, ale mezi puštíkovité, přesněji výry (latinsky <Text style={styles.ctextItalic}>Bubo</Text>).
           </AnimalText>
           <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>

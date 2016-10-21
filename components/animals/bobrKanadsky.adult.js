@@ -34,7 +34,7 @@ var AnimalDetail = React.createClass({
         </View>
         <View style={styles.scrollView}>
         <AnimalText>
-        Bobr kanadský, latinsky Castor canadensis, anglicky American Beaver, je největším severoamerickým hlodavcem. Vyskytuje se převážně v rybnících, jezerech a pomalých tocích Severní Ameriky. Uměle byl nasazen také do Finska, Argentiny a Ruska.
+        Bobr kanadský, latinsky <Text style={styles.ctextItalic}>Castor canadensis</Text>, anglicky <Text style={styles.ctextItalic}>American Beaver</Text>, je největším severoamerickým hlodavcem. Vyskytuje se převážně v rybnících, jezerech a pomalých tocích Severní Ameriky. Uměle byl nasazen také do Finska, Argentiny a Ruska.
         Jejich chov v naší zoologické zahradě započal v roce 2003, když jsme si jich pět přivezli ze Zooparku Chomutov. Měli jsme pro ně připravený zbrusu nový výběh s jezírkem, z něhož vede nora přímo do bobřího hradu.
         </AnimalText>
         <AnimalText>

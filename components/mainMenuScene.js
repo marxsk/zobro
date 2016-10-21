@@ -86,7 +86,7 @@ class mainMenuScene extends React.Component {
 
         <MainMenuItem navigator={this.props.navigator}
           alignText='right'
-          scene={scenes.CONTACTS}
+          scene={scenes.ABOUT}
         />
       </ScrollView>
     );

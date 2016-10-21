@@ -35,7 +35,7 @@ var AnimalDetail = React.createClass({
         </View>
         <View style={styles.scrollView}>
           <AnimalText>
-            „Budoucí osud dítěte je vždy dílem matky.“ Napoleon Bonaparte
+            <Text style={styles.ctextItalic}>„Budoucí osud dítěte je vždy dílem matky.“</Text> Napoleon Bonaparte
           </AnimalText>
           <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
