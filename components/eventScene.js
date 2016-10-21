@@ -33,7 +33,7 @@ class EventItem extends React.Component {
         <View style={{flex:1, flexDirection: 'row'}}>
           <View style={{flex: 1, flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
             <Text style={styles.eventItemText}>{this.props.event.name}</Text>
-            <Text style={styles.eventItemText}>Dnes ve {this.props.event.time}</Text>
+            <Text style={styles.eventItemText}>dnes, {this.props.event.time}</Text>
           </View>
         </View>
     </TouchableHighlight>

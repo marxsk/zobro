@@ -1,12 +1,8 @@
 export default events = [
-  { name: 'Krmení žiraf', time: '12:00', weekdays: [1], text: 'Lorem ipsum'},
-  { name: 'Krmení chameleona', time: '13:00', weekdays: [2], text: 'Lorem ipsum'},
-  { name: 'Krmení žiraf', time: '14:00', weekdays: [1, 2], text: 'Lorem ipsum'},
-  { name: 'Krmení chameleona', time: '15:00', weekdays: [1, 2], text: 'Lorem ipsum'},
-  { name: 'Krmení žiraf', time: '16:00', weekdays: [3], text: 'Lorem ipsum'},
-  { name: 'Krmení chameleona', time: '17:00', weekdays: [0, 1, 2, 3, 4, 5, 6], text: 'Lorem ipsum'},
-  { name: 'Krmení žiraf', time: '18:00', weekdays: [0, 1, 2, 3, 4, 5, 6], text: 'Lorem ipsum'},
-  { name: 'Krmení chameleona', time: '19:00', weekdays: [0, 1, 2, 3, 4, 5, 6], text: 'Lorem ipsum'},
-  { name: 'Krmení žiraf', time: '12:30', weekdays: [0, 1, 2, 3, 4, 5, 6], text: 'Lorem ipsum'},
-  { name: 'Krmení chameleona', time: '13:30', weekdays: [0, 1, 2, 3, 4, 5, 6], text: 'Lorem ipsum'},
+  { name: 'Medvěd lední', time: '10:30', weekdays: [5,6], place: 'Výběh ledních medvědů', text: 'Lorem ipsum'},
+  { name: 'Medvěd kamčatský', time: '10:30', weekdays: [5,0], place: 'Beringie', text: 'Lorem ipsum'},
+  { name: 'Lachtan medvědí', time: '11:00', weekdays: [5,6,0], place: 'Expozice lachtanů', text: 'Lorem ipsum'},
+  { name: 'Šimpanz', time: '11:30', weekdays: [5,6,0], place: 'Pavilon opic', text: 'Lorem ipsum'},
+  { name: 'Kotul veverovitý', time: '14:00', weekdays: [5,6,0], place: 'Exotárium', text: 'Lorem ipsum'},
+  { name: 'Drápkaté opice', time: '14:30', weekdays: [5,6,0], place: 'Tropické království', text: 'Lorem ipsum'},
 ];
