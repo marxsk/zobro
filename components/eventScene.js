@@ -46,6 +46,7 @@ class EventsScene extends React.Component {
 
     this.state = {
       selectedTime: 10,
+      selectedEvent: null,
     }
   }
 
@@ -77,6 +78,11 @@ class EventsScene extends React.Component {
     ];
     const d = new Date();
 
+    let myEvent = {};
+    if (this.state.selectedEvent) {
+      myEvent = events.filter((event) => {return event['id'] === this.state.selectedEvent;})[0];
+    }
+
     return (
       <ScrollView style={localStyles.container}>
         {
@@ -86,7 +92,10 @@ class EventsScene extends React.Component {
               key={index}
               bgColor={backgroundColors[index % backgroundColors.length]}
               event={event}
-              onPress={() => {this.refs.modal2.open(event);}}
+              onPress={() => {
+                this.setState({selectedEvent: event.id});
+                this.refs.modal2.open(event);
+              }}
             />
           ))
         }
@@ -98,12 +107,12 @@ class EventsScene extends React.Component {
           position='top'
           ref='modal2'>
           <Image
-            resizeMode='cover'
-            source={require('../images/animals/medvedKamcatsky/image00.png')}
+            resizeMode='contain'
+            source={myEvent.thumbnail}
             style={{width: WIDTH, height: 120 }}
           />
-          <Text style={{fontSize: 16, paddingBottom: 20, paddingTop: 20, color: 'white'}}>
-            Nullam fringilla est arcu, at interdum nulla aliquet maximus. Maecenas et lobortis libero, imperdiet porttitor nibh. Maecenas ac porttitor purus, quis luctus est. Aliquam quis lectus ac risus vehicula accumsan ac sit amet urna. Duis sit amet vestibulum elit. Aenean dignissim dolor ipsum. Pellentesque erat ex, aliquam ut viverra ac, efficitur at urna. Vivamus cursus nec dolor nec lobortis.
+          <Text style={{fontSize: 22, paddingBottom: 20, paddingTop: 20, color: 'white', textAlign: 'center'}}>
+            {myEvent.place}
           </Text>
           <Text style={{fontSize: 16, width: WIDTH, textAlign: 'center', paddingBottom: 20, paddingTop: 20, color: 'white'}}>
             Chcete být upozorněni na začátek krmení?
