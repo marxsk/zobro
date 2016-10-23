@@ -46,6 +46,7 @@ var AnimalDetail = React.createClass({
           <AnimalText>
             Lachtanovití obecně jsou dokonale přizpůsobeni životu pod vodou. Dokážou se ponořit až do hloubky 200 metrů a pod hladinou vydrží i 7 minut. Jejich tělo je proti chladu chráněno hustou mastnou srstí, přes kterou nepronikne voda. Předními ploutvemi veslují a extrémně dlouhými zadními ploutvemi kormidlují. Dokonce se poměrně rychle pohybují i po pevnině. Většinu života však tráví právě ve vodě, kde dokonce i spí, a to na hladině, na které přes den plavou na zádech nebo na boku.
           </AnimalText>
+          <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
           Domovem lachtanů medvědích je severní část Tichého oceánu, od Beringova moře po jižní Japonsko na západě a pobřeží Kalifornie na východě Pacifiku. Moře a oceán protkávají dlouhými migračními cestami za potravou, kterou tvoří převážně ryby, hlavonožci a korýši.
           Na pevninu vystupují jen v době rozmnožování, k němuž dochází v početných koloniích. Na konci května samci soupeří o teritoria na skalnatých či písčitých pobřežích ostrovů. Takové boje mohou být velmi násilné a jen největší a nejsilnější z nich se mohou stát vládci harému. Mladší a slabší jedinci obsazují okraje teritorií.
@@ -53,6 +54,7 @@ var AnimalDetail = React.createClass({
           <AnimalText>
           Během června se na ostrovech postupně objevují samice oplodněné z minulé sezony. Za jeden nebo dva dny každá porodí jedno mládě, které následně tři až čtyři měsíce kojí. Už týden po porodu je však schopna se znovu pářit. Dominantní samec jich v harému může mít až padesát. Kolonie bývají velmi přeplněné a často se stává, že některé potulné samice občas zabloudí na území jiného samce. Takových příležitostí pak využívají někteří slabší jedinci, kteří se jinak páří výjimečně. Vládci harémů tak nemají klid ani v období páření, své samice si musí hlídat, případně se o ně dohadovat s ostatními samci, a to i přes to, že si prve vybojovali své území. A aby měli větší jistotu, že jejich partnerky nebudou sváděni jinými samci, nejedí a jsou tak schopni ztratit až 20 % své tělesné hmotnosti.
           </AnimalText>
+          <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
           Dospělí samci pak opouštějí skalnaté ostrovy přibližně od konce srpna, samice odstavují mláďata na konci října. Na stejné místo se vracejí i několik let po sobě.
           </AnimalText>

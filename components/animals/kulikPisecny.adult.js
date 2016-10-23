@@ -30,7 +30,7 @@ var AnimalDetail = React.createClass({
     return (
       <ScrollView>
         <View>
-          <InPageImage firstImage={true} indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
+          <InPageImage firstImage={true} indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         </View>
         <View style={styles.scrollView}>
           <AnimalText>
@@ -39,10 +39,11 @@ var AnimalDetail = React.createClass({
           <AnimalText>
             Kulíci jsou tažní ptáci. Obvykle hnízdí na severních pobřežích Evropy a Asie, objevují se také v Grónsku a v Kanadě. Na přelomu srpna a září migrují na jih, někteří mohou doletět až na jih Afriky. Občas táhnou kulíci i přes Českou republiku, někdy tu i zahnízdí. Jejich obvyklé cesty ale vedou jinudy.
           </AnimalText>
+          <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
             Jídelníček průměrného kulíka tvoří hmyz, korýši a červi. Potravu loví na březích všemožných vod, z písku a bahna. Podle toho se kulík písečný řadí mezi bahňáky, což je různorodá skupina ptáků, jejichž společným poznávacím znakem je vazba na vodu.
           </AnimalText>
-          <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
+          <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
             Hnízda si kulíci staví na písečném nebo bahenním podkladě. Snáší 3–5 vajec, ze kterých se vylíhnou mláďata po přibližně pětadvaceti dnech. Pokud je hnízdo s mláďaty (v libovolné fázi vývoje) ohroženo, vyběhne jeden z rodičů co nejdál od hnízda a zatímco vyluzuje hlasité zvuky, simuluje, že nemůže létat. Když predátor nemá oči pro nic jiného než rádoby-letu-neschopného kulíka (a zároveň je dostatečně daleko od hnízda), kulík uletí. A když nebezpečí pomine, vrátí se k hnízdu, kde by se, kdyby nebyl ptákem, mohl smát pod vousy.
           </AnimalText>

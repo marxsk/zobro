@@ -45,12 +45,17 @@ var AnimalDetail = React.createClass({
         <AnimalText>
         Nejraději plaveme ve vodě. A víte, proč se nikdy z máčení ve vodě nenachladíme? To díky tomu, že naše srst nepropouští vodu. Při plavání si pomáháme ocasem, který nám slouží jako pádlo, a na zadních nohách máme navíc plovací blány. Jsme hlodavci, jako je například křeček nebo veverka, ale ve vodě si chvilkami připadáme spíše jako rybičky.
         </AnimalText>
+        <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
+        <AnimalText>
+        Proč rybičky? Nejraději ze všeho totiž plaveme. Z dlouhého máčení se ve vodě však nikdy nenachladneme. To díky tomu, že naše srst nepropouští vodu. Při plavání si pomáháme ocasem, který nám slouží jako pádlo, a na zadních nohách máme plovací blány.
+        </AnimalText>
         <AnimalText>
         Kromě plavání také rádi skotačíme v proudu řek, brousíme si zuby o dřevo,  stavíme hráze ze stromů anebo si hrajeme v našem bobřím hradě.  Říkáte si, bobři mají hrad? Ano, z větviček a hlíny.
         </AnimalText>
         <AnimalText>
         A zajímá vás, jestli míváme také bobří mláďátka? Samozřejmě, každý rok se nám narodí zhruba pět miminek (naposledy to byla 4 mláďata na konci června 2016), která si buď odvezou do jiných zoologických zahrad, anebo zůstávají tady s námi. Jednou si naše mláďátko odvezli dokonce až do Jižní Koreje!
         </AnimalText>
+        <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
         Rádi mlsáme kůru a pupeny vrby, mňam, jen jak to říkáme, hned bychom si nějaký ten pupen dali!
         </AnimalText>

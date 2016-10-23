@@ -30,7 +30,7 @@ var AnimalDetail = React.createClass({
     return (
       <ScrollView>
         <View>
-          <InPageImage firstImage={true} indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
+          <InPageImage firstImage={true} indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         </View>
         <View style={styles.scrollView}>
           <AnimalText>
@@ -42,10 +42,11 @@ Zdravím tě, bezkřídlý, dvounohý, tvore! Já jsem ústřičník velký, lat
           <AnimalText>
 Vylíhl jsem se z vejce, které je velké jako slepičí a které je kropenaté, aby splynulo s přírodou. Do 24 hodin jsem již dokázal čile běhat a brzy i létat, avšak rodiče mne ještě 2 měsíce krmili a já se od nich pozorováním učil techniku lovu. Krmili mě různými měkkýši, červy, hmyzem a ostatními drobnými živočichy.
           </AnimalText>
-          <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
+          <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
           Když jsem dospěl, začal jsem vytvářet vlastní hnízda. A to jako mělký důlek v zemi, který jsem vystlal tím, co jsem měl při křídle. Různými listy, trusem savců, často jsem též použil nějaké kamínky či lastury. Ve svém hnízdě odpočívám, ale abych měl změnu, klidně si někdy spím jen tak vestoje na jedné noze.
           </AnimalText>
+          <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
           Když jsem dospěl, začal jsem vytvářet vlastní hnízda. A to jako mělký důlek v zemi, který jsem vystlal tím, co jsem měl při křídle. Různými listy, trusem savců, často jsem též použil nějaké kamínky či lastury. Ve svém hnízdě odpočívám, ale abych měl změnu, klidně si někdy spím jen tak vestoje na jedné noze.
           </AnimalText>

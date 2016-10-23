@@ -41,6 +41,7 @@ const styles = StyleSheet.create({
   ctext: {
     fontSize: 18,
     color: 'white',
+    paddingTop: 5,
   },
   ctextItalic: {
     fontSize: 18,

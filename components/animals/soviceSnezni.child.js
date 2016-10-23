@@ -43,10 +43,10 @@ var AnimalDetail = React.createClass({
           <AnimalText>
             I když asi víte, že sovy loví v noci, my jsme výjimka, běžně lovíme i ve dne. Nejraději se živíme lumíky, což jsou hlodavci – takové větší myši s krátkým ocasem. Ale když je lumíků málo, lovíme i jiná zvířata.
           </AnimalText>
-          <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
             Žijeme na severu, v tundrách, kde je zem pořád zmrzlá a nerostou tam žádné stromy. Proto někdy létáme za polárními liškami, a když něco uloví, obereme je o jejich kořist. Říká se sice „mazaný jako liška“, ale na nás si jen tak nepřijdou! I když občas nás lišky pozlobí taky. Stavíme si totiž hnízda buď ve skalách, nebo přímo na zemi. A z nich nám pak kradou vejce.
           </AnimalText>
+          <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
             Vajíček klademe zhruba pět. Trvá asi měsíc, než se malá sovátka vyklubou. Další tři týdny nejsou ještě dost velká na to, aby opustila teplo peřím vystlaného hnízda. I pak se o ně ale ještě chvíli staráme, sama totiž dokážou naše mláďata lovit až v šesti týdnech.
           </AnimalText>

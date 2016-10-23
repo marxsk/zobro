@@ -30,7 +30,7 @@ var AnimalDetail = React.createClass({
     return (
       <ScrollView>
         <View>
-          <InPageImage firstImage={true} indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
+          <InPageImage firstImage={true} indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         </View>
         <View style={styles.scrollView}>
           <AnimalText>Spát a spát, to já mám rád.</AnimalText>
@@ -46,6 +46,7 @@ var AnimalDetail = React.createClass({
           <AnimalText>
             Jojo, já vím, že mi sluší. Zároveň je dost praktický. V zimě hřeje, v létě chladí, a tak se v něm cítím vždycky příjemně. Pocházím ze stepí ve střední Asii, kde se během dne hodně mění teploty. Kdyby byly takové teploty v Brně, odpoledne byste chodili v plavkách a večer byste se oblékli jako na severní pól.
           </AnimalText>
+          <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
             Kdo že to jsem? Garfield? Nic takového! Říkají mi Manu, jsem míň oranžový a nejsem tlusťoch. To dělá jenom ten kožich, jasné?
           </AnimalText>
@@ -55,6 +56,7 @@ var AnimalDetail = React.createClass({
           <AnimalText>
             Stejně je ale Rosa neobyčejná kočka s krásnýma očima. Černé oční panenky má zrovna tak kulaté jako vy. Až se budete mazlit s nějakou kočkou, všimněte si, že její panenky jsou spíš takové podlouhlé.
           </AnimalText>
+          <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
             Chcete toho o mně vědět víc? Řeknu vám to takhle, kamarádi. Nejsem moc akční. Nejraději se sluním na svém pařezu nebo lovím myši. Běhám zatraceně pomalu, ale když si lehnu k myší díře, vždycky nějaká kořist vyleze a já ji skokem přepadnu. Chce to jen trochu cviku. Nejlepší je lovit ráno a večer, odpoledne se dá tak akorát spát.
           </AnimalText>

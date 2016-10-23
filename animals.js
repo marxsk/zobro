@@ -90,7 +90,7 @@ export default animalDb = {
     ]
   },
 
-  'liskaPolarni' : {
+/*  'liskaPolarni' : {
     name: 'Liška polární',
     contentAdult: require('./components/animals/liskaPolarni.adult'),
     contentChild: require('./components/animals/liskaPolarni.child'),
@@ -99,7 +99,7 @@ export default animalDb = {
       'tygrSumatersky',
     ]
   },
-
+*/
   'manul' : {
     name: 'Manul',
     contentAdult: require('./components/animals/manul.adult'),

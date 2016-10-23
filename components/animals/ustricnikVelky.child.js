@@ -42,13 +42,14 @@ var AnimalDetail = React.createClass({
           <AnimalText>
             Říká se mi bahňák, protože mám rád prostředí bahna. V bahně si vždy najdu spoustu vhodné potravy a užiju si v něm s ostatními mnoho legrace.
           </AnimalText>
-          <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
             Jsem velký asi jako dospělá vrána. Jsem stejně tak černý jako vrána, až na to, že mám bílé bříško. Vážně, vypadám, jako bych si lehl na bříško do bílé barvy. Když roztáhnu křídla, zabírám celou šíři tvé postele. Mám svítivě oranžový dlouhý a silný zobák. Dokážu s ním rozevřít ústřice a jiné mořské měkkýše a korýše. Zobákem lovím také v zemi červíky a žížalky, které jsou pro mě velikou delikatesou! Říkám si, že se trochu podobám čápovi. Mám stejný zobák, podobné zabarvení těla a stejně jako čáp velmi rád odpočívám na jedné noze. Čáp je oproti mně však o dost větší a má bílou hlavu.
           </AnimalText>
+          <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
             Zajímá vás, jak jsem přišel na svět? Vylíhl jsem se z vejce, které bylo pěkně kropenaté a velké asi jako vajíčko od slepičky. Do druhého dne jsem dokázal čile běhat a po dvou měsících jsem si již sám obstarával jídlo.
           </AnimalText>
+          <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
             Víte, co všechno takový ústřičník jako já dokáže? Umím nejen létat, chodit a běhat, ale také plavat, a dokonce se i potápět! To koukáte, co? Jsem prostě všestranně nadaný ústřičník.
           </AnimalText>

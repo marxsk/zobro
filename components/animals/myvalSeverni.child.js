@@ -45,6 +45,7 @@ var AnimalDetail = React.createClass({
           <AnimalText>
           Mezitím se rod mývalů rozrůstal a rozšířil se do mnoha koutů světa. Dnes je naleznete dokonce i v Česku, avšak musíte si uvědomit, že ne všichni jsou svatoušci…
           </AnimalText>
+          <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
           Když na les padne tma, vydávají se na lov mývalí loupežníci. Oči skrývají pod černými škraboškami – to aby nebylo vidět, jak moc se jim oči hladem blyští. Mývali sice neumějí moc rychle běhat, ale hbitě šplhají po stromech a přepadávají ptačí hnízda. Milují vajíčka. Ptáčkům vždy pohrozí svými nezatažitelnými drápy, šikovnými prstíky zašmátrají v hnízdě a kořist je jejich. Když si vajíčko ochutí oříšky nebo si k němu přikousnou kousek hmyzu, jsou na vrcholu blaha.
           </AnimalText>
@@ -54,6 +55,7 @@ var AnimalDetail = React.createClass({
           <AnimalText>
           To se lidem vůbec nelíbí. Rozhodli se, že pošlou na loupežnické mývaly myslivce, aby jim ukázali, zač je toho loket.
           </AnimalText>
+          <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
           Některých hodných mývalů se ale lidem zželelo a začali je chovat v zajetí. Tihle mývali už nemusejí krást. Dostávají žrádlo skoro do postele. Už si zase můžou připadat jako princezny a princové.
           </AnimalText>
