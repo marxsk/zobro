@@ -36,12 +36,12 @@ class AboutScene extends React.Component {
           <View style={{flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
             <Image source={require('../images/logo/logo-ff.gif')} style={{width: WIDTH/3, height: 90}} resizeMode='contain'/>
             <Image source={require('../images/logo/logo-mu.gif')} style={{width: WIDTH/3, height: 90}} resizeMode='contain'/>
-            <Image source={require('../images/logo/logo-kevin.png')} style={{width: WIDTH/3, height: 90, backgroundColor: 'red'}} resizeMode='contain'/>
+            <Image source={require('../images/logo/logo-kevin.png')} style={{width: WIDTH/3, height: 90}} resizeMode='contain'/>
           </View>
           </View>
           <Text style={[styles.ctext, {paddingTop: 10}]}>
           Koordinace projektu: Dana Hlaváčková
-          </Text><Text style={[styles.ctext, {paddingTop: 5}]}>
+          </Text><Text style={[styles.ctext, {paddingTop: 10}]}>
           Programování aplikace: Marek Grác
           </Text><Text style={[styles.ctext, {paddingTop: 10}]}>
           Dizajn: Kevin Scherrer

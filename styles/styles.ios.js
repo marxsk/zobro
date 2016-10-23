@@ -12,6 +12,7 @@ const styles = StyleSheet.create({
   },
   navigator: {
     paddingTop: 64,
+    backgroundColor: '#f6f6f6',
   },
   mainMenuItem: {
     height: 80,
