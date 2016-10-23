@@ -3,6 +3,7 @@ import {TabBarIOS} from 'react-native';
 
 import AnimalNeighbourScene from '../components/animalNeighbourScene';
 import animals from '../animals';
+import * as scenes from '../scenes';
 
 class AnimalScene extends React.Component {
   constructor(props) {
@@ -49,7 +50,21 @@ class AnimalScene extends React.Component {
           <AnimalDetailChild bg={this.props.bg}/>
         </TabBarIOS.Item>
         <TabBarIOS.Item
+          title="QR kód"
+          icon={require('../images/icon/qr.png')}
+          selected={false}
+          onPress={() => {
+            this.props.navigator.replace({
+              id: scenes.QR_READER,
+              title: 'Načíst QR kód',
+            })
+            this.setState({selectedTab: 'neighbourTab'});}}
+        >
+          <AnimalNeighbourScene navigator={this.props.navigator} animal={this.props.animal} bg={this.props.bg}/>
+        </TabBarIOS.Item>
+        <TabBarIOS.Item
           title="Sousedi"
+          icon={require('../images/icon/neighb.png')}
           selected={this.state.selectedTab === 'neighbourTab'}
           onPress={() => {this.setState({selectedTab: 'neighbourTab'});}}
         >
