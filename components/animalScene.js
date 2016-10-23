@@ -33,9 +33,9 @@ class AnimalScene extends React.Component {
     // @fix: styles should be defined elsewhere
     return (
       <TabBarIOS
-          unselectedTintColor="yellow"
-          tintColor="white"
-          barTintColor="darkslateblue">
+          unselectedTintColor="#888888"
+          tintColor="#3c3c3b"
+          barTintColor="white">
         <TabBarIOS.Item
           title="Text"
           selected={this.state.selectedTab === 'textTab'}
