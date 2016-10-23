@@ -5,23 +5,30 @@ import AnimalNeighbourScene from '../components/animalNeighbourScene';
 import animals from '../animals';
 import * as scenes from '../scenes';
 
+import {TouchableHighlight, View, Text, Navigator, TouchableOpacity, Alert} from 'react-native';
+
 class AnimalScene extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedTab: 'adultTab'
+      selectedTab: 'textTab'
     }
   }
 
   componentWillMount() {
     this.props.setLastAnimal(this.props.animal);
 
-    this.setState({selectedTab: this.props.readerLevel + 'Tab'});
+    this.setState({selectedTab: 'textTab'});
   }
 
   render() {
     const AnimalDetailAdult = animals[this.props.animal].contentAdult;
     const AnimalDetailChild = animals[this.props.animal].contentChild;
+
+    const adultSelected = ((this.state.selectedTab === 'textTab') && (this.props.readerLevel === 'adult'));
+    const childSelected = ((this.state.selectedTab === 'textTab') && (this.props.readerLevel === 'child'));
+
+    let AnimalDetail = adultSelected ? AnimalDetailAdult : AnimalDetailChild;
 
     // @fix: styles should be defined elsewhere
     return (
@@ -30,24 +37,13 @@ class AnimalScene extends React.Component {
           tintColor="white"
           barTintColor="darkslateblue">
         <TabBarIOS.Item
-          title="Pro dospělé"
-          selected={this.state.selectedTab === 'adultTab'}
+          title="Text"
+          selected={this.state.selectedTab === 'textTab'}
           onPress={() => {
-            this.setState({selectedTab: 'adultTab'});
-            this.props.setReaderLevel('adult');
+            this.setState({selectedTab: 'textTab'});
           }}
         >
-          <AnimalDetailAdult bg={this.props.bg}/>
-        </TabBarIOS.Item>
-        <TabBarIOS.Item
-          title="Pro děti"
-          selected={this.state.selectedTab === 'childTab'}
-          onPress={() => {
-            this.setState({selectedTab: 'childTab'});
-            this.props.setReaderLevel('child');
-          }}
-        >
-          <AnimalDetailChild bg={this.props.bg}/>
+          <AnimalDetail bg={this.props.bg}/>
         </TabBarIOS.Item>
         <TabBarIOS.Item
           title="QR kód"

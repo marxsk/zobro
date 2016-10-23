@@ -1,9 +1,8 @@
 import React from 'react';
 import {bindActionCreators} from 'redux';
-import * as counterActions from '../actions';
 import {connect} from 'react-redux';
 
-import {TouchableHighlight, View, Text, Navigator, TouchableOpacity, Alert} from 'react-native';
+import {TouchableHighlight, View, Text, Navigator, TouchableOpacity, Alert, Image} from 'react-native';
 import styles from '../styles/styles.ios';
 
 import ContactsScene from '../components/contactsScene';
@@ -16,10 +15,12 @@ import AnimalScene from '../containers/animalScene';
 import QrScene from '../components/qrScene';
 
 import * as scenes from '../scenes';
+import {setLastAnimal, setReaderLevel} from '../actions'
 
 var bgMainMenu;
+var toggleReader;
 
-var NavigationBarRouteMapper = {
+var NavigationBarRouteMapper = (props) => ({
   LeftButton(route, navigator, index, navState) {
     if (route.id === scenes.MAIN_MENU) {
       return null;
@@ -40,7 +41,23 @@ var NavigationBarRouteMapper = {
   },
 
   RightButton: function(route, navigator, index, navState) {
-    return null;
+    if (route.id === scenes.ANIMAL_DETAIL) {
+      let content = null;
+
+      if (props.state.readerLevel === 'adult') {
+        content = require('../images/icon/adult.png');
+      } else {
+        content = require('../images/icon/child.png');
+      }
+
+    return (
+      <TouchableHighlight onPress={() => {
+        toggleReader(props.state.readerLevel);
+      }}>
+      <Image source={content} resizeMode='cover'/>
+      </TouchableHighlight>
+    );
+    }
   },
 
   Title: function(route, navigator, index, navState) {
@@ -50,7 +67,7 @@ var NavigationBarRouteMapper = {
     }
     return (<Text style={navBar}>{route.title}</Text>);
   },
-};
+});
 
 class ZooApp extends React.Component {
   constructor(props) {
@@ -61,6 +78,7 @@ class ZooApp extends React.Component {
     }
 
     bgMainMenu = () => {this.changeColor(scenes.sceneTitles[scenes.MAIN_MENU].bgColor)};
+    toggleReader = (reader) => {this.changeReader(reader)};
   }
 
   renderScene(route, navigator) {
@@ -90,6 +108,14 @@ class ZooApp extends React.Component {
     this.setState({backgroundColor: color});
   }
 
+  changeReader(reader) {
+    if (reader === 'adult') {
+      this.props.setReaderLevel('child');
+    } else {
+      this.props.setReaderLevel('adult');
+    }
+  }
+
   render() {
     return (
       <Navigator
@@ -99,8 +125,8 @@ class ZooApp extends React.Component {
         }}
         navigationBar={
            <Navigator.NavigationBar
-             routeMapper={NavigationBarRouteMapper}
-             style={[styles.navigationBar, this.state]}
+             routeMapper={NavigationBarRouteMapper(this.props)}
+             style={[styles.navigationBar, {backgroundColor: this.state.backgroundColor}]}
            />
         }
         style={styles.navigator}
@@ -109,11 +135,13 @@ class ZooApp extends React.Component {
   }
 }
 
+const mapDispatchToProps = (dispatch) => {
+  return bindActionCreators({
+    setReaderLevel,
+  }, dispatch);
+}
+
 export default connect(
   state => ({
     state: state.configuration
-  }),
-  dispatch => ({
-    actions: bindActionCreators(counterActions, dispatch)
-  })
-)(ZooApp);
+  }), mapDispatchToProps)(ZooApp);
