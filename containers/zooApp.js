@@ -100,7 +100,7 @@ class ZooApp extends React.Component {
       case scenes.ANIMAL_NEIGHBOURS:
         return (<AnimalNeighbourScene animal='medvedKamcatsky' navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
       case scenes.QR_READER:
-        return (<QrScene cancelButtonVisible={true} navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
+        return (<QrScene cancelButtonVisible={false} navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
     }
   }
 

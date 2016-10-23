@@ -26,9 +26,11 @@ class QRCodeScreen extends React.Component {
 
   componentWillMount() {
     this.props.bg();
+//    Alert.alert(this.props);
   }
 
   _onPressCancel() {
+//    Alert.alert('-' + JSON.stringify(this.props));
     var $this = this;
     requestAnimationFrame(function() {
       $this.props.navigator.pop();
@@ -58,12 +60,13 @@ class QRCodeScreen extends React.Component {
       return this._onBarCodeReadOnce(result);
     };
 
+//         <CancelButton onPress={this._onPressCancel} title={this.props.cancelButtonTitle} />
+
     return (
       <Camera onBarCodeRead={this._onBarCodeRead} style={styles.camera}>
         <View style={styles.rectangleContainer}>
           <View style={styles.rectangle}/>
         </View>
-        <CancelButton onPress={this._onPressCancel} title={this.props.cancelButtonTitle} />
       </Camera>
     );
   }
@@ -78,7 +81,7 @@ QRCodeScreen.propTypes = {
 
 QRCodeScreen.defaultProps = {
   cancelButtonVisible: false,
-  cancelButtonTitle: 'Cancel',
+  cancelButtonTitle: 'Zrušit',
 }
 
 class CancelButton extends React.Component {
