@@ -155,15 +155,17 @@ class EventsScene extends React.Component {
                 this.props.addNotification(myEvent);
                 PushNotificationIOS.scheduleLocalNotification(
                 {
-                  alertBody: 'Hello',
-                  fireDate: new Date(Date.now() + (30 * 1000)).getTime(),
+                  alertBody: (myEvent.name + ' ' + myEvent.place),
+                  fireDate: new Date(Date.now() + (10 * 1000)).getTime(),
                   userInfo: {id: myEvent.id},
                 }
               );
               PushNotificationIOS.addEventListener(
                 'localNotification',
                 (notif) => {
-                  Alert.alert(JSON.stringify(notif));
+                  let mNot = events.filter((event) => {return event['id'] === notif._data.id;})[0];
+
+                  Alert.alert(mNot.name + '\n' + mNot.place + '\n' + mNot.time);
                 }
               );
               this.refs.modal2.close();
