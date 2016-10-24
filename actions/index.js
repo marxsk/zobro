@@ -18,3 +18,17 @@ export function setLastAnimal(animalID) {
     animalID
   }
 }
+
+export function addNotification(event) {
+  return {
+    type: 'ADD_NOTIFICATION',
+    eventID: event.id,
+  }
+}
+
+export function removeNotification(event) {
+  return {
+    type: 'REMOVE_NOTIFICATION',
+    eventID: event.id,
+  }
+}

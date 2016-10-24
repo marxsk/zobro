@@ -56,11 +56,28 @@ class EventsScene extends React.Component {
 
   isTimeSelected(time) {
     if (time === this.state.selectedTime) {
-      return {backgroundColor: 'blue'};
+      return {backgroundColor: '#996823'};
     } else {
       return null;
     }
   }
+
+  isEventSubscribed(event) {
+    if (this.props.notifications[event.id]) {
+      return {backgroundColor: '#996823'};
+    } else {
+      return null;
+    }
+  }
+
+  isEventNotSubscribed(event) {
+    if (!this.props.notifications[event.id]) {
+      return {backgroundColor: '#996823'};
+    } else {
+      return null;
+    }
+  }
+
 
   render() {
     const backgroundColors = [
@@ -106,6 +123,7 @@ class EventsScene extends React.Component {
           style={localStyles.eventModal}
           position='top'
           ref='modal2'>
+        <View style={{backgroundColor: '#1d1b1b'}}>
           <Image
             resizeMode='contain'
             source={myEvent.thumbnail}
@@ -134,6 +152,8 @@ class EventsScene extends React.Component {
             <TouchableHighlight
             underlayColor='#aaaaaa'
             onPress={() => {
+                this.props.addNotification(myEvent);
+
                 PushNotificationIOS.getScheduledLocalNotifications(
                   (notif) => {
                     Alert.alert(JSON.stringify(notif));
@@ -158,17 +178,19 @@ class EventsScene extends React.Component {
                 }
               });
               this.refs.modal2.close();
-            }} style={localStyles.button}>
+            }} style={[localStyles.button, this.isEventSubscribed(myEvent)]}>
             <Text style={localStyles.buttonText}>Ano</Text>
             </TouchableHighlight>
 
             <TouchableHighlight
             underlayColor='#aaaaaa'
             onPress={() => {
+              this.props.removeNotification(myEvent);
               this.refs.modal2.close();
-            }} style={localStyles.button}>
-            <Text style={[localStyles.buttonText, {backgroundColor: 'white'}]}>Ne</Text>
+            }} style={[localStyles.button, this.isEventNotSubscribed(myEvent)]}>
+            <Text style={localStyles.buttonText}>Ne</Text>
             </TouchableHighlight>
+          </View>
           </View>
         </Modal>
       </ScrollView>
@@ -187,7 +209,7 @@ const localStyles = StyleSheet.create({
   },
   eventModal: {
     width: WIDTH,
-    backgroundColor: '#1d1b1bAA',
+    backgroundColor: '#1d1b1b',
   },
   button: {
     flex: 1,

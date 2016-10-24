@@ -9,7 +9,7 @@ import ContactsScene from '../components/contactsScene';
 import AboutScene from '../components/aboutScene';
 import MainMenuScene from '../containers/mainMenuScene';
 import AnimalListScene from '../components/animalListScene';
-import EventScene from '../components/eventScene';
+import EventScene from '../containers/eventsScene';
 import AnimalNeighbourScene from '../components/animalNeighbourScene';
 import AnimalScene from '../containers/animalScene';
 import QrScene from '../components/qrScene';
