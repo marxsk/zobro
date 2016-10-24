@@ -5,8 +5,9 @@ export default animalDb = {
     contentChild: require('./components/animals/tygrSumatersky.child'),
     animal: 'tygrSumatersky',
     neighbours: [
-      'medvedKamcatsky',
-      'zviera1',
+      {animal: 'tygrSumatersky', direction: 'front'},
+      {animal: 'rosomakSibirsky', direction: 'right'},
+      {animal: 'soviceSnezni', direction: 'right'},
     ]
   },
 
@@ -16,7 +17,10 @@ export default animalDb = {
     contentChild: require('./components/animals/medvedKamcatsky.child'),
     animal: 'medvedKamcatsky',
     neighbours: [
-      'tygrSumatersky',
+      {animal: 'medvedKamcatsky', direction: 'front'},
+      {animal: 'lachtanMedvedi', direction: 'left'},
+      {animal: 'manul', direction: 'left'},
+      {animal: 'rosomakSibirsky', direction: 'right'},
     ]
   },
 
@@ -26,7 +30,9 @@ export default animalDb = {
     contentChild: require('./components/animals/rosomakSibirsky.child'),
     animal: 'rosomakSibirsky',
     neighbours: [
-      'tygrSumatersky',
+      {animal: 'rosomakSibirsky', direction: 'front'},
+      {animal: 'tygrSumatersky', direction: 'left'},
+      {animal: 'medvedKamcatsky', direction: 'right'},
     ]
   },
 
@@ -36,7 +42,9 @@ export default animalDb = {
     contentChild: require('./components/animals/medvedLedni.child'),
     animal: 'medvedLedni',
     neighbours: [
-      'tygrSumatersky',
+      {animal: 'medvedLedni', direction: 'front'},
+//      {animal: 'rysKanadsky', direction: 'left'},
+//      {animal: 'orelVychodni', direction: 'back'},
     ]
   },
 
@@ -46,7 +54,8 @@ export default animalDb = {
     contentChild: require('./components/animals/jerabMandzusky.child'),
     animal: 'jerabMandzusky',
     neighbours: [
-      'tygrSumatersky',
+      {animal: 'jerabMandzusky', direction: 'front'},
+      {animal: 'myvalSeverni', direction: 'left'},
     ]
   },
 
@@ -56,7 +65,13 @@ export default animalDb = {
     contentChild: require('./components/animals/soviceSnezni.child'),
     animal: 'soviceSnezni',
     neighbours: [
-      'tygrSumatersky',
+      {animal: 'soviceSnezni', direction: 'front'},
+      {animal: 'tygrSumatersky', direction: 'left'},
+      {animal: 'jespakBojovny', direction: 'right'},
+//      {animal: 'tenkozobecOpacny', direction: 'right'},
+      {animal: 'ustricnikVelky', direction: 'right'},
+      {animal: 'kulikPisecny', direction: 'right'},
+
     ]
   },
 
@@ -66,7 +81,13 @@ export default animalDb = {
     contentChild: require('./components/animals/jespakBojovny.child'),
     animal: 'jespakBojovny',
     neighbours: [
-      'tygrSumatersky',
+      {animal: 'jespakBojovny', direction: 'front'},
+//      {animal: 'tenkozobecOpacny', direction: 'front'},
+      {animal: 'ustricnikVelky', direction: 'front'},
+      {animal: 'kulikPisecny', direction: 'front'},
+
+      {animal: 'soviceSnezni', direction: 'left'},
+      {animal: 'lachtanMedvedi', direction: 'right'},
     ]
   },
 
@@ -76,7 +97,13 @@ export default animalDb = {
     contentChild: require('./components/animals/kulikPisecny.child'),
     animal: 'kulikPisecny',
     neighbours: [
-      'tygrSumatersky',
+      {animal: 'kulikPisecny', direction: 'front'},
+      {animal: 'jespakBojovny', direction: 'front'},
+//      {animal: 'tenkozobecOpacny', direction: 'front'},
+      {animal: 'ustricnikVelky', direction: 'front'},
+
+      {animal: 'soviceSnezni', direction: 'left'},
+      {animal: 'lachtanMedvedi', direction: 'right'},
     ]
   },
 
@@ -86,7 +113,13 @@ export default animalDb = {
     contentChild: require('./components/animals/ustricnikVelky.child'),
     animal: 'ustricnikVelky',
     neighbours: [
-      'tygrSumatersky',
+      {animal: 'ustricnikVelky', direction: 'front'},
+      {animal: 'jespakBojovny', direction: 'front'},
+//      {animal: 'tenkozobecOpacny', direction: 'front'},
+      {animal: 'kulikPisecny', direction: 'front'},
+
+      {animal: 'soviceSnezni', direction: 'left'},
+      {animal: 'lachtanMedvedi', direction: 'right'},
     ]
   },
 
@@ -106,7 +139,9 @@ export default animalDb = {
     contentChild: require('./components/animals/manul.child'),
     animal: 'manul',
     neighbours: [
-      'tygrSumatersky',
+      {animal: 'manul', direction: 'front'},
+      {animal: 'medvedKamcatsky', direction: 'right'},
+      {animal: 'lachtanMedvedi', direction: 'back'},
     ]
   },
 
@@ -116,7 +151,16 @@ export default animalDb = {
     contentChild: require('./components/animals/lachtanMedvedi.child'),
     animal: 'lachtanMedvedi',
     neighbours: [
-      'tygrSumatersky',
+      {animal: 'lachtanMedvedi', direction: 'front'},
+
+      {animal: 'ustricnikVelky', direction: 'left'},
+      {animal: 'jespakBojovny', direction: 'left'},
+//      {animal: 'tenkozobecOpacny', direction: 'left'},
+      {animal: 'kulikPisecny', direction: 'left'},
+
+      {animal: 'myvalSeverni', direction: 'right'},
+
+      {animal: 'manul', direction: 'back'},
     ]
   },
 
@@ -126,7 +170,8 @@ export default animalDb = {
     contentChild: require('./components/animals/bobrKanadsky.child'),
     animal: 'bobrKanadsky',
     neighbours: [
-      'tygrSumatersky',
+      {animal: 'bobrKanadsky', direction: 'front'},
+      {animal: 'myvalSeverni', direction: 'right'},
     ]
   },
 
@@ -136,7 +181,12 @@ export default animalDb = {
     contentChild: require('./components/animals/myvalSeverni.child'),
     animal: 'myvalSeverni',
     neighbours: [
-      'tygrSumatersky',
+      {animal: 'myvalSeverni', direction: 'front'},
+      {animal: 'lachtanMedvedi', direction: 'left'},
+      {animal: 'jerabMandzusky', direction: 'right'},
+      {animal: 'bobrKanadsky', direction: 'back'},
+//      {animal: 'pustikBradaty', direction: 'right'},
+//      {animal: 'rysKanadsky', direction: 'right'},
     ]
   },
 
