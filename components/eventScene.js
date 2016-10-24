@@ -153,17 +153,11 @@ class EventsScene extends React.Component {
             underlayColor='#aaaaaa'
             onPress={() => {
                 this.props.addNotification(myEvent);
-
-                PushNotificationIOS.getScheduledLocalNotifications(
-                  (notif) => {
-                    Alert.alert(JSON.stringify(notif));
-                  }
-                );
-
                 PushNotificationIOS.scheduleLocalNotification(
                 {
                   alertBody: 'Hello',
-                  fireDate: new Date(Date.now() + (30 * 1000)).getTime()
+                  fireDate: new Date(Date.now() + (30 * 1000)).getTime(),
+                  userInfo: {id: myEvent.id},
                 }
               );
               PushNotificationIOS.addEventListener(
@@ -172,11 +166,6 @@ class EventsScene extends React.Component {
                   Alert.alert(JSON.stringify(notif));
                 }
               );
-              PushNotificationIOS.checkPermissions((permissions) => {
-                if (permissions.alert == 0) {
-                  PushNotificationIOS.requestPermissions({alert: true}) ;
-                }
-              });
               this.refs.modal2.close();
             }} style={[localStyles.button, this.isEventSubscribed(myEvent)]}>
             <Text style={localStyles.buttonText}>Ano</Text>
