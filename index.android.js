@@ -11,8 +11,13 @@ import {
   Text,
   View
 } from 'react-native';
+import SplashScreen from 'react-native-smart-splash-screen';
 
 class zoobrno extends Component {
+  componentDidMount () {
+     SplashScreen.close(SplashScreen.animationType.scale, 850, 500)
+  }
+
   render() {
     return (
       <View style={styles.container}>
