@@ -40,7 +40,7 @@ class QRCodeScreen extends React.Component {
     });
   }
 
-  _onBarCodeReadOnce(result) {
+  _onBarCodeReadOnce(result, navigator) {
     var $this = this;
 
     if (this.barCodeFlag) {
@@ -48,16 +48,16 @@ class QRCodeScreen extends React.Component {
       this._onBarCodeRead = () => {};
       VibrationIOS.vibrate();
 
-      setTimeout(function() {
-        scenes.navigatePush(this.props.navigator, scenes.ANIMAL_DETAIL, {animal: result.data});
-      }, 1000);
+//      setTimeout(function() {
+        scenes.navigatePush(navigator, scenes.ANIMAL_DETAIL, {animal: result.data});
+//      }, 1000);
     }
   }
 
   render() {
     this.barCodeFlag = true;
     this._onBarCodeRead = (result) => {
-      return this._onBarCodeReadOnce(result);
+      return this._onBarCodeReadOnce(result, this.props.navigator);
     };
 
 //         <CancelButton onPress={this._onPressCancel} title={this.props.cancelButtonTitle} />

@@ -153,7 +153,7 @@ class EventsScene extends React.Component {
             underlayColor='#aaaaaa'
             onPress={() => {
                 this.props.addNotification(myEvent);
-                PushNotificationIOS.scheduleLocalNotification(
+/*                PushNotificationIOS.scheduleLocalNotification(
                 {
                   alertBody: (myEvent.name + ' ' + myEvent.place),
                   fireDate: new Date(Date.now() + (10 * 1000)).getTime(),
@@ -168,7 +168,7 @@ class EventsScene extends React.Component {
                   Alert.alert(mNot.name + '\n' + mNot.place + '\n' + mNot.time);
                 }
               );
-              this.refs.modal2.close();
+*/              this.refs.modal2.close();
             }} style={[localStyles.button, this.isEventSubscribed(myEvent)]}>
             <Text style={localStyles.buttonText}>Ano</Text>
             </TouchableHighlight>
