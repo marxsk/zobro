@@ -57,7 +57,7 @@ var AnimalDetail = React.createClass({
     Uznávám, že tady v zoo žádné nepřátele nemáme a lovit taky nemusíme, protože dostáváme pravidelně najíst od ošetřovatele Milana. Ale když se nám něco nelíbí, to je pak podívaná! V tu chvíli jsou z nás opět ta nejdivočejší zvířata, která se ani jediným chloupkem neliší od rosomáka bojujícího o kořist, nebo dokonce o holý život.
   </AnimalText>
   <AnimalText>
-    Tak to jsme my. Teď už o nás víte mnohem více než na začátku. A když nad tím tak přemýšlím, ony se k nám některé ty přezdívky, třeba lesní duchové, možná přece jenom hodí.
+    Tak to jsme my. Teď už o nás víte mnohem více než na začátku. A když nad tím tak přemýšlím, ony se k nám některé ty přezdívky, třeba <Text style={styles.ctextItalic}>lesní duchové</Text>, možná přece jenom hodí.
   </AnimalText>
 </View>
 </ScrollView>
