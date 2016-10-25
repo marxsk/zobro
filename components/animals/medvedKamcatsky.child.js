@@ -41,14 +41,14 @@ var AnimalDetail = React.createClass({
           </AnimalText>
           <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
-            My medvědi kamčatští jsme druhý největší druh medvědů na světě. Jsme mnohem větší než lidé – až tři metry na délku a metr a půl na výšku, vážit můžeme až 750 kilogramů. Máme mohutné tlapy a hustý hnědý kožich, který nás chrání před chladným počasím. Mimo to jsme i velmi rychlí, silní, pohybliví a umíme spoustu věcí, například skvěle šplhat do strmých kopců nebo do korun silných stromů. Jsme výborní plavci, a pokud si chceme ulovit nějakou tu rybu, vydržíme dlouho sedět ve studené vodě. Na souši umíme rychle běhat a za jediný den dokážeme ujít i velkou vzdálenost, třeba sto kilometrů. Tyto a další vlastnosti nám dávají velkou výhodu v tom, že kromě člověka nemáme na souši žádného přemožitele.
+            My medvědi kamčatští jsme druhý největší druh medvědů na světě. Jsme mnohem větší než lidé – když stojíme na všech čtyřech, měříme až tři metry na délku a metr a půl na výšku, vážit můžeme až 750 kilogramů. Máme mohutné tlapy a hustý hnědý kožich, který nás chrání před chladným počasím. Mimo to jsme i velmi rychlí, silní, pohybliví a umíme spoustu věcí, například skvěle šplhat do strmých kopců nebo do korun silných stromů. Jsme výborní plavci, a pokud si chceme ulovit nějakou tu rybu, vydržíme dlouho sedět ve studené vodě. Na souši umíme rychle běhat a za jediný den dokážeme ujít i velkou vzdálenost, třeba sto kilometrů. Tyto a další vlastnosti nám dávají velkou výhodu v tom, že kromě člověka nemáme na souši žádného přemožitele.
           </AnimalText>
           <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
             Jsme všežravci, živíme se borůvkami, brusinkami, semeny stromů a rybami, ale pokud máme velký hlad, sníme i mršinu nějakého živočicha nebo obyčejnou trávu. Dožíváme se věku kolem dvaceti až třiceti let, ale v zoo můžeme díky péči lidí žít i 50 let.
           </AnimalText>
           <AnimalText>
-            Většinu svého života trávíme o samotě. V přírodě společnost vyhledáváme pouze v době, kdy hledáme partnera, se kterým můžeme na svět přivést mláďata. My dva v zoo jsme však spolu pořád a společnost někoho dalšího uvítáme hlavně tehdy, když se k nám blíží ošetřovatel Milan a nese něco dobrého na zub.
+            Většinu svého života trávíme o samotě. V přírodě společnost vyhledáváme pouze v době, kdy hledáme partnera, se kterým můžeme na svět přivést mláďata. My dva v zoo jsme však spolu pořád a společnost někoho dalšího uvítáme hlavně tehdy, když se k nám blíží chovatel Milan a nese něco dobrého na zub.
           </AnimalText>
         </View>
       </ScrollView>
