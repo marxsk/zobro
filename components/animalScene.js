@@ -31,6 +31,12 @@ class AnimalScene extends React.Component {
 
     let AnimalDetail = adultSelected ? AnimalDetailAdult : AnimalDetailChild;
 
+    return (
+      <View>
+<AnimalDetail bg={this.props.bg}/>
+      </View>
+    )
+
     // @fix: styles should be defined elsewhere
     return (
       <TabBarIOS

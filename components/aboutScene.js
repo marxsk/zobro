@@ -34,8 +34,8 @@ class AboutScene extends React.Component {
           </View>
           <View style={{height: 100, backgroundColor: 'white', marginTop: 10}}>
           <View style={{flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
-            <Image source={require('../images/logo/logo-ff.gif')} style={{width: WIDTH/3, height: 90}} resizeMode='contain'/>
-            <Image source={require('../images/logo/logo-mu.gif')} style={{width: WIDTH/3, height: 90}} resizeMode='contain'/>
+            <Image source={require('../images/logo/logo-ff.png')} style={{width: WIDTH/3, height: 90}} resizeMode='contain'/>
+            <Image source={require('../images/logo/logo-mu.png')} style={{width: WIDTH/3, height: 90}} resizeMode='contain'/>
             <Image source={require('../images/logo/logo-kevin.png')} style={{width: WIDTH/3, height: 90}} resizeMode='contain'/>
           </View>
           </View>
