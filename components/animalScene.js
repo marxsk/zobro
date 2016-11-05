@@ -17,6 +17,7 @@ class AnimalScene extends React.Component {
   }
 
   componentWillMount() {
+    this.props.bg();
     this.props.setLastAnimal(this.props.animal);
 
     this.setState({selectedTab: 'textTab'});
@@ -31,12 +32,12 @@ class AnimalScene extends React.Component {
 
     let AnimalDetail = adultSelected ? AnimalDetailAdult : AnimalDetailChild;
 
-    return (
+/*    return (
       <View>
-<AnimalDetail bg={this.props.bg}/>
+        <AnimalDetail />
       </View>
     )
-
+*/
     // @fix: styles should be defined elsewhere
     return (
       <TabBarIOS

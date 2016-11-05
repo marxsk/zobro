@@ -48,6 +48,11 @@ const styles = StyleSheet.create({
     color: 'white',
     fontStyle: 'italic',
   },
+  italic: {
+    fontSize: 18,
+    color: 'white',
+    fontStyle: 'italic',
+  },
   inPageSingleThumbnail: {
     height: 100,
     width: (WIDTH - ANIMAL_RIGHT_BORDER),
