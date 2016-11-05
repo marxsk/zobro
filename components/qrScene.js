@@ -22,11 +22,11 @@ var WINDOW_HEIGHT = Dimensions.get('window').height;
 class QRCodeScreen extends React.Component {
   constructor(props) {
     super(props);
+    this.state = { qrCodeAlreadyRead: false };
   }
 
   componentWillMount() {
     this.props.bg();
-//    Alert.alert(this.props);
   }
 
   _onPressCancel() {
@@ -42,16 +42,8 @@ class QRCodeScreen extends React.Component {
 
   _onBarCodeReadOnce(result, navigator) {
     var $this = this;
-
-    if (this.barCodeFlag) {
-      this.barCodeFlag = false;
-      this._onBarCodeRead = () => {};
-      VibrationIOS.vibrate();
-
-//      setTimeout(function() {
-        scenes.navigatePush(navigator, scenes.ANIMAL_DETAIL, {animal: result.data});
-//      }, 1000);
-    }
+    this.setState({qrCodeAlreadyRead: true});
+    scenes.navigatePush(navigator, scenes.ANIMAL_DETAIL, {animal: result.data});
   }
 
   render() {
@@ -62,6 +54,15 @@ class QRCodeScreen extends React.Component {
 
 //         <CancelButton onPress={this._onPressCancel} title={this.props.cancelButtonTitle} />
 
+    if (this.state.qrCodeAlreadyRead) {
+      return (
+        <Camera style={styles.camera}>
+          <View style={styles.rectangleContainer}>
+            <View style={styles.rectangle}/>
+          </View>
+        </Camera>
+      );
+    } else {
     return (
       <Camera onBarCodeRead={this._onBarCodeRead} style={styles.camera}>
         <View style={styles.rectangleContainer}>
@@ -69,6 +70,7 @@ class QRCodeScreen extends React.Component {
         </View>
       </Camera>
     );
+  }
   }
 }
 
