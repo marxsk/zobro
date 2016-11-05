@@ -26,10 +26,10 @@ var AnimalDetail = React.createClass({
     Ahoj, jmenuji se Ivan a jsem rosomák. Narodil jsem se v roce 2008 v Norsku a do brněnské zoo jsem přicestoval ve dvou letech. Nataša – to je ta rosomačice, která se mnou obývá výběh – je o 2 roky mladší než já a sem do Beringie přijela jen krátce po mně. Aby nenastala nějaká mýlka, já jsem z nás dvou ten menší. Nataša sice pochází až z Ruska, ale mezi námi rosomáky nebývají jazykové bariéry, takže jsme se rychle skamarádili. Dokonce natolik, že se nám 2. března 2016 narodil syn Vasil.
   </AnimalText>
   <AnimalText>
-    Rádi bychom se vám představili – jsme rosomáci sibiřští. Máme také mnoho jiných jmen a přezdívek, mnohé z nich jsou docela zábavné: tak například zoologové nám latinsky říkají Gulo gulo gulo, indiáni nás nazývají carcajou [karkažu:], což znamená zlý duch nebo horský ďábel. Jinak se nám také říká lesní duchové nebo hyeny severu. Ze severu sice opravdu pocházíme, ale k hyenám máme docela daleko, přestože jsme také šelmy. Jsme největšími suchozemskými členy čeledi lasicovitých, velikostně se nejvíce podobáme jezevcům.
+    Rádi bychom se vám představili – jsme rosomáci sibiřští. Máme také mnoho jiných jmen a přezdívek, mnohé z nich jsou docela zábavné: tak například zoologové nám latinsky říkají <Text style={styles.ctextItalic}>Gulo gulo gulo</Text>, indiáni nás nazývají <Text style={styles.ctextItalic}>carcajou</Text> [karkažu:], což znamená <Text style={styles.ctextItalic}>zlý duch</Text> nebo <Text style={styles.ctextItalic}>horský ďábel</Text>. Jinak se nám také říká <Text style={styles.ctextItalic}>lesní duchové</Text> nebo <Text style={styles.ctextItalic}>hyeny severu</Text>. Ze severu sice opravdu pocházíme, ale k hyenám máme docela daleko, přestože jsme také šelmy. Jsme největšími suchozemskými členy čeledi lasicovitých, velikostně se nejvíce podobáme jezevcům.
     </AnimalText>
   <AnimalText>
-    Čím jsme si tedy zasloužili takové přezdívky? K nám dvěma se moc nehodí, spíš byste nám mohli říkat šikovní bordeláři, protože rádi hrabeme doupata všude, kde se dá, a všechny úkryty z větví, které nám sem nanosili pracovníci zoo, jsme rozebrali a rozprostřeli po celém svém výběhu.
+    Čím jsme si tedy zasloužili takové přezdívky? K nám dvěma se moc nehodí, spíš byste nám mohli říkat <Text style={styles.ctextItalic}>šikovní bordeláři</Text>, protože rádi hrabeme doupata všude, kde se dá, a všechny úkryty z větví, které nám sem nanosili pracovníci zoo, jsme rozebrali a rozprostřeli po celém svém výběhu.
   </AnimalText>
   <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
   <AnimalText>
@@ -46,7 +46,7 @@ var AnimalDetail = React.createClass({
     Uznávám, že tady v zoo žádné nepřátele nemáme a lovit taky nemusíme, protože dostáváme pravidelně najíst od ošetřovatele Milana. Ale když se nám něco nelíbí, to je pak podívaná! V tu chvíli jsou z nás opět ta nejdivočejší zvířata, která se ani jediným chloupkem neliší od rosomáka bojujícího o kořist, nebo dokonce o holý život.
   </AnimalText>
   <AnimalText>
-    Tak to jsme my. Teď už o nás víte mnohem více než na začátku. A když nad tím tak přemýšlím, ony se k nám některé ty přezdívky, třeba lesní duchové, možná přece jenom hodí.
+    Tak to jsme my. Teď už o nás víte mnohem více než na začátku. A když nad tím tak přemýšlím, ony se k nám některé ty přezdívky, třeba <Text style={styles.ctextItalic}>lesní duchové</Text>, možná přece jenom hodí.
   </AnimalText>
 </AnimalTemplate>
     );
