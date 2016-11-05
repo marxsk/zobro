@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import {
-  View,
-  Text,
-  ScrollView,
-} from 'react-native';
+import { Text } from 'react-native';
 
 const styles = require('../../styles/styles.ios');
 const InPageImage = require('../inPageImage');
 const AnimalText = require('../animalText');
+const AnimalTemplate = require('../animalTemplate');
 
 const IMAGES = [
   require('../../images/animals/jerabMandzusky/01.jpg'),
@@ -22,17 +19,9 @@ const THUMBNAILS = [
 ];
 
 var AnimalDetail = React.createClass({
-  componentWillMount() {
-    this.props.bg();
-  },
-
   render() {
     return (
-      <ScrollView>
-        <View>
-          <InPageImage firstImage={true} indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-        </View>
-        <View style={styles.scrollView}>
+      <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
           <AnimalText>
             Teď vám, milí návštěvníci, položím záludnou otázku. Víte, co nebo kdo je to jeřáb?
           </AnimalText>
@@ -63,8 +52,7 @@ var AnimalDetail = React.createClass({
           <AnimalText>
             Teď tu tedy děláme ťápoty do bláta spolu. Jak čas plyne, na hlavě se nám oběma dělá čím dál větší červená pleš, ale to vůbec nevadí. Na Dálném východě, odkud pocházíme, jsou totiž jeřábi symbolem dlouhověkosti, a ta pleš k stáří prostě patří.
           </AnimalText>
-        </View>
-      </ScrollView>
+        </AnimalTemplate>
     );
   }
 });

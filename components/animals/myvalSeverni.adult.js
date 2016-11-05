@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import {
-  View,
-  Text,
-  ScrollView,
-} from 'react-native';
+import { Text } from 'react-native';
 
 const styles = require('../../styles/styles.ios');
 const InPageImage = require('../inPageImage');
 const AnimalText = require('../animalText');
+const AnimalTemplate = require('../animalTemplate');
 
 const IMAGES = [
   require('../../images/animals/myvalSeverni/01.jpg'),
@@ -22,17 +19,9 @@ const THUMBNAILS = [
 ];
 
 var AnimalDetail = React.createClass({
-  componentWillMount() {
-    this.props.bg();
-  },
-
   render() {
     return (
-      <ScrollView>
-        <View>
-          <InPageImage firstImage={true} indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-        </View>
-        <View style={styles.scrollView}>
+      <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
           <AnimalText>
             Nejsem jen tak ledajaká medvídkovitá šelma. Jsem mýval severní, tajemná tvář. Maskou jsem se pyšnil ještě před Banderasem. Chcete vědět, co je za ní?
           </AnimalText>
@@ -50,8 +39,7 @@ var AnimalDetail = React.createClass({
           <AnimalText>
             Přes den se schovávám a aktivní jsem především v podvečer a v noci. Na zimu se dobře vykrmím, pospím si nepravým zimním spánkem a do jara většinu ze zásob strávím. My mývalové jsme ve volné přírodě samotáři – až na matky s mláďaty. Já jsem se do Brna přistěhoval v roce 2015 se dvěma sličnými slečnami, a ačkoliv nemám ve výběhu soukromí, takto mi to taky vyhovuje. Ale dost bylo řečí, nemůžu vám na sebe odkrýt všechno!
           </AnimalText>
-        </View>
-      </ScrollView>
+      </AnimalTemplate>
     );
   }
 });

@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import {
-  View,
-  Text,
-  ScrollView,
-} from 'react-native';
+import { Text } from 'react-native';
 
 const styles = require('../../styles/styles.ios');
 const InPageImage = require('../inPageImage');
 const AnimalText = require('../animalText');
+const AnimalTemplate = require('../animalTemplate');
 
 const IMAGES = [
   require('../../images/animals/soviceSnezni/01.jpg'),
@@ -22,17 +19,9 @@ const THUMBNAILS = [
 ];
 
 var AnimalDetail = React.createClass({
-  componentWillMount() {
-    this.props.bg();
-  },
-
   render() {
     return (
-      <ScrollView>
-        <View>
-          <InPageImage firstImage={true} indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-        </View>
-        <View style={styles.scrollView}>
+      <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
           <AnimalText>
           Sovice sněžní se nejvíce proslavily díky Hedvice, sově Harryho Pottera. To na nich ale zdaleka není to nejzajímavější.
           </AnimalText>
@@ -53,8 +42,7 @@ var AnimalDetail = React.createClass({
           <AnimalText>
             Pokud patříte k lidem, kteří rádi hledají chyby ve filmech, určitě vás potěší, že Hedvika je ve filmovém Harrym Potterovi sameček. Poznáte to podle zbarvení – samci jsou bílí jen s několika černými skvrnami, zatímco samice jsou kropenaté (stejně tak i čerstvě vylíhnutá mláďata).
           </AnimalText>
-        </View>
-      </ScrollView>
+      </AnimalTemplate>
     );
   }
 });

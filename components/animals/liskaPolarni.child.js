@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import {
-  View,
-  Text,
-  ScrollView,
-} from 'react-native';
+import { Text } from 'react-native';
 
 const styles = require('../../styles/styles.ios');
 const InPageImage = require('../inPageImage');
 const AnimalText = require('../animalText');
+const AnimalTemplate = require('../animalTemplate');
 
 const IMAGES = [
   require('../../images/animals/liskaPolarni/01.jpg'),
@@ -22,17 +19,9 @@ const THUMBNAILS = [
 ];
 
 var AnimalDetail = React.createClass({
-  componentWillMount() {
-    this.props.bg();
-  },
-
   render() {
     return (
-      <ScrollView>
-        <View>
-          <InPageImage firstImage={true} indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-        </View>
-        <View style={styles.scrollView}>
+      <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
           <AnimalText>
             Ahoj děti.
           </AnimalText>
@@ -48,8 +37,7 @@ var AnimalDetail = React.createClass({
           <AnimalText>
             Zato v létě, když se nám srst zbarvuje do hnědošeda, abychom se mohly schovávat mezi kameny, se vracíme k norám, které každý rok rozšiřujeme. V nich se rodí malá liščata, o která se starají nejenom mámy lišky, ale i lišáci. Mláďata pouštíme poprvé ven z nory, když jsou zhruba měsíc stará. Pak se dál osamostatňují, až vyrostou natolik, že se bez nás obejdou. V tu dobu už můžou mít malá liščata.
           </AnimalText>
-        </View>
-      </ScrollView>
+      </AnimalTemplate>
     );
   }
 });

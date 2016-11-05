@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import {
-  View,
-  Text,
-  ScrollView,
-} from 'react-native';
+import { Text } from 'react-native';
 
 const styles = require('../../styles/styles.ios');
 const InPageImage = require('../inPageImage');
 const AnimalText = require('../animalText');
+const AnimalTemplate = require('../animalTemplate');
 
 const IMAGES = [
   require('../../images/animals/lachtanMedvedi/01.jpg'),
@@ -23,17 +20,9 @@ const THUMBNAILS = [
 ];
 
 var AnimalDetail = React.createClass({
-  componentWillMount() {
-    this.props.bg();
-  },
-
   render() {
     return (
-      <ScrollView>
-        <View>
-          <InPageImage firstImage={true} indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-        </View>
-        <View style={styles.scrollView}>
+      <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
           <AnimalText>
           Seznamte se, zde bydlí <Text style={styles.ctextItalic}>Callorhinus ursinus</Text>, ploutvonožci z čeledi lachtanovitých. Žijí zde tři, konkrétně samec Sema a samičky Vafla a Cherabushka. Zdají se vám ta jména zvláštní? Právem, všichni lachtani dostali jméno v Rusku, odkud jsme si je přivezli. Z Rostova na Donu k nám dorazili v noci z 19. na 20. prosince 2013.
           </AnimalText>
@@ -58,8 +47,7 @@ var AnimalDetail = React.createClass({
           <AnimalText>
           Dospělí samci pak opouštějí skalnaté ostrovy přibližně od konce srpna, samice odstavují mláďata na konci října. Na stejné místo se vracejí i několik let po sobě.
           </AnimalText>
-        </View>
-      </ScrollView>
+      </AnimalTemplate>
     );
   }
 });

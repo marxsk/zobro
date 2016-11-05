@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import {
-  View,
-  Text,
-  ScrollView,
-} from 'react-native';
+import { Text } from 'react-native';
 
 const styles = require('../../styles/styles.ios');
 const InPageImage = require('../inPageImage');
 const AnimalText = require('../animalText');
+const AnimalTemplate = require('../animalTemplate');
 
 const IMAGES = [
   require('../../images/animals/myvalSeverni/01.jpg'),
@@ -22,17 +19,9 @@ const THUMBNAILS = [
 ];
 
 var AnimalDetail = React.createClass({
-  componentWillMount() {
-    this.props.bg();
-  },
-
   render() {
     return (
-      <ScrollView>
-        <View>
-          <InPageImage firstImage={true} indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-        </View>
-        <View style={styles.scrollView}>
+      <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
           <AnimalText>
             Milí člověčí kamarádi, těší nás, že jste zavítali k našemu výběhu! Jsme mývali severní a rádi bychom vám povykládali krátký mývalí příběh.
           </AnimalText>
@@ -62,8 +51,7 @@ var AnimalDetail = React.createClass({
           <AnimalText>
           Ani my, mývali v brněnské zoo, si nestěžujeme. Máme útulný výběh s místy, kde si můžeme hrát na schovávanou, a pan chovatel nám připravuje spousty dobrot.
           </AnimalText>
-        </View>
-      </ScrollView>
+      </AnimalTemplate>
     );
   }
 });

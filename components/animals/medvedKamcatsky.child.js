@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import {
-  View,
-  Text,
-  ScrollView,
-} from 'react-native';
+import { Text } from 'react-native';
 
 const styles = require('../../styles/styles.ios');
 const InPageImage = require('../inPageImage');
 const AnimalText = require('../animalText');
+const AnimalTemplate = require('../animalTemplate');
 
 const IMAGES = [
   require('../../images/animals/medvedKamcatsky/01.jpg'),
@@ -22,17 +19,9 @@ const THUMBNAILS = [
 ];
 
 var AnimalDetail = React.createClass({
-  componentWillMount() {
-    this.props.bg();
-  },
-
   render() {
     return (
-      <ScrollView>
-        <View>
-          <InPageImage firstImage={true} indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-        </View>
-        <View style={styles.scrollView}>
+      <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
           <AnimalText>
             Ahoj! Jmenuji se Jelizar a jsem medvěd kamčatský. Jak už mé jméno napovídá, pocházím z poloostrova Kamčatka, který se nachází v Asii a je veliký přibližně jako pětinásobek České republiky. Od nás je vzdálený skoro 8 tisíc kilometrů.
           </AnimalText>
@@ -50,8 +39,7 @@ var AnimalDetail = React.createClass({
           <AnimalText>
             Většinu svého života trávíme o samotě. V přírodě společnost vyhledáváme pouze v době, kdy hledáme partnera, se kterým můžeme na svět přivést mláďata. My dva v zoo jsme však spolu pořád a společnost někoho dalšího uvítáme hlavně tehdy, když se k nám blíží ošetřovatel Milan a nese něco dobrého na zub.
           </AnimalText>
-        </View>
-      </ScrollView>
+      </AnimalTemplate>
     );
   }
 });

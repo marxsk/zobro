@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import {
-  View,
-  Text,
-  ScrollView,
-} from 'react-native';
+import { Text } from 'react-native';
 
 const styles = require('../../styles/styles.ios');
 const InPageImage = require('../inPageImage');
 const AnimalText = require('../animalText');
+const AnimalTemplate = require('../animalTemplate');
 
 const IMAGES = [
   require('../../images/animals/medvedLedni/01.jpg'),
@@ -22,17 +19,9 @@ const THUMBNAILS = [
 ];
 
 var AnimalDetail = React.createClass({
-  componentWillMount() {
-    this.props.bg();
-  },
-
   render() {
     return (
-      <ScrollView>
-        <View>
-          <InPageImage firstImage={true} indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-        </View>
-        <View style={styles.scrollView}>
+      <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
           <AnimalText>
             Drazí návštěvníci, dovolte mi, abych se vám představila. Jmenuji se Cora a jsem máma rodiny ledních medvědů. Do brněnské zoo jsem přijela v roce 2000 z evropské části Ruska, přesněji z Petrohradu. Tady v Brně už na mě tou dobou čekal samec Umca, který pochází z Kazachstánu. (Kazachstán sice sousedí s Ruskem, ale Umca se narodil na jeho druhém konci, u hranic s Čínou.)
           </AnimalText>
@@ -50,8 +39,7 @@ var AnimalDetail = React.createClass({
           <AnimalText>
             Většinou jsme samotářská zvířata, medvíďata s námi matkami však zůstávají asi dva a půl roku. Pak od nás odcházejí, protože jsou už dost velká. V tom věku váží samice průměrně tolik jako polovina koně, zatímco samci jsou těžcí jako celý kůň. A do dospělosti, která u ledních medvědů nastává mezi třetím a pátým rokem, ještě poporostou.
           </AnimalText>
-        </View>
-      </ScrollView>
+      </AnimalTemplate>
     );
   }
 });

@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import {
-  View,
-  Text,
-  ScrollView,
-} from 'react-native';
+import { Text } from 'react-native';
 
 const styles = require('../../styles/styles.ios');
 const InPageImage = require('../inPageImage');
 const AnimalText = require('../animalText');
+const AnimalTemplate = require('../animalTemplate');
 
 const IMAGES = [
   require('../../images/animals/ustricnikVelky/01.jpg'),
@@ -22,17 +19,9 @@ const THUMBNAILS = [
 ];
 
 var AnimalDetail = React.createClass({
-  componentWillMount() {
-    this.props.bg();
-  },
-
   render() {
     return (
-      <ScrollView>
-        <View>
-          <InPageImage firstImage={true} indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-        </View>
-        <View style={styles.scrollView}>
+      <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
           <AnimalText>
 Zdravím tě, bezkřídlý, dvounohý, tvore! Já jsem ústřičník velký, latinsky <Text style={styles.ctextItalic}>Haematopus ostralegus</Text>. Těší mě. Pocházím z pražské zoo, zde v brněnské jsem asi šest let a létám si tu spolu s ostatními bahňáky. Říká se nám bahňáci, protože se vyskytujeme v mokřadních a pobřežních oblastech.
           </AnimalText>
@@ -53,8 +42,7 @@ Vylíhl jsem se z vejce, které je velké jako slepičí a které je kropenaté,
           <AnimalText>
           Když se vyskytuji u moře, není žádnou výjimkou, že má mnoho ústřičníků hodně poškozené nohy, nebo dokonce amputované některé prsty. Je to způsobeno pohybem na ostrých útesech a polámaných lasturách. Přesto se dožívám průměrně až 40 let.
           </AnimalText>
-        </View>
-      </ScrollView>
+      </AnimalTemplate>
     );
   }
 });

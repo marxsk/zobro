@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import {
-  View,
-  Text,
-  ScrollView,
-} from 'react-native';
+import { Text } from 'react-native';
 
 const styles = require('../../styles/styles.ios');
 const InPageImage = require('../inPageImage');
 const AnimalText = require('../animalText');
+const AnimalTemplate = require('../animalTemplate');
 
 const IMAGES = [
   require('../../images/animals/rosomakSibirsky/01.jpg'),
@@ -22,17 +19,9 @@ const THUMBNAILS = [
 ];
 
 var AnimalDetail = React.createClass({
-  componentWillMount() {
-    this.props.bg();
-  },
-
   render() {
     return (
-<ScrollView>
-<View>
-  <InPageImage firstImage={true} indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-</View>
-<View style={styles.scrollView}>
+      <AnimalTemplate firstIndex={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
   <AnimalText>
     Pššt! Dobře se rozhlédněte, jestli poblíž nestojí ošetřovatel Milan. Jste svědky tajné mise!
   </AnimalText>
@@ -53,8 +42,7 @@ var AnimalDetail = React.createClass({
   <AnimalText>
     Musel jsem přistoupit k náhradnímu plánu. Vykopu tunel. Nejsem sice o moc větší než Jonatán paní Kadrnožkové, mám ale obří tlapy s ostrými drápy. Hrabu ve dne v noci, samozřejmě v největším utajení. Vidíte ty díry v zemi? Ošetřovatelé si myslí, že to jsou naše doupata. Chachá! Však oni jednou poznají, co všechno my rosomáci dokážeme.
   </AnimalText>
-</View>
-</ScrollView>
+</AnimalTemplate>
     );
   }
 });

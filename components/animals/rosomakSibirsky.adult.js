@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import {
-  View,
-  Text,
-  ScrollView,
-} from 'react-native';
+import { Text } from 'react-native';
 
 const styles = require('../../styles/styles.ios');
 const InPageImage = require('../inPageImage');
 const AnimalText = require('../animalText');
+const AnimalTemplate = require('../animalTemplate');
 
 const IMAGES = [
   require('../../images/animals/rosomakSibirsky/01.jpg'),
@@ -22,17 +19,9 @@ const THUMBNAILS = [
 ];
 
 var AnimalDetail = React.createClass({
-  componentWillMount() {
-    this.props.bg();
-  },
-
   render() {
     return (
-<ScrollView>
-<View>
-  <InPageImage firstImage={true} indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-</View>
-<View style={styles.scrollView}>
+      <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
   <AnimalText>
     Ahoj, jmenuji se Ivan a jsem rosomák. Narodil jsem se v roce 2008 v Norsku a do brněnské zoo jsem přicestoval ve dvou letech. Nataša – to je ta rosomačice, která se mnou obývá výběh – je o 2 roky mladší než já a sem do Beringie přijela jen krátce po mně. Aby nenastala nějaká mýlka, já jsem z nás dvou ten menší. Nataša sice pochází až z Ruska, ale mezi námi rosomáky nebývají jazykové bariéry, takže jsme se rychle skamarádili. Dokonce natolik, že se nám 2. března 2016 narodil syn Vasil.
   </AnimalText>
@@ -59,8 +48,7 @@ var AnimalDetail = React.createClass({
   <AnimalText>
     Tak to jsme my. Teď už o nás víte mnohem více než na začátku. A když nad tím tak přemýšlím, ony se k nám některé ty přezdívky, třeba lesní duchové, možná přece jenom hodí.
   </AnimalText>
-</View>
-</ScrollView>
+</AnimalTemplate>
     );
   }
 });

@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import {
-  View,
-  Text,
-  ScrollView,
-} from 'react-native';
+import { Text } from 'react-native';
 
 const styles = require('../../styles/styles.ios');
 const InPageImage = require('../inPageImage');
 const AnimalText = require('../animalText');
+const AnimalTemplate = require('../animalTemplate');
 
 const IMAGES = [
   require('../../images/animals/jespakBojovny/01.jpg'),
@@ -22,17 +19,9 @@ const THUMBNAILS = [
 ];
 
 var AnimalDetail = React.createClass({
-  componentWillMount() {
-    this.props.bg();
-  },
-
   render() {
     return (
-      <ScrollView>
-        <View>
-          <InPageImage firstImage={true} indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-        </View>
-        <View style={styles.scrollView}>
+      <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
           <AnimalText>
             Jespáci bojovní (<Text style={styles.ctextItalic}>Philomachus pugnax</Text>) jsou pěkní ptáčci. Žijí si na vysoké noze, a když je to na severu Evropy nebo Asie přestane bavit (komu by se chtělo zůstávat celý rok v takové zimě), táhnou na jih, nejlépe do subsaharské Afriky, někdy však také do Indie nebo Arábie, a to v hejnech, která mohou čítat až tisíce jedinců. Když jsou právě na tahu, můžete je zahlédnout i v České republice.
           </AnimalText>
@@ -47,8 +36,7 @@ var AnimalDetail = React.createClass({
           <AnimalText>
             Jespáci, které můžete vidět zde v expozici Beringie, pocházejí z německé NaturZoo Rheine a většina z nich sem přišla v roce 2010. Společnost jim dělají kulíci píseční, tenkozobci opační a ústřičník velký.
           </AnimalText>
-        </View>
-      </ScrollView>
+      </AnimalTemplate>
     );
   }
 });

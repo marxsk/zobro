@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import {
-  View,
-  Text,
-  ScrollView,
-} from 'react-native';
+import { Text } from 'react-native';
 
 const styles = require('../../styles/styles.ios');
 const InPageImage = require('../inPageImage');
 const AnimalText = require('../animalText');
+const AnimalTemplate = require('../animalTemplate');
 
 const IMAGES = [
   require('../../images/animals/tygrSumatersky/01.jpg'),
@@ -22,17 +19,9 @@ const THUMBNAILS = [
 ];
 
 var AnimalDetail = React.createClass({
-  componentWillMount() {
-    this.props.bg();
-  },
-
   render() {
     return (
-<ScrollView>
-<View>
-  <InPageImage firstImage={true} indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-</View>
-<View style={styles.scrollView}>
+      <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
   <AnimalText>
   Ahoj! Jmenuji se Satu a v Brně žiji od roku 2005. Narodila jsem se v zoo v Dublinu, což je město v Irsku. Nejsem jen tak obyčejná tygřice, můj druh pochází se Sumatry. To je ostrov mezi Asií a Austrálií.
   </AnimalText>
@@ -53,8 +42,7 @@ var AnimalDetail = React.createClass({
   <AnimalText>
   Tady v zoo nejsem sama. Sousední výběh obývá Dandys, který za mnou přijel z Varšavy. Moji chovatelé stejně jako já doufají, že s Dandysem budu mít malá tygřátka. Tak nám držte palce!
   </AnimalText>
-</View>
-</ScrollView>
+</AnimalTemplate>
     );
   }
 });

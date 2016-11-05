@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import {
-  View,
-  Text,
-  ScrollView,
-} from 'react-native';
+import { Text } from 'react-native';
 
 const styles = require('../../styles/styles.ios');
 const InPageImage = require('../inPageImage');
 const AnimalText = require('../animalText');
+const AnimalTemplate = require('../animalTemplate');
 
 const IMAGES = [
   require('../../images/animals/manul/01.jpg'),
@@ -22,17 +19,9 @@ const THUMBNAILS = [
 ];
 
 var AnimalDetail = React.createClass({
-  componentWillMount() {
-    this.props.bg();
-  },
-
   render() {
     return (
-      <ScrollView>
-        <View>
-          <InPageImage firstImage={true} indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-        </View>
-        <View style={styles.scrollView}>
+      <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
           <AnimalText>
             Stojíte před výběhem manula (<Text style={styles.ctextItalic}>Otocolobus manul</Text>). Kdo se skrývá pod tímto tajemným jménem?
           </AnimalText>
@@ -47,8 +36,7 @@ var AnimalDetail = React.createClass({
           <AnimalText>
             Naši manulové, Manu a Rosa, jsou samotáři stejně jako jejich příbuzní z Asie, a proto žijí v oddělených výbězích a pohromadě jsou jen krátce, především v období páření, které probíhá v únoru a v květnu. Manu se do naší zoo přistěhoval z Jihlavy v roce 2012 a Rosa přijela v roce 2015 až z Velké Británie. V dubnu 2016 se jim narodila 4 mláďata.
           </AnimalText>
-        </View>
-      </ScrollView>
+      </AnimalTemplate>
     );
   }
 });

@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import {
-  View,
-  Text,
-  ScrollView,
-} from 'react-native';
+import { Text } from 'react-native';
 
 const styles = require('../../styles/styles.ios');
 const InPageImage = require('../inPageImage');
 const AnimalText = require('../animalText');
+const AnimalTemplate = require('../animalTemplate');
 
 const IMAGES = [
   require('../../images/animals/jerabMandzusky/01.jpg'),
@@ -22,17 +19,9 @@ const THUMBNAILS = [
 ];
 
 var AnimalDetail = React.createClass({
-  componentWillMount() {
-    this.props.bg();
-  },
-
   render() {
     return (
-      <ScrollView>
-        <View>
-          <InPageImage firstImage={true} indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-        </View>
-        <View style={styles.scrollView}>
+      <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
           <AnimalText>
             Jeřáb mandžuský (latinsky <Text style={styles.ctextItalic}>Grus japonensis</Text>) je druhým největším žijícím druhem jeřába. Dospělí jedinci mohou být až 150 cm vysocí s rozpětím křídel 220 až 250 cm. Jejich průměrná váha se pohybuje kolem 7 až 10 kg, nejtěžší jedinci mohou vážit až 15 kg. Dospělci mají bílé peří, pouze na krku a na části křídel je černě zbarveno. Na hlavě si můžete všimnout červené lysinky, která se s přibývajícím věkem zvětšuje. Své typické zbarvení získají dospívající jedinci ve věku přibližně dvou let, mláďata mohou do té doby připomínat čápa.
           </AnimalText>
@@ -50,8 +39,7 @@ Naše samice jeřába mandžuského se narodila v roce 2002 v moskevské zoo a z
           <AnimalText>
           Jedinci opačného pohlaví jsou schopni spolu léta setrvávat společně v jedné expozici, aniž by měli mláďata. O to hodnotnější je pro nás fakt, že brněnští jeřábi tvoří harmonický pár, kterému se v roce 2014 podařilo zplodit první potomky. Další úspěch náš pár čekal hned následující rok, kdy se podíleli na vzniku Evropského záchovného programu. První dvě oplozená vajíčka byla transportována v květnu 2015 do Amurské oblasti (Rusko), kde se z jednoho z nich v biologické stanici úspěšně vyklubalo mládě. Malý jeřáb se poté zapojil do procesu adaptace na okolní prostředí, aby mohl být vypuštěn do volné přírody.
           </AnimalText>
-        </View>
-      </ScrollView>
+        </AnimalTemplate>
     );
   }
 });

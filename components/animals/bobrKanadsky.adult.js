@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import {
-  View,
-  Text,
-  ScrollView,
-} from 'react-native';
+import { Text } from 'react-native';
 
 const styles = require('../../styles/styles.ios');
 const InPageImage = require('../inPageImage');
@@ -28,7 +24,7 @@ var AnimalDetail = React.createClass({
       <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
         Bobr kanadský, latinsky <Text style={styles.italic}>Castor canadensis</Text>, anglicky <Text style={styles.italic}>American Beaver</Text>, je největším severoamerickým hlodavcem. Vyskytuje se převážně v rybnících, jezerech a pomalých tocích Severní Ameriky. Uměle byl nasazen také do Finska, Argentiny a Ruska.
-        Jejich chov v&nbsp;naší zoologické zahradě započal v roce 2003, když jsme si jich pět přivezli ze Zooparku Chomutov. Měli jsme pro ně připravený zbrusu nový výběh s jezírkem, z něhož vede nora přímo do bobřího hradu.
+        Jejich chov v&nbsp;naší zoologické zahradě započal v&nbsp;roce 2003, když jsme si jich pět přivezli ze Zooparku Chomutov. Měli jsme pro ně připravený zbrusu nový výběh s jezírkem, z něhož vede nora přímo do bobřího hradu.
         </AnimalText>
         <AnimalText>
         Jsou to opravdu zajímavá zvířata, která mají spoustu vlastností společných s lidmi. Ptáte se, co mohou mít bobři společného s člověkem? Tak například je pro ně velmi důležitý tělesný kontakt. Často se něžně dotýkají a pečují o sebe, což se projevuje třeba tím, že si vzájemně pročesávají srst. Navíc spí pevně přitisknuti k sobě. Jsou věrní a vytvářejí monogamní páry na celý život, a to je mezi hlodavci unikátní. Také mají velmi silné rodinné vazby a v jejich noře je důležitá především všeobecná pohoda. To ale neznamená, že se nehádají. Své případné konflikty řeší tak, že spolu prostě nemluví. Navenek se to projevuje tím, že se momentálně odstrčené zvíře drží nějaký čas stranou. Jejich potřeba tělesného kontaktu je však mnohem silnější, a tak je večer zase vídáme spát společně v hromadě těl.

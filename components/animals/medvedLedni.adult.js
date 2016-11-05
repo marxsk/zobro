@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import {
-  View,
-  Text,
-  ScrollView,
-} from 'react-native';
+import { Text } from 'react-native';
 
 const styles = require('../../styles/styles.ios');
 const InPageImage = require('../inPageImage');
 const AnimalText = require('../animalText');
+const AnimalTemplate = require('../animalTemplate');
 
 const IMAGES = [
   require('../../images/animals/medvedLedni/01.jpg'),
@@ -22,18 +19,10 @@ const THUMBNAILS = [
 ];
 
 var AnimalDetail = React.createClass({
-  componentWillMount() {
-    this.props.bg();
-  },
-
   render() {
     // @todo: Title: Cora - Malý příběh velké matky
     return (
-      <ScrollView>
-        <View>
-          <InPageImage firstImage={true} indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-        </View>
-        <View style={styles.scrollView}>
+      <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
           <AnimalText>
             <Text style={styles.ctextItalic}>„Budoucí osud dítěte je vždy dílem matky.“</Text> Napoleon Bonaparte
           </AnimalText>
@@ -66,8 +55,7 @@ Ve stejných dnech, tak jako v Rusku, i v Kazachstánu přišlo na svět mládě
           <AnimalText>
             Dali Coře svobodu v bytí matkou. Jestliže doteď byla březí Cora zavírána do porodního boxu, aby zůstala ona i mláďata v bezpečí, od této chvíle už mohla jít kdykoliv dovnitř – a kdykoliv ven. Už nebyla ustrašená, už se nebála vězení. A to se vyplatilo, protože hned nadcházející zimu, 21. listopadu 2015, přivedla na svět další mládě – Noriu. Porodní box byl sice stále otevřený, takže když venku udeřily mrazy, nebylo ani vevnitř úplně nejtepleji. Ale to malému medvíděti ani trošku nevadilo – vždyť mělo skvělou mámu, která ho vždycky ochránila!
           </AnimalText>
-        </View>
-      </ScrollView>
+      </AnimalTemplate>
     );
   }
 });
