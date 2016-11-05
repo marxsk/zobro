@@ -1,5 +1,5 @@
 import React from 'react';
-import {TabBarIOS} from 'react-native';
+import {TabBarIOS, ScrollView} from 'react-native';
 
 import AnimalNeighbourScene from '../components/animalNeighbourScene';
 import animals from '../animals';
@@ -52,7 +52,9 @@ class AnimalScene extends React.Component {
             this.setState({selectedTab: 'textTab'});
           }}
         >
+        <ScrollView>
           <AnimalDetail bg={this.props.bg}/>
+        </ScrollView>
         </TabBarIOS.Item>
         <TabBarIOS.Item
           title="QR kód"
