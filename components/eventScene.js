@@ -122,7 +122,9 @@ class EventsScene extends React.Component {
           backdrop={true}
           style={localStyles.eventModal}
           position='top'
-          ref='modal2'>
+          ref='modal2'
+          onRequestClose={() => {}}
+          >
         <View style={{backgroundColor: '#1d1b1b'}}>
           <Image
             resizeMode='contain'
