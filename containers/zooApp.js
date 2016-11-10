@@ -5,7 +5,6 @@ import {connect} from 'react-redux';
 import {TouchableHighlight, View, Text, Navigator, TouchableOpacity, Alert, Image, BackAndroid} from 'react-native';
 import styles from '../styles/styles.ios';
 
-import ContactsScene from '../components/contactsScene';
 import AboutScene from '../components/aboutScene';
 import MainMenuScene from '../containers/mainMenuScene';
 import AnimalListScene from '../components/animalListScene';
@@ -103,8 +102,6 @@ class ZooApp extends React.Component {
         return (<MainMenuScene navigator={navigator} bg={bgColor}/>);
       case scenes.ANIMAL_DETAIL:
         return (<AnimalScene animal={route.animal} navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
-      case scenes.CONTACTS:
-        return (<ContactsScene navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
       case scenes.ABOUT:
           return (<AboutScene navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
       case scenes.ANIMAL_LIST:
