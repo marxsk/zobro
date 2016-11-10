@@ -46,7 +46,7 @@ class Cell extends React.Component {
   }
 }
 
-class AnimalNeighbourScene extends React.Component {
+export default class AnimalNeighbourScene extends React.Component {
   constructor(props) {
     super(props);
     navigator = this.props.navigator;
@@ -92,4 +92,8 @@ class AnimalNeighbourScene extends React.Component {
   }
 }
 
-module.exports = AnimalNeighbourScene;
+AnimalNeighbourScene.propTypes = {
+    bg: React.PropTypes.func.isRequired,
+    animal: React.PropTypes.string.isRequired,
+//@fix    navigator: React.PropTypes.func.isRequired,
+};

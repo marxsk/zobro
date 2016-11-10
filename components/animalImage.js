@@ -1,9 +1,10 @@
 import React from 'react';
-import {Text, View, Image} from 'react-native';
+import {Text, View, Image, Alert} from 'react-native';
 import Lightbox from 'react-native-lightbox';
 import Dimensions from 'Dimensions';
 import Swiper from 'react-native-swiper';
 import styles from '../styles/styles.ios';
+import stylePropType from 'react-style-proptype';
 
 export default class AnimalImage extends React.Component {
   constructor(props) {
@@ -56,7 +57,13 @@ export default class AnimalImage extends React.Component {
 AnimalImage.propTypes = {
     images: React.PropTypes.array.isRequired,
     index: React.PropTypes.number.isRequired,
-//    thumbnailStyle: React.PropTypes.number.isRequired,
-//    lightboxStyle
-//@fix    navigator: React.PropTypes.object.isRequired,
+    thumbnailStyle: React.PropTypes.oneOfType([
+      React.PropTypes.arrayOf(stylePropType),
+      stylePropType
+    ]).isRequired,
+    lightboxStyle: React.PropTypes.oneOfType([
+      React.PropTypes.arrayOf(stylePropType),
+      stylePropType
+    ]),
+//@fix    navigator: React.PropTypes.func.isRequired,
 };

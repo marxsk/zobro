@@ -21,3 +21,11 @@ export default class AnimalTemplate extends React.Component {
       );
     }
 };
+
+AnimalTemplate.propTypes = {
+    firstIndex: React.PropTypes.arrayOf(React.PropTypes.number).isRequired,
+    thumbnails: React.PropTypes.array.isRequired,
+    images: React.PropTypes.array.isRequired,
+    children: React.PropTypes.arrayOf(React.PropTypes.element).isRequired,
+    //@fix    navigator: React.PropTypes.func.isRequired,
+};

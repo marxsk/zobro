@@ -75,10 +75,12 @@ class QRCodeScreen extends React.Component {
 }
 
 QRCodeScreen.propTypes = {
-    cancelButtonVisible: React.PropTypes.bool,
-    cancelButtonTitle: React.PropTypes.string,
-    onSucess: React.PropTypes.func,
-    onCancel: React.PropTypes.func,
+  bg: React.PropTypes.func.isRequired,
+  cancelButtonVisible: React.PropTypes.bool,
+  cancelButtonTitle: React.PropTypes.string,
+  onSucess: React.PropTypes.func,
+  onCancel: React.PropTypes.func,
+//@fix    navigator: React.PropTypes.func.isRequired,
 };
 
 QRCodeScreen.defaultProps = {

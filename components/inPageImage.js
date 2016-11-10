@@ -23,6 +23,7 @@ export default class InPageImage extends React.Component {
         </View>
       );
     } else if (this.props.indexes.length === 1) {
+
       return (
         <View>
           <AnimalImage
@@ -61,9 +62,8 @@ export default class InPageImage extends React.Component {
 };
 
 InPageImage.propTypes = {
-  images: React.PropTypes.array.isRequired,
-  thumbnails: React.PropTypes.array.isRequired,
-  indexes: React.PropTypes.array.isRequired,
-  firstImage: React.PropTypes.bool,
-//@fix  navigator: React.PropTypes.object.isRequired,
+    indexes: React.PropTypes.arrayOf(React.PropTypes.number).isRequired,
+    thumbnails: React.PropTypes.array.isRequired,
+    images: React.PropTypes.array.isRequired,
+    //@fix    navigator: React.PropTypes.func.isRequired,
 };

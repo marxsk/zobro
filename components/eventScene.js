@@ -219,3 +219,8 @@ const localStyles = StyleSheet.create({
     color: 'black',
   }
 });
+
+EventsScene.propTypes = {
+    bg: React.PropTypes.func.isRequired,
+//@fix    navigator: React.PropTypes.func.isRequired,
+};

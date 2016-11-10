@@ -7,6 +7,7 @@ import {
 } from 'react-native';
 import Dimensions from 'Dimensions';
 import styles from '../styles/styles.ios';
+import stylePropType from 'react-style-proptype';
 
 export default class AboutScene extends React.Component {
     constructor(props) {
@@ -76,4 +77,9 @@ export default class AboutScene extends React.Component {
         </ScrollView>
       );
     }
+};
+
+AboutScene.propTypes = {
+    bg: React.PropTypes.func.isRequired,
+//@fix    navigator: React.PropTypes.func.isRequired,
 };

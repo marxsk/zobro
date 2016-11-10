@@ -6,7 +6,6 @@ import {
   TextInput,
   StyleSheet, Alert
 } from 'react-native';
-
 import * as scenes from '../scenes';
 
 import AlphabetListView from 'react-native-alphabetlistview';
@@ -77,7 +76,7 @@ class SectionHeader extends React.Component {
   }
 }
 
-class AnimalListScene extends React.Component {
+export default class AnimalListScene extends React.Component {
   constructor(props) {
     super(props);
 
@@ -174,4 +173,7 @@ class AnimalListScene extends React.Component {
   }
 }
 
-module.exports = AnimalListScene;
+AnimalListScene.propTypes = {
+    bg: React.PropTypes.func.isRequired,
+//@fix    navigator: React.PropTypes.func.isRequired,
+};
