@@ -7,7 +7,7 @@ import {
   StyleSheet,
   TouchableHighlight, Alert
 } from 'react-native';
-import { connect } from 'react-redux'
+import {connect} from 'react-redux'
 
 import styles from '../styles/styles.ios';
 import * as scenes from '../scenes';
@@ -48,7 +48,7 @@ MainMenuItem.defaultProps = {
   sceneProps: {},
 }
 
-class mainMenuScene extends React.Component {
+export default class mainMenuScene extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -107,5 +107,3 @@ const localStyles = StyleSheet.create({
     height: 50,
   }
 });
-
-module.exports = mainMenuScene;

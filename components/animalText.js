@@ -3,10 +3,9 @@ import {
   View,
   Text,
 } from 'react-native';
-
 const styles = require('../styles/styles.ios');
 
-class AnimalText extends React.Component {
+export default class AnimalText extends React.Component {
     constructor(props) {
       super(props);
     }
@@ -19,5 +18,3 @@ class AnimalText extends React.Component {
       );
     }
 };
-
-module.exports = AnimalText;

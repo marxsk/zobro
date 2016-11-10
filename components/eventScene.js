@@ -12,9 +12,9 @@ import {
 
 import styles from '../styles/styles.ios';
 import Dimensions from 'Dimensions';
+import Modal from 'react-native-modalbox';
+import events from '../events.js';
 
-var Modal = require('react-native-modalbox');
-const events = require('../events.js').default;
 var modalWindow;
 var WIDTH = Dimensions.get('window').width;
 
@@ -40,7 +40,7 @@ class EventItem extends React.Component {
   );}
 };
 
-class EventsScene extends React.Component {
+export default class EventsScene extends React.Component {
   constructor(props) {
     super(props);
 
@@ -219,5 +219,3 @@ const localStyles = StyleSheet.create({
     color: 'black',
   }
 });
-
-module.exports = EventsScene;

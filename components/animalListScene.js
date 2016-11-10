@@ -9,8 +9,9 @@ import {
 
 import * as scenes from '../scenes';
 
-var AlphabetListView = require('react-native-alphabetlistview').default;
-var animalDb = require('../animals').default;
+import AlphabetListView from 'react-native-alphabetlistview';
+import animalDb from '../animals';
+
 var navigator;
 var bg;
 

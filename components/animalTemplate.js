@@ -1,10 +1,9 @@
 import React from 'react';
-import { View } from 'react-native';
+import {View} from 'react-native';
+import styles from '../styles/styles.ios';
+import InPageImage from './inPageImage';
 
-const styles = require('../styles/styles.ios');
-const InPageImage = require('./inPageImage');
-
-class AnimalTemplate extends React.Component {
+export default class AnimalTemplate extends React.Component {
     constructor(props) {
       super(props);
     }
@@ -22,5 +21,3 @@ class AnimalTemplate extends React.Component {
       );
     }
 };
-
-module.exports = AnimalTemplate;

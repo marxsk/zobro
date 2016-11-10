@@ -1,5 +1,7 @@
 import React from 'react';
+
 import {TabBarIOS} from 'react-native';
+import ScrollableTabView from 'react-native-scrollable-tab-view';
 
 import AnimalNeighbourScene from '../components/animalNeighbourScene';
 import animals from '../animals';
@@ -9,9 +11,7 @@ import {ScrollView, TouchableHighlight, View, Text, Navigator, TouchableOpacity,
 import QrScene from './qrScene';
 import {Platform} from 'react-native';
 
-var ScrollableTabView = require('react-native-scrollable-tab-view');
-
-class AnimalScene extends React.Component {
+export default class AnimalScene extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -85,5 +85,3 @@ class AnimalScene extends React.Component {
     }
   }
 };
-
-module.exports = AnimalScene;

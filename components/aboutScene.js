@@ -5,11 +5,10 @@ import {
   ScrollView,
   Image,
 } from 'react-native';
+import Dimensions from 'Dimensions';
+import styles from '../styles/styles.ios';
 
-const Dimensions = require('Dimensions');
-const styles = require('../styles/styles.ios');
-
-class AboutScene extends React.Component {
+export default class AboutScene extends React.Component {
     constructor(props) {
       super(props);
     }
@@ -78,5 +77,3 @@ class AboutScene extends React.Component {
       );
     }
 };
-
-module.exports = AboutScene;

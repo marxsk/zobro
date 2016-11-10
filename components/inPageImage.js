@@ -1,10 +1,9 @@
 import React from 'react';
 import {View} from 'react-native';
 import styles from '../styles/styles.ios';
+import AnimalImage from './animalImage';
 
-const AnimalImage = require('./animalImage');
-
-class InPageImage extends React.Component {
+export default class InPageImage extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -68,5 +67,3 @@ InPageImage.propTypes = {
   firstImage: React.PropTypes.bool,
 //@fix  navigator: React.PropTypes.object.isRequired,
 };
-
-module.exports = InPageImage;

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Text } from 'react-native';
 
-const styles = require('../../styles/styles.ios');
-const InPageImage = require('../inPageImage');
-const AnimalText = require('../animalText');
-const AnimalTemplate = require('../animalTemplate');
+import styles from '../../styles/styles.ios';
+import InPageImage from '../inPageImage';
+import AnimalText from '../animalText';
+import AnimalTemplate from '../animalTemplate';
 
 const IMAGES = [
   require('../../images/animals/lachtanMedvedi/01.jpg'),

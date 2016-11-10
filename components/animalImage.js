@@ -1,12 +1,11 @@
 import React from 'react';
 import {Text, View, Image} from 'react-native';
+import Lightbox from 'react-native-lightbox';
+import Dimensions from 'Dimensions';
+import Swiper from 'react-native-swiper';
+import styles from '../styles/styles.ios';
 
-const Lightbox = require('react-native-lightbox');
-const Dimensions = require('Dimensions');
-const Swiper = require('react-native-swiper');
-const styles = require('../styles/styles.ios');
-
-class AnimalImage extends React.Component {
+export default class AnimalImage extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -61,5 +60,3 @@ AnimalImage.propTypes = {
 //    lightboxStyle
 //@fix    navigator: React.PropTypes.object.isRequired,
 };
-
-module.exports = AnimalImage;

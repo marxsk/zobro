@@ -8,8 +8,8 @@ import {
 
 import * as scenes from '../scenes';
 import styles from '../styles/styles.ios';
+import animals from '../animals';
 
-var animals = require('../animals').default;
 var navigator;
 
 class Cell extends React.Component {

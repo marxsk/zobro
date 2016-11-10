@@ -12,9 +12,9 @@ import {
 } from 'react-native';
 
 import Camera from 'react-native-camera';
-var animalDb = require('../animals').default;
+import animalDb from '../animals';
 import * as scenes from '../scenes';
-const Dimensions = require('Dimensions');
+import Dimensions from 'Dimensions';
 
 var WINDOW_WIDTH = Dimensions.get('window').width;
 var WINDOW_HEIGHT = Dimensions.get('window').height;
