@@ -1,5 +1,5 @@
 import React from 'react';
-//import {TabBarIOS} from 'react-native';
+import {TabBarIOS} from 'react-native';
 
 import AnimalNeighbourScene from '../components/animalNeighbourScene';
 import animals from '../animals';
@@ -7,6 +7,7 @@ import * as scenes from '../scenes';
 
 import {ScrollView, TouchableHighlight, View, Text, Navigator, TouchableOpacity, Alert} from 'react-native';
 import QrScene from './qrScene';
+import {Platform} from 'react-native';
 
 var ScrollableTabView = require('react-native-scrollable-tab-view');
 
@@ -34,7 +35,8 @@ class AnimalScene extends React.Component {
 
     let AnimalDetail = adultSelected ? AnimalDetailAdult : AnimalDetailChild;
 
-    return (
+    if (Platform.OS === 'android') {
+      return (
       <ScrollableTabView>
         <ScrollView tabLabel='Text'>
           <AnimalDetail bg={this.props.bg}/>
@@ -42,8 +44,8 @@ class AnimalScene extends React.Component {
         <AnimalNeighbourScene tabLabel='Sousedi' navigator={this.props.navigator} animal={this.props.animal} bg={this.props.bg}/>
         <QrScene tabLabel='QR kód' cancelButtonVisible={false} navigator={this.props.navigator} bg={this.props.bg}/>
       </ScrollableTabView>
-    )
-
+      )
+    } else if (Platform.OS === 'ios') {
     // @fix: styles should be defined elsewhere
     return (
       <TabBarIOS
@@ -80,6 +82,7 @@ class AnimalScene extends React.Component {
         </TabBarIOS.Item>
       </TabBarIOS>
     );
+    }
   }
 };
 
