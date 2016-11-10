@@ -2,7 +2,7 @@ import React from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {TouchableHighlight, View, Text, Navigator, TouchableOpacity, Alert, Image} from 'react-native';
+import {TouchableHighlight, View, Text, Navigator, TouchableOpacity, Alert, Image, BackAndroid} from 'react-native';
 import styles from '../styles/styles.ios';
 
 import ContactsScene from '../components/contactsScene';
@@ -19,6 +19,7 @@ import {setLastAnimal, setReaderLevel} from '../actions'
 
 var bgMainMenu;
 var toggleReader;
+var navig;
 
 var NavigationBarRouteMapper = (props) => ({
   LeftButton(route, navigator, index, navState) {
@@ -81,6 +82,19 @@ class ZooApp extends React.Component {
     toggleReader = (reader) => {this.changeReader(reader)};
   }
 
+  componentDidMount() {
+    BackAndroid.addEventListener('hardwareBackPress', () => {
+        if (navig && navig.getCurrentRoutes().length > 1) {
+          Alert.alert(JSON.stringify(navig.getCurrentRoutes()));
+            navig.pop();
+            return true;
+        }
+        // return false = end application on main menu, what is standard?
+        // return true = do nothing
+        return true;
+    });
+  }
+
   renderScene(route, navigator) {
     const bgColor = scenes.sceneTitles[route.id].barColor;
 
@@ -119,6 +133,7 @@ class ZooApp extends React.Component {
   render() {
     return (
       <Navigator
+        ref={(nav) => { navig = nav; }}
         initialRoute={{ title: 'ZOO Brno', id: scenes.MAIN_MENU }}
         renderScene={(route, navigator) => {
           return this.renderScene(route, navigator);
