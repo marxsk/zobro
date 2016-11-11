@@ -44,7 +44,7 @@ export default class AboutScene extends React.Component {
           </Text><Text style={[styles.ctext, {paddingTop: 10}]}>
           Programování aplikace: Marek Grác
           </Text><Text style={[styles.ctext, {paddingTop: 10}]}>
-          Dizajn: Kevin Scherrer
+          Design: Kevin Scherrer
           </Text><Text style={[styles.ctext, {paddingTop: 10}]}>
           Závěrečné korektury v češtině: Hana Žižková
           </Text><Text style={[styles.ctext, {paddingTop: 10}]}>
