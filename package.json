@@ -19,6 +19,7 @@
     "react-native-smart-splash-screen": "^2.0.0",
     "react-native-swiper": "^1.4.11",
     "react-redux": "^4.4.5",
+    "react-style-proptype": "^1.2.0",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0"
   },
