@@ -175,5 +175,5 @@ export default class AnimalListScene extends React.Component {
 
 AnimalListScene.propTypes = {
     bg: React.PropTypes.func.isRequired,
-//@fix    navigator: React.PropTypes.func.isRequired,
+    navigator: React.PropTypes.object.isRequired,
 };

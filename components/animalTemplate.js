@@ -27,5 +27,5 @@ AnimalTemplate.propTypes = {
     thumbnails: React.PropTypes.array.isRequired,
     images: React.PropTypes.array.isRequired,
     children: React.PropTypes.arrayOf(React.PropTypes.element).isRequired,
-    //@fix    navigator: React.PropTypes.func.isRequired,
+    navigator: React.PropTypes.object.isRequired,
 };

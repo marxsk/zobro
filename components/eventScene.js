@@ -222,5 +222,5 @@ const localStyles = StyleSheet.create({
 
 EventsScene.propTypes = {
     bg: React.PropTypes.func.isRequired,
-//@fix    navigator: React.PropTypes.func.isRequired,
+    navigator: React.PropTypes.object.isRequired,
 };

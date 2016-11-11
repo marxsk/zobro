@@ -99,7 +99,7 @@ class ZooApp extends React.Component {
 
     switch (route.id) {
       case scenes.MAIN_MENU:
-        return (<MainMenuScene navigator={navigator} bg={bgColor}/>);
+        return (<MainMenuScene navigator={navigator} bg={() => {this.changeColor(bgColor)}} />);
       case scenes.ANIMAL_DETAIL:
         return (<AnimalScene animal={route.animal} navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
       case scenes.ABOUT:
@@ -107,7 +107,7 @@ class ZooApp extends React.Component {
       case scenes.ANIMAL_LIST:
         return (<AnimalListScene navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
       case scenes.EVENTS:
-        return (<EventScene bg={() => {this.changeColor(bgColor)}}/>);
+        return (<EventScene navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
       case scenes.QR_READER:
         return (<QrScene cancelButtonVisible={false} navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
     }

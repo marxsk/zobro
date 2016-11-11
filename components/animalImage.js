@@ -65,5 +65,5 @@ AnimalImage.propTypes = {
       React.PropTypes.arrayOf(stylePropType),
       stylePropType
     ]),
-//@fix    navigator: React.PropTypes.func.isRequired,
+    navigator: React.PropTypes.object.isRequired,
 };

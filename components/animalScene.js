@@ -39,7 +39,7 @@ export default class AnimalScene extends React.Component {
       return (
       <ScrollableTabView>
         <ScrollView tabLabel='Text'>
-          <AnimalDetail bg={this.props.bg}/>
+          <AnimalDetail bg={this.props.bg} navigator={this.props.navigator}/>
         </ScrollView>
         <AnimalNeighbourScene tabLabel='Sousedi' navigator={this.props.navigator} animal={this.props.animal} bg={this.props.bg}/>
         <QrScene tabLabel='QR kód' cancelButtonVisible={false} navigator={this.props.navigator} bg={this.props.bg}/>
@@ -61,7 +61,7 @@ export default class AnimalScene extends React.Component {
           }}
         >
         <ScrollView>
-          <AnimalDetail bg={this.props.bg}/>
+          <AnimalDetail bg={this.props.bg} navigator={this.props.navigator}/>
         </ScrollView>
         </TabBarIOS.Item>
         <TabBarIOS.Item
@@ -89,5 +89,5 @@ export default class AnimalScene extends React.Component {
 AnimalScene.propTypes = {
     bg: React.PropTypes.func.isRequired,
     animal: React.PropTypes.string.isRequired,
-//@fix    navigator: React.PropTypes.func.isRequired,
+    navigator: React.PropTypes.object.isRequired,
 };

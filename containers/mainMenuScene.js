@@ -15,7 +15,7 @@ class MainMenu extends React.Component {
 
   render() {
     return (
-        <MainMenuScene navigator={this.props.navigator} {...this.props.configuration} />
+        <MainMenuScene navigator={this.props.navigator} bg={this.props.bg} {...this.props.configuration} />
       );
     }
 }

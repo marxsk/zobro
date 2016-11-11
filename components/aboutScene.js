@@ -80,5 +80,5 @@ export default class AboutScene extends React.Component {
 
 AboutScene.propTypes = {
     bg: React.PropTypes.func.isRequired,
-//@fix    navigator: React.PropTypes.func.isRequired,
+    navigator: React.PropTypes.object.isRequired,
 };

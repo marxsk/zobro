@@ -95,5 +95,5 @@ export default class AnimalNeighbourScene extends React.Component {
 AnimalNeighbourScene.propTypes = {
     bg: React.PropTypes.func.isRequired,
     animal: React.PropTypes.string.isRequired,
-//@fix    navigator: React.PropTypes.func.isRequired,
+    navigator: React.PropTypes.object.isRequired,
 };

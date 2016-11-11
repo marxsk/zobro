@@ -93,6 +93,11 @@ export default class mainMenuScene extends React.Component {
   }
 }
 
+mainMenuScene.propTypes = {
+    bg: React.PropTypes.func.isRequired,
+    navigator: React.PropTypes.object.isRequired,
+};
+
 const localStyles = StyleSheet.create({
   container: {
     flex: 1,
