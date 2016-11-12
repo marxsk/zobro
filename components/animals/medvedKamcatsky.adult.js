@@ -37,7 +37,7 @@ var AnimalDetail = React.createClass({
           </AnimalText>
           <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
-             Zoo Brno chová v&nbsp;současnosti samce Jelizara a samici Kamčatku, kteří spolu zplodili již tři mláďata. Samečci Kuba a Toby se narodili 30.&nbsp;ledna 2012 a v&nbsp;prosinci roku 2014 odcestovali do soukromé ukrajinské zoo. V&nbsp;současné době se svými rodiči sdílí výběh i&nbsp;sameček Bruno, který se narodil 29.&nbsp;ledna 2016.
+            Zoo Brno chová v&nbsp;současnosti samce Jelizara a samici Kamčatku, kteří spolu zplodili již tři mláďata. Samečci Kuba a Toby se narodili 30.&nbsp;ledna 2012 a v&nbsp;prosinci roku 2014 odcestovali do soukromé ukrajinské zoo. V&nbsp;současné době se svými rodiči sdílí výběh i&nbsp;sameček Bruno, který se narodil 29.&nbsp;ledna 2016.
           </AnimalText>
       </AnimalTemplate>
     );
