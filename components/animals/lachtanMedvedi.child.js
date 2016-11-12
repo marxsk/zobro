@@ -27,7 +27,7 @@ var AnimalDetail = React.createClass({
             Zdravím, člověčí mládě!
           </AnimalText>
           <AnimalText>
-            Jsem Sema, lachtan medvědí, nechceš si hrát s&nbsp;balonem? Nemusíš se bát, že jsme tu na tebe dva, já i&nbsp;moje kamarádka Vafla jsme hodní. Jestli se ti zdá, že máme zvláštní jména, tak je to tím, že jsme je dostali v&nbsp;zoo v&nbsp;ruském Rostově, odkud jsme do brněnské zoo přijeli jako vánoční dárek 20.&nbsp;12.&nbsp;2013. Musím se pochlubit, že narazit na nás v&nbsp;zoo je celkem vzácnost! Další lachtany medvědí, jako jsme my, bys našel až daleko v&nbsp;Berlíně či Hannoveru, což je v&nbsp;Německu.
+            Jsem Sema, lachtan medvědí, nechceš si hrát s&nbsp;balonem? Nemusíš se bát, že jsme tu na tebe dva, já i&nbsp;moje kamarádka Vafla jsme hodní. Jestli se ti zdá, že máme zvláštní jména, tak je to tím, že jsme je dostali v&nbsp;zoo v&nbsp;ruském Rostově, odkud jsme do brněnské zoo přijeli jako vánoční dárek 20.&nbsp;12. 2013. Musím se pochlubit, že narazit na nás v&nbsp;zoo je celkem vzácnost! Další lachtany medvědí, jako jsme my, bys našel až daleko v&nbsp;Berlíně či Hannoveru, což je v&nbsp;Německu.
           </AnimalText>
           <AnimalText>
             Od ostatních druhů lachtanů mě můžeš rozeznat díky mým velkým očím a uším. Velká ouška mám proto, aby mi do nich nezatekla voda, když plavu. Taky mám velkou zadní ploutev, která mi pomáhá při plavání. Schválně, jak dlouho vydržíš pod vodou? Já až sedm minut! Ale to dělám, jenom když si hraju s&nbsp;kamarády, normálně se pod vodou schovávám kolem dvou a půl minuty.
