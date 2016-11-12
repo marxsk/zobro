@@ -34,7 +34,7 @@ var AnimalDetail = React.createClass({
   </AnimalText>
   <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
   <AnimalText>
-    Naše tygřice se jmenuje Satu. Narodila se 27.&nbsp;března&nbsp;2004 v&nbsp;Dublinu a do Brna dorazila v&nbsp;říjnu 2005. Od té doby se v&nbsp;jejím výběhu vystřídalo už pět tygrů – Dick, Kampar, Dustin, Dua a Dandys. Poslední zmíněný se narodil 18.&nbsp;února&nbsp;2012, do Brna přijel v&nbsp;březnu 2014 a je zde stále k vidění. Ale ani on zatím nebyl úspěšný v&nbsp;rozmnožení svého druhu. Že by za to mohlo jméno naší tygřice? Vždyť Satu znamená v&nbsp;indonéštině jeden – a tak i&nbsp;naše Satu nadále zůstává jen jedna.
+    Naše tygřice se jmenuje Satu. Narodila se 27.&nbsp;března 2004 v&nbsp;Dublinu a do Brna dorazila v&nbsp;říjnu 2005. Od té doby se v&nbsp;jejím výběhu vystřídalo už pět tygrů – Dick, Kampar, Dustin, Dua a Dandys. Poslední zmíněný se narodil 18.&nbsp;února 2012, do Brna přijel v&nbsp;březnu 2014 a je zde stále k vidění. Ale ani on zatím nebyl úspěšný v&nbsp;rozmnožení svého druhu. Že by za to mohlo jméno naší tygřice? Vždyť Satu znamená v&nbsp;indonéštině jeden – a tak i&nbsp;naše Satu nadále zůstává jen jedna.
   </AnimalText>
     </AnimalTemplate>
     );
