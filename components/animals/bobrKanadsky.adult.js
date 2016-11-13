@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Text } from 'react-native';
 
-import AnimalText from '../animalText';
 import styles from '../../styles/styles.ios';
 import InPageImage from '../inPageImage';
+import AnimalText from '../animalText';
 import AnimalTemplate from '../animalTemplate';
 
 const IMAGES = [
