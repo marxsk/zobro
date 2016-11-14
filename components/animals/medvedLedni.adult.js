@@ -43,7 +43,7 @@ var AnimalDetail = React.createClass({
           Brzy začali chovatelé pociťovat naději, že by se brněnskou zoo mohly začít ozývat zvuky podobné startujícím traktorům, to když malá medvíďata sají mléko.
         </AnimalText>
         <AnimalText>
-          Naděje – to je pocit, který provází medvíďata až první 3&nbsp;roky života, protože do té doby není nic jisté.
+          Naděje – to je pocit, který provází medvíďata až první dva roky života, protože do té doby není nic jisté.
         </AnimalText>
         <AnimalText>
           Naděje – ještě ne radost, ale zdaleka ne zklamání – proto, že jen necelých deset procent medvíďat narozených v&nbsp;zoologických zahradách se dožije dospělosti.
