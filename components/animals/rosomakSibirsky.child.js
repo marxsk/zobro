@@ -28,14 +28,14 @@ var AnimalDetail = React.createClass({
         <AnimalText>
           Jmenuji se Ivan a jsem rosomák. Ve výběhu je tu se mnou ještě rosomačice Nataša. Právě ona mě pověřila důležitým úkolem: ráda by si vyšla na procházku po zoo. Musím nás oba dostat ven z&nbsp;výběhu.
         </AnimalText>
-      <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
+      <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
           Představte si tu svobodu! Prošmejdíme každý kout v&nbsp;zoo. Vytvoříme si nový úkryt. Budeme lidem krást klobásky z&nbsp;talířů a v&nbsp;noci ulovíme velikého jelena. To dělají naši přátelé v&nbsp;divočině celkem často.
         </AnimalText>
         <AnimalText>
           Že chcete znát můj plán? No dobrá, ale opravdu se ujistěte, že nás neposlouchají pracovníci zoo.
         </AnimalText>
-      <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>      
+      <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />      
         <AnimalText>
           Prvně jsem si říkal, že prchneme raz dva. Pocházíme z&nbsp;dalekého severu, kde se lidé rosomáků báli od nepaměti. Dali nám dokonce přezdívky jako <Text style={styles.italic}>hyeny severu</Text> nebo <Text style={styles.italic}>lesní duchové</Text>. V&nbsp;Brně je ale všechno jiné. Akce <Text style={styles.italic}>„Hlasitě zavrč a uteč!“</Text> se nám nevydařila a chovatelé se nám akorát smáli. Ach&nbsp;jo!
         </AnimalText>
