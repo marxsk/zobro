@@ -31,11 +31,11 @@ var AnimalDetail = React.createClass({
         <AnimalText>
           Stejné jméno – a přitom takové rozdíly! Obě pandy sice patří do čeledi psotvárných, ale zatímco panda velká je medvědovitá šelma, panda červená se řadí k&nbsp;malým pandám – obě k&nbsp;sobě tedy mají stejně daleko jako třeba k&nbsp;psovi nebo mroži. Stejné jméno si vysloužily jen podobným způsobem života.
         </AnimalText>
-      <AnimalTemplate firstIndex={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>        
+      <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />        
         <AnimalText>
           Panda červená žije v&nbsp;horských lesích Nepálu, Indie, Myanmaru, Bhútánu a Číny, a to ve výškách i&nbsp;nad 4000 m&nbsp;n.&nbsp;m. Nejraději šplhá v&nbsp;korunách vysokých stromů a tráví tam většinu dne. Udržovat rovnováhu ve větvích jí pomáhá její dlouhý ocas. Za svítání či za soumraku, kdy je nejaktivnější, se pak dolů vypravuje především kvůli potravě. Ze stromu slézá hlavou dolů, což je pro zvíře její velikosti docela neobvyklé. Pomáhají jí v tom zpola zatažitelné drápy. Panda červená si ráda pochutná na ovoci, vejcích nebo drobných obratlovcích. Nejraději však má bambus, denně sní až čtyři kilogramy bambusových výhonků nebo 1,5&nbsp;kilogramu bambusových listů. Manipulaci s&nbsp;bambusovými stébly jí usnadňuje kostěný výrůstek na zápěstí, fungující jako nepravý šestý prst.
         </AnimalText>
-      <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>        
+      <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />        
         <AnimalText>
           Pandy červené jsou samotáři, setkávají se jen v&nbsp;období páření. Své úmysly si sdělí snadno – prostě na sebe zapískají. Samice jsou březí čtyři měsíce, a poté rodí jedno až čtyři mláďata, o&nbsp;která se celý následující rok starají. Dožívají se až 14&nbsp;let. Bohužel vysoká úmrtnost mláďat a další faktory vedou k&nbsp;tomu, že se pandy červené řadí mezi zranitelné druhy.
         </AnimalText>
