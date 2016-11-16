@@ -31,11 +31,11 @@ var AnimalDetail = React.createClass({
           <AnimalText>
             Jsem velmi přizpůsobivé zvíře, dejte mi zdroj vody, jezero či vodní tok – zabydlím se všude. V&nbsp;jídle vybíravý nejsem. Dávám sice přednost masu drobných savců, ptáků a ryb, ale sbírám také různé plody, bobule a ořechy. Poradím si i&nbsp;v&nbsp;okolí lidských obydlí. Klidně si zapytlačím na domácí drůbeži a z&nbsp;odpadků taky něco vyhrabu.
           </AnimalText>
-          <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
+        <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
             Umím skvěle plavat i&nbsp;šplhat, mám na to šikovné tlapky. Rád si hovím ve větvích stromů. Když u&nbsp;toho narazím na něčí hnízdo, pro mě jen dobře – mám to i&nbsp;se svačinkou. Horší je to pro vzácné druhy ptáků a hadů. Mně je to jedno, ale ochranáře to žere, hehe. Jsem medvídek mazaný a nemají to se mnou jednoduché.
           </AnimalText>
-          <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
+        <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
             Přes den se schovávám a aktivní jsem především v&nbsp;podvečer a v&nbsp;noci. Na zimu se dobře vykrmím, pospím si nepravým zimním spánkem a do jara většinu ze zásob strávím. My mývalové jsme ve volné přírodě samotáři – až na matky s&nbsp;mláďaty. Já jsem se do Brna přistěhoval v&nbsp;roce 2015 s&nbsp;kamarádem a sličnou slečnou, a ačkoliv nemám ve výběhu soukromí, takto mi to taky vyhovuje. Ale dost bylo řečí, nemůžu vám na sebe odkrýt všechno!
           </AnimalText>
