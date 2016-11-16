@@ -39,7 +39,7 @@ var AnimalDetail = React.createClass({
           Když na les padne tma, vydávají se na lov mývalí loupežníci. Oči skrývají pod černými škraboškami – to aby nebylo vidět, jak moc se jim oči hladem blyští. Mývali sice neumějí moc rychle běhat, ale hbitě šplhají po stromech a přepadávají ptačí hnízda. Milují vajíčka. Ptáčkům vždy pohrozí svými nezatažitelnými drápy, šikovnými prstíky zašmátrají v&nbsp;hnízdě a kořist je jejich. Když si vajíčko ochutí oříšky nebo si k&nbsp;němu přikousnou kousek hmyzu, jsou na vrcholu blaha.
           </AnimalText>
           <AnimalText>
-          Ale znáte to, někdy se ani člověku nechce nic dělat, natož aby se vyčerpával lovem. Mývalí loupežnická banda si to moc dobře uvědomuje. Její členové jsou vysoce inteligentní, a tak si našli snadnější kořist – popelnice. Dají se z&nbsp;nich vyhrabat všelijaké delikatesy, zbytky ovoce počínaje, kousky šťavnatého masa konče.  Bohužel ale mývali nemají takový smysl pro čistotu, jaký kdysi mívali. Kolem popelnic dělají nepořádek, navíc z&nbsp;kožichu vytřepávají všemožné kousavé breberky.
+          Ale znáte to, někdy se ani člověku nechce nic dělat, natož aby se vyčerpával lovem. Mývalí loupežnická banda si to moc dobře uvědomuje. Její členové jsou vysoce inteligentní, a tak si našli snadnější kořist – popelnice. Dají se z&nbsp;nich vyhrabat všelijaké delikatesy, zbytky ovoce počínaje, kousky šťavnatého masa konče. Bohužel ale mývali nemají takový smysl pro čistotu, jaký kdysi mívali. Kolem popelnic dělají nepořádek, navíc z&nbsp;kožichu vytřepávají všemožné kousavé breberky.
           </AnimalText>
           <AnimalText>
           To se lidem vůbec nelíbí. Rozhodli se, že pošlou na loupežnické mývaly myslivce, aby jim ukázali, zač je toho loket.
