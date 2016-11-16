@@ -23,7 +23,7 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
           <AnimalText>
-            <Text style={styles.bold}> Milí člověčí kamarádi, těší nás, že jste zavítali k&nbsp;našemu výběhu! Jsme mývali severní a rádi bychom vám povykládali krátký mývalí příběh. </Text>
+            <Text style={styles.strong}> Milí člověčí kamarádi, těší nás, že jste zavítali k&nbsp;našemu výběhu! Jsme mývali severní a rádi bychom vám povykládali krátký mývalí příběh. </Text>
           </AnimalText>
           <AnimalText>
             Za devatero horami, devatero řekami a jedním Atlantským oceánem, na světadílu zvaném Amerika, bydlela taková malá roztomilá šelma. Srst měla šedou a její huňatý ocas zdobily tmavé kroužky. Vzrůstem tato šelma jen trochu převyšovala domácí kočky, zato čenich se jí protáhl tak, že dokázala vyčmuchat kdejakého špindíru. Snad proto žila u&nbsp;vody a pečlivě umývala nejen sebe, ale i&nbsp;všechno, co chtěla sežrat. Nikdo jí neřekl jinak než princezna Mývalka.
@@ -49,7 +49,7 @@ var AnimalDetail = React.createClass({
           Některých hodných mývalů se ale lidem zželelo a začali je chovat v&nbsp;zajetí. Tihle mývali už nemusejí krást. Dostávají žrádlo skoro do postele. Už si zase můžou připadat jako princezny a princové.
           </AnimalText>
           <AnimalText>
-          <Text style={styles.bold}> Ani my, mývali v&nbsp;brněnské zoo, si nestěžujeme. Máme útulný výběh s&nbsp;místy, kde si můžeme hrát na schovávanou, a pan chovatel nám připravuje spousty dobrot. </Text>
+          <Text style={styles.strong}> Ani my, mývali v&nbsp;brněnské zoo, si nestěžujeme. Máme útulný výběh s&nbsp;místy, kde si můžeme hrát na schovávanou, a pan chovatel nám připravuje spousty dobrot. </Text>
           </AnimalText>
       </AnimalTemplate>
     );
