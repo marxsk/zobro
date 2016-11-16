@@ -31,11 +31,11 @@ var AnimalDetail = React.createClass({
         <AnimalText>
           My velbloudi dvouhrbí pocházíme z&nbsp;Asie, kde se potulujeme po pouštích a stepích. Aby nám nebylo smutno, nikdy nechodíme sami – vždy je nás celé stádo. V&nbsp;Asii nás však čím dál více ubývá, a tak jsme se stali zvířaty ohroženými, které je potřeba chránit a dobře se o&nbsp;ně starat.
         </AnimalText>
-      <AnimalTemplate firstIndex={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>        
+      <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />        
         <AnimalText>
           Když máme hlad, dáme si k&nbsp;snědku trávu či byliny, ty máme totiž moc rádi! Pitný režim moc řešit nemusíme, bez vody totiž vydržíme velmi dlouho, dokonce i&nbsp;několik týdnů. Když pak ale máme žízeň, vypijeme naráz klidně celý sud vody! A když není zrovna nablízku voda sladká, nevadí nám napít se aspoň té slané, co jí je plné moře.
         </AnimalText>
-      <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>        
+      <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />        
         <AnimalText>
           Tak co, holky? Řekl jsem našim nejmenším návštěvníkům vše, co jsem měl? Jé, málem bych zapomněl! Chtěl jsem totiž ještě říct, že z&nbsp;nás velbloudů v&nbsp;brněnské zoo je nejmladší Bella, která se narodila v&nbsp;roce 2014 naší Majdě.
         </AnimalText>
