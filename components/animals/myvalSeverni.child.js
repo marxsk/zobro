@@ -42,7 +42,7 @@ var AnimalDetail = React.createClass({
             Ale znáte to, někdy se ani člověku nechce nic dělat, natož aby se vyčerpával lovem. Mývalí loupežnická banda si to moc dobře uvědomuje. Její členové jsou vysoce inteligentní, a tak si našli snadnější kořist – popelnice. Dají se z&nbsp;nich vyhrabat všelijaké delikatesy, zbytky ovoce počínaje, kousky šťavnatého masa konče. Bohužel ale mývali nemají takový smysl pro čistotu, jaký kdysi mívali. Kolem popelnic dělají nepořádek, navíc z&nbsp;kožichu vytřepávají všemožné kousavé breberky.
           </AnimalText>
           <AnimalText>
-          To se lidem vůbec nelíbí. Rozhodli se, že pošlou na loupežnické mývaly myslivce, aby jim ukázali, zač je toho loket.
+            To se lidem vůbec nelíbí. Rozhodli se, že pošlou na loupežnické mývaly myslivce, aby jim ukázali, zač je toho loket.
           </AnimalText>
         <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
