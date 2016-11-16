@@ -28,11 +28,11 @@ var AnimalDetail = React.createClass({
         <AnimalText>
           jmenuji se Daan a jsem levhart cejlonský. Hned na úvod vám musím říct, že já a moje kamarádka Nayana patříme k&nbsp;jednomu z&nbsp;největších druhů levhartů. Na Srí Lance, odkud pocházíme, jsme dokonce největší kočkovité šelmy. Přesto je náš druh ohrožený a počet našich kamarádů stále klesá. V&nbsp;přírodě se dožíváme 10&nbsp;let, v&nbsp;zoo až 23&nbsp;roků.
         </AnimalText>
-      <AnimalTemplate firstIndex={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
+      <AnimalTemplate firstIndex={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
           Naši kluci váží kolem 60&nbsp;kilogramů a holky okolo 30&nbsp;kilogramů. Proto můžete mě a Nayanu snadno rozlišit. Náš ocásek může mít až jeden metr. Omotal by vás celé kolem dokola jako šála. A je krásně zbarvený, stejně jako zbytek našeho kožíšku. Celý ho máme posetý skvrnami, abychom se mohli v&nbsp;divočině schovávat a nikdo nás neviděl. Každý z&nbsp;nás má díky genetice skvrny trošku jiné. Tak jako vy máte třeba vlasy po tatínkovi a oči po mamince, my dědíme po svých rodičích skvrny.
         </AnimalText>
-      <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
+      <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
           Oplýváme výborným sluchem, zrakem i&nbsp;čichem. Umíme moc dobře plavat, vyskočíme až nad hlavy vašich rodičů a běhat dokážeme stejně rychle jako auto jedoucí v&nbsp;obci. Díky tomu jsme skvělí lovci – dokážeme ulovit nejen malé ptáky a plazy, ale i&nbsp;větší zvířata, jako jsou třeba jelen, divoké prase, nebo dokonce dospělý buvol. Nejraději lovíme v&nbsp;noci.
         </AnimalText>
