@@ -28,11 +28,11 @@ var AnimalDetail = React.createClass({
         <AnimalText>
           Jsme sudokopytníci z&nbsp;čeledi velbloudovitých a v&nbsp;přírodě jsme druhem kriticky ohroženým. Najít nás můžete ve stepích a pouštích Číny a Mongolska, kde žijeme ve zhruba třicetičlenných stádech vedených dospělým samcem.
         </AnimalText>
-      <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>        
+      <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />>        
         <AnimalText>
           Oblíbenou potravou nás velbloudů, ať už v&nbsp;Asii nebo tady v&nbsp;Brně, jsou trávy, byliny a keře. Již 4,5&nbsp;tisíce let jsme domestikovaným druhem a v&nbsp;lidské péči se dožíváme 20–30&nbsp;let. Doba březosti velbloudů je 390–410 dní a samice pak porodí jedno mládě.
         </AnimalText>
-      <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>        
+      <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />>        
         <AnimalText>
           Naší známou předností je to, že vydržíme dlouhé týdny bez vody. A je to tak! Naše tělo je schopné překonat až 20%&nbsp;úbytek vody v&nbsp;těle. Zato když máme žízeň, jsme schopni vypít za 10&nbsp;minut až 110&nbsp;litrů vody. A ještě k&nbsp;tomu jsme jako jediní savci schopni pít i&nbsp;slanou vodu.
         </AnimalText>
