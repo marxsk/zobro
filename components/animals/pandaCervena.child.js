@@ -31,11 +31,11 @@ var AnimalDetail = React.createClass({
         <AnimalText>
           Občas se však stalo, že některá panda běžela moc rychle, zapomněla zpomalit a narazila si čumáček. Nezranila se, ale její hrdost utrpěla – a v&nbsp;tu chvíli se zařekla, že už s&nbsp;nikým nebude běhat a skákat po stromech. Vylezla do koruny toho, který stál nejblíže, tam se usadila a na její strom už nikdy žádná jiná panda vylézt nesměla.
         </AnimalText>
-      <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>        
+      <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />        
         <AnimalText>
           Ostatní pandy si toho však nevšímaly, mohly si přece hrát s&nbsp;někým jiným. Jenže scénář se často opakoval, a když spadla i&nbsp;poslední panda a uraženě vylezla na svůj strom, zavládl v&nbsp;himálajských lesích klid. A od té doby jsou pandy samotáři, dlouhé časy proleží na stromech a dolů se – tentokrát už opatrně, i&nbsp;když stále po čumáčku, – vypraví jen pro jídlo.
         </AnimalText>
-      <AnimalTemplate firstIndex={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>        
+      <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />        
         <AnimalText>
           <Text style={styles.italic}>A proč se naše pandy nechávají krmit z&nbsp;ruky?</Text>
         </AnimalText>
