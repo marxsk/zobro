@@ -26,7 +26,7 @@ var AnimalDetail = React.createClass({
             <Text style={styles.strong}> Milí člověčí kamarádi, těší nás, že jste zavítali k&nbsp;našemu výběhu! Jsme mývali severní a rádi bychom vám povykládali krátký mývalí příběh. </Text>
           </AnimalText>
           <AnimalText>
-            Za devatero horami, devatero řekami a jedním Atlantským oceánem, na světadílu zvaném Amerika, bydlela taková malá roztomilá šelma. Srst měla šedou a její huňatý ocas zdobily tmavé kroužky. Vzrůstem tato šelma jen trochu převyšovala domácí kočky, zato čenich se jí protáhl tak, že dokázala vyčmuchat kdejakého špindíru. Snad proto žila u&nbsp;vody a pečlivě umývala nejen sebe, ale i&nbsp;všechno, co chtěla sežrat. Nikdo jí neřekl jinak než princezna Mývalka.
+            Za devatero horami, devatero řekami a jedním Atlantským oceánem, na kontinentu zvaném Amerika, bydlela taková malá roztomilá šelma. Srst měla šedou a její huňatý ocas zdobily tmavé kroužky. Vzrůstem tato šelma jen trochu převyšovala domácí kočky, zato čenich se jí protáhl tak, že dokázala vyčmuchat kdejakého špindíru. Snad proto žila u&nbsp;vody a pečlivě umývala nejen sebe, ale i&nbsp;všechno, co chtěla sežrat. Nikdo jí neřekl jinak než princezna Mývalka.
           </AnimalText>
           <AnimalText>
             Princeznu neohrožoval žádný drak ani čert. A k&nbsp;tomu neuměla kouzlit. Až jednou, když si tak umývala žábu k&nbsp;obědu, připlaval k&nbsp;ní z&nbsp;protějšího břehu princ Mýval. Byl stejně čistotný jako ona, a tak se skamarádili. Měli spolu spoustu dětí a nadále vedli svůj nezajímavý život, pustý draků, čertů a kouzel. Inu, i&nbsp;takhle nudné mohou princezny být.
