@@ -23,7 +23,7 @@ const THUMBNAILS = [
 var AnimalDetail = React.createClass({
   render() {
     return (
-      <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
+      <AnimalTemplate firstIndex={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
           Spát a spát, to já mám rád. 
         </AnimalText>
@@ -39,6 +39,7 @@ var AnimalDetail = React.createClass({
         <AnimalText>
           Kdo si zase umanul mě jen tak bez ohlášení navštívit?
         </AnimalText>
+        <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
           Abyste věděli, tady platí jen to, co si umanu já, protože jen já se jmenuju <Text style={styles.italic}>manul</Text>. 
         </AnimalText>
@@ -54,7 +55,6 @@ var AnimalDetail = React.createClass({
         <AnimalText>
         Přišli jste se podívat na můj huňatý kožich, viďte?
         </AnimalText>
-        <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
           Jojo, já vím, že mi sluší. Zároveň je dost praktický. V&nbsp;zimě hřeje, v&nbsp;létě chladí, a tak se v&nbsp;něm cítím vždycky příjemně. Pocházím ze stepí ve střední Asii, kde se během dne hodně mění teploty. Kdyby byly takové teploty v&nbsp;Brně, odpoledne byste chodili v&nbsp;plavkách a večer byste se oblékli jako na severní pól.
         </AnimalText>
