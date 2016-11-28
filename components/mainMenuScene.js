@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import {connect} from 'react-redux'
 
-import styles from '../styles/styles.ios';
+import styles from '../styles/styles';
 import * as scenes from '../scenes';
 
 class MainMenuItem extends React.Component {

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Text } from 'react-native';
 
 import AnimalText from '../animalText';
-import styles from '../../styles/styles.ios';
+import styles from '../../styles/styles';
 import InPageImage from '../inPageImage';
 import AnimalTemplate from '../animalTemplate';
 

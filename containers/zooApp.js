@@ -3,7 +3,7 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
 import {TouchableHighlight, View, Text, Navigator, TouchableOpacity, Alert, Image, BackAndroid} from 'react-native';
-import styles from '../styles/styles.ios';
+import styles from '../styles/styles';
 
 import AboutScene from '../components/aboutScene';
 import MainMenuScene from '../containers/mainMenuScene';

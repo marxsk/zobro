@@ -3,7 +3,7 @@ import {
   View,
   Text,
 } from 'react-native';
-const styles = require('../styles/styles.ios');
+const styles = require('../styles/styles');
 
 export default class AnimalText extends React.Component {
     constructor(props) {

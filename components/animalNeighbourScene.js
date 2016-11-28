@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 
 import * as scenes from '../scenes';
-import styles from '../styles/styles.ios';
+import styles from '../styles/styles';
 import animals from '../animals';
 
 var navigator;

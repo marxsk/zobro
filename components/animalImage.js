@@ -3,7 +3,7 @@ import {Text, View, Image, Alert} from 'react-native';
 import Lightbox from 'react-native-lightbox';
 import Dimensions from 'Dimensions';
 import Swiper from 'react-native-swiper';
-import styles from '../styles/styles.ios';
+import styles from '../styles/styles';
 import stylePropType from 'react-style-proptype';
 
 export default class AnimalImage extends React.Component {

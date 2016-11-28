@@ -10,7 +10,7 @@ import {
   Alert,
 } from 'react-native';
 
-import styles from '../styles/styles.ios';
+import styles from '../styles/styles';
 import Dimensions from 'Dimensions';
 import Modal from 'react-native-modalbox';
 import events from '../events.js';

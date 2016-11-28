@@ -6,7 +6,7 @@ import {
   Image,
 } from 'react-native';
 import Dimensions from 'Dimensions';
-import styles from '../styles/styles.ios';
+import styles from '../styles/styles';
 
 export default class AboutScene extends React.Component {
     constructor(props) {

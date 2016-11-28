@@ -1,6 +1,6 @@
 import React from 'react';
 import {View} from 'react-native';
-import styles from '../styles/styles.ios';
+import styles from '../styles/styles';
 import InPageImage from './inPageImage';
 
 export default class AnimalTemplate extends React.Component {
