@@ -21,24 +21,37 @@ const THUMBNAILS = [
 var AnimalDetail = React.createClass({
   render() {
     return (
-      <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
-          <AnimalText>
-            Drazí návštěvníci, dovolte mi, abych se vám představila. Jmenuji se Cora a jsem máma rodiny ledních medvědů. Do brněnské zoo jsem přijela v roce 2000 z evropské části Ruska, přesněji z Petrohradu. Tady v Brně už na mě tou dobou čekal samec Umca, který pochází z Kazachstánu. (Kazachstán sice sousedí s Ruskem, ale Umca se narodil na jeho druhém konci, u hranic s Čínou.)
-          </AnimalText>
-          <AnimalText>
-            Chvíli nám trvalo, než jsme se skamarádili, ale teď už spolu máme páté mládě –  Noria se nám narodila 21. listopadu 2015. Předtím jsme měli vždy dvojčata: v roce 2007 Billa a Toma a v roce 2012 Nanuka a Kometu. Nezůstali jsme tu však všichni pohromadě, Tom je v Praze, Bill v Německu, Kometa v Rusku a Nanuk na Ukrajině.
-          </AnimalText>
-          <AnimalText>
-            Mít mladé pro nás ale není jen tak. My samice totiž rodíme v zimě, zalezlé ve svém brlohu pod sněhem. Když se medvíďata narodí, váží o něco víc než půl pytlíku mouky, a první měsíc po narození jsou navíc slepá a hluchá. Proto je necháváme u sebe na břiše, aby byla v teple a mohla se najíst, kdykoli potřebují. Když mláďata sají mléko, vydávají zvuk podobný tomu, jako kdyby startoval traktor.
-          </AnimalText>
-          <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-          <AnimalText>
-            Ven z brlohu mláďata pouštíme, když jim je necelého půl roku. Chodí všude s námi a zkouší nás napodobovat například při lovu. Učí se, jak se o sebe v dospělosti postarat. Protože v přírodě žijeme v Arktidě (daleko na severu), kde není moc co jíst, lovíme hlavně tuleně. Tady v zoo ale dostáváme různé maso a ryby, ovoce, zeleninu, a dokonce i chleba a jogurt.
-          </AnimalText>
-          <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-          <AnimalText>
-            Většinou jsme samotářská zvířata, medvíďata s námi matkami však zůstávají asi dva a půl roku. Pak od nás odcházejí, protože jsou už dost velká. V tom věku váží samice průměrně tolik jako polovina koně, zatímco samci jsou těžcí jako celý kůň. A do dospělosti, která u ledních medvědů nastává mezi třetím a pátým rokem, ještě poporostou.
-          </AnimalText>
+      <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
+        <AnimalText>
+          Milé děti,
+        </AnimalText>
+        <AnimalText>
+        </AnimalText>      
+        <AnimalText>
+          jmenuji se Noria a jsem zatím nejmladším medvídětem místních ledních medvědů, jimiž jsou Cora a Umca. Narodila jsem se v&nbsp;listopadu 2015. Oběma mým rodičům bylo v&nbsp;té době sedmnáct let.
+        </AnimalText>
+        <AnimalText>
+          Říkáte si: „Tak mladí?!“ U&nbsp;nás zvířat je to trošku jiné než u&nbsp;lidí, dospíváme už ve třetím až pátém roce života a i&nbsp;děti míváme mnohem dříve než vy. Tak třeba když se narodili mí nejstarší bráchové, Bill a Tom, bylo našim teprve devět let! Kometu a Nanuka měli ve čtrnácti – a pak už jsem se narodila já. A ještě vám řeknu jednu zajímavost, všichni máme narozeniny ve stejném měsíci – v&nbsp;listopadu.
+        </AnimalText>
+        <AnimalText>
+          O&nbsp;mých starších sourozencích mi vyprávěla maminka před spaním, když jsem byla malá. Stejně tak o&nbsp;tátovi. Občas ho zaslechnu z&nbsp;vedlejšího výběhu, ale k&nbsp;němu mě chovatelé nepustí. Asi se bojí, že bych ho moc zlobila. Což je pravda. Zlobit, to já umím moc dobře! Ale maminka už má s&nbsp;výchovou mláďat bohaté zkušenosti, takže nezvlčím. Maximálně zmedvědím.
+        </AnimalText>
+      <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />      
+        <AnimalText>
+          Když jsem se narodila, vážila jsem jen o&nbsp;něco víc než půl pytlíku mouky. Vypadala jsem spíš jak morče než jak medvěd. Maminka mě tulila k&nbsp;sobě, abych byla v&nbsp;teple a mohla se najíst, kdykoliv jsem měla hlad. A já jsem při tom blahem hrčela jak traktor. Když totiž medvíďata sají mléko, opravdu to zní jako startující traktor! Ale po pár měsících už jsem začala běhat po venku a rostla jak z&nbsp;vody. I&nbsp;když je možné, že jsem opravdu rostla z vody – strašně ráda plavu, a ještě raději házím do bazénu balon a pak za ním skáču. Jsem totiž věrná svému jménu – jsem medvěd lední, a voda je přeci taky led, jen rozpuštěný.
+        </AnimalText>
+      <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} /> 
+        <AnimalText>
+          Na závěr by se hodilo dodat ještě nějaké moudro. Tak třeba: zlobit můžete, ale jen trošku. Jinak buďte na rodiče hodní, vždyť oni si to zaslouží.
+        </AnimalText>
+        <AnimalText>
+          Mějte se hezky a zas někdy příště!
+        </AnimalText>
+        <AnimalText>
+        </AnimalText>
+        <AnimalText>
+          Vaše Noria
+        </AnimalText>
       </AnimalTemplate>
     );
   }

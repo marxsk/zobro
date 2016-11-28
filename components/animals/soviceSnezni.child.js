@@ -21,24 +21,24 @@ const THUMBNAILS = [
 var AnimalDetail = React.createClass({
   render() {
     return (
-      <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
-          <AnimalText>
-            Ahoj, jmenujeme se Helga a Hugo a jsme sovice sněžní. Jsme velké sovy, největší z nás sovic mají rozpětí křídel až 150 centimetrů. Naše křídla by tedy mohla v pohodě jezdit v autě na předním sedadle. Na výšku ale máme jen něco přes půl metru.
-          </AnimalText>
-          <AnimalText>
-            U vás lidí je běžné, že kluci jsou větší. U nás sov je to ale naopak, větší bývají holky. To ale není jediné, čím se od sebe navzájem lišíme. Hugo je jako všichni samečci bílý, jen s několika černými skvrnami; Helga je tmavší, kropenatá. (Pokud si opravdu dobře pamatujete Harryho Pottera, poznáte podle zbarvení, že ve filmu měl Harry spíš než sovu Hedviku sováka Hedvika.)
-          </AnimalText>
-          <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-          <AnimalText>
-            I když asi víte, že sovy loví v noci, my jsme výjimka, běžně lovíme i ve dne. Nejraději se živíme lumíky, což jsou hlodavci – takové větší myši s krátkým ocasem. Ale když je lumíků málo, lovíme i jiná zvířata.
-          </AnimalText>
-          <AnimalText>
-            Žijeme na severu, v tundrách, kde je zem pořád zmrzlá a nerostou tam žádné stromy. Proto někdy létáme za polárními liškami, a když něco uloví, obereme je o jejich kořist. Říká se sice „mazaný jako liška“, ale na nás si jen tak nepřijdou! I když občas nás lišky pozlobí taky. Stavíme si totiž hnízda buď ve skalách, nebo přímo na zemi. A z nich nám pak kradou vejce.
-          </AnimalText>
-          <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-          <AnimalText>
-            Vajíček klademe zhruba pět. Trvá asi měsíc, než se malá sovátka vyklubou. Další tři týdny nejsou ještě dost velká na to, aby opustila teplo peřím vystlaného hnízda. I pak se o ně ale ještě chvíli staráme, sama totiž dokážou naše mláďata lovit až v šesti týdnech.
-          </AnimalText>
+      <AnimalTemplate firstIndex={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
+        <AnimalText>
+          Ahoj, jmenujeme se Helga a Hugo a jsme sovice sněžní. Jsme velké sovy, největší z&nbsp;nás sovic mají rozpětí křídel až 150&nbsp;centimetrů. Naše křídla by tedy mohla v&nbsp;pohodě jezdit v&nbsp;autě na předním sedadle. Na výšku ale máme jen něco přes půl metru.
+        </AnimalText>
+        <AnimalText>
+          U&nbsp;vás lidí je běžné, že kluci jsou větší. U&nbsp;nás sov je to ale naopak, větší bývají holky. To ale není jediné, čím se od sebe navzájem lišíme. Hugo je jako všichni samečci bílý, jen s&nbsp;několika černými skvrnami; Helga je tmavší, kropenatá. (Pokud si opravdu dobře pamatujete Harryho Pottera, poznáte podle zbarvení, že ve filmu měl Harry spíš než sovu Hedviku sováka Hedvika.)
+        </AnimalText>
+        <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
+        <AnimalText>
+          I&nbsp;když asi víte, že sovy loví v&nbsp;noci, my jsme výjimka, běžně lovíme i&nbsp;ve dne. Nejraději se živíme lumíky, což jsou hlodavci – takové větší myši s&nbsp;krátkým ocasem. Ale když je lumíků málo, lovíme i&nbsp;jiná zvířata. 
+        </AnimalText>
+        <AnimalText>
+          Žijeme na severu, v&nbsp;tundrách, kde je zem pořád zmrzlá a nerostou tam žádné stromy. Proto někdy létáme za polárními liškami, a když něco uloví, obereme je o&nbsp;jejich kořist. Říká se sice „mazaný jako liška“, ale na nás si jen tak nepřijdou! I&nbsp;když občas nás lišky pozlobí taky. Stavíme si totiž hnízda buď ve skalách, nebo přímo na zemi. A z&nbsp;nich nám pak kradou vejce.
+        </AnimalText>
+        <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
+        <AnimalText>
+          Vajíček klademe zhruba pět. Trvá asi měsíc, než se malá sovátka vyklubou. Další tři týdny nejsou ještě dost velká na to, aby opustila teplo peřím vystlaného hnízda. I&nbsp;pak se o&nbsp;ně ale ještě chvíli staráme, sama totiž dokážou naše mláďata lovit až v&nbsp;šesti týdnech.
+        </AnimalText>
       </AnimalTemplate>
     );
   }
