@@ -84,7 +84,6 @@ class ZooApp extends React.Component {
   componentDidMount() {
     BackAndroid.addEventListener('hardwareBackPress', () => {
         if (navig && navig.getCurrentRoutes().length > 1) {
-          Alert.alert(JSON.stringify(navig.getCurrentRoutes()));
             navig.pop();
             return true;
         }
@@ -95,7 +94,11 @@ class ZooApp extends React.Component {
   }
 
   renderScene(route, navigator) {
-    const bgColor = scenes.sceneTitles[route.id].barColor;
+    let bgColor = 'black';
+    if (route.id in scenes.sceneTitles) {
+      bgColor = scenes.sceneTitles[route.id].barColor;
+    };
+
 
     switch (route.id) {
       case scenes.MAIN_MENU:
