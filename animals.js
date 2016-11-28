@@ -117,7 +117,6 @@ export default animalDb = {
       {animal: 'jespakBojovny', direction: 'front'},
 //      {animal: 'tenkozobecOpacny', direction: 'front'},
       {animal: 'kulikPisecny', direction: 'front'},
-
       {animal: 'soviceSnezni', direction: 'left'},
       {animal: 'lachtanMedvedi', direction: 'right'},
     ]
@@ -266,6 +265,140 @@ export default animalDb = {
     animal: 'kunPrevalskeho',
     neighbours: [
       {animal: 'jakDomaci', direction: 'back'},
+    ]
+  },
+  
+  'lemurKata' : {
+    name: 'Lemur kata',
+    contentAdult: require('./components/animals/lemurKata.adult'),
+    contentChild: require('./components/animals/lemurKata.child'),
+    animal: 'lemurKata',
+    neighbours: [
+      {animal: 'zebraChapmanova', direction: 'right'},
+      {animal: 'zirafaSitovana', direction: 'right'},
+      {animal: 'husickaVdovka', direction: 'left'},
+      {animal: 'plamenakRuzovy', direction: 'left'},
+      {animal: 'husickaDvoubarva', direction: 'left'},
+    ]
+  },
+  
+  'levhartCejlonsky' : {
+    name: 'Levhart cejlonský',
+    contentAdult: require('./components/animals/levhartCejlonsky.adult'),
+    contentChild: require('./components/animals/levhartCejlonsky.child'),
+    animal: 'levhartCejlonsky',
+    neighbours: [
+      {animal: 'krkavecVelky', direction: 'back'},
+      {animal: 'krajtaKobercova', direction: 'right'},
+      {animal: 'pavKorunkaty', direction: 'back'},
+      {animal: 'pavianAnubi', direction: 'left'},
+    ]
+  },
+  
+  'mandelikHajni' : {
+    name: 'Mandelík hajní',
+    contentAdult: require('./components/animals/mandelikHajni.adult'),
+    contentChild: require('./components/animals/mandelikHajni.child'),
+    animal: 'mandelikHajni',
+    neighbours: [
+//      {animal: '', direction: ''},
+    ]
+  },
+  
+  'pandaCervena' : {
+    name: 'Panda červená',
+    contentAdult: require('./components/animals/pandaCervena.adult'),
+    contentChild: require('./components/animals/pandaCervena.child'),
+    animal: 'pandaCervena',
+    neighbours: [
+      {animal: 'vikuna', direction: 'left'},
+      {animal: 'klokanZlutonohy', direction: 'back'},
+      {animal: 'zakoSedy', direction: 'right'},
+      {animal: 'zakoSedy', direction: 'left'},
+    ]
+  },
+  
+  'plamenakRuzovy' : {
+    name: 'Plameňák růžový',
+    contentAdult: require('./components/animals/plamenakRuzovy.adult'),
+    contentChild: require('./components/animals/plamenakRuzovy.child'),
+    animal: 'plamenakRuzovy',
+    neighbours: [
+      {animal: 'lemurKata', direction: 'right'},
+      {animal: 'husickaVdovka', direction: 'front'},
+      {animal: 'husickaDvoubarva', direction: 'front'},
+    ]
+  },
+  
+  'tamarinZlutoruky' : {
+    name: 'Tamarín žlutoruký',
+    contentAdult: require('./components/animals/tamarinZlutoruky.adult'),
+    contentChild: require('./components/animals/tamarinZlutoruky.child'),
+    animal: 'tamarinZlutoruky',
+    neighbours: [
+      {animal: 'maraStepni', direction: 'left'},
+      {animal: 'nosalCerveny', direction: 'right'},
+    ]
+  },
+  
+  'urzonKanadsky' : {
+    name: 'Urzon kanadský',
+    contentAdult: require('./components/animals/urzonKanadsky.adult'),
+    contentChild: require('./components/animals/urzonKanadsky.child'),
+    animal: 'urzonKanadsky',
+    neighbours: [
+      {animal: 'cipmankVychodni', direction: 'left'},
+    ]
+  },
+  
+  'varanKomodsky' : {
+    name: 'Varan komodský',
+    contentAdult: require('./components/animals/varanKomodsky.adult'),
+    contentChild: require('./components/animals/varanKomodsky.child'),
+    animal: 'varanKomodsky',
+    neighbours: [
+      {animal: 'tamarinPinci', direction: 'right'},
+      {animal: 'zelvaUhlirska', direction: 'right'},
+      {animal: 'vousivkaPestra', direction: 'right'},
+      {animal: 'kuanduObecny', direction: 'left'},
+    ]
+  },
+  
+  'velbloudDvouhrby' : {
+    name: 'Velbloud dvouhrbý',
+    contentAdult: require('./components/animals/velbloudDvouhrby.adult'),
+    contentChild: require('./components/animals/velbloudDvouhrby.child'),
+    animal: 'velbloudDvouhrby',
+    neighbours: [
+      {animal: 'zebraGrevyho', direction: 'left'},
+      {animal: 'jakDomaci', direction: 'right'},
+      {animal: 'kunPrevalskeho', direction: 'front'},
+    ]
+  },
+  
+  'vlkArkticky' : {
+    name: 'Vlk arktický',
+    contentAdult: require('./components/animals/vlkArkticky.adult'),
+    contentChild: require('./components/animals/vlkArkticky.child'),
+    animal: 'vlkArkticky',
+    neighbours: [
+      {animal: 'bobrKanadsky', direction: 'right'},
+      {animal: 'skunkPruhovany', direction: 'left'},
+      {animal: 'pustikBelavy', direction: 'back'},
+      {animal: 'losEvropsky', direction: 'back'},
+      {animal: 'jelenMilu', direction: 'right'},
+    ]
+  },
+  
+  'zebraChapmanova' : {
+    name: 'Zebra Chapmanova',
+    contentAdult: require('./components/animals/.adult'),
+    contentChild: require('./components/animals/.child'),
+    animal: '',
+    neighbours: [
+//      {animal: 'agapornisFischeruv', direction: 'right'},
+      {animal: 'zirafaSitovana', direction: 'front'},
+      {animal: 'lemurKata', direction: 'left'},
     ]
   },
 /*
