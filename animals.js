@@ -56,6 +56,7 @@ export default animalDb = {
     neighbours: [
       {animal: 'jerabMandzusky', direction: 'front'},
       {animal: 'myvalSeverni', direction: 'left'},
+      {animal: 'pustikBelavy', direction: 'right'},
     ]
   },
 
@@ -85,7 +86,6 @@ export default animalDb = {
 //      {animal: 'tenkozobecOpacny', direction: 'front'},
       {animal: 'ustricnikVelky', direction: 'front'},
       {animal: 'kulikPisecny', direction: 'front'},
-
       {animal: 'soviceSnezni', direction: 'left'},
       {animal: 'lachtanMedvedi', direction: 'right'},
     ]
@@ -101,7 +101,6 @@ export default animalDb = {
       {animal: 'jespakBojovny', direction: 'front'},
 //      {animal: 'tenkozobecOpacny', direction: 'front'},
       {animal: 'ustricnikVelky', direction: 'front'},
-
       {animal: 'soviceSnezni', direction: 'left'},
       {animal: 'lachtanMedvedi', direction: 'right'},
     ]
@@ -151,14 +150,12 @@ export default animalDb = {
     animal: 'lachtanMedvedi',
     neighbours: [
       {animal: 'lachtanMedvedi', direction: 'front'},
-
       {animal: 'ustricnikVelky', direction: 'left'},
       {animal: 'jespakBojovny', direction: 'left'},
 //      {animal: 'tenkozobecOpacny', direction: 'left'},
       {animal: 'kulikPisecny', direction: 'left'},
-
+      {animal: 'medvedKamcatsky', direction: 'left'},
       {animal: 'myvalSeverni', direction: 'right'},
-
       {animal: 'manul', direction: 'back'},
     ]
   },
@@ -171,6 +168,7 @@ export default animalDb = {
     neighbours: [
       {animal: 'bobrKanadsky', direction: 'front'},
       {animal: 'myvalSeverni', direction: 'right'},
+      {animal: 'vlkArkticky', direction: 'left'},
     ]
   },
 
