@@ -297,7 +297,7 @@ export default animalDb = {
       {animal: 'levhartCejlonsky', direction: 'front'},
       {animal: 'krkavecVelky', direction: 'back'},
       {animal: 'krajtaKobercova', direction: 'right'},
-//      {animal: 'pavKorunkaty', direction: 'back'},
+      {animal: 'pavKorunkaty', direction: 'back'},
 //      {animal: 'pavianAnubi', direction: 'left'},
     ]
   },
@@ -677,7 +677,7 @@ export default animalDb = {
       {animal: 'krkavecVelky', direction: 'front'},
 //      {animal: 'rarohVelky', direction: 'left'},
       {animal: 'levhartCejlonsky', direction: 'back'},
-//      {animal: 'pavKorunkaty', direction: 'right'},
+      {animal: 'pavKorunkaty', direction: 'right'},
     ]
   },
   
@@ -771,17 +771,16 @@ export default animalDb = {
     ]
   },
   
-  '' : {
-    name: '',
-    contentAdult: require('./components/animals/.adult'),
-    contentChild: require('./components/animals/.child'),
-    animal: '',
+  'pavKorunkaty' : {
+    name: 'Páv korunkatý',
+    contentAdult: require('./components/animals/pavKorunkaty.adult'),
+    contentChild: require('./components/animals/pavKorunkaty.child'),
+    animal: 'pavKorunkaty',
     neighbours: [
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
+      {animal: 'pavKorunkaty', direction: 'front'},
+      {animal: 'levhartCejlonsky', direction: 'back'},
+      {animal: 'krkavecVelky', direction: 'left'},
+//      {animal: 'pavianAnubi', direction: 'right'},
     ]
   },
   
