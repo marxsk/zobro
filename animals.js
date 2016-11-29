@@ -614,7 +614,7 @@ export default animalDb = {
     ]
   },
   
-/*  'lemurBelocely' : {
+  'lemurBelocely' : {
     name: 'Lemur běločelý',
     contentAdult: require('./components/animals/lemurBelocely.adult'),
     contentChild: require('./components/animals/lemurBelocely.child'),
@@ -625,7 +625,7 @@ export default animalDb = {
 //      {animal: 'lemurCerny', direction: 'right'},
     ]
   },
-*/
+
   
 /*  'losEvropsky' : {
     name: 'Los evropský',
