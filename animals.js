@@ -245,7 +245,7 @@ export default animalDb = {
     neighbours: [
       {animal: 'klokanZlutonohy', direction: 'front'},
       {animal: 'pandaCervena', direction: 'back'},
-//      {animal: 'vikuna', direction: 'back'},
+      {animal: 'vikuna', direction: 'back'},
       {animal: 'zebraGrevyho', direction: 'front'},
     ]
   },
@@ -319,7 +319,7 @@ export default animalDb = {
     animal: 'pandaCervena',
     neighbours: [
       {animal: 'pandaCervena', direction: 'front'},
-//      {animal: 'vikuna', direction: 'left'},
+      {animal: 'vikuna', direction: 'left'},
       {animal: 'klokanZlutonohy', direction: 'back'},
 //      {animal: 'zakoSedy', direction: 'right'},
 //      {animal: 'zakoSedy', direction: 'left'},
@@ -692,6 +692,19 @@ export default animalDb = {
 //      {animal: 'kiangVychodni', direction: 'right'},
       {animal: 'losEvropsky', direction: 'right'},
 //      {animal: 'wapitiSibirsky', direction: 'left'},
+    ]
+  },
+  
+  'vikuna' : {
+    name: 'Vikuňa',
+    contentAdult: require('./components/animals/vikuna.adult'),
+    contentChild: require('./components/animals/vikuna.child'),
+    animal: 'vikuna',
+    neighbours: [
+      {animal: 'vikuna', direction: 'front'},
+//      {animal: 'alpaka', direction: 'right'},
+      {animal: 'klokanZlutonohy', direction: 'left'},
+      {animal: 'pandaCervena', direction: 'left'},
     ]
   },
   
