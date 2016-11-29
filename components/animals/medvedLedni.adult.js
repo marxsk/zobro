@@ -22,7 +22,6 @@ var AnimalDetail = React.createClass({
   render() {
     return (
       <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
-        // @todo: Title: Cora - Malý příběh velké matky
         <AnimalText>
           <Text style={styles.italic}>„Budoucí osud dítěte je vždy dílem matky.“</Text> Napoleon Bonaparte
         </AnimalText>
@@ -38,7 +37,7 @@ var AnimalDetail = React.createClass({
         <AnimalText>
           Sedm měsíců poté, v&nbsp;březnu 2000, do Brna dorazila i&nbsp;Cora. Zpočátku si s&nbsp;Umcou moc nerozuměli, a byli proto ve výběhu odděleni přepážkou. Během dospívání Cora poprvé projevila zájem o&nbsp;sblížení. Umca byl však zvyklý spíše na přítomnost lidí než jiných příslušníků svého druhu, proto se bližšímu kontaktu s&nbsp;Corou bránil. Ta však, hnána svými přirozenými pudy, brzy zdolala překážky, které je oddělovaly, a Umca už se neubránil.
         </AnimalText>
-      <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />      
+      <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
           Brzy začali chovatelé pociťovat naději, že by se brněnskou zoo mohly začít ozývat zvuky podobné startujícím traktorům, to když malá medvíďata sají mléko.
         </AnimalText>
@@ -51,7 +50,7 @@ var AnimalDetail = React.createClass({
         <AnimalText>
           Tak bohužel i&nbsp;v&nbsp;Brně několik let po sobě naději střídalo zklamání. Cora se však nedala, a když se 23.&nbsp;listopadu 2007 zahradou začaly rozléhat zvuky hned dvou traktorů, chovatelé opět pocítili naději – takovou, která den ode dne sílila a už nepohasla. Tak přišla na svět první úspěšně odchovaná dvojčata ledních medvědů v Česku – Bill a Tom. Kluci vyrostli a odjeli do světa. Řadu dalších zklamání přerušilo až narození Komety a Nanuka 24.&nbsp;listopadu 2012, kteří se měli k&nbsp;radosti chovatelů čile k&nbsp;světu. Nanuk odcestoval ze zoologické zahrady v&nbsp;roce 2014, a když následující rok letěla nad Brnem Kometa, rozhodli se chovatelé, že odteď už bude všechno jinak.
         </AnimalText>
-      <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} /> 
+      <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
           Dali Coře svobodu v&nbsp;bytí matkou. Jestliže doteď byla březí Cora zavírána do porodního boxu, aby zůstala ona i&nbsp;mláďata v&nbsp;bezpečí, od této chvíle už mohla jít kdykoliv dovnitř – a kdykoliv ven. Už nebyla ustrašená, už se nebála vězení. A to se vyplatilo, protože hned nadcházející zimu, 21.&nbsp;listopadu 2015, přivedla na svět další mládě – Noriu. Porodní box byl sice stále otevřený, takže když venku udeřily mrazy, nebylo ani vevnitř úplně nejtepleji. Ale to malému medvíděti ani trošku nevadilo – vždyť mělo skvělou mámu, která ho vždycky ochránila!
         </AnimalText>
