@@ -648,12 +648,26 @@ export default animalDb = {
     animal: 'surikata',
     neighbours: [
       {animal: 'surikata', direction: 'front'},
-//      {animal: 'simpanz', direction: 'right'},
+      {animal: 'simpanz', direction: 'right'},
       {animal: 'maraStepni', direction: 'right'},
       {animal: 'tygrSumatersky', direction: 'back'},
 //      {animal: 'pekariBelobrady', direction: 'left'},
     ]
   },
+
+  'simpanz' : {
+    name: 'Šimpanz',
+    contentAdult: require('./components/animals/simpanz.adult'),
+    contentChild: require('./components/animals/simpanz.child'),
+    animal: 'simpanz',
+    neighbours: [
+      {animal: 'simpanz', direction: 'front'},
+//      {animal: 'variCernobily', direction: 'right'},
+      {animal: 'nosalCerveny', direction: 'back'},
+      {animal: 'surikata', direction: 'left'},
+    ]
+  },
+  
 
 /*
   '' : {
