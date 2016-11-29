@@ -641,20 +641,20 @@ export default animalDb = {
   },
 */
   
-/*  'surikata' : {
+  'surikata' : {
     name: 'Surikata',
     contentAdult: require('./components/animals/surikata.adult'),
     contentChild: require('./components/animals/surikata.child'),
     animal: 'surikata',
     neighbours: [
       {animal: 'surikata', direction: 'front'},
-      {animal: 'simpanz', direction: 'right'},
+//      {animal: 'simpanz', direction: 'right'},
       {animal: 'maraStepni', direction: 'right'},
       {animal: 'tygrSumatersky', direction: 'back'},
-      {animal: 'pekariBelobrady', direction: 'left'},
+//      {animal: 'pekariBelobrady', direction: 'left'},
     ]
   },
-*/ 
+
 /*
   '' : {
     name: '',
