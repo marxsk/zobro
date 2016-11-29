@@ -75,22 +75,22 @@ export default animalDb = {
 
     ]
   },
-/*
-  'jespakBojovny' : {
-    name: 'Jespák bojovný',
-    contentAdult: require('./components/animals/jespakBojovny.adult'),
-    contentChild: require('./components/animals/jespakBojovny.child'),
-    animal: 'jespakBojovny',
-    neighbours: [
-      {animal: 'jespakBojovny', direction: 'front'},
-      {animal: 'tenkozobecOpacny', direction: 'front'},
-      {animal: 'ustricnikVelky', direction: 'front'},
-      {animal: 'kulikPisecny', direction: 'front'},
-      {animal: 'soviceSnezni', direction: 'left'},
-      {animal: 'lachtanMedvedi', direction: 'right'},
-    ]
-  },
-*/
+
+//  'jespakBojovny' : {
+//    name: 'Jespák bojovný',
+//    contentAdult: require('./components/animals/jespakBojovny.adult'),
+//    contentChild: require('./components/animals/jespakBojovny.child'),
+//    animal: 'jespakBojovny',
+//    neighbours: [
+//      {animal: 'jespakBojovny', direction: 'front'},
+//      {animal: 'tenkozobecOpacny', direction: 'front'},
+//      {animal: 'ustricnikVelky', direction: 'front'},
+//      {animal: 'kulikPisecny', direction: 'front'},
+//      {animal: 'soviceSnezni', direction: 'left'},
+//      {animal: 'lachtanMedvedi', direction: 'right'},
+//    ]
+//  },
+
   'kulikPisecny' : {
     name: 'Kulík písečný',
     contentAdult: require('./components/animals/kulikPisecny.adult'),
@@ -121,16 +121,16 @@ export default animalDb = {
     ]
   },
 
-/*  'liskaPolarni' : {
-    name: 'Liška polární',
-    contentAdult: require('./components/animals/liskaPolarni.adult'),
-    contentChild: require('./components/animals/liskaPolarni.child'),
-    animal: 'liskaPolarni',
-    neighbours: [
-      'tygrSumatersky',
-    ]
-  },
-*/
+//  'liskaPolarni' : {
+//    name: 'Liška polární',
+//    contentAdult: require('./components/animals/liskaPolarni.adult'),
+//    contentChild: require('./components/animals/liskaPolarni.child'),
+//    animal: 'liskaPolarni',
+//    neighbours: [
+//      'tygrSumatersky',
+//    ]
+//  },
+
   'manul' : {
     name: 'Manul',
     contentAdult: require('./components/animals/manul.adult'),
