@@ -742,8 +742,6 @@ export default animalDb = {
       {animal: 'kozorozecSibirsky', direction: 'front'},
 //      {animal: 'pekariBelobrady', direction: 'back'},
 //      {animal: 'alpaka', direction: 'left'},
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
     ]
   },
 /*
