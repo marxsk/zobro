@@ -56,7 +56,7 @@ export default animalDb = {
     neighbours: [
       {animal: 'jerabMandzusky', direction: 'front'},
       {animal: 'myvalSeverni', direction: 'left'},
-//      {animal: 'pustikBelavy', direction: 'right'},
+      {animal: 'pustikBelavy', direction: 'right'},
     ]
   },
 
@@ -398,7 +398,7 @@ export default animalDb = {
       {animal: 'vlkArkticky', direction: 'front'},
       {animal: 'bobrKanadsky', direction: 'right'},
       {animal: 'skunkPruhovany', direction: 'left'},
-//      {animal: 'pustikBelavy', direction: 'back'},
+      {animal: 'pustikBelavy', direction: 'back'},
       {animal: 'losEvropsky', direction: 'back'},
 //      {animal: 'jelenMilu', direction: 'right'},
     ]
@@ -708,7 +708,18 @@ export default animalDb = {
     ]
   },
   
-
+  'pustikBelavy' : {
+    name: 'Puštík bělavý',
+    contentAdult: require('./components/animals/pustikBelavy.adult'),
+    contentChild: require('./components/animals/pustikBelavy.child'),
+    animal: 'pustikBelavy',
+    neighbours: [
+      {animal: 'pustikBelavy', direction: 'front'},
+//      {animal: 'vyrVirginsky', direction: 'right'},
+      {animal: 'jerabMandzusky', direction: 'left'},
+      {animal: 'vlkArkticky', direction: 'back'},
+    ]
+  },
 /*
   '' : {
     name: '',
