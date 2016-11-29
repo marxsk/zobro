@@ -232,7 +232,7 @@ export default animalDb = {
     animal: 'jaguarundi',
     neighbours: [
       {animal: 'jaguarundu', direction: 'front'},
-//      {animal: 'lemurBelocely', direction: 'right'},
+      {animal: 'lemurBelocely', direction: 'right'},
 //      {animal: 'variCernobily', direction: 'left'},
     ]
   },
