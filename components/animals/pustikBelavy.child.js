@@ -23,6 +23,7 @@ var AnimalDetail = React.createClass({
         <AnimalText>
         Milé děti!
         </AnimalText>
+      
         <AnimalText>
         Jsem puštík bělavý (pro hloubavé latinsky <Text style={styles.italic}>Strix uralensis</Text>), ale všichni mi říkají Oscar. Můj moudrý pohled naznačuje, že jsem jedním z&nbsp;mnoha druhů sov.
         </AnimalText>
@@ -30,7 +31,7 @@ var AnimalDetail = React.createClass({
         Do brněnské zoo jsem přicestoval ze Švédska 5.&nbsp;6.&nbsp;2014, a jelikož mi samotnému bylo smutno, v&nbsp;dubnu&nbsp;2015 mi chovatelé pořídili puštičí kamarádku, která zatím jméno nemá. Přijela z&nbsp;finské zoo Ranua Wildlife Park, takže jsme zpočátku houkali každý jiným jazykem. Bydlíme spolu ale moc rádi, a proto nás můžete často vidět, jak sedíme vedle sebe na jedné větvi. Vaši návštěvu u&nbsp;naší voliéry odměníme upřeným pohledem korálkově černýma očkama.       
         </AnimalText>
         <AnimalText>
-        Na první pohled nás od sebe nerozlišíte, jelikož máme oba stejné zbarvení, avšak ti z&nbsp;vás, kdo mají bystrý zrak, jistě zpozorují, že moje soví kamarádka je o&nbsp;něco větší než já. My puštíci bělaví jsme dle profesora Schustera běžně velcí asi jako 7–8 myší (tedy asi 50–56&nbsp;cm) a vážíme stejně jako 27–37 myší (800–1100&nbsp;g). Patříme mezi jedny z&nbsp;největších sov v&nbsp;Evropě.
+        Na první pohled nás od sebe nerozlišíte, jelikož máme oba stejné zbarvení, avšak ti z&nbsp;vás, kdo mají bystrý zrak, jistě zpozorují, že moje soví kamarádka je o&nbsp;něco větší než já. My puštíci bělaví jsme dle profesora Schustera (viz informační šapitó Járy Cimrmana) běžně velcí asi jako 7–8 myší (tedy asi 50–56&nbsp;cm) a vážíme stejně jako 27–37 myší (800–1100&nbsp;g). Patříme mezi jedny z&nbsp;největších sov v&nbsp;Evropě.
         </AnimalText>
        <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
