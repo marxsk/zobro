@@ -591,17 +591,69 @@ export default animalDb = {
     ]
   },
   
-  '' : {
-    name: '',
-    contentAdult: require('./components/animals/.adult'),
-    contentChild: require('./components/animals/.child'),
-    animal: '',
+  'maraStepni' : {
+    name: 'Mara stepní',
+    contentAdult: require('./components/animals/maraStepni.adult'),
+    contentChild: require('./components/animals/maraStepni.child'),
+    animal: 'maraStepni',
     neighbours: [
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
+      {animal: 'maraStepni', direction: 'front'},
+      {animal: 'tygrSumatersky', direction: 'back'},
+      {animal: 'surikata', direction: 'left'},
+      {animal: 'tamarinZlutoruky', direction: 'right'},
+    ]
+  },
+  
+  'nosalCerveny' : {
+    name: 'Nosál červený',
+    contentAdult: require('./components/animals/nosalCerveny.adult'),
+    contentChild: require('./components/animals/nosalCerveny.child'),
+    animal: 'nosalCerveny',
+    neighbours: [
+      {animal: 'nosalCerveny', direction: 'front'},
+      {animal: 'tamarinZlutoruky', direction: 'left'},
+//      {animal: 'konopkaObecna', direction: 'right'},
+//      {animal: 'zvonohlikZahradni', direction: 'right'},
+//      {animal: 'krepelkaJaponska', direction: 'right'},
+    ]
+  },
+  
+  'lemurBelocely' : {
+    name: 'Lemur běločelý',
+    contentAdult: require('./components/animals/lemurBelocely.adult'),
+    contentChild: require('./components/animals/lemurBelocely.child'),
+    animal: 'lemurBelocely',
+    neighbours: [
+      {animal: 'lemurBelocely', direction: 'front'},
+      {animal: 'jaguarundi', direction: 'left'},
+//      {animal: 'lemurCerny', direction: 'right'},
+    ]
+  },
+  
+  'losEvropsky' : {
+    name: 'Los evropský',
+    contentAdult: require('./components/animals/losEvropsky.adult'),
+    contentChild: require('./components/animals/losEvropsky.child'),
+    animal: 'losEvropsky',
+    neighbours: [
+      {animal: 'losEvropsky', direction: 'front'},
+      {animal: 'takinIndicky', direction: 'right'},
+      {animal: 'jelenMilu', direction: 'left'},
+      {animal: 'vlkArkticky', direction: 'back'},
+    ]
+  },
+  
+  'surikata' : {
+    name: 'Surikata',
+    contentAdult: require('./components/animals/surikata.adult'),
+    contentChild: require('./components/animals/surikata.child'),
+    animal: 'surikata',
+    neighbours: [
+      {animal: 'surikata', direction: 'front'},
+      {animal: 'simpanz', direction: 'right'},
+      {animal: 'maraStepni', direction: 'right'},
+      {animal: 'tygrSumatersky', direction: 'back'},
+      {animal: 'pekariBelobrady', direction: 'left'},
     ]
   },
 /*
