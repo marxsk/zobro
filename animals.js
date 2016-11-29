@@ -651,7 +651,7 @@ export default animalDb = {
       {animal: 'simpanz', direction: 'right'},
       {animal: 'maraStepni', direction: 'right'},
       {animal: 'tygrSumatersky', direction: 'back'},
-//      {animal: 'pekariBelobrady', direction: 'left'},
+      {animal: 'pekariBelobrady', direction: 'left'},
     ]
   },
 
@@ -740,8 +740,21 @@ export default animalDb = {
     animal: 'kozorozecSibirsky',
     neighbours: [
       {animal: 'kozorozecSibirsky', direction: 'front'},
-//      {animal: 'pekariBelobrady', direction: 'back'},
+      {animal: 'pekariBelobrady', direction: 'back'},
 //      {animal: 'alpaka', direction: 'left'},
+    ]
+  },
+  
+  'pekariBelobrady' : {
+    name: 'Pekari bělobradý',
+    contentAdult: require('./components/animals/pekariBelobrady.adult'),
+    contentChild: require('./components/animals/pekariBelobrady.child'),
+    animal: 'pekariBelobrady',
+    neighbours: [
+      {animal: 'pekariBelobrady', direction: 'front'},
+      {animal: 'surikata', direction: 'right'},
+//      {animal: 'alpaka', direction: 'left'},
+      {animal: 'kozorozecSibirsky', direction: 'front'},
     ]
   },
 /*
