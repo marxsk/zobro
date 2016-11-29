@@ -43,8 +43,8 @@ export default animalDb = {
     animal: 'medvedLedni',
     neighbours: [
       {animal: 'medvedLedni', direction: 'front'},
-//      {animal: 'rysKanadsky', direction: 'left'},
-//      {animal: 'orelVychodni', direction: 'back'},
+      {animal: 'rysKanadsky', direction: 'left'},
+      {animal: 'orelVychodni', direction: 'back'},
     ]
   },
 
@@ -68,10 +68,10 @@ export default animalDb = {
     neighbours: [
       {animal: 'soviceSnezni', direction: 'front'},
       {animal: 'tygrSumatersky', direction: 'left'},
-//      {animal: 'jespakBojovny', direction: 'right'},
-//      {animal: 'tenkozobecOpacny', direction: 'right'},
+      {animal: 'jespakBojovny', direction: 'right'},
+      {animal: 'tenkozobecOpacny', direction: 'right'},
       {animal: 'ustricnikVelky', direction: 'right'},
-//      {animal: 'kulikPisecny', direction: 'right'},
+      {animal: 'kulikPisecny', direction: 'right'},
 
     ]
   },
@@ -152,7 +152,7 @@ export default animalDb = {
       {animal: 'lachtanMedvedi', direction: 'front'},
       {animal: 'ustricnikVelky', direction: 'left'},
       {animal: 'jespakBojovny', direction: 'left'},
-//      {animal: 'tenkozobecOpacny', direction: 'left'},
+      {animal: 'tenkozobecOpacny', direction: 'left'},
       {animal: 'kulikPisecny', direction: 'left'},
       {animal: 'medvedKamcatsky', direction: 'left'},
       {animal: 'myvalSeverni', direction: 'right'},
@@ -182,8 +182,8 @@ export default animalDb = {
       {animal: 'lachtanMedvedi', direction: 'left'},
       {animal: 'jerabMandzusky', direction: 'right'},
       {animal: 'bobrKanadsky', direction: 'back'},
-//      {animal: 'pustikBradaty', direction: 'right'},
-//      {animal: 'rysKanadsky', direction: 'right'},
+      {animal: 'pustikBradaty', direction: 'right'},
+      {animal: 'rysKanadsky', direction: 'right'},
     ]
   },
 
@@ -194,9 +194,9 @@ export default animalDb = {
     animal: 'agamaKocincinska',
     neighbours: [
       {animal: 'agamaKocincinska', direction: 'front'},
-//      {animal: 'dvojjazycnikHaitsky', direction: 'right'},
-//      {animal: 'bazilisekZeleny', direction: 'right'},
-//      {animal: 'anakondaVelka', direction: 'left'},
+      {animal: 'dvojjazycnikHaitsky', direction: 'right'},
+      {animal: 'bazilisekZeleny', direction: 'right'},
+      {animal: 'anakondaVelka', direction: 'left'},
     ]
   },
 
@@ -207,8 +207,8 @@ export default animalDb = {
     animal: 'dzelada',
     neighbours: [
       {animal: 'dzelada', direction: 'front'},
-//      {animal: 'paovceHrivnata', direction: 'front'},
-//      {animal: 'sobPolarni', direction: 'right'},
+      {animal: 'paovceHrivnata', direction: 'front'},
+      {animal: 'sobPolarni', direction: 'right'},
     ]
   },
 
@@ -220,7 +220,7 @@ export default animalDb = {
     neighbours: [
       {animal: 'husickaVdovka', direction: 'front'},
       {animal: 'lemurKata', direction: 'right'},
-//      {animal: 'husickaDvoubarva', direction: 'front'},
+      {animal: 'husickaDvoubarva', direction: 'front'},
       {animal: 'plamenakRuzovy', direction: 'front'},
     ]
   },
@@ -232,8 +232,8 @@ export default animalDb = {
     animal: 'jaguarundi',
     neighbours: [
       {animal: 'jaguarundu', direction: 'front'},
-//      {animal: 'lemurBelocely', direction: 'right'},
-//      {animal: 'variCernobily', direction: 'left'},
+      {animal: 'lemurBelocely', direction: 'right'},
+      {animal: 'variCernobily', direction: 'left'},
     ]
   },
 
@@ -411,7 +411,7 @@ export default animalDb = {
     animal: '',
     neighbours: [
       {animal: 'zebraChapmanova', direction: 'front'},
-//      {animal: 'agapornisFischeruv', direction: 'right'},
+      {animal: 'agapornisFischeruv', direction: 'right'},
       {animal: 'zirafaSitovana', direction: 'front'},
       {animal: 'lemurKata', direction: 'left'},
     ]
@@ -464,8 +464,6 @@ export default animalDb = {
     animal: 'leskoptevTribarva',
     neighbours: [
       {animal: 'leskoptevTribarva', direction: 'front'},
-//      {animal: '', direction: ''},
-//      {animal: '', direction: ''},
     ]
   },
 
@@ -541,8 +539,6 @@ export default animalDb = {
     animal: 'snovacRudozoby',
     neighbours: [
       {animal: 'snovacRudozoby', direction: 'front'},
-//      {animal: '', direction: ''},
-//      {animal: '', direction: ''},
     ]
   },
 
@@ -590,21 +586,4 @@ export default animalDb = {
       {animal: 'takinIndicky', direction: 'left'},
     ]
   },
-
-/*
-  '' : {
-    name: '',
-    contentAdult: require('./components/animals/.adult'),
-    contentChild: require('./components/animals/.child'),
-    animal: '',
-    neighbours: [
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
-    ]
-  },
-*/
-
 };
