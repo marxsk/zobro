@@ -13,6 +13,14 @@ export default class AnimalImage extends React.Component {
 
   render() {
       return (
+        <Image
+          source={this.props.thumbnails[this.props.index]}
+          resizeMode='cover'
+          style={this.props.thumbnailStyle}
+        />
+      );
+
+      return (
         <Lightbox
           navigator={this.props.navigator}
           swipeToDismiss={false}
@@ -57,7 +65,8 @@ export default class AnimalImage extends React.Component {
 AnimalImage.propTypes = {
     images: React.PropTypes.array.isRequired,
     index: React.PropTypes.number.isRequired,
-    thumbnailStyle: React.PropTypes.oneOfType([
+// @bug: warnings
+/*    thumbnailStyle: React.PropTypes.oneOfType([
       React.PropTypes.arrayOf(stylePropType),
       stylePropType
     ]).isRequired,
@@ -65,5 +74,5 @@ AnimalImage.propTypes = {
       React.PropTypes.arrayOf(stylePropType),
       stylePropType
     ]),
-    navigator: React.PropTypes.object.isRequired,
+*/    navigator: React.PropTypes.object.isRequired,
 };

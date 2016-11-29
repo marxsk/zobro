@@ -66,7 +66,7 @@ class SectionHeader extends React.Component {
     };
 
     var viewStyle = {
-      backgroundColor: '#e49c42'
+      backgroundColor: '#104f1f'
     };
     return (
       <View style={viewStyle}>
@@ -165,7 +165,7 @@ export default class AnimalListScene extends React.Component {
           sectionHeaderHeight={22.5}
           compareFunction={(a,b) => {return a.localeCompare(b); }}
           style={{
-            backgroundColor: '#6f4c1e',
+            backgroundColor: '#0d621e',
           }}
         />
       </View>

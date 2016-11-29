@@ -56,7 +56,7 @@ export default class EventsScene extends React.Component {
 
   isTimeSelected(time) {
     if (time === this.state.selectedTime) {
-      return {backgroundColor: '#996823'};
+      return {backgroundColor: '#3cac54'};
     } else {
       return null;
     }
@@ -64,7 +64,7 @@ export default class EventsScene extends React.Component {
 
   isEventSubscribed(event) {
     if (this.props.notifications[event.id]) {
-      return {backgroundColor: '#996823'};
+      return {backgroundColor: '#3cac54'};
     } else {
       return null;
     }
@@ -72,7 +72,7 @@ export default class EventsScene extends React.Component {
 
   isEventNotSubscribed(event) {
     if (!this.props.notifications[event.id]) {
-      return {backgroundColor: '#996823'};
+      return {backgroundColor: '#3cac54'};
     } else {
       return null;
     }
@@ -81,17 +81,14 @@ export default class EventsScene extends React.Component {
 
   render() {
     const backgroundColors = [
-      '#e69d37',
-      '#bf832e',
-      '#996823',
-      '#704c19',
-      '#493314',
-      '#23190a',
-      '#493314',
-      '#704c19',
-      '#996823',
-      '#bf832e',
-      '#e69d37',
+      '#37af54',
+      '#2d9946',
+      '#267f3b',
+      '#20642f',
+      '#0b2611',
+      '#20642f',
+      '#267f3b',
+      '#2d9946',
     ];
     const d = new Date();
 
