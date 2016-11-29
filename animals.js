@@ -208,7 +208,7 @@ export default animalDb = {
     neighbours: [
       {animal: 'dzelada', direction: 'front'},
       {animal: 'paovceHrivnata', direction: 'front'},
-//      {animal: 'sobPolarni', direction: 'right'},
+      {animal: 'sobPolarni', direction: 'right'},
     ]
   },  
   
@@ -675,7 +675,7 @@ export default animalDb = {
     animal: 'krkavecVelky',
     neighbours: [
       {animal: 'krkavecVelky', direction: 'front'},
-//      {animal: 'rarohVelky', direction: 'left'},
+      {animal: 'rarohVelky', direction: 'left'},
       {animal: 'levhartCejlonsky', direction: 'back'},
       {animal: 'pavKorunkaty', direction: 'right'},
     ]
@@ -793,7 +793,7 @@ export default animalDb = {
     neighbours: [
       {animal: 'paovceHrivnata', direction: 'front'},
       {animal: 'dzelada', direction: 'front'},
-//      {animal: 'sobPolarni', direction: 'right'},
+      {animal: 'sobPolarni', direction: 'right'},
     ]
   },
   
@@ -806,6 +806,32 @@ export default animalDb = {
       {animal: 'pustikBradaty', direction: 'front'},
       {animal: 'myvalSeverni', direction: 'right'},
       {animal: 'vyrVelky', direction: 'left'},
+    ]
+  },
+  
+  'sobPolarni' : {
+    name: 'Sob polární',
+    contentAdult: require('./components/animals/sobPolarni.adult'),
+    contentChild: require('./components/animals/sobPolarni.child'),
+    animal: 'sobPolarni',
+    neighbours: [
+      {animal: 'sobPolarni', direction: 'front'},
+      {animal: 'losEvropsky', direction: 'right'},
+//      {animal: 'jelenMilu', direction: 'back'},
+      {animal: 'paovceHrivnata', direction: 'left'},
+      {animal: 'dzelada', direction: 'left'},
+    ]
+  },
+  
+  'rarohVelky' : {
+    name: 'Raroh velký',
+    contentAdult: require('./components/animals/rarohVelky.adult'),
+    contentChild: require('./components/animals/rarohVelky.child'),
+    animal: 'rarohVelky',
+    neighbours: [
+      {animal: 'rarohVelky', direction: 'front'},
+//      {animal: 'pustikObecny', direction: 'left'},
+      {animal: 'krkavecVelky', direction: 'right'},
     ]
   },
 /*
