@@ -399,7 +399,7 @@ export default animalDb = {
       {animal: 'bobrKanadsky', direction: 'right'},
       {animal: 'skunkPruhovany', direction: 'left'},
 //      {animal: 'pustikBelavy', direction: 'back'},
-//      {animal: 'losEvropsky', direction: 'back'},
+      {animal: 'losEvropsky', direction: 'back'},
 //      {animal: 'jelenMilu', direction: 'right'},
     ]
   },
@@ -627,7 +627,7 @@ export default animalDb = {
   },
 
   
-/*  'losEvropsky' : {
+  'losEvropsky' : {
     name: 'Los evropský',
     contentAdult: require('./components/animals/losEvropsky.adult'),
     contentChild: require('./components/animals/losEvropsky.child'),
@@ -639,7 +639,7 @@ export default animalDb = {
       {animal: 'vlkArkticky', direction: 'back'},
     ]
   },
-*/
+
   
   'surikata' : {
     name: 'Surikata',
