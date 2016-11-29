@@ -595,7 +595,7 @@ export default animalDb = {
     neighbours: [
       {animal: 'maraStepni', direction: 'front'},
       {animal: 'tygrSumatersky', direction: 'back'},
-//      {animal: 'surikata', direction: 'left'},
+      {animal: 'surikata', direction: 'left'},
       {animal: 'tamarinZlutoruky', direction: 'right'},
     ]
   },
