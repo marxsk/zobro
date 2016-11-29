@@ -757,7 +757,7 @@ export default animalDb = {
       {animal: 'kozorozecSibirsky', direction: 'front'},
     ]
   },
-  
+/*  
   'vyrVelky' : {
     name: 'Výr velký',
     contentAdult: require('./components/animals/vyrVelky.adult'),
@@ -783,7 +783,7 @@ export default animalDb = {
 //      {animal: 'pavianAnubi', direction: 'right'},
     ]
   },
-  
+*/  
 
 /*
   '' : {
