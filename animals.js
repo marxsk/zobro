@@ -720,6 +720,32 @@ export default animalDb = {
       {animal: 'vlkArkticky', direction: 'back'},
     ]
   },
+  
+  'vyrVirginsky' : {
+    name: 'Výr virginský',
+    contentAdult: require('./components/animals/vyrVirginsky.adult'),
+    contentChild: require('./components/animals/vyrVirginsky.child'),
+    animal: 'vyrVirginsky',
+    neighbours: [
+      {animal: 'vyrVirginsky', direction: 'front'},
+//      {animal: 'vyrVelky', direction: 'right'},
+      {animal: 'pustikBelavy', direction: 'left'},
+    ]
+  },
+  
+  'kozorozecSibirsky' : {
+    name: 'Kozorožec sibiřský',
+    contentAdult: require('./components/animals/kozorozecSibirsky.adult'),
+    contentChild: require('./components/animals/kozorozecSibirsky.child'),
+    animal: 'kozorozecSibirsky',
+    neighbours: [
+      {animal: 'kozorozecSibirsky', direction: 'front'},
+//      {animal: 'pekariBelobrady', direction: 'back'},
+//      {animal: 'alpaka', direction: 'left'},
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+    ]
+  },
 /*
   '' : {
     name: '',
