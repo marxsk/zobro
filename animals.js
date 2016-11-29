@@ -728,7 +728,7 @@ export default animalDb = {
     animal: 'vyrVirginsky',
     neighbours: [
       {animal: 'vyrVirginsky', direction: 'front'},
-//      {animal: 'vyrVelky', direction: 'right'},
+      {animal: 'vyrVelky', direction: 'right'},
       {animal: 'pustikBelavy', direction: 'left'},
     ]
   },
@@ -757,6 +757,35 @@ export default animalDb = {
       {animal: 'kozorozecSibirsky', direction: 'front'},
     ]
   },
+  
+  'vyrVelky' : {
+    name: 'Výr velký',
+    contentAdult: require('./components/animals/vyrVelky.adult'),
+    contentChild: require('./components/animals/vyrVelky.child'),
+    animal: 'vyrVelky',
+    neighbours: [
+      {animal: 'vyrVelky', direction: 'front'},
+ //     {animal: 'pustikBradaty', direction: 'right'},
+      {animal: 'vyrVirginsky', direction: 'left'},
+      {animal: 'urzonKanadsky', direction: 'back'},
+    ]
+  },
+  
+  '' : {
+    name: '',
+    contentAdult: require('./components/animals/.adult'),
+    contentChild: require('./components/animals/.child'),
+    animal: '',
+    neighbours: [
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+    ]
+  },
+  
+
 /*
   '' : {
     name: '',
