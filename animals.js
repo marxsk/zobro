@@ -295,7 +295,7 @@ export default animalDb = {
     animal: 'levhartCejlonsky',
     neighbours: [
       {animal: 'levhartCejlonsky', direction: 'front'},
-//      {animal: 'krkavecVelky', direction: 'back'},
+      {animal: 'krkavecVelky', direction: 'back'},
       {animal: 'krajtaKobercova', direction: 'right'},
 //      {animal: 'pavKorunkaty', direction: 'back'},
 //      {animal: 'pavianAnubi', direction: 'left'},
@@ -668,7 +668,20 @@ export default animalDb = {
     ]
   },
   
-
+  'krkavecVelky' : {
+    name: 'Krkavec velký',
+    contentAdult: require('./components/animals/krkavecVelky.adult'),
+    contentChild: require('./components/animals/krkavecVelky.child'),
+    animal: 'krkavecVelky',
+    neighbours: [
+      {animal: 'krkavecVelky', direction: 'front'},
+//      {animal: 'rarohVelky', direction: 'left'},
+      {animal: 'levhartCejlonsky', direction: 'back'},
+//      {animal: 'pavKorunkaty', direction: 'right'},
+    ]
+  },
+  
+  
 /*
   '' : {
     name: '',
