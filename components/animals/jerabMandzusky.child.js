@@ -10,12 +10,14 @@ const IMAGES = [
   require('../../images/animals/jerabMandzusky/01.jpg'),
   require('../../images/animals/jerabMandzusky/02.jpg'),
   require('../../images/animals/jerabMandzusky/03.jpg'),
+  require('../../images/animals/jerabMandzusky/04.jpg'),
 ];
 
 const THUMBNAILS = [
   require('../../images/animals/jerabMandzusky/01-thumb.jpg'),
   require('../../images/animals/jerabMandzusky/02-thumb.jpg'),
   require('../../images/animals/jerabMandzusky/03-thumb.jpg'),
+  require('../../images/animals/jerabMandzusky/04-thumb.jpg'),
 ];
 
 var AnimalDetail = React.createClass({
