@@ -182,7 +182,7 @@ export default animalDb = {
       {animal: 'lachtanMedvedi', direction: 'left'},
       {animal: 'jerabMandzusky', direction: 'right'},
       {animal: 'bobrKanadsky', direction: 'back'},
-//      {animal: 'pustikBradaty', direction: 'right'},
+      {animal: 'pustikBradaty', direction: 'right'},
       {animal: 'rysKanadsky', direction: 'right'},
     ]
   },
@@ -765,7 +765,7 @@ export default animalDb = {
     animal: 'vyrVelky',
     neighbours: [
       {animal: 'vyrVelky', direction: 'front'},
- //     {animal: 'pustikBradaty', direction: 'right'},
+      {animal: 'pustikBradaty', direction: 'right'},
       {animal: 'vyrVirginsky', direction: 'left'},
       {animal: 'urzonKanadsky', direction: 'back'},
     ]
@@ -797,17 +797,15 @@ export default animalDb = {
     ]
   },
   
-  '' : {
-    name: '',
-    contentAdult: require('./components/animals/.adult'),
-    contentChild: require('./components/animals/.child'),
-    animal: '',
+  'pustikBradaty' : {
+    name: 'Putík bradatý',
+    contentAdult: require('./components/animals/pustikBradaty.adult'),
+    contentChild: require('./components/animals/pustikBradaty.child'),
+    animal: 'pustikBradaty',
     neighbours: [
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
+      {animal: 'pustikBradaty', direction: 'front'},
+      {animal: 'myvalSeverni', direction: 'right'},
+      {animal: 'vyrVelky', direction: 'left'},
     ]
   },
 /*
