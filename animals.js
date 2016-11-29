@@ -583,7 +583,7 @@ export default animalDb = {
       {animal: 'klokanZlutonohy', direction: 'back'},
 //      {animal: 'kakaduPalmovy', direction: 'back'},
 //      {animal: 'kiangVychodni', direction: 'left'},
-//      {animal: 'takinIndicky', direction: 'left'},
+      {animal: 'takinIndicky', direction: 'left'},
     ]
   },
   
@@ -634,7 +634,7 @@ export default animalDb = {
     animal: 'losEvropsky',
     neighbours: [
       {animal: 'losEvropsky', direction: 'front'},
-//      {animal: 'takinIndicky', direction: 'right'},
+      {animal: 'takinIndicky', direction: 'right'},
 //      {animal: 'jelenMilu', direction: 'left'},
       {animal: 'vlkArkticky', direction: 'back'},
     ]
@@ -681,7 +681,21 @@ export default animalDb = {
     ]
   },
   
+  'takinIndicky' : {
+    name: 'Takin indický',
+    contentAdult: require('./components/animals/takinIndicky.adult'),
+    contentChild: require('./components/animals/takinIndicky.child'),
+    animal: 'takinIndicky',
+    neighbours: [
+      {animal: 'takinIndicky', direction: 'front'},
+      {animal: 'zebraGrevyho', direction: 'back'},
+//      {animal: 'kiangVychodni', direction: 'right'},
+      {animal: 'losEvropsky', direction: 'right'},
+//      {animal: 'wapitiSibirsky', direction: 'left'},
+    ]
+  },
   
+
 /*
   '' : {
     name: '',
