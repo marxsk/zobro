@@ -32,6 +32,10 @@ class Cell extends React.Component {
       directionArrow = require('../images/icon/arrow-left.png');
     }
 
+    if ((animal === undefined) || (! 'name' in animal)) {
+      return null;
+    }
+
     return (
       <TouchableHighlight
         onPress={() => scenes.navigatePush(navigator, scenes.ANIMAL_DETAIL, {animal: this.props.item.animal})}
