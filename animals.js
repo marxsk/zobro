@@ -75,7 +75,7 @@ export default animalDb = {
 
     ]
   },
-
+/*
   'jespakBojovny' : {
     name: 'Jespák bojovný',
     contentAdult: require('./components/animals/jespakBojovny.adult'),
@@ -90,7 +90,7 @@ export default animalDb = {
       {animal: 'lachtanMedvedi', direction: 'right'},
     ]
   },
-
+*/
   'kulikPisecny' : {
     name: 'Kulík písečný',
     contentAdult: require('./components/animals/kulikPisecny.adult'),
@@ -210,8 +210,8 @@ export default animalDb = {
 //      {animal: 'paovceHrivnata', direction: 'front'},
 //      {animal: 'sobPolarni', direction: 'right'},
     ]
-  },  
-  
+  },
+
   'husickaVdovka' : {
     name: 'Husička vdovka',
     contentAdult: require('./components/animals/husickaVdovka.adult'),
@@ -224,7 +224,7 @@ export default animalDb = {
       {animal: 'plamenakRuzovy', direction: 'front'},
     ]
   },
-  
+
   'jaguarundi' : {
     name: 'Jaguarundi',
     contentAdult: require('./components/animals/jaguarundi.adult'),
@@ -236,7 +236,7 @@ export default animalDb = {
 //      {animal: 'variCernobily', direction: 'left'},
     ]
   },
-  
+
   'klokanZlutonohy' : {
     name: 'Klokan žlutonohý',
     contentAdult: require('./components/animals/klokanZlutonohy.adult'),
@@ -249,7 +249,7 @@ export default animalDb = {
       {animal: 'zebraGrevyho', direction: 'front'},
     ]
   },
-  
+
   'krajtaKobercova' : {
     name: 'Krajta kobercová',
     contentAdult: require('./components/animals/krajtaKobercova.adult'),
@@ -261,7 +261,7 @@ export default animalDb = {
       {animal: 'pustikObecny', direction: 'right'},
     ]
   },
-  
+
   'kunPrevalskeho' : {
     name: 'Kůň Převalského',
     contentAdult: require('./components/animals/kunPrevalskeho.adult'),
@@ -272,7 +272,7 @@ export default animalDb = {
       {animal: 'jakDomaci', direction: 'back'},
     ]
   },
-  
+
   'lemurKata' : {
     name: 'Lemur kata',
     contentAdult: require('./components/animals/lemurKata.adult'),
@@ -287,7 +287,7 @@ export default animalDb = {
       {animal: 'husickaDvoubarva', direction: 'left'},
     ]
   },
-  
+
   'levhartCejlonsky' : {
     name: 'Levhart cejlonský',
     contentAdult: require('./components/animals/levhartCejlonsky.adult'),
@@ -301,7 +301,7 @@ export default animalDb = {
       {animal: 'pavianAnubi', direction: 'left'},
     ]
   },
-  
+
   'mandelikHajni' : {
     name: 'Mandelík hajní',
     contentAdult: require('./components/animals/mandelikHajni.adult'),
@@ -311,7 +311,7 @@ export default animalDb = {
       {animal: 'mandelikHajni', direction: 'front'},
     ]
   },
-  
+
   'pandaCervena' : {
     name: 'Panda červená',
     contentAdult: require('./components/animals/pandaCervena.adult'),
@@ -325,7 +325,7 @@ export default animalDb = {
       {animal: 'zakoSedy', direction: 'left'},
     ]
   },
-  
+
   'plamenakRuzovy' : {
     name: 'Plameňák růžový',
     contentAdult: require('./components/animals/plamenakRuzovy.adult'),
@@ -338,7 +338,7 @@ export default animalDb = {
       {animal: 'husickaDvoubarva', direction: 'front'},
     ]
   },
-  
+
   'tamarinZlutoruky' : {
     name: 'Tamarín žlutoruký',
     contentAdult: require('./components/animals/tamarinZlutoruky.adult'),
@@ -350,7 +350,7 @@ export default animalDb = {
       {animal: 'nosalCerveny', direction: 'right'},
     ]
   },
-  
+
   'urzonKanadsky' : {
     name: 'Urzon kanadský',
     contentAdult: require('./components/animals/urzonKanadsky.adult'),
@@ -361,7 +361,7 @@ export default animalDb = {
       {animal: 'cipmankVychodni', direction: 'left'},
     ]
   },
-  
+
   'varanKomodsky' : {
     name: 'Varan komodský',
     contentAdult: require('./components/animals/varanKomodsky.adult'),
@@ -375,7 +375,7 @@ export default animalDb = {
       {animal: 'kuanduObecny', direction: 'left'},
     ]
   },
-  
+
   'velbloudDvouhrby' : {
     name: 'Velbloud dvouhrbý',
     contentAdult: require('./components/animals/velbloudDvouhrby.adult'),
@@ -388,7 +388,7 @@ export default animalDb = {
       {animal: 'kunPrevalskeho', direction: 'front'},
     ]
   },
-  
+
   'vlkArkticky' : {
     name: 'Vlk arktický',
     contentAdult: require('./components/animals/vlkArkticky.adult'),
@@ -403,11 +403,11 @@ export default animalDb = {
       {animal: 'jelenMilu', direction: 'right'},
     ]
   },
-  
+
   'zebraChapmanova' : {
     name: 'Zebra Chapmanova',
-    contentAdult: require('./components/animals/.adult'),
-    contentChild: require('./components/animals/.child'),
+    contentAdult: require('./components/animals/zebraChapmanova.adult'),
+    contentChild: require('./components/animals/zebraChapmanova.child'),
     animal: '',
     neighbours: [
       {animal: 'zebraChapmanova', direction: 'front'},
@@ -416,7 +416,7 @@ export default animalDb = {
       {animal: 'lemurKata', direction: 'left'},
     ]
   },
-  
+
   'cipmankVychodni' : {
     name: 'Čipmank východní',
     contentAdult: require('./components/animals/cipmankVychodni.adult'),
@@ -428,7 +428,7 @@ export default animalDb = {
       {animal: 'urzonKanadsky', direction: 'left'},
     ]
   },
-  
+
   'jakDomaci' : {
     name: 'Jak domácí',
     contentAdult: require('./components/animals/jakDomaci.adult'),
@@ -441,7 +441,7 @@ export default animalDb = {
       {animal: 'kunPrevalskeho', direction: 'left'},
     ]
   },
-  
+
   'kapybara' : {
     name: 'Kapybara',
     contentAdult: require('./components/animals/kapybara.adult'),
@@ -456,7 +456,7 @@ export default animalDb = {
       {animal: 'agutiAzaruv', direction: 'left'},
     ]
   },
-  
+
   'leskoptevTribarva' : {
     name: 'Leskoptev tříbarvá',
     contentAdult: require('./components/animals/leskoptevTribarva.adult'),
@@ -468,7 +468,7 @@ export default animalDb = {
 //      {animal: '', direction: ''},
     ]
   },
-  
+
   'orelBelohlavy' : {
     name: 'Orel bělohlavý',
     contentAdult: require('./components/animals/orelBelohlavy.adult'),
@@ -481,7 +481,7 @@ export default animalDb = {
       {animal: 'skunkPruhovany', direction: 'right'},
     ]
   },
-  
+
   'orelVychodni' : {
     name: 'Orel východní',
     contentAdult: require('./components/animals/orelVychodni.adult'),
@@ -493,7 +493,7 @@ export default animalDb = {
       {animal: 'medvedLedni', direction: 'back'},
     ]
   },
-  
+
   'psounPreriovy' : {
     name: 'Psoun prériový',
     contentAdult: require('./components/animals/psounPreriovy.adult'),
@@ -507,7 +507,7 @@ export default animalDb = {
       {animal: 'agutiAzaruv', direction: 'right'},
     ]
   },
-  
+
   'rysKanadsky' : {
     name: 'Rys kanadský',
     contentAdult: require('./components/animals/rysKanadsky.adult'),
@@ -520,7 +520,7 @@ export default animalDb = {
       {animal: 'orelVychodni', direction: 'left'},
     ]
   },
-  
+
   'skunkPruhovany' : {
     name: 'Skunk pruhovaný',
     contentAdult: require('./components/animals/skunkPruhovany.adult'),
@@ -533,7 +533,7 @@ export default animalDb = {
       {animal: 'urzonKanadsky', direction: 'left'},
     ]
   },
-  
+
   'snovacRudozoby' : {
     name: 'Snovač rudozobý',
     contentAdult: require('./components/animals/snovacRudozoby.adult'),
@@ -545,7 +545,7 @@ export default animalDb = {
 //      {animal: '', direction: ''},
     ]
   },
-  
+
   'tapirJihoamericky' : {
     name: 'Tapír jihoamerický',
     contentAdult: require('./components/animals/tapirJihoamericky.adult'),
@@ -560,7 +560,7 @@ export default animalDb = {
       {animal: 'agutiAzaruv', direction: 'left'},
     ]
   },
-  
+
   'tenkozobecOpacny' : {
     name: 'Tenkozobec opačný',
     contentAdult: require('./components/animals/tenkozobecOpacny.adult'),
@@ -575,7 +575,7 @@ export default animalDb = {
       {animal: 'lachtanMedvedi', direction: 'right'},
     ]
   },
-  
+
   'zebraGrevyho' : {
     name: 'Zebra Grévyho',
     contentAdult: require('./components/animals/zebraGrevyho.adult'),
@@ -590,20 +590,7 @@ export default animalDb = {
       {animal: 'takinIndicky', direction: 'left'},
     ]
   },
-  
-  '' : {
-    name: '',
-    contentAdult: require('./components/animals/.adult'),
-    contentChild: require('./components/animals/.child'),
-    animal: '',
-    neighbours: [
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
-      {animal: '', direction: ''},
-    ]
-  },
+
 /*
   '' : {
     name: '',
@@ -620,5 +607,4 @@ export default animalDb = {
   },
 */
 
-  
 };
