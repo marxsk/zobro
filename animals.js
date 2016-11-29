@@ -207,7 +207,7 @@ export default animalDb = {
     animal: 'dzelada',
     neighbours: [
       {animal: 'dzelada', direction: 'front'},
-//      {animal: 'paovceHrivnata', direction: 'front'},
+      {animal: 'paovceHrivnata', direction: 'front'},
 //      {animal: 'sobPolarni', direction: 'right'},
     ]
   },  
@@ -771,7 +771,7 @@ export default animalDb = {
     ]
   },
 
-/*  
+ 
   'pavKorunkaty' : {
     name: 'Páv korunkatý',
     contentAdult: require('./components/animals/pavKorunkaty.adult'),
@@ -784,8 +784,32 @@ export default animalDb = {
 //      {animal: 'pavianAnubi', direction: 'right'},
     ]
   },
-*/  
-
+  
+  'paovceHrivnata' : {
+    name: 'Paovce hřivnatá',
+    contentAdult: require('./components/animals/paovceHrivnata.adult'),
+    contentChild: require('./components/animals/paovceHrivnata.child'),
+    animal: 'paovceHrivnata',
+    neighbours: [
+      {animal: 'paovceHrivnata', direction: 'front'},
+      {animal: 'dzelada', direction: 'front'},
+//      {animal: 'sobPolarni', direction: 'right'},
+    ]
+  },
+  
+  '' : {
+    name: '',
+    contentAdult: require('./components/animals/.adult'),
+    contentChild: require('./components/animals/.child'),
+    animal: '',
+    neighbours: [
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+    ]
+  },
 /*
   '' : {
     name: '',
