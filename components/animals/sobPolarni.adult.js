@@ -9,7 +9,7 @@ import AnimalTemplate from '../animalTemplate';
 const IMAGES = [
   require('../../images/animals/sobPolarni/01.jpg'),
   require('../../images/animals/sobPolarni/02.jpg'),
-  require('../../images/animals/sobPolarni/03.jpg'),
+  //require('../../images/animals/sobPolarni/03.jpg'),
 ];
 
 const THUMBNAILS = [
@@ -23,7 +23,7 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-        Sob polární, latinsky <Text style={styles.italic}>Rangifer tarandus</Text>, je druhem jelenovitých, který je dobře přizpůsoben k&nbsp;životu na mrazivém severu. Obývá Severní Ameriku a Eurasii. Nejseverněji se sobi vyskytují na ostrovech Špicberky v&nbsp;Arktidě. 
+        Sob polární, latinsky <Text style={styles.italic}>Rangifer tarandus</Text>, je druhem jelenovitých, který je dobře přizpůsoben k&nbsp;životu na mrazivém severu. Obývá Severní Ameriku a Eurasii. Nejseverněji se sobi vyskytují na ostrovech Špicberky v&nbsp;Arktidě.
         </AnimalText>
         <AnimalText>
         U&nbsp;nás v&nbsp;zoo máme sobů, samců i&nbsp;samic, hned několik, protože sob je společenský druh. Občas se ve výběhu objeví i&nbsp;mláďata.
@@ -52,7 +52,7 @@ var AnimalDetail = React.createClass({
         Během dne jsou sobi téměř neustále v&nbsp;pohybu. Při běhu dosahují rychlosti 60 až 80&nbsp;km/hod. Při migraci za potravou urazí za rok přes 5&nbsp;000&nbsp;km, což je nejvíce ze všech pozemských savců. A&nbsp;věděli jste, že sob je i&nbsp;vynikající plavec? Při cestování za potravou totiž často překračuje řeky i&nbsp;fjordy.
         </AnimalText>
         <AnimalText>
-        Potravu sobů tvoří široká škála rostlin. Vybírají si suroviny, které jsou nejvýživnější a lehce stravitelné. Na jaře a v&nbsp;létě žerou zelené porosty, mechy, pupeny a listy. V&nbsp;zimě, díky svému vynikajícímu čichu, hledají pod sněhem lišejníky. Pozoruhodné je, že sobi vidí ultrafialové záření, jež jim během zimy pomáhá najít potravu, ale i&nbsp;rozlišit nepřátele. Například lišejník ve sněhu vnímají jako tmavší objekt, protože absorbuje více UV záření, nebo na sněhové pláni rozpoznají vlka, jehož huňatá kožešina pohlcuje sluneční světlo. I&nbsp;přes svoji mohutnost má sob několik přirozených predátorů, kterými jsou vlci, medvědi a pumy. 
+        Potravu sobů tvoří široká škála rostlin. Vybírají si suroviny, které jsou nejvýživnější a lehce stravitelné. Na jaře a v&nbsp;létě žerou zelené porosty, mechy, pupeny a listy. V&nbsp;zimě, díky svému vynikajícímu čichu, hledají pod sněhem lišejníky. Pozoruhodné je, že sobi vidí ultrafialové záření, jež jim během zimy pomáhá najít potravu, ale i&nbsp;rozlišit nepřátele. Například lišejník ve sněhu vnímají jako tmavší objekt, protože absorbuje více UV záření, nebo na sněhové pláni rozpoznají vlka, jehož huňatá kožešina pohlcuje sluneční světlo. I&nbsp;přes svoji mohutnost má sob několik přirozených predátorů, kterými jsou vlci, medvědi a pumy.
         </AnimalText>
       </AnimalTemplate>
     );

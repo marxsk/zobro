@@ -8,14 +8,14 @@ import AnimalTemplate from '../animalTemplate';
 
 const IMAGES = [
   require('../../images/animals/krkavecVelky/01.jpg'),
-  require('../../images/animals/krkavecVelky/02.jpg'),
-  require('../../images/animals/krkavecVelky/03.jpg'),
+//  require('../../images/animals/krkavecVelky/02.jpg'),
+//  require('../../images/animals/krkavecVelky/03.jpg'),
 ];
 
 const THUMBNAILS = [
   require('../../images/animals/krkavecVelky/01-thumb.jpg'),
-  require('../../images/animals/krkavecVelky/02-thumb.jpg'),
-  require('../../images/animals/krkavecVelky/03-thumb.jpg'),
+//  require('../../images/animals/krkavecVelky/02-thumb.jpg'),
+//  require('../../images/animals/krkavecVelky/03-thumb.jpg'),
 ];
 
 var AnimalDetail = React.createClass({
@@ -44,7 +44,7 @@ var AnimalDetail = React.createClass({
         (Variace na Krkavce Edgara Alana Poea, z překladu Tomáše Jacka)
         </AnimalText>
         <AnimalText>
-        
+
         </AnimalText>
         <AnimalText>
           Dámy a pánové,
