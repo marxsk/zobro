@@ -31,7 +31,7 @@ var NavigationBarRouteMapper = (props) => ({
           bgMainMenu();
           navigator.replace({
             id: scenes.MAIN_MENU,
-            title: 'ZOO Brno',
+            title: 'Zoo Brno',
           })
         }}>
         <Text style={navBar}>Menu</Text>
@@ -132,7 +132,7 @@ class ZooApp extends React.Component {
     return (
       <Navigator
         ref={(nav) => { navig = nav; }}
-        initialRoute={{ title: 'ZOO Brno', id: scenes.MAIN_MENU }}
+        initialRoute={{ title: 'Zoo Brno', id: scenes.MAIN_MENU }}
         renderScene={(route, navigator) => {
           return this.renderScene(route, navigator);
         }}

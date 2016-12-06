@@ -141,7 +141,7 @@ export default class AnimalListScene extends React.Component {
     }
 
     if (Object.keys(data).length === 0) {
-      data['*'] = [{name: 'Zvíře s požadovaným jménen v zoo chybí'}];
+      data['*'] = [{name: 'Zvíře s požadovaným jménem v zoo chybí'}];
     }
     return data;
   }

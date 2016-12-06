@@ -25,7 +25,7 @@ export function navigatePush(navigator, scene, props) {
   } else if ((sceneTitles[scene] !== undefined) && (sceneTitles[scene].title !== undefined)) {
     title = sceneTitles[scene].title;
   } else {
-    title = 'ZOO Brno';
+    title = 'Zoo Brno';
   }
   navigator.push({
     id: scene,
