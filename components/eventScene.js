@@ -33,7 +33,7 @@ class EventItem extends React.Component {
         <View style={{flex:1, flexDirection: 'row'}}>
           <View style={{flex: 1, flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
             <Text style={styles.eventItemText}>{this.props.event.name}</Text>
-            <Text style={styles.eventItemText}>dnes, {this.props.event.time}</Text>
+            <Text style={styles.eventItemTextTime}>dnes, {this.props.event.time}</Text>
           </View>
         </View>
     </TouchableHighlight>
@@ -84,8 +84,6 @@ export default class EventsScene extends React.Component {
       '#37af54',
       '#2d9946',
       '#267f3b',
-      '#20642f',
-      '#0b2611',
       '#20642f',
       '#267f3b',
       '#2d9946',

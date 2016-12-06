@@ -13,16 +13,7 @@ export default class AnimalImage extends React.Component {
 
   render() {
       return (
-        <Image
-          source={this.props.thumbnails[this.props.index]}
-          resizeMode='cover'
-          style={this.props.thumbnailStyle}
-        />
-      );
-
-      return (
         <Lightbox
-          navigator={this.props.navigator}
           swipeToDismiss={false}
           renderContent={this.renderModal}
           activeProps={this.props}
