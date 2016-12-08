@@ -7,7 +7,6 @@ import {
   StyleSheet,
   TouchableHighlight, Alert
 } from 'react-native';
-import {connect} from 'react-redux'
 
 import styles from '../styles/styles';
 import * as scenes from '../scenes';
@@ -19,7 +18,6 @@ class MainMenuItem extends React.Component {
 
   render() {
     const bgColor = scenes.sceneTitles[this.props.scene].bgColor;
-    const barColor = scenes.sceneTitles[this.props.scene].barColor;
     const title = scenes.sceneTitles[this.props.scene].title;
     return (
       <TouchableHighlight
@@ -67,7 +65,9 @@ export default class mainMenuScene extends React.Component {
         {
           menuItems.map((itemInMenu, index) => (
             <MainMenuItem navigator={this.props.navigator}
+              key={index}
               alignText={index % 2 ? 'left' : 'right'}
+              // @todo: backgroundColors to styles and then use index%length to get right color
               scene={itemInMenu}
             />
           ))
