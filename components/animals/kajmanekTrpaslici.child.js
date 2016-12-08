@@ -23,9 +23,6 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-        <Text style={styles.italic}>blabla</Text> &nbsp;
-        </AnimalText>
-        <AnimalText>
           Vážení a milí, vítám vás u&nbsp;terária kajmánků trpasličích. Jestli si myslíte, že před vámi budou proskakovat obručemi, musím vás zklamat. Když totiž tihle plazi zjistili, jak moc je návštěvníci obdivují, samou radostí strnuli.
         </AnimalText>
         <AnimalText>
