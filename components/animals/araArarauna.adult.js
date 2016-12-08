@@ -35,7 +35,7 @@ var AnimalDetail = React.createClass({
         <AnimalText>
          Díky silnému zobáku nemají problém rozlousknout jakkoli tvrdou skořápku. Jejich nejčastější potravou jsou různé druhy ořechů, plody, pupeny, mladé výhonky stromů a příležitostně hmyz. Za potravou jsou schopni létat až 25&nbsp;kilometrů daleko v&nbsp;hejnech, která vedou vždy starší a zkušenější ptáci. Pohromadě také létají ke břehům řek, kde požírají jíl kvůli minerálům. Hledat jídlo se vydávají za úsvitu, za soumraku se pak shromažďují v&nbsp;dutinách stromů, kde tráví noc.
         </AnimalText>
-        <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
+        <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
         Samička snáší 1–3&nbsp;vejce, na kterých sedí cca 25&nbsp;dní. Mláďata se rodí holá a slepá, peří jim narůstá až za 10&nbsp;týdnů, dospívají ve 2–3&nbsp;letech. Malé ary krmí samec. Pokud se k&nbsp;hnízdu přiblíží vetřelec, oba rodiče bývají velmi agresivní. Žijí v&nbsp;monogamních párech, pokud nehnízdí, tak i&nbsp;v&nbsp;hejnech. Dožívají se asi 50&nbsp;let, v&nbsp;lidské péči až 80.
         </AnimalText>
