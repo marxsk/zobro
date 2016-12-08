@@ -21,7 +21,7 @@ const THUMBNAILS = [
 var AnimalDetail = React.createClass({
   render() {
     return (
-      <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
+      <AnimalTemplate firstIndex={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
           PSYCHIATRICKÝ CHOROBOPIS
         </AnimalText>
@@ -100,7 +100,7 @@ var AnimalDetail = React.createClass({
         <AnimalText>
           --------------------------------
         </AnimalText>
-      <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
+      <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
           <Text style={styles.strong}>Nynější onemocnění:</Text> „Jsem předurčen být jako Brněnský drak na Staré radnici… /<Text style={styles.italic}>Co vám brání být jako Brněnský drak?</Text>/... Jsem nejmenší z&nbsp;druhů krokodýlů a délkou nepřekročím 170&nbsp;cm, Brněnský drak je třikrát delší. Pociťuji úzkosti a mám pocit, že můj život ztratil smysl… /Text style={styles.italic}>Kdy potíže začaly a jak dlouho trvají?</Text>/ ... Hantec se učím od roku 2002, pravdu o&nbsp;své maximální délce jsem se dozvěděl, když jsem byl v 95.&nbsp;lekci, netuším, co je teď za měsíc… /Text style={styles.italic}>Proč chcete být jako Brněnský drak?</Text>/ ... Chci viset v&nbsp;průjezdu, kde proudící vzduch připomíná chladnou řeku. Chci, aby se o&nbsp;mě říkaly legendy a aby ke mně lidé vzhlíželi… /Text style={styles.italic}>Nemůžete být malým drakem?</Text>/ ... Ne, musím být velký a chci viset v&nbsp;Brně. Navíc mám nekvalitní kůži na břiše a ke konzervaci nechtějí použít drahé technologie.“
         </AnimalText>
@@ -110,7 +110,7 @@ var AnimalDetail = React.createClass({
         <AnimalText>
           --------------------------------
         </AnimalText>
-      <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
+      <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
           <Text style={styles.strong}>Psychopatologický rozbor, diagnóza:</Text> Vigilní, lucidní, chybí orientace v&nbsp;čase. Bohatý rejstřík emocí, strnulé pohledy do prázdna střídány agresivitou. Obsese učením se hantecu, chorobné ztotožnění se s&nbsp;Brněnským drakem. Sebevražedné sklony, touha po popularitě. Výběr města podle názvu – koresponduje s&nbsp;pacientovým zalíbením v&nbsp;bažinných koupelích (<Text style={styles.italic}>brnno</Text> = blátivé místo). Chmurné myšlenky způsobeny pobytem ve stísněné noře. Podezření na bipolární afektivní poruchu.
         </AnimalText>
