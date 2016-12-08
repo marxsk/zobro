@@ -23,9 +23,6 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-        <Text style={styles.italic}>blabla</Text> &nbsp;
-        </AnimalText>
-        <AnimalText>
           	Ahoj, člověčí mládě, jsem vlk hřivnatý, ale někdy mě nazývají i&nbsp;psem hřivnatým. Vlastně se mi posmívají, že jsem jen liška s&nbsp;předlouhýma nohama.  Vtipálci. Ty dlouhé nohy mi usnadňují pohyb ve vysoké trávě, v&nbsp;bažinách a pampách (to jsou rozsáhlé travnaté plochy). Jsme tzv. mimochodníci, to znamená, že při chůzi pohybujeme zároveň levýma a pravýma nohama.
         </AnimalText>
         <AnimalText>
