@@ -67,27 +67,18 @@ export default class mainMenuScene extends React.Component {
         sceneProps={{animal: this.props.lastAnimal}}
       />);
 
+    const menuItems = [scenes.QR_READER, scenes.ANIMAL_LIST, scenes.EVENTS, scenes.ABOUT];
+
     return (
       <ScrollView style={localStyles.container} contentContainerStyle={localStyles.scrollItems}>
-        <MainMenuItem navigator={this.props.navigator}
-          alignText='left'
-          scene={scenes.QR_READER}
-        />
-
-        <MainMenuItem navigator={this.props.navigator}
-          alignText='right'
-          scene={scenes.ANIMAL_LIST}
-        />
-
-        <MainMenuItem navigator={this.props.navigator}
-          alignText='left'
-          scene={scenes.EVENTS}
-        />
-
-        <MainMenuItem navigator={this.props.navigator}
-          alignText='right'
-          scene={scenes.ABOUT}
-        />
+        {
+          menuItems.map((itemInMenu, index) => (
+            <MainMenuItem navigator={this.props.navigator}
+              alignText={index % 2 ? 'left' : 'right'}
+              scene={itemInMenu}
+            />
+          ))
+        }
       </ScrollView>
     );
   }
