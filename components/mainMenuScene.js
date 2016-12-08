@@ -60,13 +60,6 @@ export default class mainMenuScene extends React.Component {
   }
 
   render() {
-    const lastAnimalItem = (this.props.lastAnimal === undefined) ? null : (
-      <MainMenuItem navigator={this.props.navigator}
-        alignText='right'
-        scene={scenes.ANIMAL_DETAIL}
-        sceneProps={{animal: this.props.lastAnimal}}
-      />);
-
     const menuItems = [scenes.QR_READER, scenes.ANIMAL_LIST, scenes.EVENTS, scenes.ABOUT];
 
     return (
