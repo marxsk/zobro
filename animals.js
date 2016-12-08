@@ -231,7 +231,7 @@ export default animalDb = {
     contentChild: require('./components/animals/jaguarundi.child'),
     animal: 'jaguarundi',
     neighbours: [
-      {animal: 'jaguarundu', direction: 'front'},
+      {animal: 'jaguarundi', direction: 'front'},
       {animal: 'lemurBelocely', direction: 'right'},
       {animal: 'variCernobily', direction: 'left'},
     ]
@@ -408,7 +408,7 @@ export default animalDb = {
     name: 'Zebra Chapmanova',
     contentAdult: require('./components/animals/zebraChapmanova.adult'),
     contentChild: require('./components/animals/zebraChapmanova.child'),
-    animal: '',
+    animal: 'zebraChapmanova',
     neighbours: [
       {animal: 'zebraChapmanova', direction: 'front'},
       {animal: 'agapornisFischeruv', direction: 'right'},

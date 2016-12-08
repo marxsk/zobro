@@ -51,3 +51,5 @@ var AnimalDetail = React.createClass({
     );
   }
 });
+
+module.exports = AnimalDetail;

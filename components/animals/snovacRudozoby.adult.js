@@ -25,7 +25,9 @@ var AnimalDetail = React.createClass({
         <AnimalText>
           Snovač rudozobý, latinsky <Text style={styles.italic}>Quelea quelea</Text>, patří mezi nejpočetnější ptačí druh na světě. Množství je odhadováno na 1,5&nbsp;miliardy jedinců. To je skoro o&nbsp;třetinu více, než je obyvatel celé Afriky.
         </AnimalText>
-          Vyskytuje se na zmiňovaném kontinentu v&nbsp;savanách, kde má dostatek zdrojů potravy. Poletuje v&nbsp;hejnech. Některá hejna mohou být tak obrovská, že může trvat i&nbsp;pět hodin, než vám celá přeletí nad hlavou. 
+        <AnimalText>
+          Vyskytuje se na zmiňovaném kontinentu v&nbsp;savanách, kde má dostatek zdrojů potravy. Poletuje v&nbsp;hejnech. Některá hejna mohou být tak obrovská, že může trvat i&nbsp;pět hodin, než vám celá přeletí nad hlavou.
+        </AnimalText>
         <AnimalText>
           Zde v&nbsp;brněnské zoo si tvoří své menší hejno. Je tu 69 jedinců a jsou v Africké vesnici ve voliéře, kam můžete vstoupit.
         </AnimalText>
@@ -47,7 +49,7 @@ var AnimalDetail = React.createClass({
           Živí se semeny rostlin a pohybují-li se v osídlených oblastech, dokáží způsobit enormní škody úrody obilí. Přirovnávají se ke vpádu sarančat. Pokud se pohybují po divoké savaně, vyzobávají semena různých trav. Tady je vše důmyslně v&nbsp;pořádku, jelikož putujícím antilopám, pakoňům a jiným zbývá dostatek potravy ve stéblech a listech.
         </AnimalText>
         <AnimalText>
-          Ačkoli se snovač rudozobý živí semeny, ze začátku své potomky krmí hmyzem. Tím si mírně napravuje svoji reputaci, kterou má v&nbsp;zemědělství poněkud pošramocenou. Někteří farmáři dokonce tráví u&nbsp;svého pole celý den a vydávají hlasité zvuky, aby děsili a odháněli rozsáhlá hejna. 
+          Ačkoli se snovač rudozobý živí semeny, ze začátku své potomky krmí hmyzem. Tím si mírně napravuje svoji reputaci, kterou má v&nbsp;zemědělství poněkud pošramocenou. Někteří farmáři dokonce tráví u&nbsp;svého pole celý den a vydávají hlasité zvuky, aby děsili a odháněli rozsáhlá hejna.
         </AnimalText>
         <AnimalText>
           Snovači mezi sebou komunikují neustálým hlasitým štěbetáním. Tak se mějte na pozoru, milí návštěvníci zoo. Pokud spustí všichni naráz – jde o&nbsp;uši!

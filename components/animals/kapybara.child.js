@@ -25,7 +25,9 @@ var AnimalDetail = React.createClass({
         <AnimalText>
            <Text style={styles.italic}>Milí posluchači, v&nbsp;rozhlasovém pořadu Přerostlá zvířata se teď spojíme s&nbsp;naší reportérkou Mrkví Mrkývkovou, která je tu opět s&nbsp;novou senzací. Slyšíme se?</Text>
         </AnimalText>
+        <AnimalText>
           Hohohó! Mrkev zdraví z&nbsp;Jižní Ameriky! Přesně tak, dnes mám pro vás naprostou bombu! Stojím po kolena ve vodě a vedle mě už se rochní obří morče zvané kapybara! Paní kapybaro, jak jste vlastně velká?
+        </AnimalText>
         <AnimalText>
           „Kvíí!“
         </AnimalText>
@@ -49,7 +51,7 @@ var AnimalDetail = React.createClass({
           „Chrocht!“
         </AnimalText>
         <AnimalText>
-          Vy mi toho asi moc neřeknete, že? No dobrá, mám tu napsané, že jste velmi dobrý plavec a v&nbsp;jezírku jste jako ryba ve vodě. Divím se, že se v&nbsp;ní nescvrknete. Prý vydržíte být celá ponořená až pět minut! Řeknu vám, taky jsem to jednou zkoušela, ale vyplavala jsem hned nahoru. To se prostě nedá udýchat. 
+          Vy mi toho asi moc neřeknete, že? No dobrá, mám tu napsané, že jste velmi dobrý plavec a v&nbsp;jezírku jste jako ryba ve vodě. Divím se, že se v&nbsp;ní nescvrknete. Prý vydržíte být celá ponořená až pět minut! Řeknu vám, taky jsem to jednou zkoušela, ale vyplavala jsem hned nahoru. To se prostě nedá udýchat.
         </AnimalText>
         <AnimalText>
           Moment, co mi to děláte? Posluchači, vy to nevidíte, ale teď se o&nbsp;mě kapybara otírá čumákem. To lechtá! Paní kapybaro, takhle si značkujte svoje území, ne mě.

@@ -5,19 +5,19 @@ import styles from '../../styles/styles';
 import InPageImage from '../inPageImage';
 import AnimalText from '../animalText';
 import AnimalTemplate from '../animalTemplate';
-/*
+
 const IMAGES = [
-  require('../../images/animals/urzonKanadsky/01.jpg'),
-  require('../../images/animals/urzonKanadsky/02.jpg'),
-  require('../../images/animals/urzonKanadsky/03.jpg'),
+//  require('../../images/animals/urzonKanadsky/01.jpg'),
+//  require('../../images/animals/urzonKanadsky/02.jpg'),
+//  require('../../images/animals/urzonKanadsky/03.jpg'),
 ];
 
 const THUMBNAILS = [
-  require('../../images/animals/urzonKanadsky/01-thumb.jpg'),
-  require('../../images/animals/urzonKanadsky/02-thumb.jpg'),
-  require('../../images/animals/urzonKanadsky/03-thumb.jpg'),
+//  require('../../images/animals/urzonKanadsky/01-thumb.jpg'),
+//  require('../../images/animals/urzonKanadsky/02-thumb.jpg'),
+//  require('../../images/animals/urzonKanadsky/03-thumb.jpg'),
 ];
-*/
+
 var AnimalDetail = React.createClass({
   render() {
     return (

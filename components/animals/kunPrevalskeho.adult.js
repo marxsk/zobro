@@ -5,19 +5,19 @@ import styles from '../../styles/styles';
 import InPageImage from '../inPageImage';
 import AnimalText from '../animalText';
 import AnimalTemplate from '../animalTemplate';
-/*
+
 const IMAGES = [
-  require('../../images/animals/kunPrevalskeho/01.jpg'),
-  require('../../images/animals/kunPrevalskeho/02.jpg'),
-  require('../../images/animals/kunPrevalskeho/03.jpg'),
+//  require('../../images/animals/kunPrevalskeho/01.jpg'),
+//  require('../../images/animals/kunPrevalskeho/02.jpg'),
+//  require('../../images/animals/kunPrevalskeho/03.jpg'),
 ];
 
 const THUMBNAILS = [
-  require('../../images/animals/kunPrevalskeho/01-thumb.jpg'),
-  require('../../images/animals/kunPrevalskeho/02-thumb.jpg'),
-  require('../../images/animals/kunPrevalskeho/03-thumb.jpg'),
+//  require('../../images/animals/kunPrevalskeho/01-thumb.jpg'),
+//  require('../../images/animals/kunPrevalskeho/02-thumb.jpg'),
+//  require('../../images/animals/kunPrevalskeho/03-thumb.jpg'),
 ];
-*/
+
 var AnimalDetail = React.createClass({
   render() {
     return (
@@ -44,9 +44,6 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <AnimalText>
           Není to tak dávno, co měl svět pouhých třináct posledních koní Převalského.
-        </AnimalText>
-        <AnimalText>
-        
         </AnimalText>
         <AnimalText>
           Chybělo tak málo… a divoké koně bychom znali už jen z&nbsp;pohádek.
