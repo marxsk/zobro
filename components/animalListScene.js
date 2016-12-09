@@ -25,7 +25,7 @@ class Cell extends React.Component {
         onPress={() => scenes.navigatePush(navigator, scenes.ANIMAL_DETAIL, {animal: this.props.item.animal})}
         underlayColor='#bbbbbb'
       >
-      <View style={{height:30}}>
+      <View style={{height:30, paddingLeft: 5}}>
         <Text style={{color: 'white'}}>{this.props.item.name}</Text>
       </View>
       </TouchableHighlight>
@@ -43,10 +43,11 @@ class SectionItem extends React.Component {
           backgroundColor: this.props.bgColor,
           width: 30,
           height: 30,
-          borderWidth: 2,
+          borderLeftWidth: 1,
+          borderColor: 'white',
           justifyContent: 'center',
         }}>
-        <Text style={{color: 'white', textAlign: 'center'}}>{this.props.title}</Text>
+        <Text style={{color: 'white', textAlign: 'center', fontWeight: '700'}}>{this.props.title}</Text>
         </View>
     );
   }
@@ -62,7 +63,7 @@ class SectionHeader extends React.Component {
       textAlign:'center',
       color:'#fff',
       fontWeight:'700',
-      fontSize:16
+      fontSize:24
     };
 
     var viewStyle = {
@@ -165,7 +166,7 @@ export default class AnimalListScene extends React.Component {
           sectionHeaderHeight={22.5}
           compareFunction={(a,b) => {return a.localeCompare(b); }}
           style={{
-            backgroundColor: '#0d621e',
+            backgroundColor: '#104f1f',
           }}
         />
       </View>

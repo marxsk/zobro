@@ -34,7 +34,7 @@ var NavigationBarRouteMapper = (props) => ({
             title: 'Zoo Brno',
           })
         }}>
-        <Text style={navBar}>Menu</Text>
+        <Text style={[navBar, {paddingLeft: 10}]}>MENU</Text>
         </TouchableHighlight>
       );
     }
