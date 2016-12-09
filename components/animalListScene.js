@@ -95,12 +95,23 @@ export default class AnimalListScene extends React.Component {
       fullData: {}
     };
 
+    const removeAccents = {
+      'Č' : 'C',
+      'Š' : 'S',
+      'Ú' : 'U',
+      'Ž' : 'Z',
+    };
+
     for (let animalID in animals) {
       let animal = animals[animalID];
       let firstLetter = animal.name.charAt(0).toUpperCase();
 
       if ((firstLetter === 'C') && (animal.name.charAt(1) === 'h')) {
         firstLetter = 'Ch';
+      }
+
+      if (firstLetter in removeAccents) {
+        firstLetter = removeAccents[firstLetter];
       }
 
       if (!(firstLetter in state.fullData)) {
@@ -142,7 +153,7 @@ export default class AnimalListScene extends React.Component {
     }
 
     if (Object.keys(data).length === 0) {
-      data['*'] = [{name: 'Zvíře s požadovaným jménem v zoo chybí'}];
+      data['*'] = [{name: 'Zvíře s požadovaným jménem v aplikaci zatím chybí'}];
     }
     return data;
   }
