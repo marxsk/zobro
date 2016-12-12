@@ -113,12 +113,20 @@ export default class EventsScene extends React.Component {
       const eventTime = 60 * parseInt(eventHour) + parseInt(eventMinutes) + SHOW_RUNNING
       const currentTime = 60 * d.getHours() + d.getMinutes();
 
-      const result = (matchingDay && (eventTime >= currentTime));
+      const startDate = new Date(event.startDate); // include this day
+      const endDate = new Date(event.endDate);  // do not include this day
+
+      const result = (
+          matchingDay &&
+          (eventTime >= currentTime) &&
+          (+startDate <= +d) &&
+          (+endDate > +d)
+        );
       return result;
     });
 
     const emptyEvent = (filteredEvents.length === 0) ?
-      (<EventItem event={{id: 'nothing'}}/>) : 0
+      (<EventItem event={{id: 'nothing'}}/>) : null
       ;
 
     return (
