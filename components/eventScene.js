@@ -24,6 +24,15 @@ class EventItem extends React.Component {
   }
 
   render() {
+    if (this.props.event.id == 'nothing') {
+      return <View style={[styles.eventItem, {flex:1, flexDirection: 'row', backgroundColor: 'red'}]}>
+        <View style={{flex: 1, flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+          <Text style={styles.eventItemText}>NIČ NIČ</Text>
+          <Text style={styles.eventItemTextTime}>dnes už nič</Text>
+        </View>
+      </View>
+    }
+
     return (
       <TouchableHighlight
         underlayColor='#aaaaaa'
@@ -95,11 +104,27 @@ export default class EventsScene extends React.Component {
       myEvent = events.filter((event) => {return event['id'] === this.state.selectedEvent;})[0];
     }
 
+    const filteredEvents = events.filter((event) => {
+      const matchingDay = event['weekdays'].includes(d.getDay());
+
+      const eventHour = event['time'].split(":")[0];
+      const eventMinutes = event['time'].split(":")[1];
+      const SHOW_RUNNING = 30;
+      const eventTime = 60 * parseInt(eventHour) + parseInt(eventMinutes) + SHOW_RUNNING
+      const currentTime = 60 * d.getHours() + d.getMinutes();
+
+      const result = (matchingDay && (eventTime >= currentTime));
+      return result;
+    });
+
+    const emptyEvent = (filteredEvents.length === 0) ?
+      (<EventItem event={{id: 'nothing'}}/>) : 0
+      ;
+
     return (
       <ScrollView style={localStyles.container}>
         {
-          events.filter((event) => {return event['weekdays'].includes(d.getDay());})
-              .map((event, index) => (
+          filteredEvents.map((event, index) => (
             <EventItem
               key={index}
               bgColor={backgroundColors[index % backgroundColors.length]}
@@ -111,6 +136,7 @@ export default class EventsScene extends React.Component {
             />
           ))
         }
+        {emptyEvent}
         <Modal
           swipeThreshold={10}
           swipeToClose={true}
