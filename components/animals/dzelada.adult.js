@@ -37,7 +37,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
       <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Další zajímavostí je fakt, že samci tohoto druhu jsou sice větší a silnější, ale samice jsou dominantnější. Pokud u&nbsp;samec na svou roli v&nbsp;tlupě nestačí, vyberou si samice jeho následníka. Tito samci, kteří o&nbsp;své místo v&nbsp;tlupě přišli, nebo na něj naopak teprve čekají, si vytváří vlastní, samčí skupiny. S&nbsp;rodinami se pak často spojují do větších tlup o&nbsp;mnoha desítkách členů. Zatím největší pozorovaná skupina měla 670 členů.
+          Další zajímavostí je fakt, že samci tohoto druhu jsou sice větší a silnější, ale samice jsou dominantnější. Pokud už samec na svou roli v&nbsp;tlupě nestačí, vyberou si samice jeho následníka. Tito samci, kteří o&nbsp;své místo v&nbsp;tlupě přišli, nebo na něj naopak teprve čekají, si vytváří vlastní, samčí skupiny. S&nbsp;rodinami se pak často spojují do větších tlup o&nbsp;mnoha desítkách členů. Zatím největší pozorovaná skupina měla 670 členů.
         </AnimalText>
         <AnimalText>
           Tímto živočišným druhem se pyšní pouze patnáct evropských zoologických zahrad a naše zoo patří právě mezi ně. A to se třemi samci, kteří se jmenují Heiko, Helge a Asrak. Heiko i Helge pochází z&nbsp;Rheine (Německo) a oba nový domov poznali 25.&nbsp;11. 2005. Heiko se narodil 21.&nbsp;10. 2000 a Helge 11.&nbsp;11. 1999. Třetí samec Asrak se narodil 26.&nbsp;7. 2000 ve Wilhelma Zoo (Stuttgart) a k&nbsp;nám dorazil 30.&nbsp;11. 2008.
