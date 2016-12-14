@@ -12,6 +12,9 @@ import EventScene from '../containers/eventsScene';
 import AnimalNeighbourScene from '../components/animalNeighbourScene';
 import AnimalScene from '../containers/animalScene';
 import QrScene from '../components/qrScene';
+import GameScene from '../components/gameScene';
+import VisitorsScene from '../components/visitorsScene';
+import ServicesScene from '../components/servicesScene';
 
 import * as scenes from '../scenes';
 import {setLastAnimal, setReaderLevel} from '../actions'
@@ -113,6 +116,12 @@ class ZooApp extends React.Component {
         return (<EventScene navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
       case scenes.QR_READER:
         return (<QrScene cancelButtonVisible={false} navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
+      case scenes.GAME:
+        return (<GameScene navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
+      case scenes.VISITORS:
+        return (<VisitorsScene navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
+      case scenes.SERVICES:
+        return (<ServicesScene navigator={navigator} bg={() => {this.changeColor(bgColor)}}/>);
     }
   }
 

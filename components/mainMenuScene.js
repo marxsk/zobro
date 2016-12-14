@@ -58,7 +58,7 @@ export default class mainMenuScene extends React.Component {
   }
 
   render() {
-    const menuItems = [scenes.QR_READER, scenes.ANIMAL_LIST, scenes.EVENTS, scenes.ABOUT];
+    const menuItems = [scenes.QR_READER, scenes.ANIMAL_LIST, scenes.EVENTS, scenes.GAME, scenes.SERVICES, scenes.VISITORS, scenes.ABOUT];
 
     return (
       <ScrollView style={localStyles.container} contentContainerStyle={localStyles.scrollItems}>
