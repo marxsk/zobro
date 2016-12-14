@@ -76,20 +76,20 @@ export default animalDb = {
     ]
   },
 
-//  'jespakBojovny' : {
-//    name: 'Jespák bojovný',
-//    contentAdult: require('./components/animals/jespakBojovny.adult'),
-//    contentChild: require('./components/animals/jespakBojovny.child'),
-//    animal: 'jespakBojovny',
-//    neighbours: [
-//      {animal: 'jespakBojovny', direction: 'front'},
-//      {animal: 'tenkozobecOpacny', direction: 'front'},
-//      {animal: 'ustricnikVelky', direction: 'front'},
-//      {animal: 'kulikPisecny', direction: 'front'},
-//      {animal: 'soviceSnezni', direction: 'left'},
-//      {animal: 'lachtanMedvedi', direction: 'right'},
-//    ]
-//  },
+  'jespakBojovny' : {
+    name: 'Jespák bojovný',
+    contentAdult: require('./components/animals/jespakBojovny.adult'),
+    contentChild: require('./components/animals/jespakBojovny.child'),
+    animal: 'jespakBojovny',
+    neighbours: [
+      {animal: 'jespakBojovny', direction: 'front'},
+      {animal: 'tenkozobecOpacny', direction: 'front'},
+      {animal: 'ustricnikVelky', direction: 'front'},
+      {animal: 'kulikPisecny', direction: 'front'},
+      {animal: 'soviceSnezni', direction: 'left'},
+      {animal: 'lachtanMedvedi', direction: 'right'},
+    ]
+  },
 
   'kulikPisecny' : {
     name: 'Kulík písečný',
@@ -829,6 +829,87 @@ export default animalDb = {
       {animal: 'rarohVelky', direction: 'front'},
       {animal: 'pustikObecny', direction: 'left'},
       {animal: 'krkavecVelky', direction: 'right'},
+    ]
+  },
+  
+  'araArarauna' : {
+    name: 'Ara ararauna',
+    contentAdult: require('./components/animals/araArarauna.adult'),
+    contentChild: require('./components/animals/araArarauna.child'),
+    animal: 'araArarauna',
+    neighbours: [
+      {animal: 'araArarauna', direction: 'front'},
+//      {animal: 'konopkaObecna', direction: 'left'},
+//      {animal: 'krepelkaJaponska', direction: 'left'},
+//      {animal: 'zvonohlikZahradni', direction: 'left'},
+      {animal: 'papousekPatagonsky', direction: 'right'},
+//      {animal: 'turako', direction: 'left'},
+    ]
+  },
+  
+  'papousekPatagonsky' : {
+    name: 'Papoušek patagonský',
+    contentAdult: require('./components/animals/papousekPatagonsky.adult'),
+    contentChild: require('./components/animals/papousekPatagonsky.child'),
+    animal: 'papousekPatagonsky',
+    neighbours: [
+      {animal: 'papousekPatagonsky', direction: 'front'},
+      {animal: 'araArarauna', direction: 'left'},
+      {animal: 'krajtaKobercova', direction: 'right'},
+    ]
+  },
+  
+  'pavianAnubi' : {
+    name: 'Pavián anubi',
+    contentAdult: require('./components/animals/pavianAnubi.adult'),
+    contentChild: require('./components/animals/pavianAnubi.child'),
+    animal: 'pavianAnubi',
+    neighbours: [
+      {animal: 'pavianAnubi', direction: 'front'},
+      {animal: 'levhartCejlonsky', direction: 'right'},
+      {animal: 'lemurTmavy', direction: 'left'},
+    ]
+  },
+  
+  '' : {
+    name: '',
+    contentAdult: require('./components/animals/.adult'),
+    contentChild: require('./components/animals/.child'),
+    animal: '',
+    neighbours: [
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+    ]
+  },
+  
+  '' : {
+    name: '',
+    contentAdult: require('./components/animals/.adult'),
+    contentChild: require('./components/animals/.child'),
+    animal: '',
+    neighbours: [
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+    ]
+  },
+  
+  '' : {
+    name: '',
+    contentAdult: require('./components/animals/.adult'),
+    contentChild: require('./components/animals/.child'),
+    animal: '',
+    neighbours: [
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
+      {animal: '', direction: ''},
     ]
   },
 /*
