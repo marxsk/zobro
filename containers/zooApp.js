@@ -30,14 +30,14 @@ var NavigationBarRouteMapper = (props) => ({
     } else {
       const navBar = styles.otherFontNavBar;
       return (
-        <TouchableHighlight onPress={() => {
+        <TouchableHighlight style={{justifyContent: 'center', alignItems: 'center', paddingLeft: 10, paddingRight: 20, height: 35}} onPress={() => {
           bgMainMenu();
           navigator.replace({
             id: scenes.MAIN_MENU,
             title: 'Zoo Brno',
           })
         }}>
-        <Text style={[navBar, {paddingLeft: 10}]}>MENU</Text>
+        <Text style={navBar}>MENU</Text>
         </TouchableHighlight>
       );
     }
@@ -68,7 +68,11 @@ var NavigationBarRouteMapper = (props) => ({
     if (route.id === scenes.MAIN_MENU) {
       navBar = styles.mainMenuFontNavBar;
     }
-    return (<Text style={navBar}>{route.title}</Text>);
+    return (
+      <View style={{justifyContent: 'center', alignItems: 'center', height: 35}}>
+        <Text style={navBar}>{route.title}</Text>
+      </View>
+    );
   },
 });
 
