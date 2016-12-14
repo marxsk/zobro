@@ -7,7 +7,7 @@ import AnimalText from '../animalText';
 import AnimalTemplate from '../animalTemplate';
 
 const IMAGES = [
-//  require('../../images/animals/vikuna/01.jpg'),
+  require('../../images/animals/vikuna/01.jpg'),
   require('../../images/animals/vikuna/02.jpg'),
   require('../../images/animals/vikuna/03.jpg'),
 ];
@@ -20,7 +20,6 @@ const THUMBNAILS = [
 
 var AnimalDetail = React.createClass({
   render() {
-    return null;
     return (
       <AnimalTemplate firstIndex={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>

@@ -7,15 +7,15 @@ import AnimalText from '../animalText';
 import AnimalTemplate from '../animalTemplate';
 
 const IMAGES = [
-//  require('../../images/animals/kunPrevalskeho/01.jpg'),
-//  require('../../images/animals/kunPrevalskeho/02.jpg'),
-//  require('../../images/animals/kunPrevalskeho/03.jpg'),
+  require('../../images/animals/kunPrevalskeho/01.jpg'),
+  require('../../images/animals/kunPrevalskeho/02.jpg'),
+  require('../../images/animals/kunPrevalskeho/03.jpg'),
 ];
 
 const THUMBNAILS = [
-//  require('../../images/animals/kunPrevalskeho/01-thumb.jpg'),
-//  require('../../images/animals/kunPrevalskeho/02-thumb.jpg'),
-//  require('../../images/animals/kunPrevalskeho/03-thumb.jpg'),
+  require('../../images/animals/kunPrevalskeho/01-thumb.jpg'),
+  require('../../images/animals/kunPrevalskeho/02-thumb.jpg'),
+  require('../../images/animals/kunPrevalskeho/03-thumb.jpg'),
 ];
 
 var AnimalDetail = React.createClass({

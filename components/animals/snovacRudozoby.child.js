@@ -7,15 +7,15 @@ import AnimalText from '../animalText';
 import AnimalTemplate from '../animalTemplate';
 
 const IMAGES = [
-//  require('../../images/animals/snovacRudozoby/01.jpg'),
-//  require('../../images/animals/snovacRudozoby/02.jpg'),
-//  require('../../images/animals/snovacRudozoby/03.jpg'),
+  require('../../images/animals/snovacRudozoby/01.jpg'),
+  require('../../images/animals/snovacRudozoby/02.jpg'),
+  require('../../images/animals/snovacRudozoby/03.jpg'),
 ];
 
 const THUMBNAILS = [
-//  require('../../images/animals/snovacRudozoby/01-thumb.jpg'),
-//  require('../../images/animals/snovacRudozoby/02-thumb.jpg'),
-//  require('../../images/animals/snovacRudozoby/03-thumb.jpg'),
+  require('../../images/animals/snovacRudozoby/01-thumb.jpg'),
+  require('../../images/animals/snovacRudozoby/02-thumb.jpg'),
+  require('../../images/animals/snovacRudozoby/03-thumb.jpg'),
 ];
 
 var AnimalDetail = React.createClass({
@@ -33,7 +33,7 @@ var AnimalDetail = React.createClass({
           	Tady v&nbsp;zoo máme zatím 69 snovačů. Zkuste je spočítat, jestli jsme se nespletli! Jsou v&nbsp;Africké vesnici a klidně můžete vejít do jejich voliéry.
         </AnimalText>
         <AnimalText>
-          Kdybyste si daly dlaně k&nbsp;sobě a snovač by si vám tam sedl, určitě by se pohodlně vešel. Je lehounký jako pírko. Bylo by to, jako kdyby vám někdo nasypal lžíci jemného suchého písku do dlaní. 
+          Kdybyste si daly dlaně k&nbsp;sobě a snovač by si vám tam sedl, určitě by se pohodlně vešel. Je lehounký jako pírko. Bylo by to, jako kdyby vám někdo nasypal lžíci jemného suchého písku do dlaní.
         </AnimalText>
         <AnimalText>
           Sameček má barevnější a nápadnější peří než samička. Navíc vypadá, jako by měl černou pásku přes oči – jako nosí Zoro mstitel. Možná to Zoro od snovačů odkoukal. Sameček i&nbsp;samička mají rudý zobáček. A proto se tak jmenují – snovači rudozobí.

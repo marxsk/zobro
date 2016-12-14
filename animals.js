@@ -809,7 +809,7 @@ export default animalDb = {
   'sobPolarni' : {
     name: 'Sob polární',
     contentAdult: require('./components/animals/sobPolarni.adult'),
-//    contentChild: require('./components/animals/sobPolarni.adult'),
+    contentChild: require('./components/animals/sobPolarni.child'),
     animal: 'sobPolarni',
     neighbours: [
       {animal: 'sobPolarni', direction: 'front'},

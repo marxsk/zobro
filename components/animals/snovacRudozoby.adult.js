@@ -7,15 +7,15 @@ import AnimalText from '../animalText';
 import AnimalTemplate from '../animalTemplate';
 
 const IMAGES = [
-//  require('../../images/animals/snovacRudozoby/01.jpg'),
-//  require('../../images/animals/snovacRudozoby/02.jpg'),
-//  require('../../images/animals/snovacRudozoby/03.jpg'),
+  require('../../images/animals/snovacRudozoby/01.jpg'),
+  require('../../images/animals/snovacRudozoby/02.jpg'),
+  require('../../images/animals/snovacRudozoby/03.jpg'),
 ];
 
 const THUMBNAILS = [
-//  require('../../images/animals/snovacRudozoby/01-thumb.jpg'),
-//  require('../../images/animals/snovacRudozoby/02-thumb.jpg'),
-//  require('../../images/animals/snovacRudozoby/03-thumb.jpg'),
+  require('../../images/animals/snovacRudozoby/01-thumb.jpg'),
+  require('../../images/animals/snovacRudozoby/02-thumb.jpg'),
+  require('../../images/animals/snovacRudozoby/03-thumb.jpg'),
 ];
 
 var AnimalDetail = React.createClass({

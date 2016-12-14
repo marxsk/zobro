@@ -9,7 +9,7 @@ import AnimalTemplate from '../animalTemplate';
 const IMAGES = [
   require('../../images/animals/sobPolarni/01.jpg'),
   require('../../images/animals/sobPolarni/02.jpg'),
-  //require('../../images/animals/sobPolarni/03.jpg'),
+  require('../../images/animals/sobPolarni/03.jpg'),
 ];
 
 const THUMBNAILS = [
