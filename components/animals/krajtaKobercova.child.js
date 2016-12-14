@@ -22,259 +22,259 @@ var AnimalDetail = React.createClass({
   render() {
     return (
       <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>s              s</Text>
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>s     s</Text>
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>ss</Text>
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>ss</Text>
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>ss</Text>
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Sssssssssss!
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Někdo nás sleduje!
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         …Sympaťák…
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>ssss</Text> Asi nás slyší přes sklo. <Text style={styles.strong}>ssss</Text>
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>ssss</Text> On se snad o nás zajímá?! <Text style={styles.strong}>ssss</Text>
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Tak to se mu s radostí představíme:
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>JSME KRAJTY KOBERCOVÉ.</Text>
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Sameček a samička.
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>SSSSssssSSSS!</Text>
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Neštiť se nás.
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Nejsme slizké.
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>SSSSssssSSSS!</Text>
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Pyšníme se
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         hnědým zbarvením.
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Kůži nám zdobí
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         zubaté tmavé pásky.
-        </AnimalText>   
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Když se smotáme,
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         vypadáme trochu jako
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         orientální koberce.
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>SSSSSssssssssSSSSS!</Text>
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Máme dokonce i kostru.
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Žádné žížaly, jasné?
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Jsme dlouzí plazi.
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Dorůstáme
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         do více než dvou metrů!
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>SSSSSssssssssSSSSS!</Text>
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Často lezeme
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         na stromy.
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Sluníme se.
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Lenošíme.
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Dokud ovšem
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         nedostaneme hlad.
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>SSSSsssssssSSSS!</Text>
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Žereme maso.
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Smlsneme si
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         na menších
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         savcích,
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         ptácích.
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>SSSsssSSS!</Text>
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Jsme škrtiči.
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Neusmrcujeme jedem.
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Vyčkáváme v záloze na oběť.
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         V pravý čas se na ni rychle vymrštíme.
-        </AnimalText>        
-        <AnimalText>
-        Obtočíme ji smyčkami svalnatého těla a škrtíme. 
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
+        Obtočíme ji smyčkami svalnatého těla a škrtíme.
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>Umíš rozevřít ústa tak, že by se ti tam vlezlo celé kuře?</Text>
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         My to dokážeme díky pružně propojeným čelistem.
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>KDYŽ SEŽEREME NĚCO VELKÉHO, MŮŽEME BÝT CHVÍLI PĚKNĚ TLUSTÉ.</Text>
-        </AnimalText> 
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Zvíře totiž nekoušeme. Spolkneme ho prostě jako jedno sousto.
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Postupně všechno strávíme a zase zhubneme.
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Někteří lidé nám to závidějí.
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>SSSSsssSSSS!</Text>
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Na čelistech
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         máme
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         tepločivné jamky.
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Je to něco jako nos.
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Cítíme teplotu okolí,
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         a tak poznáme
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         kořist i ve tmě.
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>SSSSssssSSSS!</Text>
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Klademe vajíčka.
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Třeba třicet.
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Zahříváme je
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         třesem svalů.
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>Když je ti zima,</Text>
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>třeseš se podobně.</Text>
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         <Text style={styles.strong}>SsssssssssssS!</Text>
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Jsme celkem společenské.
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Lezeme k lidem na návštěvy.
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Když jsou na nás hodní,
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         chytáme jim myši.
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Žijeme
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         u protinožců
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         v Austrálii.
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Samy
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         ale
-        </AnimalText>        
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         nohy
-        </AnimalText> 
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         ne-
-        </AnimalText> 
-        <AnimalText>
+        </AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         má-
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         me.
         </AnimalText>
-        <AnimalText>
+        <AnimalText style={{textAlign: 'center'}}>
         Ts!
         </AnimalText>
       </AnimalTemplate>

@@ -12,7 +12,7 @@ export default class AnimalText extends React.Component {
 
     render() {
       return (
-        <Text style={styles.ctext}>
+        <Text style={[styles.ctext, this.props.style]}>
         {this.props.children}
         </Text>
       );
