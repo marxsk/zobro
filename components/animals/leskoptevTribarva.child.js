@@ -31,7 +31,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
       <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          I&nbsp;když tady v&nbsp;zoo jsme samí kluci, máme iVsamičky. Ty kladou obvykle čtyři vejce, z&nbsp;nichž se po dvou týdnech vylíhnou malá leskoptvata. Hnízda si stavíme v&nbsp;trnitých větvích – a pokud je těch trnů málo, nataháme si kolem hnízda další větve, abychom byli pořádně chránění. Někdy se nám ale hnízdo stavět nechce. Když nás takhle přemůže lenost, kladou naše samičky vajíčka do hnízd jiných ptáků, jmenují se snovači. U&nbsp;vás takhle kladou vajíčka do cizích hnízd kukačky. My jsme v&nbsp;něčem ale trochu zákeřnější. Když by se totiž naše vajíčka do hnízd nevešla, prostě cizí vajíčka vyhážeme ven.
+          I&nbsp;když tady v&nbsp;zoo jsme samí kluci, máme i&nbsp;samičky. Ty kladou obvykle čtyři vejce, z&nbsp;nichž se po dvou týdnech vylíhnou malá leskoptvata. Hnízda si stavíme v&nbsp;trnitých větvích – a pokud je těch trnů málo, nataháme si kolem hnízda další větve, abychom byli pořádně chránění. Někdy se nám ale hnízdo stavět nechce. Když nás takhle přemůže lenost, kladou naše samičky vajíčka do hnízd jiných ptáků, jmenují se snovači. U&nbsp;vás takhle kladou vajíčka do cizích hnízd kukačky. My jsme v&nbsp;něčem ale trochu zákeřnější. Když by se totiž naše vajíčka do hnízd nevešla, prostě cizí vajíčka vyhážeme ven.
         </AnimalText>
       </AnimalTemplate>
     );
