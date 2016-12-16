@@ -795,7 +795,7 @@ export default animalDb = {
   },
 
   'pustikBradaty' : {
-    name: 'Putík bradatý',
+    name: 'Puštík bradatý',
     contentAdult: require('./components/animals/pustikBradaty.adult'),
     contentChild: require('./components/animals/pustikBradaty.child'),
     animal: 'pustikBradaty',

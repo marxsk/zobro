@@ -1,6 +1,6 @@
 export default events = [
   { id: 'ledved1030', startDate: '2016-12-12', endDate: '2017-04-01', name: 'Medvěd lední', time: '10:30', weekdays: [0,1,2,3,4,5,6], place: 'Výběh ledních medvědů', thumbnail: require('./images/animals/medvedLedni/01-thumb.jpg'), text: 'Lorem ipsum'},
-  { id: 'kamcat1030', startDate: '2016-12-12', endDate: '2017-04-01', name: 'Medvěd kamčatský', time: '10:30', weekdays: [0,1,2,3,4,5,6], place: 'Beringie', thumbnail: require('./images/animals/medvedKamcatsky/01-thumb.jpg'), text: 'Lorem ipsum'},
+//  { id: 'kamcat1030', startDate: '2016-12-12', endDate: '2017-04-01', name: 'Medvěd kamčatský', time: '10:30', weekdays: [0,1,2,3,4,5,6], place: 'Beringie', thumbnail: require('./images/animals/medvedKamcatsky/01-thumb.jpg'), text: 'Lorem ipsum'},
   { id: 'lachtan1100', startDate: '2016-12-12', endDate: '2017-04-01', name: 'Lachtan medvědí', time: '11:00', weekdays: [0,1,2,3,4,5,6], place: 'Expozice lachtanů', thumbnail: require('./images/animals/lachtanMedvedi/01-thumb.jpg'), text: 'Lorem ipsum'},
   { id: 'simpanz1130', startDate: '2016-12-12', endDate: '2017-04-01', name: 'Šimpanz', time: '11:30', weekdays: [0,1,2,3,4,5,6], place: 'Pavilon opic', thumbnail: require('./images/logo/logo-zoo.png'), text: 'Lorem ipsum'},
   { id: 'kotul1400', startDate: '2016-12-12', endDate: '2017-04-01', name: 'Kotul veverovitý', time: '14:00', weekdays: [0,1,2,3,4,5,6], place: 'Exotárium', thumbnail: require('./images/logo/logo-zoo.png'), text: 'Lorem ipsum'},
