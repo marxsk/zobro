@@ -76,20 +76,20 @@ export default animalDb = {
     ]
   },
 
-//  'jespakBojovny' : {
-//    name: 'Jespák bojovný',
-//    contentAdult: require('./components/animals/jespakBojovny.adult'),
-//    contentChild: require('./components/animals/jespakBojovny.child'),
-//    animal: 'jespakBojovny',
-//    neighbours: [
-//      {animal: 'jespakBojovny', direction: 'front'},
-//      {animal: 'tenkozobecOpacny', direction: 'front'},
-//      {animal: 'ustricnikVelky', direction: 'front'},
-//      {animal: 'kulikPisecny', direction: 'front'},
-//      {animal: 'soviceSnezni', direction: 'left'},
-//      {animal: 'lachtanMedvedi', direction: 'right'},
-//    ]
-//  },
+  'jespakBojovny' : {
+    name: 'Jespák bojovný',
+    contentAdult: require('./components/animals/jespakBojovny.adult'),
+    contentChild: require('./components/animals/jespakBojovny.child'),
+    animal: 'jespakBojovny',
+    neighbours: [
+      {animal: 'jespakBojovny', direction: 'front'},
+      {animal: 'tenkozobecOpacny', direction: 'front'},
+      {animal: 'ustricnikVelky', direction: 'front'},
+      {animal: 'kulikPisecny', direction: 'front'},
+      {animal: 'soviceSnezni', direction: 'left'},
+      {animal: 'lachtanMedvedi', direction: 'right'},
+    ]
+  },
 
   'kulikPisecny' : {
     name: 'Kulík písečný',
@@ -499,10 +499,10 @@ export default animalDb = {
     animal: 'psounPreriovy',
     neighbours: [
       {animal: 'psounPreriovy', direction: 'front'},
-      {animal: 'zelvaNadherna', direction: 'back'},
+//      {animal: 'zelvaNadherna', direction: 'back'},
       {animal: 'tapirJihoamericky', direction: 'back'},
       {animal: 'kapybara', direction: 'back'},
-      {animal: 'agutiAzaruv', direction: 'right'},
+//      {animal: 'agutiAzaruv', direction: 'right'},
     ]
   },
 
@@ -550,10 +550,10 @@ export default animalDb = {
     neighbours: [
       {animal: 'tapirJihoamericky', direction: 'front'},
       {animal: 'kapybara', direction: 'front'},
-      {animal: 'zelvaNadherna', direction: 'front'},
+//      {animal: 'zelvaNadherna', direction: 'front'},
       {animal: 'vlkHrivnaty', direction: 'right'},
       {animal: 'psounPreriovy', direction: 'left'},
-      {animal: 'agutiAzaruv', direction: 'left'},
+//      {animal: 'agutiAzaruv', direction: 'left'},
     ]
   },
 
@@ -608,9 +608,9 @@ export default animalDb = {
     neighbours: [
       {animal: 'nosalCerveny', direction: 'front'},
       {animal: 'tamarinZlutoruky', direction: 'left'},
-      {animal: 'konopkaObecna', direction: 'right'},
-      {animal: 'zvonohlikZahradni', direction: 'right'},
-      {animal: 'krepelkaJaponska', direction: 'right'},
+ //     {animal: 'konopkaObecna', direction: 'right'},
+//      {animal: 'zvonohlikZahradni', direction: 'right'},
+//      {animal: 'krepelkaJaponska', direction: 'right'},
     ]
   },
 
@@ -622,7 +622,7 @@ export default animalDb = {
     neighbours: [
       {animal: 'lemurBelocely', direction: 'front'},
       {animal: 'jaguarundi', direction: 'left'},
-      {animal: 'lemurCerny', direction: 'right'},
+//      {animal: 'lemurCerny', direction: 'right'},
     ]
   },
 
@@ -689,7 +689,7 @@ export default animalDb = {
       {animal: 'zebraGrevyho', direction: 'back'},
       {animal: 'kiangVychodni', direction: 'right'},
       {animal: 'losEvropsky', direction: 'right'},
-      {animal: 'wapitiSibirsky', direction: 'left'},
+//      {animal: 'wapitiSibirsky', direction: 'left'},
     ]
   },
 
@@ -814,7 +814,7 @@ export default animalDb = {
     neighbours: [
       {animal: 'sobPolarni', direction: 'front'},
       {animal: 'losEvropsky', direction: 'right'},
-      {animal: 'jelenMilu', direction: 'back'},
+//      {animal: 'jelenMilu', direction: 'back'},
       {animal: 'paovceHrivnata', direction: 'left'},
       {animal: 'dzelada', direction: 'left'},
     ]
@@ -831,6 +831,138 @@ export default animalDb = {
       {animal: 'krkavecVelky', direction: 'right'},
     ]
   },
+  
+  'araArarauna' : {
+    name: 'Ara ararauna',
+    contentAdult: require('./components/animals/araArarauna.adult'),
+    contentChild: require('./components/animals/araArarauna.child'),
+    animal: 'araArarauna',
+    neighbours: [
+      {animal: 'araArarauna', direction: 'front'},
+//      {animal: 'konopkaObecna', direction: 'left'},
+//      {animal: 'krepelkaJaponska', direction: 'left'},
+//      {animal: 'zvonohlikZahradni', direction: 'left'},
+      {animal: 'papousekPatagonsky', direction: 'right'},
+//      {animal: 'turako', direction: 'left'},
+    ]
+  },
+  
+  'papousekPatagonsky' : {
+    name: 'Papoušek patagonský',
+    contentAdult: require('./components/animals/papousekPatagonsky.adult'),
+    contentChild: require('./components/animals/papousekPatagonsky.child'),
+    animal: 'papousekPatagonsky',
+    neighbours: [
+      {animal: 'papousekPatagonsky', direction: 'front'},
+      {animal: 'araArarauna', direction: 'left'},
+      {animal: 'krajtaKobercova', direction: 'right'},
+    ]
+  },
+  
+  'pavianAnubi' : {
+    name: 'Pavián anubi',
+    contentAdult: require('./components/animals/pavianAnubi.adult'),
+    contentChild: require('./components/animals/pavianAnubi.child'),
+    animal: 'pavianAnubi',
+    neighbours: [
+      {animal: 'pavianAnubi', direction: 'front'},
+      {animal: 'levhartCejlonsky', direction: 'right'},
+//      {animal: 'lemurCerny', direction: 'left'},
+    ]
+  },
+  
+  'alpaka' : {
+    name: 'Alpaka',
+    contentAdult: require('./components/animals/alpaka.adult'),
+    contentChild: require('./components/animals/alpaka.child'),
+    animal: 'alpaka',
+    neighbours: [
+      {animal: 'alpaka', direction: 'front'},
+      {animal: 'kozorozecSibirsky', direction: 'right'},
+      {animal: 'pekariBelobrady', direction: 'right'},
+      {animal: 'vikuna', direction: 'left'},
+    ]
+  },
+  
+  'kiangVychodni' : {
+    name: 'Kiang východní',
+    contentAdult: require('./components/animals/kiangVychodni.adult'),
+    contentChild: require('./components/animals/kiangVychodni.child'),
+    animal: 'kiangVychodni',
+    neighbours: [
+      {animal: 'kiangVychodni', direction: 'front'},
+      {animal: 'zebraGrevyho', direction: 'right'},
+      {animal: 'takinIndicky', direction: 'back'},
+//    vlevo nekolik dalsich druhu koni
+    ]
+  },
+  
+  'bizon' : {
+    name: 'Bizon',
+    contentAdult: require('./components/animals/bizon.adult'),
+    contentChild: require('./components/animals/bizon.child'),
+    animal: 'bizon',
+    neighbours: [
+      {animal: 'bizon', direction: 'front'},
+      {animal: 'jakDomaci', direction: 'left'},
+    ]
+  },
+  
+  'vlkHrivnaty' : {
+    name: 'Vlk hřivnatý',
+    contentAdult: require('./components/animals/vlkHrivnaty.adult'),
+    contentChild: require('./components/animals/vlkHrivnaty.child'),
+    animal: 'vlkHrivnaty',
+    neighbours: [
+      {animal: 'vlkHrivnaty', direction: 'front'},
+      {animal: 'tapirJihoamericky', direction: 'left'},
+      {animal: 'kapybara', direction: 'left'},
+//      {animal: 'zelvaNadherna', direction: 'left'},
+    ]
+  },
+  
+  'zirafaSitovana' : {
+    name: 'Žirafa síťovaná',
+    contentAdult: require('./components/animals/zirafaSitovana.adult'),
+    contentChild: require('./components/animals/zirafaSitovana.child'),
+    animal: 'zirafaSitovana',
+    neighbours: [
+      {animal: 'zirafaSitovana', direction: 'front'},
+//      {animal: 'agapornisFischeruv', direction: 'right'},
+      {animal: 'zebraChapmanova', direction: 'front'},
+      {animal: 'lemurKata', direction: 'left'},
+    ]
+  },
+  
+  'husickaDvoubarva' : {
+    name: 'Husička dvoubarvá',
+    contentAdult: require('./components/animals/husickaDvoubarva.adult'),
+    contentChild: require('./components/animals/husickaDvoubarva.child'),
+    animal: 'husickaDvoubarva',
+    neighbours: [
+      {animal: 'husickaDvoubarva', direction: 'front'},
+      {animal: 'husickaVdovka', direction: 'front'},
+      {animal: 'plamenakRuzovy', direction: 'front'},
+      {animal: 'lemurKata', direction: 'right'},
+    ]
+  },
+ 
+  'kajmanekTrpaslici' : {
+    name: 'Kajmánek trpasličí',
+    contentAdult: require('./components/animals/kajmanekTrpaslici.adult'),
+    contentChild: require('./components/animals/kajmanekTrpaslici.child'),
+    animal: 'kajmanekTrpaslici',
+    neighbours: [
+      {animal: 'kajmanekTrpaslici', direction: 'front'},
+//      {animal: 'karetkaNovoguinejska', direction: 'front'},
+//      {animal: 'kolosoma', direction: 'front'},
+//      {animal: 'leguanekModry', direction: 'left'},
+//      {animal: 'cukvalaZavalita', direction: 'left'},
+//      {animal: 'agutiAzaruv', direction: 'back'},
+    ]
+  },
+  
+  
 /*
   '' : {
     name: '',
