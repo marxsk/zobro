@@ -831,7 +831,7 @@ export default animalDb = {
       {animal: 'krkavecVelky', direction: 'right'},
     ]
   },
-  
+
   'araArarauna' : {
     name: 'Ara ararauna',
     contentAdult: require('./components/animals/araArarauna.adult'),
@@ -846,7 +846,7 @@ export default animalDb = {
 //      {animal: 'turako', direction: 'left'},
     ]
   },
-  
+
   'papousekPatagonsky' : {
     name: 'Papoušek patagonský',
     contentAdult: require('./components/animals/papousekPatagonsky.adult'),
@@ -858,7 +858,7 @@ export default animalDb = {
       {animal: 'krajtaKobercova', direction: 'right'},
     ]
   },
-  
+
   'pavianAnubi' : {
     name: 'Pavián anubi',
     contentAdult: require('./components/animals/pavianAnubi.adult'),
@@ -870,7 +870,7 @@ export default animalDb = {
 //      {animal: 'lemurCerny', direction: 'left'},
     ]
   },
-  
+
   'alpaka' : {
     name: 'Alpaka',
     contentAdult: require('./components/animals/alpaka.adult'),
@@ -883,7 +883,7 @@ export default animalDb = {
       {animal: 'vikuna', direction: 'left'},
     ]
   },
-  
+
   'kiangVychodni' : {
     name: 'Kiang východní',
     contentAdult: require('./components/animals/kiangVychodni.adult'),
@@ -896,7 +896,7 @@ export default animalDb = {
 //    vlevo nekolik dalsich druhu koni
     ]
   },
-  
+
   'bizon' : {
     name: 'Bizon',
     contentAdult: require('./components/animals/bizon.adult'),
@@ -907,7 +907,7 @@ export default animalDb = {
       {animal: 'jakDomaci', direction: 'left'},
     ]
   },
-  
+
   'vlkHrivnaty' : {
     name: 'Vlk hřivnatý',
     contentAdult: require('./components/animals/vlkHrivnaty.adult'),
@@ -920,7 +920,7 @@ export default animalDb = {
 //      {animal: 'zelvaNadherna', direction: 'left'},
     ]
   },
-  
+
   'zirafaSitovana' : {
     name: 'Žirafa síťovaná',
     contentAdult: require('./components/animals/zirafaSitovana.adult'),
@@ -933,7 +933,7 @@ export default animalDb = {
       {animal: 'lemurKata', direction: 'left'},
     ]
   },
-  
+
   'husickaDvoubarva' : {
     name: 'Husička dvoubarvá',
     contentAdult: require('./components/animals/husickaDvoubarva.adult'),
@@ -946,7 +946,7 @@ export default animalDb = {
       {animal: 'lemurKata', direction: 'right'},
     ]
   },
- 
+
   'kajmanekTrpaslici' : {
     name: 'Kajmánek trpasličí',
     contentAdult: require('./components/animals/kajmanekTrpaslici.adult'),
@@ -961,8 +961,8 @@ export default animalDb = {
 //      {animal: 'agutiAzaruv', direction: 'back'},
     ]
   },
-  
-  
+
+
 /*
   '' : {
     name: '',
