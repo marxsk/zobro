@@ -22,15 +22,15 @@ export default class GameScene extends React.Component {
       return (
         <ScrollView style={{flex: 1, backgroundColor: 'white', paddingRight: 5, paddingLeft: 5,}}>
           <Text style={[styles.ctext, {color: 'black'}]}>
-          Čeká na vás spousta zábavy, cesta kolem světa, 10 stanovišť a 1 lamí píseň.
+          Čeká na vás spousta zábavy, cesta kolem světa, 10&nbsp;stanovišť a 1&nbsp;lamí píseň.
           </Text><Text style={[styles.ctext, {color: 'black'}]}>
-          Šifrovací hra je zdarma, platí se jen vstupné do zoo. Potřebujete s sebou dobře nabitý chytrý telefon/tablet s připojením na internet a tužku.
+          Šifrovací hra je zdarma, platí se jen vstupné do zoo. Potřebujete s&nbsp;sebou dobře nabitý chytrý telefon / tablet s&nbsp;připojením na internet a tužku.
           </Text><Text style={[styles.ctext, {color: 'black'}]}>
           Start hry je na konci vstupního esíčka před Tygřími skalami.
           </Text><Text style={[styles.ctext, {color: 'black'}]}>
-          Více se o šifrovací hře Dotkni se evoluce dozvíte na <Text style={[styles.ctext, {color: 'blue'}]}>www.dotkni-se-evoluce.cz</Text>.
+          Více se o&nbsp;šifrovací hře Dotkni se evoluce dozvíte na <Text style={[styles.ctext, {color: 'blue'}]}>www.dotkni-se-evoluce.cz</Text>.
           </Text><Text style={[styles.ctext, {color: 'black'}]}>
-          P.S.: Je to opravdu pecka! A jsme první gamifikovaná zoo v ČR.
+          P. S.: Je to opravdu pecka! A jsme první gamifikovaná zoo v&nbsp;ČR.
           </Text>
           <Image source={require('../images/cryptomania.jpg')} style={{width: WIDTH, height: 500, marginRight: 0, marginLeft: 5}} resizeMode='contain'/>
         </ScrollView>
