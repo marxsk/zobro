@@ -29,7 +29,7 @@ export default class AboutScene extends React.Component {
           </Text><Text style={[styles.ctext, {color: 'black'}]}>
           U Zoologické zahrady 46
           </Text><Text style={[styles.ctext, {color: 'black'}]}>
-          635 00 Brno
+          635 00  Brno
           </Text><Text style={[styles.ctext, {color: 'black'}]}>
           Telefon: 546 432 311
           </Text><Text style={[styles.ctext, {color: 'black'}]}>
@@ -42,14 +42,14 @@ export default class AboutScene extends React.Component {
 
           <Text style={[styles.ctext, {color: 'white', backgroundColor: 'green', fontWeight: 'bold'}]}>Autobusy, trolejbusy a tramvaje</Text>
           <Text style={[styles.ctext, {color: 'black'}]}>
+          Autobusy č.&nbsp;50, 52, 54
+          </Text><Text style={[styles.ctext, {color: 'black'}]}>
           Tramvaje
-          č. 1 (směr Bystrc)
-          č. 3 (směr Rakovecká)
-          č. 11 (směr Rakovecká)
-          Autobusy
-          č. 50, 52, 54
-          Trolejbusy
-          č. 30 (ze zastávky Královo Pole, nádraží směr Bystrc)
+          č.&nbsp;1 (směr Bystrc),
+          č.&nbsp;3 (směr Rakovecká),
+          č.&nbsp;11 (směr Rakovecká)
+          </Text><Text style={[styles.ctext, {color: 'black'}]}>
+          Trolejbusy č.&nbsp;30 (směr Bystrc)
           </Text>
 
           <Text style={[styles.ctext, {color: 'white', backgroundColor: 'green', fontWeight: 'bold'}]}>Otevírací doba</Text>
@@ -58,11 +58,11 @@ export default class AboutScene extends React.Component {
           </Text><Text style={[styles.ctext, {color: 'black'}]}>
           březen, říjen: 9.00–17.00 h
           </Text><Text style={[styles.ctext, {color: 'black'}]}>
-          duben–září 9.00–18.00 h
+          duben–září: 9.00–18.00 h
           </Text><Text style={[styles.ctext, {color: 'black'}]}>
-          Vstupní pokladny zoo se uzavírají 1 hodinu před koncem návštěvní doby.
+          Vstupní pokladny zoo se uzavírají jednu hodinu před koncem návštěvní doby.
           Je povolen vstup se psy.
-          Není povolen vstup s kolem, koloběžkou, skateboardem, odrážedlem a na kolečkových bruslích.
+          Není povolen vstup s&nbsp;kolem, koloběžkou, skateboardem, odrážedlem a na kolečkových bruslích.
           </Text>
 
           <Text style={[styles.ctext, {color: 'white', backgroundColor: 'green', fontWeight: 'bold'}]}>Pokrytí Wi-Fi signálem</Text>
