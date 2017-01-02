@@ -35,7 +35,7 @@ Občerstvení Africká vesnice Samburu
         <Text style={[styles.ctext, {color: 'white', backgroundColor: 'green', fontWeight: 'bold'}]}>Prodejna suvenýrů a dárkových předmětů</Text>
         <Text style={[styles.ctext, {color: 'black'}]}>
         Nachází se v 1. patře Centra služeb.
-        Provozní doba: denně dle otevírací doby Zoo Brno.
+        Provozní doba denně dle otevírací doby Zoo Brno.
         </Text>
 
         <Text style={[styles.ctext, {color: 'white', backgroundColor: 'green', fontWeight: 'bold'}]}>Toalety a přebalovací pulty</Text>
@@ -50,30 +50,36 @@ Občerstvení Africká vesnice Samburu
         </Text><Text style={[styles.ctext, {color: 'black'}]}>
         Africká vesnice Samburu, včetně přebalovacího pultu
         </Text><Text style={[styles.ctext, {color: 'black'}]}>
-        Restaurace U Tygra (přebalovací pult)
+        Restaurace U Tygra, včetně přebalovacího pultu
         </Text>
 
         <Text style={[styles.ctext, {color: 'white', backgroundColor: 'green', fontWeight: 'bold'}]}>Jízda na ponících v Dětské zoo</Text>
         <Text style={[styles.ctext, {color: 'black'}]}>
-        duben–září denně od 10.00 do 17.30 h (kromě dní s nepříznivým počasím)
-        říjen–březen denně od 10.00 do 15.30 h (kromě dní s nepříznivým počasím)
-        jedna jízda stojí 25,– Kč
+        duben–září denně od 10.00 do 17.30 h
+        říjen–březen denně od 10.00 do 15.30 h
+        </Text><Text style={[styles.ctext, {color: 'black'}]}>
+        Provozní doba platí mimo dny s nepříznivým počasím.
+        Jedna jízda stojí 25,– Kč.
         </Text>
 
         <Text style={[styles.ctext, {color: 'white', backgroundColor: 'green', fontWeight: 'bold'}]}>Jízda vláčkem</Text>
         <Text style={[styles.ctext, {color: 'black'}]}>
         Od 1. 4. do 30. 4. provoz vláčku pouze o víkendech a svátcích.
+        </Text><Text style={[styles.ctext, {color: 'black'}]}>
         Od 1. 5. do 15. 9. provoz vláčku denně.
+        </Text><Text style={[styles.ctext, {color: 'black'}]}>
         Od 16. 9. do 31. 10. provoz vláčku pouze o víkendech a svátcích.
+        </Text><Text style={[styles.ctext, {color: 'black'}]}>
         Od 1. 11. do 31. 3. vláček mimo provoz.
+        </Text><Text style={[styles.ctext, {color: 'black'}]}>
         Jedna jízda – dítě (3–15 let): 10,– Kč, ostatní: 20,– Kč.
         Prodej jízdenek na místech označených piktogramem: vstupní pokladny, stánek Upomínkové předměty, obchod s upomínkovými předměty v Centru služeb, stánek u horní točny vláčku.
-        V případě špatných povětrnostních a klimatických podmínek si Zoo Brno a stanice zájmových činností, příspěvková organizace vyhrazuje právo na úpravu provozu vláčku. Děkujeme za pochopení.
+        V případě špatných povětrnostních a klimatických podmínek si Zoo Brno a stanice zájmových činností, příspěvková organizace, vyhrazuje právo na úpravu provozu vláčku. Děkujeme za pochopení.
         </Text>
 
         <Text style={[styles.ctext, {color: 'white', backgroundColor: 'green', fontWeight: 'bold'}]}>Půjčovna dětských vozíků</Text>
         <Text style={[styles.ctext, {color: 'black'}]}>
-Stanoviště před restaurací U Tygra. Pro děti do 30 kg. Půjčení vozíku je zdarma.
+Stanoviště před restaurací U Tygra. Určeno pro děti do 30 kg. Půjčení vozíku je zdarma.
         </Text>
 
           <Image source={require('../images/vlacek.jpg')} style={{width: WIDTH, height: 500, marginRight: 0, marginLeft: 5}} resizeMode='contain'/>
