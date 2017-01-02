@@ -23,7 +23,7 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          Žirafy jsou nejvyšší zvířata na souši, můžou mít až šest metrů, takže by mohly bez problémů koukat do oken v&nbsp;patře. Tady v&nbsp;zoo žijí žirafy síťované, které pocházejí jako všechny žirafy z&nbsp;Afriky. Žijí na savanách nebo v&nbsp;lesích, kde okusují listí a větve stromů. K&nbsp;tomu jim pomáhá i&nbsp;jejich půlmetrový jazyk, který používají podobně jako sloni chobot, obtočí jím větvičku a strčí si ji do pusy. Jazyk používají i&nbsp;k&nbsp;čištění nosu nebo uší, ale to doma radši nezkoušejte. Možná jste si všimli, že má žirafí jazyk divnou barvu. Není to špína, je to proto, aby si ho nespálily na slunci.
+          Žirafy jsou nejvyšší zvířata na souši, můžou mít až šest metrů, takže by mohly bez problémů koukat do oken v&nbsp;patře. Tady v&nbsp;zoo žijí žirafy síťované, které pocházejí jako všechny žirafy z&nbsp;Afriky. Žijí v&nbsp;savanách nebo v&nbsp;lesích, kde okusují listí a větve stromů. K&nbsp;tomu jim pomáhá i&nbsp;jejich půlmetrový jazyk, který používají podobně jako sloni chobot, obtočí jím větvičku a strčí si ji do pusy. Jazyk používají i&nbsp;k&nbsp;čištění nosu nebo uší, ale to doma radši nezkoušejte. Možná jste si všimli, že má žirafí jazyk divnou barvu. Není to špína, je to proto, aby si ho nespálily na slunci.
         </AnimalText>
       <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
@@ -31,10 +31,10 @@ var AnimalDetail = React.createClass({
         </AnimalText>
       <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Život žiraf není osamělý, žijí ve stádech. Společně kráčí mílovými kroky, kam se jim zachce. Dobře, možná ty kroky nejsou úplně mílové, ale jediným krokem se dokáže žirafa posunout skoro o&nbsp;pět metrů. A když na to přijde, dokážou utíkat přes 50&nbsp;kilometrů za hodinu, takže při průběhu obcí by nezdržovaly automobilovou dopravu. Pokud by tedy byla obec krátká, protože vydrží utíkat jen chvíli. Naštěstí běh až tak moc nepotřebují, protože si na ně skoro nikdo netroufne. Občas jen lvi, se kterými se žirafy dokážou vypořádat dobře míněnými kopanci.
+          Život žiraf není osamělý, žijí ve stádech. Společně kráčí mílovými kroky, kam se jim zachce. Dobře, možná ty kroky nejsou úplně mílové, ale jediným krokem se dokáže žirafa posunout skoro o&nbsp;pět metrů. A když na to přijde, dokážou žirafy utíkat rychlostí přes 50&nbsp;kilometrů za hodinu, takže při průběhu obcí by nezdržovaly automobilovou dopravu. Pokud by tedy byla obec krátká, protože vydrží utíkat jen chvíli. Naštěstí běh až tak moc nepotřebují, protože si na ně skoro nikdo netroufne. Občas jen lvi, se kterými se žirafy dokážou vypořádat dobře mířenými kopanci.
         </AnimalText>
         <AnimalText>
-          A zajímavost na závěr: Možná znáte Julia Caesara (třeba z&nbsp;Asterixe). Od Egypťanů jednou dostal jako dar žirafu a pojmenoval ji camelopardus, což je dodneška latinský název žirafy. Jenže to Caesar trochu popletl, protože ten název znamená něco jako <Text style={styles.italic}>velbhart</Text>. Přišlo mu totiž, že žirafa vypadá jako zvíře mezi velbloudem a leopardem.
+          A zajímavost na závěr: Možná znáte Julia Caesara (třeba z&nbsp;Asterixe). Od Egypťanů jednou dostal jako dar žirafu a pojmenoval ji <Text style={styles.italic}>Camelopardus</Text>, což je dodneška latinský název žirafy. Jenže to Caesar trochu popletl, protože ten název znamená něco jako <Text style={styles.italic}>velbpard</Text>. Přišlo mu totiž, že žirafa vypadá jako zvíře mezi velbloudem a leopardem.
         </AnimalText>
       </AnimalTemplate>
     );
