@@ -23,7 +23,7 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          „Zdravíme vás, lidé. Já se jmenuji Ajka a je mi už šestnáct let. Určitě jste už viděli naše kamarádky – zebry Grévyho. My jsme jim podobné, ale nejsme stejné.“
+          „Zdravíme vás, lidé. Já se jmenuji Ajka a být člověkem, už bych nějaký pátek vlastnila občanský průkaz. Určitě jste už viděli naše kamarádky – zebry Grévyho. My jsme jim podobné, ale nejsme stejné.“
         </AnimalText>
         <AnimalText>
           „Mamí, ale vždyť vypadáme stejně jako zebry Grévyho. Máme černobílé pruhy a naše těla vypadají podobně.“
@@ -32,7 +32,7 @@ var AnimalDetail = React.createClass({
           „To ano, zlatíčko. Ale přesto se lišíme. Přece jsem ti to vysvětlovala. Už si to nepamatuješ?“
         </AnimalText>
         <AnimalText>
-          „No joo, pamatuju. První rozdíl: Zebra Chapmanova má široké pruhy po celém těle a na bílých pruzích jsou ještě tenké hnědé pruhy. Naproti tomu, zebra Grévyho má pruhování hustší a na břichu žádné pruhy nemá. Haha, vypadá, jako by si omylem lehla do sádry.“
+          „No joo, pamatuju. První rozdíl: zebra Chapmanova má široké pruhy po celém těle a na bílých pruzích jsou ještě tenké hnědé pruhy. Naproti tomu zebra Grévyho má pruhování hustší a na břichu žádné pruhy nemá. Haha, vypadá, jako by si omylem lehla do sádry.“
         </AnimalText>
         <AnimalText>
           „No tak, Arwen. Nebuď taková. Není správné si z&nbsp;ostatních utahovat. Soustřeď se a zkus pokračovat.“
