@@ -23,7 +23,7 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          <Text style={styles.strong}>Hledám dlouhonohou krásku, co bude smrdět jako já!</Text>
+          <Text style={styles.strong}>Hledám dlouhonohou krásku, která bude smrdět jako já!</Text>
         </AnimalText>
         <AnimalText>
         
