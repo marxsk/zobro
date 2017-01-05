@@ -27,7 +27,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         
         <AnimalText>
-        Vidíte ušaté sovy? Tak ty větší a světlejší jsme my, výři velcí západosibiřští, největší evropské sovy. Anglicky se nám říká <Text style={styles.italic}>eagle owl</Text>, což je v&nbsp;překladu orlí sova. Máme rozpětí křídel skoro dva metry, možná se za chvíli protáhnu, abyste se mohli přesvědčit, ale nejdřív si prohlédněte mé výrazné žlutooranžové oči. 
+        Vidíte ušaté sovy? Tak ty větší a světlejší jsme my, výři velcí západosibiřští, největší evropské sovy. Anglicky se nám říká <Text style={styles.italic}>Eagle Owl</Text>, což je v&nbsp;překladu orlí sova. Máme rozpětí křídel skoro dva metry, možná se za chvíli protáhnu, abyste se mohli přesvědčit, ale nejdřív si prohlédněte mé výrazné žlutooranžové oči. 
         </AnimalText>
         <AnimalText>
         Výrů velkých je několik poddruhů, lišíme se velikostí, zbarvením, také vzorováním našeho peří a jsme roztroušeni po celé Evropě, Asii i&nbsp;v&nbsp;severozápadní Africe. My, výři západosibiřští, se vyskytujeme od Uralu přes řeku Ob až po Altaj. Zajímavé je pro nás výry také to, že jednotlivce lze od sebe odlišit dle houkání, každý máme totiž jedinečný hlas.
