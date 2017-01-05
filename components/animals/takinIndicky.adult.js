@@ -23,7 +23,7 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          Takin indický, latinsky<Text style={styles.italic}>Budorcas taxicolor taxicolor</Text>, je velmi zvláštní sudokopytník čeledi turovitých. V&nbsp;čem tkví jeho zvláštnost? Jaké jiné zvíře připomíná tolik dalších? Je to bizon, pakůň, los nebo kamzík? Právě všechna tato zvířata se svojí určitou vlastností snoubí v&nbsp;jednom takiním těle.
+          Takin indický, latinsky <Text style={styles.italic}>Budorcas taxicolor taxicolor</Text>, je velmi zvláštní sudokopytník čeledi turovitých. V&nbsp;čem tkví jeho zvláštnost? Jaké jiné zvíře připomíná tolik dalších? Je to bizon, pakůň, los nebo kamzík? Právě všechna tato zvířata se svojí určitou vlastností snoubí v&nbsp;jednom takiním těle.
         </AnimalText>
         <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
