@@ -30,7 +30,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
       <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Oblíbenou potravou nás velbloudů, ať už v&nbsp;Asii nebo tady v&nbsp;Brně, jsou trávy, byliny a keře. Již 4,5&nbsp;tisíce let jsme domestikovaným druhem a v&nbsp;lidské péči se dožíváme 20–30&nbsp;let. Doba březosti velbloudů je 390–410 dní a samice pak porodí jedno mládě.
+          Oblíbenou potravou nás velbloudů, ať už v&nbsp;Asii nebo tady v&nbsp;Brně, jsou trávy, byliny a keře. Již 4,5&nbsp;tisíce let jsme domestikovaným druhem a v&nbsp;lidské péči se dožíváme 20–30&nbsp;let.
         </AnimalText>
       <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
