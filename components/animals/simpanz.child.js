@@ -40,7 +40,7 @@ var AnimalDetail = React.createClass({
           Nastávající šimpanzí maminky očekávají svého potomka 8&nbsp;měsíců. Narozené mládě se ze začátku drží své mámy za srst jako klíště a nechává se všude nosit. Po půl roce života se začíná osamostatňovat a učit se prvním krůčkům.
         </AnimalText>
         <AnimalText>
-          Jsme velmi společenští a v&nbsp;přírodě proto žijeme ve velkých tlupách, kde nás může být až šedesát. Do Zoo Brno by se nás tolik nevešlo. Ale nám to nevadí, i&nbsp;ve třech si tu užijeme spoustu zábavy. Tak se na nás zase někdy přijď podívat a klidně si s&nbsp;sebou přiveď i&nbsp;celou svou tlupu kamarádů! Rádi vás tu všechny uvidíme.
+          Jsme velmi společenští, a v&nbsp;přírodě proto žijeme ve velkých tlupách, kde nás může být až šedesát. Do Zoo Brno by se nás tolik nevešlo. Ale nám to nevadí, i&nbsp;ve třech si tu užijeme spoustu zábavy. Tak se na nás zase někdy přijď podívat a klidně si s&nbsp;sebou přiveď i&nbsp;celou svou tlupu kamarádů! Rádi vás tu všechny uvidíme.
         </AnimalText>
       </AnimalTemplate>
     );
