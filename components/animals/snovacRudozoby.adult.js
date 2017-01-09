@@ -36,17 +36,17 @@ var AnimalDetail = React.createClass({
         </AnimalText>
       <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Samci nosí takzvaný svatební šat, který je pestře zbarven. Zahrnuje černou škrabošku a žlutohnědé peří na zádech i&nbsp;ocasu. Zbytek těla je pokrytý peřím hnědavým, někdy se znatelným nádechem do růžova. Samčí zobák a okruží kolem oka jsou výrazně rudé. Samička je – jak už to v&nbsp;přírodě bývá – zabarvená méně nápadně. Šedohnědě. Její zobák je však rovněž červený a stejně tak okruží oka.
+          Samci nosí takzvaný svatební šat, který je pestře zbarven. Zahrnuje černou škrabošku a žlutohnědé peří na zádech i&nbsp;ocasu. Zbytek těla je pokrytý peřím hnědavým, někdy se znatelným nádechem do růžova. Samčí zobák a okruží kolem oka jsou výrazně rudé. Samička je – jak už to v&nbsp;přírodě bývá – zabarvená méně nápadně, šedohnědě. Její zobák je však rovněž červený a stejně tak okruží oka.
         </AnimalText>
         <AnimalText>
-          Začátkem období dešťů začíná snovač hnízdit. Sameček začne snovat hnízdo ze stébel trávy. Vchod do hnízda umisťuje dospod, tím se protřele znesnadňuje přístup těm, kteří by měli nekalý zájem o&nbsp;nakladená vajíčka či bezbranná mláďata. Ještě před dokončením hnízda si volí svoji partnerku. Až si vybere, spáří se a společně dokončují své dílo. Poté samička do hnízda snese 2–4 vejce. Při každém dalším hnízdění si sameček vybírá novou partnerku.
+          Začátkem období dešťů začíná snovač hnízdit. Sameček začne snovat hnízdo ze stébel trávy. Vchod do hnízda umisťuje dospod, tím protřele znesnadňuje přístup těm, kteří by měli nekalý zájem o&nbsp;nakladená vajíčka či bezbranná mláďata. Ještě před dokončením hnízda si volí svoji partnerku. Až si vybere, spáří se a společně dokončují své dílo. Poté samička do hnízda snese 2–4 vejce. Při každém dalším hnízdění si sameček vybírá novou partnerku.
         </AnimalText>
       <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Snovačům nevadí hnízdit vedle sebe. Jelikož jejich počet je skutečně hojný, tak se na velkých stromech může vyskytovat hned několik tisíc hnízd.
+          Snovačům nevadí hnízdit vedle sebe. Jelikož je jejich počet skutečně hojný, může se na velkých stromech vyskytovat hned několik tisíc hnízd.
         </AnimalText>
         <AnimalText>
-          Živí se semeny rostlin a pohybují-li se v osídlených oblastech, dokáží způsobit enormní škody úrody obilí. Přirovnávají se ke vpádu sarančat. Pokud se pohybují po divoké savaně, vyzobávají semena různých trav. Tady je vše důmyslně v&nbsp;pořádku, jelikož putujícím antilopám, pakoňům a jiným zbývá dostatek potravy ve stéblech a listech.
+          Živí se semeny rostlin, a pohybují-li se v osídlených oblastech, dokáží způsobit enormní škody na úrodě obilí. Přirovnávají se ke vpádu sarančat. Pokud se pohybují po divoké savaně, vyzobávají semena různých trav. Tady je vše důmyslně v&nbsp;pořádku, jelikož putujícím antilopám, pakoňům a jiným zbývá dostatek potravy ve stéblech a listech.
         </AnimalText>
         <AnimalText>
           Ačkoli se snovač rudozobý živí semeny, ze začátku své potomky krmí hmyzem. Tím si mírně napravuje svoji reputaci, kterou má v&nbsp;zemědělství poněkud pošramocenou. Někteří farmáři dokonce tráví u&nbsp;svého pole celý den a vydávají hlasité zvuky, aby děsili a odháněli rozsáhlá hejna.
