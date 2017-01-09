@@ -29,7 +29,7 @@ var AnimalDetail = React.createClass({
         Oproti u&nbsp;nás známému rysu ostrovidovi (<Text style={styles.italic}>Lynx lynx</Text>) je rys kanadský trochu menší a lehčí. Na délku dosahuje zhruba jednoho metru a v&nbsp;kohoutku mívá okolo půl metru. Vážit může až 17&nbsp;kg, běžná je ale váha mezi 8 a 11&nbsp;kg. Dožívá se 15&nbsp;let.
         </AnimalText>
         <AnimalText>
-        Přirozeným domovem rysa kanadského jsou lesy v&nbsp;taize. Vyskytuje se tedy na většině území Kanady a Aljašky a řídce i&nbsp;v&nbsp;přiléhajících oblastech Spojených států. Tomu odpovídá jak jeho vzhled, tak i&nbsp;obvyklá strava. Na rozdíl od rysa ostrovida má jeho kanadský kolega výrazně hustší a delší srst a nemá na ní žádné výrazné značky. Její zbravení se mění s&nbsp;ročním obdobím, v&nbsp;zimě je stříbřitě hnědá a v&nbsp;létě může mít načervenalý odstín hnědé. Packy má kanadský rys širší, aby mohl chodit i&nbsp;v&nbsp;místech, kde je hluboký sníh.
+        Přirozeným domovem rysa kanadského jsou lesy v&nbsp;taize. Vyskytuje se tedy na většině území Kanady a Aljašky a řídce i&nbsp;v&nbsp;přiléhajících oblastech Spojených států. Tomu odpovídá jak jeho vzhled, tak i&nbsp;obvyklá strava. Na rozdíl od rysa ostrovida má jeho kanadský kolega výrazně hustší a delší srst a nemá na ní žádné výrazné značky. Její zbarvení se mění s&nbsp;ročním obdobím, v&nbsp;zimě je stříbřitě hnědá a v&nbsp;létě může mít načervenalý odstín hnědé. Packy má kanadský rys širší, aby mohl chodit i&nbsp;v&nbsp;místech, kde je hluboký sníh.
         </AnimalText>
         <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
