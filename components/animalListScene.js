@@ -100,6 +100,7 @@ export default class AnimalListScene extends React.Component {
       'Š' : 'S',
       'Ú' : 'U',
       'Ž' : 'Z',
+      'Ě' : 'E',
     };
 
     for (let animalID in animals) {
