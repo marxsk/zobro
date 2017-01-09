@@ -21,7 +21,7 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          Tamarín žlutoruký (latinsky <Text style={styles.italic}>Saguinus midas</Text>, anglicky <Text style={styles.italic}>Tamarin Red-handed</Text>, tedy červenoruký) je primát původem z&nbsp;Jižní Ameriky typický svým výrazným žlutočerveným zbarvením na rukou a nohou. V&nbsp;naší zoo najdete tyto opičky dvě. Jednak máme samečka Henryho, který se narodil v&nbsp;roce 2011 a z&nbsp;Hodonína k&nbsp;nám dorazil o&nbsp;dva roky později, a jednak samičku jménem Belle, která se narodila v&nbsp;létě roku 2013 v&nbsp;Jindřichově Hradci. Společnost Henrymu pak přišla dělat na podzim roku 2014, od té doby jsou tu spolu.
+          Tamarín žlutoruký (latinsky <Text style={styles.italic}>Saguinus midas</Text>, anglicky <Text style={styles.italic}>red-handed tamarin</Text>, tedy červenoruký) je primát původem z&nbsp;Jižní Ameriky typický svým výrazným žlutočerveným zbarvením na rukou a nohou. V&nbsp;naší zoo najdete tyto opičky dvě. Jednak máme samečka Henryho, který se narodil v&nbsp;roce 2011 a z&nbsp;Hodonína k&nbsp;nám dorazil o&nbsp;dva roky později, a jednak samičku jménem Belle, která se narodila v&nbsp;létě roku 2013 v&nbsp;Jindřichově Hradci. Společnost Henrymu pak přišla dělat na podzim roku 2014, od té doby jsou tu spolu.
         </AnimalText>
       <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
