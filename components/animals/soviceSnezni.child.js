@@ -37,7 +37,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Vajíček klademe zhruba pět. Trvá asi měsíc, než se malá sovátka vyklubou. Další tři týdny nejsou ještě dost velká na to, aby opustila teplo peřím vystlaného hnízda. I&nbsp;pak se o&nbsp;ně ale ještě chvíli staráme, sama totiž dokážou naše mláďata lovit až v&nbsp;šesti týdnech.
+          Vajíček klademe zhruba pět. Trvá asi měsíc, než se z&nbsp;nich vyklubou malá sovátka. Další tři týdny nejsou ještě dost velká na to, aby opustila teplo peřím vystlaného hnízda. I&nbsp;pak se o&nbsp;ně ale ještě chvíli staráme, sama totiž dokážou naše mláďata lovit až v&nbsp;šesti týdnech.
         </AnimalText>
       </AnimalTemplate>
     );
