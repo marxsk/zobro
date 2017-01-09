@@ -43,7 +43,7 @@ var AnimalDetail = React.createClass({
           U&nbsp;snovačů platí, že hnízdo začíná plést sameček. A je opravdu šikovný, jen kdybyste ho viděly! Jeho hnízdo je ze samých uzlíků stébel trávy, které si sám najde. A když je tak napůl hotov, přivede si tam svoji manželku a společně svůj domov dodělají. Poté tam samička snese 2–4 vejce. Kdybyste nějaké hnízdo zahlédly, ale neviděly vchod, podívejte se zespodu. Tam ho totiž vždycky najdete.
         </AnimalText>
         <AnimalText>
-          Čím si, děti, myslíte, že se krmí? Travička to totiž není.  Jsou to semínka a na nich si opravdu pochutnávají. Když mají malá ptáčátka, krmí je hmyzem. Potom, co děti vyrostou, zobou semena jako jejich rodiče.
+          Čím si, děti, myslíte, že se krmí? Travička to totiž není. Jsou to semínka a na nich si opravdu pochutnávají. Když mají malá ptáčátka, krmí je hmyzem. Potom, co děti vyrostou, zobou semena jako jejich rodiče.
         </AnimalText>
         <AnimalText>
           Snovači mezi sebou mluví neustálým hlasitým štěbetáním. Tak se mějte na pozoru, milí návštěvníci zoo. Pokud spustí všichni naráz – jde o&nbsp;uši!
