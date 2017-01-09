@@ -21,21 +21,23 @@ const THUMBNAILS = [
 var AnimalDetail = React.createClass({
   render() {
     return (
-      <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
+      <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
           <AnimalText>
-            Lišky polární, latinsky <Text style={styles.italic}>Alopex</Text> (nebo <Text style={styles.italic}>Vulpes</Text>) <Text style={styles.italic}>lagopus</Text>, patří k obyvatelům tundry. Kromě takových míst, jako je Sibiř, Kanada nebo Aljaška, obývají i řadu ostrovů. Samozřejmě Island, kde jsou jediný původní suchozemský savec, a Grónsko, ale i spoustu menších ostrovů. Na některých byly v devatenáctém století vysazovány obchodníky s kožešinami. Liška polární má totiž tak teplý kožich, že vydrží i teploty klesající pod – 50 °C. (A kdo by z něčeho takového nechtěl fešný kabátek.)
+            Lišky polární, latinsky <Text style={styles.italic}>Vulpes lagopus</Text> patří k&nbspobyvatelům tundry. Kromě takových míst, jako je Sibiř, Kanada nebo Aljaška, obývají i&nbspřadu ostrovů. Samozřejmě Island, kde jsou jediný původní suchozemský savec, a Grónsko, ale i&nbspspoustu menších ostrovů. Na některých byly v&nbspdevatenáctém století vysazovány obchodníky s&nbspkožešinami. Liška polární má totiž tak teplý kožich, že vydrží i&nbspteploty klesající pod –&nbsp50&nbsp°C. (A&nbspkdo by z&nbspněčeho takového nechtěl fešný kabátek.) 
           </AnimalText>
           <AnimalText>
-            S udržením tělesné teploty v prostředí tak nízko pod bodem mrazu jim pomáhá i to, že mají krátké uši i čenich. Uzpůsobeny jsou k pobytu na sněhu a ledu, tlapy mají zespoda porostlé hustou srstí, což pomáhá jak proti promrznutí, tak i proti klouzání na ledu. Lišky polární jsou v podstatě hobiti – jsou malé a mají chlupaté nohy. Polární lišky totiž měří (včetně ocasu) kolem 90 centimetrů, zatímco ty naše, lišky obecné, mohou mít centimetrů i 140. (Ve výšce v kohoutku se liší přibližně o deset centimetrů, polární mají 30, obecné asi 40 centimetrů.)
+            S&nbspudržením tělesné teploty v&nbspprostředí tak nízko pod bodem mrazu jim pomáhá i&nbspto, že mají krátké uši i&nbspčenich. Uzpůsobeny jsou k&nbsppobytu na sněhu a ledu, tlapy mají zespoda porostlé hustou srstí, což pomáhá jak proti promrznutí, tak i&nbspproti klouzání na ledu. Lišky polární jsou v&nbsppodstatě hobiti – jsou malé a mají chlupaté nohy. Polární lišky totiž měří (včetně ocasu) kolem 90&nbspcentimetrů, zatímco ty naše, lišky obecné, mohou mít centimetrů i&nbsp140. (Ve výšce v&nbspkohoutku se liší přibližně o&nbspdeset centimetrů, polární mají 30, obecné asi 40&nbspcentimetrů.)
           </AnimalText>
+      <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
           <AnimalText>
-            Jako správné šelmy se polární lišky živí lovem, a to lumíků, různých ptáků (a jejich vajec), ryb a čas od času i nějakého toho soba. Když je nouze, vezmou zavděk i mršinou, někdy i takovou, kterou ulovil jiný predátor – lední medvěd, vlk, nebo dokonce rosomák. Tihle predátoři ovšem můžou být nebezpeční i pro lišky. Pokud se lišky nedostanou ani k mršinám, chytají i různé bezobratlé, včetně mořských. Když už nejsou ani bezobratlí, pustí se lišky i do bobulí – technicky vzato jsou tedy všežravci.
+            Jako správné šelmy se polární lišky živí lovem, a to lumíků, různých ptáků (a jejich vajec) a ryb. Když se naskytne příležitost, vezmou zavděk mršinou, někdy i&nbsptakovou, kterou ulovil jiný predátor – lední medvěd, vlk, nebo dokonce rosomák. Tihle predátoři ovšem můžou být nebezpeční i&nbsppro lišky. Pokud se lišky nedostanou ani k&nbspmršinám, chytají i&nbsprůzné bezobratlé, včetně mořských. Když už nejsou ani bezobratlí, pustí se lišky i&nbspdo bobulí – technicky vzato jsou to takoví oportunisté.
           </AnimalText>
           <AnimalText>
             Pokud zrovna někomu nekradou kořist (za tímto účelem občas následují lední medvědy), loví tak, že se prodírají sněhem (a pod sněhem) za svou obětí – a pak na ni znenadání skočí.
           </AnimalText>
-          <AnimalText>
-            V rodičovství jsou polární lišky velice zodpovědné, na výchově mláďat se podílí i otec. Liščí monogamní páry pečují o mláďata ve spletitých tunelech své nory, odkud mladí vykouknou poprvé ve věku zhruba měsíce. V norách ovšem lišky pobývají jen v létě, kdy prohrabávají další a další tunely (a vytváří epickou podzemní pevnost). V zimě se ale stahují k pobřeží a spávají zahrabané do sněhu.
+      <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
+          <AnimalText>    
+            V&nbsprodičovství jsou polární lišky velice zodpovědné, na výchově mláďat se podílí i&nbspotec. Liščí monogamní páry pečují o&nbspmláďata ve spletitých tunelech své nory, odkud mladí vykouknou poprvé ve věku zhruba měsíce. V&nbspnorách ovšem lišky pobývají jen v&nbsplétě, kdy prohrabávají další a další tunely (a vytváří epickou podzemní pevnost). V&nbspzimě se ale stahují k pobřeží a spávají zahrabané do sněhu.
           </AnimalText>
       </AnimalTemplate>
     );
