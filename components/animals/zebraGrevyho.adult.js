@@ -23,7 +23,7 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          Zebra Grévyho (lat. <Text style={styles.italic}>Equus grevyi</Text>) je největším druhem zebry. Žije nejseverněji ze všech a původem je z&nbsp;Afriky. Našli bychom ji na polopouštích v&nbsp;Etiopii a v&nbsp;Keni nebo v&nbsp;Somálsku a Súdánu.
+          Zebra Grévyho, latinsky <Text style={styles.italic}>Equus grevyi</Text>, je největším druhem zebry. Žije nejseverněji ze všech a původem je z&nbsp;Afriky. Našli bychom ji na polopouštích v&nbsp;Etiopii a v&nbsp;Keni nebo v&nbsp;Somálsku a Súdánu.
         </AnimalText>
         <AnimalText>
           Podíl na jméně této zebry má francouzský prezident, který se jmenoval Jules Grévy. Ten dostal roku&nbsp;1882 od etiopské vlády jednu zebru darem. V&nbsp;téže době se zjistilo, že v&nbsp;Etiopii existuje dosud neznámý poddruh, který je třeba pojmenovat. A tak, pro vyjádření pocty prezidentovi, dostala zebra přívlastek Grévy.
