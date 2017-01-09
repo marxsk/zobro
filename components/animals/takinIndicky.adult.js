@@ -31,10 +31,10 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Jedinec takina indického může vážit až 350&nbsp;kilogramů a měřit v&nbsp;kohoutku i&nbsp;130&nbsp;centimetrů, na délku pak 170&nbsp;až 220&nbsp;centimetrů. Kůže takina produkuje olej, který mu pomáhá chránit se proti drsným povětrnostním podmínkám panujícím v&nbsp;jeho přirozeném prostředí, zejména proti mlze a dešti. Takin se živí trávou, listy, bambusovými nebo pěnišníkovými výhonky.
+          Jedinec takina indického může vážit až 350&nbsp;kilogramů a v&nbsp;kohoutku měřit i&nbsp;130&nbsp;centimetrů, na délku pak 170&nbsp;až 220&nbsp;centimetrů. Kůže takina produkuje olej, který mu pomáhá chránit se proti drsným povětrnostním podmínkám panujícím v&nbsp;jeho přirozeném prostředí, zejména proti mlze a dešti. Takin se živí trávou, listy, bambusovými nebo pěnišníkovými výhonky.
         </AnimalText>
         <AnimalText>
-          Žije v menších stádech (tvořených deseti až třiceti zvířaty), jeho samice je březí až 220&nbsp;dní a má obvykle jen jedno mládě. Ve volné přírodě se dožívá dvanácti až patnácti let, v&nbsp;lidské péči i&nbsp;dvaceti let.
+          Žije v&nbsp;menších stádech (tvořených deseti až třiceti zvířaty), jeho samice je březí až 220&nbsp;dní a má obvykle jen jedno mládě. Ve volné přírodě se dožívá dvanácti až patnácti let, v&nbsp;lidské péči i&nbsp;dvaceti let.
         </AnimalText>
       </AnimalTemplate>
     );
