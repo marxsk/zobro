@@ -26,7 +26,7 @@ var AnimalDetail = React.createClass({
         Tento druh papouška je asi nejznámější a nejoblíbenější ze všech arů. Má totiž velmi dobré vlastnosti pro ochočení. Je vysoce inteligentní, a pokud k&nbsp;člověku přilne, vyžaduje jeho pozornost.
         </AnimalText>
         <AnimalText>
-        Naše zoologická zahrada se může pyšnit prvním odchovem ary ararauny v&nbsp;ČSR, a to v&nbsp;roce 1963. Nyní se tito ptáci nachází v&nbsp;expozici zvané Exotárium, kde mají možnost vyžití jak venku, tak uvnitř. Tudíž pokud je nevidíte venku, jsou uvnitř a naopak. Rádi mezi těmito místy přelétávají. Momentálně zde bydlí samička Koko, její partner Pedro a ještě tu máme samečka Edu.
+        Brněnská zoologická zahrada se může pyšnit prvním odchovem ary ararauny v&nbsp;naší republice, a to v&nbsp;roce 1963. Nyní se tito ptáci nachází v&nbsp;expozici zvané Exotárium, kde mají možnost vyžití jak venku, tak uvnitř. Tudíž pokud je nevidíte venku, jsou uvnitř a naopak. Rádi mezi těmito místy přelétávají. Momentálně zde bydlí samička Koko, její partner Pedro a ještě tu máme samečka Edu.
         </AnimalText>
         <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>

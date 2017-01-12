@@ -23,7 +23,7 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          „Zdravíme vás, lidé. Já se jmenuji Ajka a je mi už šestnáct let. Určitě jste už viděli naše kamarádky – zebry Grévyho. My jsme jim podobné, ale nejsme stejné.“
+          „Zdravíme vás, lidé. Já se jmenuji Ajka a být člověkem, už bych nějaký pátek vlastnila občanský průkaz. Určitě jste už viděli naše kamarádky – zebry Grévyho. My jsme jim podobné, ale nejsme stejné.“
         </AnimalText>
         <AnimalText>
           „Mamí, ale vždyť vypadáme stejně jako zebry Grévyho. Máme černobílé pruhy a naše těla vypadají podobně.“
@@ -32,7 +32,7 @@ var AnimalDetail = React.createClass({
           „To ano, zlatíčko. Ale přesto se lišíme. Přece jsem ti to vysvětlovala. Už si to nepamatuješ?“
         </AnimalText>
         <AnimalText>
-          „No joo, pamatuju. První rozdíl: Zebra Chapmanova má široké pruhy po celém těle a na bílých pruzích jsou ještě tenké hnědé pruhy. Naproti tomu, zebra Grévyho má pruhování hustší a na břichu žádné pruhy nemá. Haha, vypadá, jako by si omylem lehla do sádry.“
+          „No joo, pamatuju. První rozdíl: zebra Chapmanova má široké pruhy po celém těle a na bílých pruzích jsou ještě tenké hnědé pruhy. Naproti tomu zebra Grévyho má pruhování hustší a na břichu žádné pruhy nemá. Haha, vypadá, jako by si omylem lehla do sádry.“
         </AnimalText>
         <AnimalText>
           „No tak, Arwen. Nebuď taková. Není správné si z&nbsp;ostatních utahovat. Soustřeď se a zkus pokračovat.“
@@ -48,7 +48,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          „Arwen, je pravda, že ses tu narodila, ale měla bys vědět taky něco o&nbsp;našem původu a zvycích. Takže teď mi tu neběhej a v klidu lež. Já ti o&nbsp;tom povykládám. My, zebry Chapmanovy, jsme poddruhem zebry stepní a pocházíme z&nbsp;Afriky. V&nbsp;Africe bys nás našla na rozsáhlých savanách, na kterých se rády paseme. Jíme většinou tvrdé stepní traviny, listy a výhonky keřů. Ve volné přírodě žijeme ve stádech, která mají 10&nbsp;až 30&nbsp;jedinců, přičemž ve stádě bývá jen jeden dospělý samec. Říká se tomu harémová struktura. Mláďata se rodí po 350&nbsp;dnech a jedna samice rodí jen jedno mládě. Toto mládě je už pár hodin po narození schopné chodit a přidává se ke stádu. Arwen! Vždyť ty mě vůbec neposloucháš! Já se snažím, abys byla vzdělaná zebra, a ty přitom...“
+          „Arwen, je pravda, že ses tu narodila, ale měla bys vědět taky něco o&nbsp;našem původu a zvycích. Takže teď mi tu neběhej a v klidu lež. Já ti o&nbsp;tom povykládám. My zebry Chapmanovy jsme poddruhem zebry stepní a pocházíme z&nbsp;Afriky. V&nbsp;Africe bys nás našla na rozsáhlých savanách, na kterých se rády paseme. Jíme většinou tvrdé stepní traviny, listy a výhonky keřů. Ve volné přírodě žijeme ve stádech, která mají 10&nbsp;až 30&nbsp;jedinců, přičemž ve stádě bývá jen jeden dospělý samec. Říká se tomu harémová struktura. Mláďata se rodí po 350&nbsp;dnech a jedna samice rodí jen jedno mládě. Toto mládě je už pár hodin po narození schopné chodit a přidává se ke stádu. Arwen! Vždyť ty mě vůbec neposloucháš! Já se snažím, abys byla vzdělaná zebra, a ty přitom...“
         </AnimalText>
         <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>

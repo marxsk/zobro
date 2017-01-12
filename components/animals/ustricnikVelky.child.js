@@ -26,7 +26,7 @@ var AnimalDetail = React.createClass({
           Zdravím tě, človíčku!
         </AnimalText>
         <AnimalText>
-          Já jsem ústřičník velký a přišel jsem sem z&nbsp;pražské zoo. Létám si tu s&nbsp;ostatními kamarády bahňáky už asi šest let. Moc se mi tu s&nbsp;nimi líbí. Dělím se s&nbsp;nimi o&nbsp;potravu a všichni společně prozkoumáváme náš malý rybníček.
+          Já jsem ústřičník velký a přišel jsem sem z&nbsp;pražské zoo. Létám si tu s&nbsp;ostatními kamarády bahňáky už asi šest let. Moc se mi tu s&nbsp;nimi líbí. Dělíme se o&nbsp;potravu a společně prozkoumáváme náš malý rybníček.
         </AnimalText>
         <AnimalText>
           Říká se mi bahňák, protože mám rád prostředí bahna. V&nbsp;bahně si vždy najdu spoustu vhodné potravy a užiju si v&nbsp;něm s&nbsp;ostatními mnoho legrace.

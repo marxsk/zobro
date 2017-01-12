@@ -23,10 +23,10 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          	Ahoj, člověčí mládě, jsem vlk hřivnatý, ale někdy mě nazývají i&nbsp;psem hřivnatým. Vlastně se mi posmívají, že jsem jen liška s&nbsp;předlouhýma nohama.  Vtipálci. Ty dlouhé nohy mi usnadňují pohyb ve vysoké trávě, v&nbsp;bažinách a pampách (to jsou rozsáhlé travnaté plochy). Jsme tzv. mimochodníci, to znamená, že při chůzi pohybujeme zároveň levýma a pravýma nohama.
+          	Ahoj, člověčí mládě, jsem vlk hřivnatý, ale někdy mě nazývají i&nbsp;psem hřivnatým. Vlastně se mi posmívají, že jsem jen liška s&nbsp;předlouhýma nohama. Vtipálci. Ty dlouhé nohy mi usnadňují pohyb ve vysoké trávě, v&nbsp;bažinách a pampách (to jsou rozsáhlé travnaté plochy). Jsem tzv. mimochodník, to znamená, že při chůzi pohybuji zároveň levýma a pravýma nohama.
         </AnimalText>
         <AnimalText>
-          	Jmenuji se Karlos, narodil jsem se v&nbsp;Tallinnu, vědělo jsi, že je to hlavní město Estonska? Tady v&nbsp;Brně jsem už od roku 2013. Přede mnou už tu byla jedna samička, Saartje. Ta se zase narodila v&nbsp;Rotterdamu, to je největší přístav v&nbsp;Evropě a našlo bys ho, mládě, v&nbsp;Nizozemsku. Saartje je moc fajn. Tuhle 28.&nbsp;ledna 2016 se nám narodila tři vlčátka. Holčičku jsme pojmenovali jako Adélu, kluky jako Edu a Marka.
+          	Jmenuji se Karlos, narodil jsem se v&nbsp;Tallinnu. Vědělo jsi, že je to hlavní město Estonska? Tady v&nbsp;Brně jsem od roku 2013. Přede mnou už tu byla jedna samička, Saartje. Ta se zase narodila v&nbsp;Rotterdamu, to je největší přístav v&nbsp;Evropě a našlo bys ho, mládě, v&nbsp;Nizozemsku. Saartje je moc fajn. Tuhle 28.&nbsp;ledna 2016 se nám narodila tři vlčátka. Holčičku jsme pojmenovali Adéla, kluky Eda a Marek.
         </AnimalText>
         <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
@@ -34,7 +34,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          	Obvykle nejsme zrovna vybíraví při hledání potravy, libujeme si například v&nbsp;jisté lilkovité rostlině, která nám pomáhá chránit se proti parazitům (to jsou mrňaví tvorové, se kterými nejsme kamarádi).
+          	Obvykle nejsme při hledání potravy zrovna vybíraví, libujeme si například v&nbsp;jisté lilkovité rostlině, která nám pomáhá chránit se proti parazitům (to jsou mrňaví tvorové, se kterými nejsme kamarádi).
         </AnimalText>
       </AnimalTemplate>
     );

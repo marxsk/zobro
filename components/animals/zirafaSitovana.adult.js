@@ -30,26 +30,23 @@ var AnimalDetail = React.createClass({
         </AnimalText>
       <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Co se vzhledu týče, žirafy jsou (jak je na první pohled patrné) skvrnité, a to i&nbsp;na nohou. Zajímavé na tom je, že každá žirafa má skvrny uspořádané specificky. Je dobře, že se žirafy nevyvinuly na úroveň lidí, protože žirafí vyšetřovatelé by měli s&nbsp;identifikací žiraf podle tvaru skvrn asi poněkud větší problémy než lidští s&nbsp;otisky prstů.
+          Co se vzhledu týče, žirafy jsou (jak je na první pohled patrné) skvrnité, a to i&nbsp;na nohou. Zajímavé na tom je, že každá žirafa má skvrny uspořádané specificky. Je dobře, že se žirafy nevyvinuly na úroveň lidí, protože žirafí vyšetřovatelé by měli s&nbsp;identifikací žiraf podle tvaru skvrn asi poněkud větší problémy než ti lidští s&nbsp;otisky prstů.
         </AnimalText>
         <AnimalText>
-          Při pozorování žiraf určitě zaujme jejich jazyk. Tmavě zbarvený je proto, aby si ho žirafy nespálily na slunci, když si jím čistí uši a nos, nebo jej používají podobně jako sloni chobot k&nbsp;uchopení potravy. Dlouho se předpokládalo, že jsou žirafy němé, ale ukázalo se, že jen komunikují infrazvukem, tedy tak hluboko, že to lidské ucho nedokáže zachytit.
+          Při pozorování žiraf vás určitě zaujme jejich jazyk. Tmavě zbarvený je proto, aby si ho žirafy nespálily na slunci, když si jím čistí uši a nos nebo jej používají podobně jako sloni chobot k&nbsp;uchopení potravy. Dlouho se předpokládalo, že jsou žirafy němé, ale ukázalo se, že jen komunikují infrazvukem, tedy tak hluboko, že to lidské ucho nedokáže zachytit.
         </AnimalText>
         <AnimalText>
-          Každá žirafa má problém s&nbsp;pitím. Ne kvůli závislosti na alkoholu, ale kvůli své výšce. Aby se mohla napít, musí se doširoka rozkročit. Navíc mají žirafy speciálně vyvinuté chlopně, které zachytávají krev, aby se jim při sklonění hlavy neporanil mozek. Být žirafou je z&nbsp;lidského pohledu vůbec únavné, žirafy – jako ostatní sudokopytníci – obvykle spí vestoje, případně vsedě. I&nbsp;porod po 15měsíční březosti probíhá vestoje, mládě dopadne na zem z&nbsp;dvoumetrové výšky (naštěstí jsou k&nbsp;tomu mláďata uzpůsobena, měří obvykle necelé dva metry). Vlastně jediná situace, kdy žirafa leží, je, když je mrtvá. Žirafy se dožívají 20–25&nbsp;let, v&nbsp;lidské péči i&nbsp;30.
+          Každá žirafa má problém s&nbsp;pitím. Ne kvůli závislosti na alkoholu, ale kvůli své výšce. Aby se mohla napít, musí se doširoka rozkročit. Navíc mají žirafy speciálně vyvinuté chlopně, které zachytávají krev, aby se jim při sklonění hlavy neporanil mozek. Být žirafou je z&nbsp;lidského pohledu vůbec únavné, žirafy – jako ostatní sudokopytníci – obvykle spí vestoje, případně vsedě. I&nbsp;porod po 15měsíční březosti probíhá vestoje, mládě dopadne na zem z&nbsp;dvoumetrové výšky (naštěstí jsou k&nbsp;tomu mláďata uzpůsobena, měří obvykle necelé dva metry). Vlastně jediná situace, kdy žirafa leží, je, když je mrtvá. Žirafy se dožívají 20–25&nbsp;let, v&nbsp;lidské péči i&nbsp;30&nbsp;let.
         </AnimalText>
       <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
           Mimochodem, pokud byste jeli do Maastrichtu a koukali se tam z&nbsp;hradeb, mohli byste vidět sochu dívky, která truchlí nad ležící žirafou. Při špatné viditelnosti se může zdát, že v&nbsp;dáli leží skutečná žirafa.
         </AnimalText>
         <AnimalText>
-          Věděli jste, že žirafy pomohly vědcům z&nbsp;NASA při problematice cestování do vesmíru? Lidské tělo není uzpůsobeno k&nbsp;existenci ve stavu beztíže, může při něm dojít k&nbsp;řadě komplikací včetně problémů s&nbsp;oslabováním žil v&nbsp;dolních končetinách, protože vypumpovat krev z&nbsp;nohou není tak obtížné, jako na Zemi. Žirafy se učí stát hned po narození díky tomu, že mají speciálně uzpůsobené, nafouknuté, žíly. Když to vědci zjistili, byli schopni přijít s&nbsp;udělátkem, které způsobí v&nbsp;zásadě to, že se astronautům žíly rozšíří a nezleniví. (Pokud vás zajímají detaily, hledejte Lower Body Negative Pressure process.)
+          Věděli jste, že žirafy pomohly vědcům z&nbsp;NASA při problematice cestování do vesmíru? Lidské tělo není uzpůsobeno k&nbsp;existenci ve stavu beztíže, může při něm dojít k&nbsp;řadě komplikací včetně problémů s&nbsp;oslabováním žil v&nbsp;dolních končetinách, protože vypumpovat krev z&nbsp;nohou není tak obtížné jako na Zemi. Žirafy se učí stát hned po narození díky tomu, že mají speciálně uzpůsobené, nafouknuté žíly. Když to vědci zjistili, byli schopni přijít s&nbsp;udělátkem, které způsobí v&nbsp;zásadě to, že se astronautům žíly rozšíří a nezleniví. (Pokud vás zajímají detaily, hledejte <Text style={styles.italic}>Lower Body Negative Pressure process</Text>.)
         </AnimalText>
         <AnimalText>
-        
-        </AnimalText>
-        <AnimalText>
-          (Zajímavost: žirafí samičky čurají samcům do tlamy, a ti podle chuti moči poznají, jestli jsou samice těhotné, nebo jestli se s&nbsp;nimi budou ochotné rozmnožovat.)
+          (Zajímavost: žirafí samičky čurají samcům do tlamy a ti podle chuti moči poznají, jestli jsou samice těhotné, nebo jestli se s&nbsp;nimi budou ochotné rozmnožovat.)
         </AnimalText>
       </AnimalTemplate>
     );

@@ -43,10 +43,10 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-        Nápadným rysem sobů jsou dlouhé a široké parohy, které jim rostou každý rok znova – co jedinec, to originál. Víte, že sobí samičky jako jediný druh jelena, je mají také? Parohy samiček jsou mnohem menší a jednodušší. Samci je používají v&nbsp;období rozmnožování a říje k&nbsp;přehlídkám, hrozbám a bojům. S&nbsp;ostatními tak soutěží o&nbsp;krále harémů, které tvoří 5 až 15 samic.
+        Nápadným rysem sobů jsou dlouhé a široké parohy, které jim rostou každý rok znova – co jedinec, to originál. Víte, že sobí samičky jako jediný druh jelena je mají také? Parohy samiček jsou však mnohem menší a jednodušší. Samci je používají v&nbsp;období rozmnožování a říje k&nbsp;přehlídkám, hrozbám a bojům. S&nbsp;ostatními tak soutěží o&nbsp;krále harémů, které tvoří 5 až 15 samic.
         </AnimalText>
         <AnimalText>
-        Obvykle se narodí pouze jedno mládě, ale víme i&nbsp;o&nbsp;dvojčatech. Mládě může následovat matku už po jedné hodině a po jednom dni předběhne dokonce i&nbsp;člověka.
+        Obvykle se sobům rodí pouze jedno mládě, ale víme i&nbsp;o&nbsp;dvojčatech. Mládě může následovat matku už po jedné hodině od narození a po jednom dni předběhne dokonce i&nbsp;člověka.
         </AnimalText>
         <AnimalText>
         Během dne jsou sobi téměř neustále v&nbsp;pohybu. Při běhu dosahují rychlosti 60 až 80&nbsp;km/hod. Při migraci za potravou urazí za rok přes 5&nbsp;000&nbsp;km, což je nejvíce ze všech pozemských savců. A&nbsp;věděli jste, že sob je i&nbsp;vynikající plavec? Při cestování za potravou totiž často překračuje řeky i&nbsp;fjordy.

@@ -24,7 +24,7 @@ var AnimalDetail = React.createClass({
           Milé člověčátko,
         </AnimalText>
         <AnimalText>
-          tak tě tu vítám mezi námi žlutorukými tamaríny. Snad abych se představil. Jmenuji se Henry a tady moje slečna je Belle. Má takové cizokrajné jméno, že? Přesto se narodila v&nbsp;České republice, tak jako já.
+          vítám tě tu mezi námi žlutorukými tamaríny. Snad abych se představil. Jmenuji se Henry a tady moje slečna je Belle. Má takové cizokrajné jméno, že? Přesto se narodila v&nbsp;České republice, tak jako já.
         </AnimalText>
         <AnimalText>
           Naši předci, prababičky a pradědečkové, jejich pradědečkové a jejich pradědečkové pocházejí z&nbsp;Brazílie a Surinamu. Oba tyto státy se nachází v&nbsp;Jižní Americe. Krajinou, kde se žlutorucí tamaríni vyskytují nejčastěji, je oblast u&nbsp;řeky, může to být nížina nebo i&nbsp;horský prales.

@@ -23,13 +23,13 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-        Rys kanadský (latinsky <Text style={styles.italic}>Lynx canadensis</Text>) je severoamerická kočkovitá šelma žijící převážně v&nbsp;Kanadě. V&nbsp;naší zoo najdete dva zástupce, samce a samičku. Samce jsme získali v&nbsp;roce 2003 z&nbsp;ostravské zoo a samici, jež se narodila ve Spojených státech, jsme roku 2009 obdrželi od soukromého chovatele.
+        Rys kanadský, latinsky <Text style={styles.italic}>Lynx canadensis</Text>, je severoamerická kočkovitá šelma žijící převážně v&nbsp;Kanadě. V&nbsp;naší zoo najdete dva zástupce, samce a samičku. Samce jsme získali v&nbsp;roce 2003 z&nbsp;ostravské zoo a samici, jež se narodila ve Spojených státech, jsme roku 2009 obdrželi od soukromého chovatele.
         </AnimalText>
         <AnimalText>
         Oproti u&nbsp;nás známému rysu ostrovidovi (<Text style={styles.italic}>Lynx lynx</Text>) je rys kanadský trochu menší a lehčí. Na délku dosahuje zhruba jednoho metru a v&nbsp;kohoutku mívá okolo půl metru. Vážit může až 17&nbsp;kg, běžná je ale váha mezi 8 a 11&nbsp;kg. Dožívá se 15&nbsp;let.
         </AnimalText>
         <AnimalText>
-        Přirozeným domovem rysa kanadského jsou lesy v&nbsp;taize. Vyskytuje se tedy na většině území Kanady a Aljašky a řídce i&nbsp;v&nbsp;přiléhajících oblastech Spojených států. Tomu odpovídá jak jeho vzhled, tak i&nbsp;obvyklá strava. Na rozdíl od rysa ostrovida má jeho kanadský kolega výrazně hustší a delší srst a nemá na ní žádné výrazné značky. Její zbravení se mění s&nbsp;ročním obdobím, v&nbsp;zimě je stříbřitě hnědá a v&nbsp;létě může mít načervenalý odstín hnědé. Packy má kanadský rys širší, aby mohl chodit i&nbsp;v&nbsp;místech, kde je hluboký sníh.
+        Přirozeným domovem rysa kanadského jsou lesy v&nbsp;taize. Vyskytuje se tedy na většině území Kanady a Aljašky a řídce i&nbsp;v&nbsp;přiléhajících oblastech Spojených států. Tomu odpovídá jak jeho vzhled, tak i&nbsp;obvyklá strava. Na rozdíl od rysa ostrovida má jeho kanadský kolega výrazně hustší a delší srst a nemá na ní žádné výrazné značky. Její zbarvení se mění s&nbsp;ročním obdobím, v&nbsp;zimě je stříbřitě hnědá a v&nbsp;létě může mít načervenalý odstín hnědé. Packy má kanadský rys širší, aby mohl chodit i&nbsp;v&nbsp;místech, kde je hluboký sníh.
         </AnimalText>
         <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
@@ -40,7 +40,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-        Zajímavá je kolísavost početnosti populace rysů. Ta je způsobena tím, že podobně kolísá i&nbsp;populace zajíců amerických, a faktem, že potrava je jediným zásadním regulátorem početnosti rysů. Pravidelnost tohoto kolísání lze dohledat až do raného 19.&nbsp;století v&nbsp;záznamech o&nbsp;obchodu se srstí, pro niž je rys dodnes loven (nyní však již řízeně, takže tím jeho populace není ohrožena). Pro ilustraci, populace zajíců, jimiž se rys živí, dosahuje ve špičkách 2300 jedinců na km<Text style={styles.superscript}>²</Text> a pouhých 12 jedinců na km<Text style={styles.superscript}>²</Text> v&nbsp;době propadu. Početnost populace rysa kanadského se pak pohybuje mezi jedním a 45 na 100&nbsp;km<Text style={styles.superscript}>²</Text> v&nbsp;závislosti na stavu zajíců.
+        Zajímavá je kolísavost početnosti populace rysů. Ta je způsobena tím, že podobně kolísá i&nbsp;populace zajíců amerických, a faktem, že potrava je jediným zásadním regulátorem početnosti rysů. Pravidelnost tohoto kolísání lze dohledat až do raného 19.&nbsp;století v&nbsp;záznamech o&nbsp;obchodu se srstí, pro niž je rys dodnes loven (nyní však již řízeně, takže tím jeho populace není ohrožena). Pro ilustraci, populace zajíců, jimiž se rys živí, dosahuje ve špičkách 2&nbsp;300 jedinců na kilometr čtvereční a pouhých 12 jedinců na kilometr čtvereční v&nbsp;době propadu. Početnost populace rysa kanadského se pak pohybuje mezi jedním a 45 na 100&nbsp;kilometrů čtverečních v&nbsp;závislosti na stavu zajíců.
         </AnimalText>
       </AnimalTemplate>
     );

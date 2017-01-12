@@ -27,8 +27,8 @@ class EventItem extends React.Component {
     if (this.props.event.id == 'nothing') {
       return <View style={[styles.eventItem, {flex:1, flexDirection: 'row', backgroundColor: 'red'}]}>
         <View style={{flex: 1, flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
-          <Text style={styles.eventItemText}>NIČ NIČ</Text>
-          <Text style={styles.eventItemTextTime}>dnes už nič</Text>
+          <Text style={styles.eventItemText}>Je nám líto,</Text>
+          <Text style={styles.eventItemTextTime}>dnes už jsme nakrmení.</Text>
         </View>
       </View>
     }

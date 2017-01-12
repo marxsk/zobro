@@ -23,7 +23,7 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          Tapír je lichokopytník z&nbsp;čeledi tapírovitých. Původem je z&nbsp;Jižní Ameriky, kde žije v&nbsp;tropických deštných lesích. Tapíři většinou žijí samotářsky a jsou aktivní zejména za soumraku. Jsou velice plaší. Kvůli lovu a ztrátě přirozeného biotopu jsou klasifikováni jako zranitelný druh.
+          Tapír je lichokopytník z&nbsp;čeledi tapírovitých. Původem je z&nbsp;Jižní Ameriky, kde žije v&nbsp;tropických deštných lesích. Tapír většinou žije samotářsky a je aktivní zejména za soumraku. Je velice plachý. Kvůli lovu a ztrátě přirozeného biotopu je klasifikováni jako zranitelný druh.
         </AnimalText>
         <AnimalText>
           Na první pohled vypadá tapír jako velké tmavé prase, ale jistě vás zaujala jeho hlava. Tapír má krátký pohyblivý chobot, kterým může lépe uchopit svou potravu. Nenechte se zmýlit, chobot tapíra neznačí příbuznost se slony.
@@ -35,7 +35,7 @@ var AnimalDetail = React.createClass({
           Na předních nohách má tapír čtyři prsty – tři jsou přibližně stejně velké, ale čtvrtý je menší a je umístěn na noze výše než ostatní prsty. Tapír na tento malý prst našlapuje pouze tehdy, když se pohybuje na měkké půdě. Na zadních nohách má prsty tři. Na všech nohách jsou pružné polštářky a všechny prsty jsou chráněny kopýtky.
         </AnimalText>
         <AnimalText>
-          Existuje více druhů tapírů a nejlépe je rozpoznáte podle srsti. Tapír jihoamerický má srst světle šedou až hnědou. Oproti tomu například tapír středoamerický má lesklou srst zbarvenou tmavě hnědě až černě.
+          Existuje více druhů tapírů, nejlépe je rozpoznáte podle srsti. Tapír jihoamerický má srst světle šedou až hnědou. Oproti tomu například tapír středoamerický má lesklou srst zbarvenou tmavě hnědě až černě.
         </AnimalText>
       <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
@@ -49,10 +49,10 @@ var AnimalDetail = React.createClass({
         </AnimalText>
       <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Tapíři se u&nbsp;nás v&nbsp;zoo dožívají až 35&nbsp;let, avšak ve volné přírodě umírají dříve. Důvodem mohou být, mimo jiné, predátoři, kteří se ve volné přírodě vyskytují. Přirozeným predátorem tapíra jsou jaguáři, pumy a krokodýli.
+          Tapíři se u&nbsp;nás v&nbsp;zoo dožívají až 35&nbsp;let, avšak ve volné přírodě umírají dříve. Důvodem mohou být, mimo jiné, predátoři, kteří se ve volné přírodě vyskytují. Přirozenými predátory tapíra jsou jaguáři, pumy a krokodýli.
         </AnimalText>
         <AnimalText>
-          Tak co? Zalíbili se vám tapíři nebo pro vás stále budou jen těmi zvířaty s&nbsp;divnou tlamou?
+          Tak co? Zalíbili se vám tapíři, nebo pro vás stále budou jen těmi zvířaty s&nbsp;divnou tlamou?
         </AnimalText>
       </AnimalTemplate>
     );

@@ -23,9 +23,6 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-        <Text style={styles.italic}>blabla</Text> 
-        </AnimalText>
-        <AnimalText>
           Kdo je ze všech nejjasnější, nejkrásnější, nejmoudřejší, nejbarevnější, nejurozenější a nejvznešenější? Přece já! Páv korunkatý, učenou mluvou starých Římanů <Text style={styles.italic}>Pavo cristatus</Text>. Má korunka na hlavě je důkazem toho, že právě já jsem skutečným králem celé zoo (lvovi to říkat nemusíme), a pokud se mnou chceš mluvit, oslovuj mne prosím pouze ve třetí osobě.
         </AnimalText>
         <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />

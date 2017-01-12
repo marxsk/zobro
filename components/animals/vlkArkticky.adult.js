@@ -23,7 +23,7 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          <Text style={styles.italic}>Canis lupus arctos</Text>. Zvíře vznešené stejně jako jeho latinské pojmenování. Vlk arktický pochází ze severu Kanady, Grónska a přilehlých ostrovů. S&nbsp;ohledem na zimu, která v&nbsp;oněch krajích panuje, tvoří jeho srst dvě vrstvy. Spodní slouží jako tepelná izolace, vrchní vrstva hustých chlupů má pak za úkol odpuzovat vlhkost. Dohromady tvoří dokonalý kožich, na němž netaje sníh. Taktéž huňatý ocas nemá vlk arktický jen tak pro nic za nic. Používá ho jako přikrývku, když se stočí do klubíčka, přikrývá si jím svůj čumák.
+          <Text style={styles.italic}>Canis lupus arctos</Text>. Zvíře vznešené stejně jako jeho latinské pojmenování. Vlk arktický pochází ze severu Kanady, Grónska a přilehlých ostrovů. S&nbsp;ohledem na zimu, která v&nbsp;oněch krajích panuje, tvoří jeho srst dvě vrstvy. Spodní slouží jako tepelná izolace, vrchní vrstva hustých chlupů má pak za úkol odpuzovat vlhkost. Dohromady tvoří dokonalý kožich, na němž netaje sníh. Taktéž huňatý ocas nemá vlk arktický jen tak pro nic za nic. Používá ho jako přikrývku – když se stočí do klubíčka, přikrývá si jím svůj čumák.
         </AnimalText>
       <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>

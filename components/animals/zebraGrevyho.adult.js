@@ -23,17 +23,17 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          Zebra Grévyho (lat. <Text style={styles.italic}>Equus grevyi</Text>) je největším druhem zebry. Žije nejseverněji ze všech a původem je z&nbsp;Afriky. Našli bychom ji na polopouštích v&nbsp;Etiopii a v&nbsp;Keni nebo v&nbsp;Somálsku a Súdánu.
+          Zebra Grévyho, latinsky <Text style={styles.italic}>Equus grevyi</Text>, je největším druhem zebry. Žije nejseverněji ze všech a původem je z&nbsp;Afriky. Našli bychom ji na polopouštích v&nbsp;Etiopii a v&nbsp;Keni nebo v&nbsp;Somálsku a Súdánu.
         </AnimalText>
         <AnimalText>
-          Podíl na jméně této zebry má francouzský prezident, který se jmenoval Jules Grévy. Ten dostal roku 1882 od etiopské vlády jednu darem. V&nbsp;téže době se zjistilo, že v&nbsp;Etiopii existuje dosud neznámý poddruh, který je třeba pojmenovat. A tak, pro vyjádření pocty prezidentovi, dostala zebra přívlastek Grévy.
+          Podíl na jméně této zebry má francouzský prezident, který se jmenoval Jules Grévy. Ten dostal roku&nbsp;1882 od etiopské vlády jednu zebru darem. V&nbsp;téže době se zjistilo, že v&nbsp;Etiopii existuje dosud neznámý poddruh, který je třeba pojmenovat. A tak, pro vyjádření pocty prezidentovi, dostala zebra přívlastek Grévy.
         </AnimalText>
         <AnimalText>
-          V&nbsp;naší zoo chováme dva druhy zeber. Zebru Grévyho a zebru Chapmanovu. Zebra Chapmanova se nachází nedaleko odsud – v&nbsp;Africké vesnici. Myslíte, že byste tyto dva druhy od sebe odlišili? Nu, pár rozdílů mezi nimi je.
+          V&nbsp;naší zoo chováme dva druhy zeber: zebru Grévyho a zebru Chapmanovu. Zebra Chapmanova se nachází nedaleko odsud – v&nbsp;Africké vesnici. Myslíte, že byste tyto dva druhy od sebe odlišili? Nu, pár rozdílů mezi nimi je.
         </AnimalText>
         <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Za prvé, zebra Grévyho je rozměrově větší. Může být vysoká až 160 cm a dlouhá 250–275 cm. Zebra Chapmanova je kratší i nižší asi o 20 cm. 
+          Za prvé, zebra Grévyho je rozměrově větší. Může být vysoká až 160&nbsp;cm a dlouhá 250–275&nbsp;cm. Zebra Chapmanova je kratší i&nbsp;nižší asi o&nbsp;20&nbsp;cm. 
         </AnimalText>
         <AnimalText>
           Za druhé, zebra Grévyho má hustší pruhování a na krku má pruhy širší než na zbytku těla. Na břichu žádné nemá, čímž se liší od všech ostatních druhů. Čumák má šedý a rostou jí na něm drobné fousky. Zebra Chapmanova má čumák černý a mezi černými širšími pruhy má ještě tmavohnědé tenké proužky.
