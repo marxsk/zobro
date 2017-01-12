@@ -27,7 +27,12 @@ export const sceneTitles = {
 export function navigatePush(navigator, scene, props) {
   let title;
   if (scene === ANIMAL_DETAIL) {
-    title = animals[props.animal].name;
+    if (props.animal in animals) {
+      title = animals[props.animal].name;
+    } else {
+      title = "Zoo Brno"
+      // animal is not defined
+    }
   } else if ((sceneTitles[scene] !== undefined) && (sceneTitles[scene].title !== undefined)) {
     title = sceneTitles[scene].title;
   } else {

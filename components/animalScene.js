@@ -27,6 +27,13 @@ export default class AnimalScene extends React.Component {
   }
 
   render() {
+    if (!(this.props.animal in animals)) {
+        return (
+          <Text>Neznámý QR kód načten: {this.props.animal}</Text>
+        );
+    }
+
+
     const AnimalDetailAdult = animals[this.props.animal].contentAdult;
     const AnimalDetailChild = animals[this.props.animal].contentChild;
 
