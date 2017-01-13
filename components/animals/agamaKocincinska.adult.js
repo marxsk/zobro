@@ -24,7 +24,7 @@ var AnimalDetail = React.createClass({
           Agama kočinčinská neboli <Text style={styles.italic}>Physignathus cocincinus</Text> pro Angličany <Text style={styles.italic}>Chineese water dragon</Text>, tedy čínský vodní drak, je plaz dlouhý kolem tří čtvrtin metru, přičemž přibližně dvě třetiny délky agamy tvoří ocas. (Je proto s&nbsp;podivem, že agam nejsou plné učebnice matematiky; byly by z&nbsp;nich krásné příklady.)
         </AnimalText>
         <AnimalText>
-          Agamy kočinčinské obývají jihovýchod Asie, oblast takzvané Kočinčíny, to je jih Vietnamu a východ Kambodže. Kromě toho je možné je potkat v&nbsp;Číně, Thajsku a Laosu. Žijí na místech, kde je vlhko a teplo – pro milovníky čísel to znamená až 80% vlhkost a teploty 29&nbsp;±&nbsp;3&nbsp;°C. V&nbsp;takovýchto oblastech pobývají u&nbsp;vody na keřích nebo malých stromech. K&nbsp;nebezpečí se agamy otáčejí zády – vrhají se do vody, ve které jsou jako doma, a dovedou se potápět na desítky minut.
+          Agamy kočinčinské obývají jihovýchod Asie, oblast takzvané Kočinčíny, tedy jih Vietnamu. Kromě toho je možné je potkat v&nbsp;Číně, Thajsku a Laosu. Žijí na místech, kde je vlhko a teplo – pro milovníky čísel to znamená až 80% vlhkost a teploty 29&nbsp;±&nbsp;3&nbsp;°C. V&nbsp;takovýchto oblastech pobývají u&nbsp;vody na keřích nebo malých stromech. K&nbsp;nebezpečí se agamy otáčejí zády – vrhají se do vody, ve které jsou jako doma, a dovedou se potápět na desítky minut.
         </AnimalText>
       <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
