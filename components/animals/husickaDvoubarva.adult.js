@@ -26,7 +26,7 @@ var AnimalDetail = React.createClass({
           Husička dvoubarvá je charakteristická barvou svého peří a také zvukem, který vydává. Jen se zaposlouchejte. Slyšeli jste ho již někdy? Jméno, které dostala v&nbsp;angličtině, je ve srovnání s&nbsp;českým mnohem výstižnější: žlutohnědá hvízdající kachna (<Text style={styles.italic}>fulvous whistling duck</Text>). Ale i&nbsp;český název je dost popisný.
         </AnimalText>
         <AnimalText>
-          Ve volné přírodě byste husičku našli v&nbsp;subsaharské Africe, v&nbsp;celé Americe a v&nbsp;Indii. Žije ve sladkých vodách, například na velkých řekách, v&nbsp;bažinách nebo na jezerech. Důležité pro ni je, aby voda měla na březích hustou vegetaci. Zde si také hledá svou potravu. Husička jí nejen rostliny, ale i&nbsp;menší živočichy, které u&nbsp;vody uloví.
+          Ve volné přírodě byste husičku našli v&nbsp;subsaharské Africe, v&nbsp;Severní i Jižní Americe a v&nbsp;Indii. Žije ve sladkých vodách, například na velkých řekách, v&nbsp;bažinách nebo na jezerech. Důležité pro ni je, aby voda měla na březích hustou vegetaci. Zde si také hledá svou potravu. Husička jí nejen rostliny, ale i&nbsp;menší živočichy, které u&nbsp;vody uloví.
         </AnimalText>
       <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
@@ -37,7 +37,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
       <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Vajec naklade husička přibližně deset a měsíc trvá, než se z&nbsp;nich vylíhnou mladí. Ti se dožívají desíti až dvanácti let. Zkuste si tedy spočítat, kolik mladých se za život narodí jedné husičce. Vždyť to může být až sto mláďat!
+          Vajec naklade husička přibližně deset a měsíc trvá, než se z&nbsp;nich vylíhnou mláďata. Ta se dožívají desíti až dvanácti let. Zkuste si tedy spočítat, kolik mláďat se za život narodí jedné husičce. Vždyť jich může být až sto!
         </AnimalText>
       </AnimalTemplate>
     );
