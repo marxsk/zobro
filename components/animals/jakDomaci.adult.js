@@ -26,7 +26,7 @@ var AnimalDetail = React.createClass({
           A hele, návštěva!
         </AnimalText>
         <AnimalText>
-          Zdravíme, jsme jaci domácí (lat. <Text style={styles.italic}>Bos mutus</Text>) a jsme takoví, jací jsme. Pro vás himalájští příbuzní tura domácího. Chovají nás v&nbsp;horských oblastech střední Asie, kde jsme místním obyvatelům velmi užiteční, jelikož jsme skvělí parťáci na túry. Máme sice krátké nohy, ale hlubokým sněhem nám pomáhají procházet široká kopyta
+          Zdravíme, jsme jaci domácí (lat. <Text style={styles.italic}>Bos mutus</Text>) a jsme takoví, jací jsme. Pro vás himálajští příbuzní tura domácího. Chovají nás v&nbsp;horských oblastech střední Asie, kde jsme místním obyvatelům velmi užiteční, jelikož jsme skvělí parťáci na túry. Máme sice krátké nohy, ale hlubokým sněhem nám pomáhají procházet široká kopyta
         </AnimalText>
        <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
