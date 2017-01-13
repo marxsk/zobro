@@ -42,7 +42,7 @@ var AnimalDetail = React.createClass({
           <Text style={styles.strong}>Jak kapybary získáte?</Text>
         </AnimalText>
         <AnimalText>
-          Zvíře si obstarejte v&nbsp;Amazonii. Při odchytu si dejte pozor na rozdíl v&nbsp;pohlaví. Samec má oproti samici na vrchu čumáku černou neosrstěnou pachovou žlázu, jež vylučuje lepkavou tekutinu. Za chybné rozlišení pohlaví neručíme.
+          Zvíře si obstarejte v&nbsp;Jižní Americe. Při odchytu si dejte pozor na rozdíl v&nbsp;pohlaví. Samec má oproti samici na vrchu čumáku černou neosrstěnou pachovou žlázu, jež vylučuje lepkavou tekutinu. Za chybné rozlišení pohlaví neručíme.
         </AnimalText>
       <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
          <AnimalText>
@@ -61,10 +61,10 @@ var AnimalDetail = React.createClass({
           - 4 prsty na předních nohách, 3 na zadních,
         </AnimalText>
         <AnimalText>
-          - konečky prstů opatřeny malými kopýtky,
+          - mezi prsty malé plovací blány,
         </AnimalText>
         <AnimalText>
-          - mezi kopýtky malé plovací blány.
+          - konečky prstů opatřeny drápy, které vypadají jako kopýtka.
         </AnimalText>
         <AnimalText>
           Dále se ujistěte, že si kapybara nedokáže potravu přidržet předníma nohama jako ostatní hlodavci.
