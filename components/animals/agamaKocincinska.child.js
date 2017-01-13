@@ -31,7 +31,7 @@ var AnimalDetail = React.createClass({
           Pokud si teď říkáte, že vás na agamách už nic nepřekvapí, jste na omylu: agamy mají tři oči! Dvě normální, těch jste si určitě všimly, a mezi nimi mají takový puntík, kterým vnímají jen světlo. A to tak dobře, že se dokážou probudit, když nad nimi letí dravec, který by je mohl chtít sníst. Agamy samotné se krmí hlavně hmyzem. Občas si pošmáknou i&nbsp;na nějaké rybce nebo myšce. Zato zelenina jim moc nevoní.
         </AnimalText>
         <AnimalText>
-          Jak jsem říkal na začátku, tyhle agamy jsou z&nbsp;Kočinčíny, to je v Asii – na spodku Číny, kousku Vietnamu a tam kolem. Agamy totiž mají rády teplíčko; potřebují ho, aby mohly naklást vajíčka, která zahrabávají do země. A když je dost teplo, vylíhnou se z&nbsp;vajíček za nějaké dva měsíce malé agamky.
+          Jak jsem říkal na začátku, tyhle agamy jsou z&nbsp;Kočinčíny, to je v&nbsp;jihovýchodní Asii. Agamy totiž mají rády teplíčko; potřebují ho, aby mohly naklást vajíčka, která zahrabávají do země. A když je dost teplo, vylíhnou se z&nbsp;vajíček za nějaké dva měsíce malé agamky.
         </AnimalText>
         <AnimalText>
           No a na konec, připomínají vám agamy trochu jedno zlobivé pohádkové zvíře? Nejste samy, Angličané říkají agamám čínský vodní drak.
