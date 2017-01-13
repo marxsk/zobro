@@ -23,10 +23,10 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          Jaguarundi, latinsky <Text style={styles.italic}>Herpailurus yagouaroundi</Text>, je malá kočkovitá šelma. Jejím biotopem jsou nížinné lesy a křoviny Jižní a Střední Ameriky, populace však zasahuje i&nbsp;do Severní Ameriky. Nejraději se zdržuje v&nbsp;blízkosti vody, kde může lovit ryby. Živí se i&nbsp;drobnými živočichy, jako jsou hlodavci, hmyz, ještěrky, žáby nebo ptáci. Někdy si však pochutná i&nbsp;na ovoci.
+          Jaguarundi, latinsky <Text style={styles.italic}>Puma yagouaroundi</Text>, je malá kočkovitá šelma. Jejím biotopem jsou nížinné lesy a křoviny Jižní a Střední Ameriky. Nejraději se zdržuje v&nbsp;blízkosti vody, kde může lovit ryby. Živí se i&nbsp;drobnými živočichy, jako jsou hlodavci, hmyz, ještěrky, žáby nebo ptáci. Někdy si však pochutná i&nbsp;na ovoci.
         </AnimalText>
         <AnimalText>
-          Má protáhlé svalnaté tělo, krátké nohy, dlouhý silný ocas a malé zakulacené uši. Svým vzhledem tedy připomíná vydru či lasici. Odtud se odvíjí i&nbsp;její anglická pojmenování <Text style={styles.italic}>Otter cat</Text> či <Text style={styles.italic}>Weasel cat</Text>. Její tělo dosahuje délky 50–77&nbsp;cm, ocas pak 33–61&nbsp;cm. Hmotností se většinou pohybuje v&nbsp;rozmezí 4,5–9&nbsp;kg. Srst má jednobarevnou, a to v&nbsp;různých odstínech šedé (až po černou), nebo červenohnědé (od zlatavě žluté až po kaštanově hnědou).
+          Vzhledem se velmi podobá své blízké příbuzné, pumě. Má protáhlé svalnaté tělo, krátké nohy, dlouhý silný ocas a malé zakulacené uši. Svým vzhledem tedy připomíná vydru či lasici. Odtud se odvíjí i&nbsp;její anglická pojmenování <Text style={styles.italic}>Otter cat</Text> či <Text style={styles.italic}>Weasel cat</Text>. Její tělo dosahuje délky 50–77&nbsp;cm, ocas pak 33–61&nbsp;cm. Hmotností se většinou pohybuje v&nbsp;rozmezí 4,5–9&nbsp;kg. Srst má jednobarevnou, a to v&nbsp;různých odstínech šedé (až po černou), nebo červenohnědé (od zlatavě žluté až po kaštanově hnědou).
         </AnimalText>
         <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
