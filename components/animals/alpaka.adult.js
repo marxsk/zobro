@@ -37,7 +37,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
       <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Pro mnohé rodiny, zejména v&nbsp;Peru, jsou alpaky zdrojem obživy. V&nbsp;menší míře jsou chovány pro maso, ale nejvýhodnější je chovat živé alpaky a jednou za čas jim ostříhat srst. Oproti jiným domestikovaným lamám – vikuním ji mají sice o&nbsp;trochu drsnější, zato ji mají bohatší. Ze získané vlny se vyrábějí typická jihoamerická ponča, svetry, šály a další typy oblečení, které si turisté odvážejí na památku domů.
+          Pro mnohé rodiny, zejména v&nbsp;Peru, jsou alpaky zdrojem obživy. V&nbsp;menší míře jsou chovány pro maso, ale nejvýhodnější je chovat živé alpaky a jednou za čas jim ostříhat srst. Oproti jiným lamám, například vikuním, ji mají sice o&nbsp;trochu drsnější, zato bohatší. Ze získané vlny se vyrábějí typická jihoamerická ponča, svetry, šály a další typy oblečení, které si turisté odvážejí na památku domů.
         </AnimalText>
       </AnimalTemplate>
     );
