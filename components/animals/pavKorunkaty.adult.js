@@ -33,17 +33,17 @@ var AnimalDetail = React.createClass({
         </AnimalText>
       <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Náš život však není jen o&nbsp;peří. Pokud vás zajímá, jak žijeme, čtěte dál. Jsem národní pták Indie, žiju však i&nbsp;na území Srí Lanky, Bangladéše, Bhútánu, Nepálu, Pákistánu a v&nbsp;zoologických zahradách celého světa. Zmínky o&nbsp;mém chovu pochází již z&nbsp;doby starých Řeků a Římanů. Znáte Arguse z&nbsp;řeckých bájí a pověstí? Týpek s&nbsp;očima po celém těle.  Když ho Hermés zabil, Héra vzala jeho oči a dala je na náš ocas, aby uctila jeho památku. V&nbsp;mytologii a legendách se objevujeme hojně, hlavně v&nbsp;těch hinduistických.
+          Náš život však není jen o&nbsp;peří. Pokud vás zajímá, jak žijeme, čtěte dál. Jsme národní ptáci Indie, žijeme však i&nbsp;na území Srí Lanky, Bangladéše, Bhútánu, Nepálu, Pákistánu a v&nbsp;zoologických zahradách celého světa. Zmínky o&nbsp;našem chovu pochází již z&nbsp;doby starých Řeků a Římanů. Znáte Arguse z&nbsp;řeckých bájí a pověstí? Týpek s&nbsp;očima po celém těle. Když ho Hermés zabil, Héra vzala jeho oči a dala je na náš ocas, aby uctila jeho památku. V&nbsp;mytologii a legendách se objevujeme hojně, hlavně v&nbsp;těch hinduistických.
         </AnimalText>
         <AnimalText>
           Neobejdeme se bez blízkosti vodního toku. To proto, že hodně pijeme, ne že bychom se ve vodě koupali! Fuj, vodní koupel fakt ne, dáváme přednost koupeli písečné.
         </AnimalText>
         <AnimalText>
-          Ještě by vás mohlo zajímat, že máme rádi stereotypní styl života. Před všemi překvápky se máme pěkně na pozoru – ne, to co dělám s&nbsp;hlavou, není tik. Kdybych zahlédl nějakého predátora, hned dám vědět zbytku a zdrháme někam do křoví. Hezky po svých, létat sice umíme, ale s&nbsp;tím ocasem je létání mrzuté. Když už nás k&nbsp;tomu někdo donutí, moc rychle nebo daleko nedoletíme.
+          Ještě by vás mohlo zajímat, že máme rádi stereotypní styl života. Před všemi překvápky se máme pěkně na pozoru – to, co děláme s&nbsp;hlavou, není tik. Kdybychom zahlédli nějakého predátora, hned dáme vědět ostatním a zdrháme někam do křoví. Hezky po svých. Létat sice umíme, ale s&nbsp;tím ocasem je létání mrzuté. Když už nás k&nbsp;tomu někdo donutí, moc rychle nebo daleko nedoletíme.
         </AnimalText>
       <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Co se týče našeho jídelníčku, pochutnáme si na hmyzu, ještěrkách, žábách, hadech i&nbsp;na trávě či různých semínkách. V&nbsp;sánskrtu naše jméno znamená „zabiják hadů“, to proto, že pojídáme mladé kobry, čímž lidem děláme dobrou službu. Když však sežerem nějakou vzácnou ještěrku, už to prý tak super není. No co, nemají nám chodit do cesty, že.
+          Co se týče našeho jídelníčku, pochutnáme si na hmyzu, ještěrkách, žábách, hadech i&nbsp;na trávě či různých semínkách. V&nbsp;sanskrtu naše jméno znamená „zabiják hadů“, to proto, že pojídáme mladé kobry, čímž lidem děláme dobrou službu. Když však sežerem nějakou vzácnou ještěrku, už to prý tak super není. No co, nemají nám chodit do cesty, že?
         </AnimalText>
         <AnimalText>
           Mluvě o&nbsp;jídle, jdu si něco vyhrabat. Mějte se krásně jako já.
