@@ -14,7 +14,7 @@ export const sceneTitles = {
   [MAIN_MENU]: { barColor: '#f6f6f6' },
   [QR_READER]: { title: 'Načíst QR kód', bgColor: '#37af54', barColor: '#3c3c3b'},
   [ANIMAL_LIST]: { title: 'Zvířata', bgColor: '#2d9946', barColor: '#3c3c3b'},
-  [EVENTS]: { title: 'Události', bgColor: '#267f3b', barColor: '#3c3c3b'},
+  [EVENTS]: { title: 'Krmení zvířat', bgColor: '#267f3b', barColor: '#3c3c3b'},
   [GAME]: {title: 'Šifrovací hra', bgColor: '#20642f', barColor: '#3c3c3b'},
   [VISITORS]: { title: 'Pro návštěvníky', bgColor: '#2d9946', barColor: '#3c3c3b'},
   [SERVICES]: { title: 'Služby', bgColor: '#267f3b', barColor: '#3c3c3b'},

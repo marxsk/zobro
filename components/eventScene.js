@@ -17,6 +17,7 @@ import events from '../events.js';
 
 var modalWindow;
 var WIDTH = Dimensions.get('window').width;
+var HEIGHT = Dimensions.get('window').height;
 
 class EventItem extends React.Component {
   constructor(props) {
@@ -154,7 +155,7 @@ export default class EventsScene extends React.Component {
           ref='modal2'
           onRequestClose={() => {}}
           >
-        <View style={{backgroundColor: '#1d1b1b'}}>
+        <View style={{backgroundColor: 'green', height: 150}}>
           <Image
             resizeMode='contain'
             source={myEvent.thumbnail}
@@ -223,6 +224,8 @@ export default class EventsScene extends React.Component {
 const localStyles = StyleSheet.create({
   container: {
     flex: 1,
+    height: HEIGHT,
+    backgroundColor: 'yellow',
   },
   eventItem: {
     flex: 1,
@@ -231,7 +234,9 @@ const localStyles = StyleSheet.create({
   },
   eventModal: {
     width: WIDTH,
-    backgroundColor: '#1d1b1b',
+    backgroundColor: 'blue',
+    height: 600,
+    paddingBottom: 50,
   },
   button: {
     flex: 1,

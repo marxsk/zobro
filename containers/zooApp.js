@@ -96,7 +96,7 @@ class ZooApp extends React.Component {
         }
         // return false = end application on main menu, what is standard?
         // return true = do nothing
-        return true;
+        BackAndroid.exitApp();
     });
   }
 

@@ -8,6 +8,8 @@ import {
 import Dimensions from 'Dimensions';
 import styles from '../styles/styles';
 
+const ICONSIZE = 64;
+
 export default class GameScene extends React.Component {
     constructor(props) {
       super(props);
@@ -21,68 +23,62 @@ export default class GameScene extends React.Component {
       const WIDTH = Dimensions.get('window').width - 20;
       return (
         <ScrollView style={{flex: 1, backgroundColor: 'white', paddingRight: 5, paddingLeft: 5,}}>
+        <Text style={[styles.ctext, {color: 'black', textAlignVertical: 'center', paddingLeft: 10, fontWeight: 'bold'}]}>Co u nás najdete:</Text>
 
-        <Text style={[styles.ctext, {color: 'white', backgroundColor: 'green', fontWeight: 'bold'}]}>Restaurace U&nbsp;Tygra</Text>
+        <View style={{flex: 1, flexDirection: 'row', alignItems: 'center', paddingTop: 10, justifyContent: 'center'}}>
+          <Image source={require('../images/icons/restaurace.png')} style={{width: ICONSIZE, height: ICONSIZE}} />
+          <Image source={require('../images/icons/obcerstveni.png')} style={{width: ICONSIZE, height: ICONSIZE, marginLeft: 10}} />
+          <Image source={require('../images/icons/obchod.png')} style={{width: ICONSIZE, height: ICONSIZE, marginLeft: 10}} />
+        </View>
+
+        <View style={{flex: 1, flexDirection: 'row', alignItems: 'center', paddingTop: 10, justifyContent: 'center'}}>
+          <Image source={require('../images/icons/toalety.png')} style={{width: ICONSIZE, height: ICONSIZE}} />
+          <Image source={require('../images/icons/wifi.png')} style={{width: ICONSIZE, height: ICONSIZE, marginLeft: 10}} />
+          <Image source={require('../images/icons/pes.png')} style={{width: ICONSIZE, height: ICONSIZE, marginLeft: 10}} />
+        </View>
+
+        <Image source={require('../images/icons/vozicek.png')} style={{width: ICONSIZE, height: ICONSIZE, marginTop: 15}} />
         <Text style={[styles.ctext, {color: 'black'}]}>
-Nachází se v &nbsp;přízemí Centra služeb.
+          Půjčování dětských vozíků zdarma. Pro děti do 30 kg.
         </Text>
 
-        <Text style={[styles.ctext, {color: 'white', backgroundColor: 'green', fontWeight: 'bold'}]}>Občerstvení</Text>
+        <View style={{flex: 1, flexDirection: 'row', alignItems: 'center'}}>
+          <Image source={require('../images/icons/ponici.png')} style={{width: ICONSIZE, height: ICONSIZE}} />
+          <Text style={[styles.ctext, {color: 'black', textAlignVertical: 'center', paddingLeft: 10, fontWeight: 'bold'}]}>Jízda na ponících v Dětské zoo</Text>
+        </View>
         <Text style={[styles.ctext, {color: 'black'}]}>
-Občerstvení Africká vesnice Samburu
+        duben–září denně od 10.00 do 17.30 h (kromě dní s nepříznivým počasím)
+        </Text><Text style={[styles.ctext, {color: 'black'}]}>
+        říjen–březen denně od 10.00 do 15.30 h (kromě dní s nepříznivým počasím)
+        </Text><Text style={[styles.ctext, {color: 'black'}]}>
+        jedna jízda stojí 25 Kč
         </Text>
 
-        <Text style={[styles.ctext, {color: 'white', backgroundColor: 'green', fontWeight: 'bold'}]}>Prodejna suvenýrů a dárkových předmětů</Text>
+        <View style={{flex: 1, flexDirection: 'row', alignItems: 'center'}}>
+          <Image source={require('../images/icons/vlacek.png')} style={{width: ICONSIZE, height: ICONSIZE}} />
+          <Text style={[styles.ctext, {color: 'black', textAlignVertical: 'center', paddingLeft: 10, fontWeight: 'bold'}]}>Jízda vláčkem</Text>
+        </View>
         <Text style={[styles.ctext, {color: 'black'}]}>
-        Nachází se v&nbsp;1.&nbsp;patře Centra služeb.
-        Provozní doba denně dle otevírací doby Zoo Brno.
+        Od 1. 4. do 30. 4. provoz vláčku pouze o víkendech a svátcích.
+        </Text><Text style={[styles.ctext, {color: 'black'}]}>
+        Od 1. 5. do 15. 9. provoz vláčku denně.
+        </Text><Text style={[styles.ctext, {color: 'black'}]}>
+        Od 16. 9. do 31. 10. provoz vláčku pouze o víkendech a svátcích.
+        </Text><Text style={[styles.ctext, {color: 'black'}]}>
+        Od 1. 11. do 31. 3. vláček mimo provoz.
         </Text>
 
-        <Text style={[styles.ctext, {color: 'white', backgroundColor: 'green', fontWeight: 'bold'}]}>Toalety a přebalovací pulty</Text>
-        <Text style={[styles.ctext, {color: 'black'}]}>
-        správní budova
-        </Text><Text style={[styles.ctext, {color: 'black'}]}>
-        Centrum služeb (prodejna suvenýrů a dárkových předmětů)
-        </Text><Text style={[styles.ctext, {color: 'black'}]}>
-        Beringie (naproti Kamčatské chalupě), včetně přebalovacího pultu
-        </Text><Text style={[styles.ctext, {color: 'black'}]}>
-        u&nbsp;stánku U&nbsp;Krokodýla
-        </Text><Text style={[styles.ctext, {color: 'black'}]}>
-        Africká vesnice Samburu, včetně přebalovacího pultu
-        </Text><Text style={[styles.ctext, {color: 'black'}]}>
-        Restaurace U&nbsp;Tygra, včetně přebalovacího pultu
-        </Text>
+        <Text style={[styles.ctext, {color: 'black', fontWeight: 'bold'}]}>Tohle prosím nedělejte:</Text>
+        <View style={{flex: 1, flexDirection: 'row', alignItems: 'center', paddingTop: 10, justifyContent: 'center'}}>
+          <Image source={require('../images/icons/brusle_zakaz.png')} style={{width: ICONSIZE, height: ICONSIZE}} />
+          <Image source={require('../images/icons/kolo_zakaz.png')} style={{width: ICONSIZE, height: ICONSIZE, marginLeft: 10}} />
+          <Image source={require('../images/icons/kolobezka_zakaz.png')} style={{width: ICONSIZE, height: ICONSIZE, marginLeft: 10}} />
+        </View>
+        <View style={{flex: 1, flexDirection: 'row', alignItems: 'center', paddingTop: 10, paddingBottom: 25, justifyContent: 'center'}}>
+          <Image source={require('../images/icons/odrazedlo_zakaz.png')} style={{width: ICONSIZE, height: ICONSIZE}} />
+          <Image source={require('../images/icons/skateboard_zakaz.png')} style={{width: ICONSIZE, height: ICONSIZE, marginLeft: 10}} />
+        </View>
 
-        <Text style={[styles.ctext, {color: 'white', backgroundColor: 'green', fontWeight: 'bold'}]}>Jízda na ponících v Dětské zoo</Text>
-        <Text style={[styles.ctext, {color: 'black'}]}>
-        duben–září denně od 10.00 do 17.30&nbsp;h
-        říjen–březen denně od 10.00 do 15.30&nbsp;h
-        </Text><Text style={[styles.ctext, {color: 'black'}]}>
-        Provozní doba platí mimo dny s nepříznivým počasím.
-        Jedna jízda stojí 25&nbsp;Kč.
-        </Text>
-
-        <Text style={[styles.ctext, {color: 'white', backgroundColor: 'green', fontWeight: 'bold'}]}>Jízda vláčkem</Text>
-        <Text style={[styles.ctext, {color: 'black'}]}>
-        Od 1.&nbsp;4. do 30.&nbsp;4. provoz vláčku pouze o&nbsp;víkendech a svátcích.
-        </Text><Text style={[styles.ctext, {color: 'black'}]}>
-        Od 1.&nbsp;5. do 15.&nbsp;9. provoz vláčku denně.
-        </Text><Text style={[styles.ctext, {color: 'black'}]}>
-        Od 16.&nbsp;9. do 31.&nbsp;10. provoz vláčku pouze o&nbsp;víkendech a svátcích.
-        </Text><Text style={[styles.ctext, {color: 'black'}]}>
-        Od 1.&nbsp;11. do 31.&nbsp;3. vláček mimo provoz.
-        </Text><Text style={[styles.ctext, {color: 'black'}]}>
-        Jedna jízda – dítě (3–15 let): 10&nbsp;Kč, ostatní: 20&nbsp;Kč.
-        Prodej jízdenek na místech označených piktogramem: vstupní pokladny, stánek Upomínkové předměty, obchod s&nbsp;upomínkovými předměty v&nbsp;Centru služeb, stánek u&nbsp;horní točny vláčku.
-        V&nbsp;případě špatných povětrnostních a klimatických podmínek si Zoo Brno a stanice zájmových činností, příspěvková organizace, vyhrazuje právo na úpravu provozu vláčku. Děkujeme za pochopení.
-        </Text>
-
-        <Text style={[styles.ctext, {color: 'white', backgroundColor: 'green', fontWeight: 'bold'}]}>Půjčovna dětských vozíků</Text>
-        <Text style={[styles.ctext, {color: 'black'}]}>
-Stanoviště před restaurací U&nbsp;Tygra. Určeno pro děti do 30&nbsp;kg. Půjčení vozíku je zdarma.
-        </Text>
-
-          <Image source={require('../images/vlacek.jpg')} style={{width: WIDTH, height: 500, marginRight: 0, marginLeft: 5}} resizeMode='contain'/>
         </ScrollView>
       );
     }
