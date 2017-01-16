@@ -23,7 +23,7 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          Ahoj děti, my jsme dželady. Že nás neznáte? Rádi se vám představíme. Jmenujeme se Heiko, Helge a Asrak. Já jsem Heiko a s&nbsp;Helgem zde pobýváme od roku 2005, Asrak je tu od roku 2008. Všichni jsme byli přivezeni z&nbsp;Německa, ze země, která sousedí s&nbsp;Českou republikou. Známí jsme také pod názvem dželada hnědá nebo pavián dželada.
+          Ahoj děti, my jsme dželady. Že nás neznáte? Rády se vám představíme. Jmenujeme se Heiko, Helge a Asrak. Já jsem Heiko a s&nbsp;Helgem zde pobýváme od roku 2005, Asrak je tu od roku 2008. Všichni jsme byli přivezeni z&nbsp;Německa, ze země, která sousedí s&nbsp;Českou republikou. Známí jsme také pod názvem dželada hnědá nebo pavián dželada.
         </AnimalText>
       <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
@@ -31,7 +31,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
       <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Obýváme vysoko položené náhorní plošiny a louky na území Etiopie a Eritreje, tedy v&nbsp;zemích na jiném kontinentě. Většinu dne trávíme na horských loukách, kde vsedě vyhledáváme rostlinnou stravu. V&nbsp;období dešťů dáváme přednost zeleným částem rostlin, plodům a květům. V&nbsp;období sucha zase baštíme semena, trávu nebo hlízy. Protistojný palec nám umožňuje dokonalé třídění trávy a travních semen. Jednu ruku používáme ke shromažďování potravy, druhou ruku k&nbsp;jejímu třídění. Naše mláďata se rodí jako jedináčci a na matce jsou závislá po dobu 12–18 měsíců, my samci se na péči o&nbsp;potomky většinou nepodílíme. Víte, jak se dorozumíváme? Používáme celou řadu posunků, např. cenění zubů, trhání hlavou, ale i&nbsp;hlasové projevy – občas prostě křičíme jako opice.
+          Obýváme vysoko položené náhorní plošiny a louky na území Etiopie a Eritreje, tedy v&nbsp;zemích na jiném kontinentě. Většinu dne trávíme na horských loukách, kde vsedě vyhledáváme rostlinnou stravu. V&nbsp;období dešťů dáváme přednost zeleným částem rostlin, plodům a květům. V&nbsp;období sucha zase baštíme semena, trávu nebo hlízy. Protistojný palec nám umožňuje dokonalé třídění trávy a travních semen. Jednu ruku používáme ke shromažďování potravy, druhou ruku k&nbsp;jejímu třídění. Naše mláďata se rodí jako jedináčci a na matce jsou závislá po dobu 12–18 měsíců, my samci se na péči o&nbsp;potomky většinou nepodílíme. Víte, jak se dorozumíváme? Používáme celou řadu posunků, například cenění zubů, trhání hlavou, ale i&nbsp;hlasové projevy – občas prostě křičíme jako opice.
         </AnimalText>
       </AnimalTemplate>
     );
