@@ -23,14 +23,14 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          Jespáci bojovní (<Text style={styles.italic}>Philomachus pugnax</Text>) žijí na severu Evropy nebo Asie. Při změně klimatu táhnou na jih, nejlépe do subsaharské Afriky, někdy však také do Indie nebo Arábie, a to v&nbsp;hejnech, která mohou čítat až tisíce jedinců. Když jsou právě na tahu, můžete je zahlédnout i&nbsp;v&nbsp;České republice.
+          Jespáci bojovní (<Text style={styles.italic}>Philomachus pugnax</Text>) žijí na severu Evropy nebo Asie. Když se přiblíží zima, táhnou na jih, nejlépe do subsaharské Afriky, někdy však také do Indie nebo Arábie, a to v&nbsp;hejnech, která mohou čítat až tisíce jedinců. Když jsou právě na tahu, můžete je zahlédnout i&nbsp;v&nbsp;České republice.
         </AnimalText>
         <AnimalText>
-          Zbožňují vodu, a tak nejraději pobývají na březích jezer a mokřadů, kde se s&nbsp;oblibou brodí bahnem (ne nadarmo se řadí mezi bahňáky) a čas od času odchytí i&nbsp;nějakou tu rybku, jinak ale vezmou zavděk hmyzem a drobnými živočichy, nepohrdnou však ani vodními rostlinami nebo semeny.
+          Zbožňují vodu, a tak nejraději pobývají na březích jezer a mokřadů, kde se s&nbsp;oblibou brodí bahnem (ne nadarmo se řadí mezi bahňáky) a čas od času odchytí i&nbsp;nějakou tu rybku, jinak ale vezmou zavděk hmyzem a jinými drobnými živočichy, nepohrdnou však ani vodními rostlinami nebo semeny.
         </AnimalText>
         <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Samci samicím přerůstají přes hlavu, obvykle o&nbsp;nějakých 5&nbsp;až 8&nbsp;centimetrů, jinak se však za normálních okolností příliš neliší. Všichni mají hnědé peří s&nbsp;černými skvrnami, bílé bříško a dlouhý špičatý zobák. Když ovšem chtějí samci v&nbsp;období páření (květen až červen) zapůsobit na samice, to pak hrají všemi barvami. Tedy všemi ne, ale naroste jim pestrý vztyčitelný límec (hnědý, žlutý až bílý), tváře si napudrují červenožlutou pudřenkou a tou dobou mají za ušima (kudrnaté chocholky). Sem tam připojí i&nbsp;nějakou tu poklonu. Chtějí za každou cenu ubránit svou pozici na tokaništi, a tak vám v&nbsp;tomto období nabídnou náramnou podívanou v podobě soubojů.
+          Samci samicím přerůstají přes hlavu, obvykle o&nbsp;nějakých 5&nbsp;až 8&nbsp;centimetrů, jinak se však příliš neliší. Všichni mají hnědé peří s&nbsp;černými skvrnami, bílé bříško a dlouhý špičatý zobák. Když ovšem chtějí samci v&nbsp;období páření (květen až červen) zapůsobit na samice, to pak hrají všemi barvami. Tedy všemi ne, ale naroste jim pestrý vztyčitelný límec (hnědý, žlutý až bílý), tváře si napudrují červenožlutou pudřenkou a tou dobou mají za ušima (kudrnaté chocholky). Sem tam připojí i&nbsp;nějakou tu poklonu. Chtějí za každou cenu ubránit svou pozici na tokaništi, a tak vám v&nbsp;tomto období nabídnou náramnou podívanou v podobě soubojů.
         </AnimalText>
         <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>

@@ -30,10 +30,10 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-        Papoušci ara mají velmi strategické zbarvení, spodní část těla je žlutá a vrchní zelenomodrá. Když se schovávají mezi stromy a svítí slunce, tak jsou proti modré obloze téměř k&nbsp;nenalezení. Na krku mají černý pruh, okolí očí je, až na pár černých pírek, bílé a holé. Měří mezi 80–86&nbsp;centimetry, ale většinu této délky zaujímá dlouhý ocas. Pohlaví se nedá určit ani podle vnějšího zbarvení, ani podle chování, ale pouze za pomoci vyšetření. Zobák mají černý, mohutný a zahnutý. Spodní část je pohyblivá.
+        Papoušci ara mají nenápadné krycí zbarvení, spodní část těla je žlutá a vrchní zelenomodrá. Když se schovávají v&nbsp;korunách stromů a svítí slunce, jsou proti modré obloze téměř k&nbsp;nenalezení. Na krku mají černý pruh, okolí očí je, až na pár černých pírek, bílé a holé. Měří mezi 80–86&nbsp;centimetry, ale většinu této délky zaujímá dlouhý ocas. Pohlaví se nedá určit ani podle vnějšího zbarvení, ani podle chování, ale pouze za pomoci vyšetření. Zobák mají černý, mohutný a zahnutý. Spodní část je pohyblivá.
         </AnimalText>
         <AnimalText>
-         Díky silnému zobáku nemají problém rozlousknout jakkoli tvrdou skořápku. Jejich nejčastější potravou jsou různé druhy ořechů, plody, pupeny, mladé výhonky stromů a příležitostně hmyz. Za potravou jsou schopni létat až 25&nbsp;kilometrů daleko v&nbsp;hejnech, která vedou vždy starší a zkušenější ptáci. Pohromadě také létají ke břehům řek, kde požírají jíl kvůli minerálům. Hledat jídlo se vydávají za úsvitu, za soumraku se pak shromažďují v&nbsp;dutinách stromů, kde tráví noc.
+         Díky silnému zobáku nemají problém rozlousknout jakkoli tvrdou skořápku. Jejich nejčastější potravou jsou různé druhy ořechů, plody, pupeny, mladé výhonky stromů a příležitostně hmyz. Za potravou jsou schopni létat až 25&nbsp;kilometrů daleko v&nbsp;hejnech, která vedou vždy starší a zkušenější ptáci. Pohromadě také létají ke břehům řek, kde požírají jíl kvůli neutralizaci rostlinných toxinů z&nbsp;potravy. Hledat jídlo se vydávají za úsvitu, za soumraku se pak shromažďují v&nbsp;dutinách stromů, kde tráví noc.
         </AnimalText>
         <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>

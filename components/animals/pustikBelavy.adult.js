@@ -24,10 +24,10 @@ var AnimalDetail = React.createClass({
         Puštík bělavý (lat. <Text style={styles.italic}>Strix uralensis</Text>) je noční sova, která se dožívá až 25&nbsp;let. Dorůstá 59&nbsp;centimetrů a má nápadný, relativně dlouhý ocas. Rozpětí jeho křídel dosahuje obvykle 120&nbsp;centimetrů.
         </AnimalText>
         <AnimalText>
-        Jeho peří je světle šedé, oči jsou malé a tmavé. Samec a samice se od sebe barevně neliší, samice jsou však mohutnější.
+        Jeho peří je světle šedé, oči jsou malé a tmavé. Samec a samice se od sebe barevně neliší, samice je však mohutnější.
         </AnimalText>
         <AnimalText>
-        Většinou loví v&nbsp;noci, někdy i&nbsp;ve dne, pokud má mláďata, je aktivnější více ve dne. Loví tak, že neslyšně číhá ve větvích stromů, jakmile zpozoruje kořist, okamžitě se na ni vrhne a drapne ji do svých silných drápů. Svou kořist si ale odnáší v&nbsp;zobáku.
+        Většinou loví v&nbsp;noci, někdy i&nbsp;ve dne, pokud má mláďata, je aktivnější spíše ve dne. Loví tak, že neslyšně číhá ve větvích stromů, jakmile zpozoruje kořist, okamžitě se na ni vrhne a drapne ji do svých silných drápů. Svou kořist si ale odnáší v&nbsp;zobáku.
         </AnimalText>
         <AnimalText>
         Vytváří monogamní páry na celý život. Páry jsou také věrné svému teritoriu, které neopouští ani v&nbsp;letech, kdy je nedostatek potravy. Potravou mu jsou myši a další hlodavci, ptáci, obojživelníci a hmyz.

@@ -24,7 +24,7 @@ var AnimalDetail = React.createClass({
           Hezký den!
         </AnimalText>
         <AnimalText>
-          Jsme krajta a krajťák kobercoví, anglicky nám říkají <Text style={styles.italic}>Carpet Python</Text>. Je tomu tak nikoliv proto, že se z&nbsp;nás koberce vyrábějí, nýbrž proto, že svým výrazným zbarvením se žlutými a černými skvrnami připomínáme vzory tkaných východoasijských koberců.
+          Jsme krajta a krajťák kobercoví, anglicky nám říkají <Text style={styles.italic}>Carpet Python</Text>. Je tomu tak nikoliv proto, že se z&nbsp;nás koberce vyrábějí, nýbrž proto, že svým výrazným zbarvením se žlutými a černými skvrnami připomínáme vzory tkaných orientálních koberců.
         </AnimalText>
         <AnimalText>
           Náš druh se dělí na šest různých poddruhů. Každý z&nbsp;nich má specifické zbarvení podle toho, kde žije. My dva patříme k poddruhu <Text style={styles.italic}>Morelia spilotes variegata</Text> a do brněnské zoo jsme se přistěhovali v&nbsp;únoru 2014 ze Dvora Králové.

@@ -34,7 +34,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-        Dříve jsme se ve velkých stádech proháněli po spoustě míst v&nbsp;Severní Americe, ale od té doby, co se tam nastěhovali lidé z&nbsp;Evropy, je nás čím dál méně. Dnes už nás najdete jen v&nbsp;některých amerických národních parcích a v&nbsp;ohraničených oblastech v&nbsp;divočině.
+        Bizoni se často objevují třeba v&nbsp;knížkách o&nbsp;Vinnetouovi, a tak byste si mohli myslet, že je nás v&nbsp;Americe hodně. Kdysi se nás na Divokém západě proháněly opravdu miliony, ale když přijeli před dvěma sty lety osadníci z&nbsp;Evropy, náš počet se hodně snížil. Dnes už se situace zlepšuje a najdete nás v&nbsp;některých amerických národních parcích a v&nbsp;ohraničených oblastech divočiny.
         </AnimalText>
       </AnimalTemplate>
     );

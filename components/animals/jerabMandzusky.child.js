@@ -42,7 +42,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Každým dnem jsem byl větší a větší. Peří začalo bělet, některé naopak zčernalo. Nohy mi vyrostly, dokonce i&nbsp;krk se protáhl tak, že se mi konečně podařilo ulovit prvního broučka z&nbsp;jezírka.
+          Každým dnem jsem byl větší a větší. Peří začalo bělet, některé naopak zčernalo. Nohy mi vyrostly, dokonce i&nbsp;krk se protáhl tak, že se mi konečně podařilo ulovit prvního brouka z&nbsp;jezírka.
         </AnimalText>
         <AnimalText>
           A pak se to stalo. Potkal jsem krásnou jeřábici. Hotovou modelku! Když natáhla svůj krk, měřila skoro 150&nbsp;centimetrů! Povězte mi, kdo z&nbsp;vás je vyšší?

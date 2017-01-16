@@ -27,7 +27,7 @@ var AnimalDetail = React.createClass({
         Délka těla tohoto zvířátka dosahuje v&nbsp;průměru 11,5–18,6&nbsp;cm a ve srovnání s&nbsp;příbuznými druhy má relativně krátký ocas (7–11,5&nbsp;cm). Jeho šedá až rezavě hnědá srst zaujme především světlými a tmavými pruhy, které se táhnou podél hřbetu a kolem očí. 
         </AnimalText>
         <AnimalText>
-        Čipmank je samotářské a teritoriální zvíře, které si energicky brání své území před vetřelci. Na rozdíl od stromových veverek tráví čipmank východní značnou část roku pod zemí, kde si buduje rozsáhlý systém nor. Tyto nory hloubí zejména pod kameny, v&nbsp;kořenech stromů nebo pod okrajem budov. Je aktivní přes den a občas je k&nbsp;vidění i&nbsp;na stromech, kam ho láká především čerstvá potrava. Mezi stromy ovšem nepřeskakuje, pouze čiperně běhá po větvích podobně jako plch. Živí se ovocem, semeny, ořechy, pupeny, houbami a hmyzem.
+        Čipmank je samotářské a teritoriální zvíře, které si energicky brání své území před vetřelci. Na rozdíl od stromových veverek tráví čipmank východní značnou část roku pod zemí, kde si buduje rozsáhlý systém nor. Tyto nory hloubí zejména pod kameny, mezi kořeny stromů nebo pod okrajem budov. Je aktivní přes den a občas je k&nbsp;vidění i&nbsp;na stromech, kam ho láká především čerstvá potrava. Mezi stromy ovšem nepřeskakuje, pouze čiperně běhá po větvích podobně jako plch. Živí se ovocem, semeny, ořechy, pupeny, houbami a hmyzem.
         </AnimalText>
         <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
@@ -37,7 +37,7 @@ var AnimalDetail = React.createClass({
         Na jaře nastává doba páření. Samičky jsou březí měsíc a během jednoho vrhu přivádí na svět 3–5&nbsp;potomků. Mláďata se rodí slepá a opustit podzemní hnízdo jsou schopná po 5–6&nbsp;týdnech. V&nbsp;divočině se čipmank obvykle dožívá dvou až tří let, v&nbsp;zajetí až osmi let. 
         </AnimalText>
         <AnimalText>
-        A&nbsp;jakpak se čipmankům východním daří v&nbsp;Zoo Brno? Tyto neposedné veverky u&nbsp;nás žijí od listopadu 2014. Čipmankové k&nbsp;nám dorazili od soukromého chovatele ve dvou párech. Momentálně je naleznete u&nbsp;pavilonu orlů, kde pro ně byla vytvořena speciální expozice s&nbsp;umělou sekvojí. Protože jsou to samotářská zvířata, v&nbsp;pavilonu se obvykle nachází pouze jeden čipmančí pár. Zbylí dva jedinci žijí odděleně v&nbsp;zázemí zoo.
+        A&nbsp;jakpak se čipmankům východním daří v&nbsp;Zoo Brno? Tyto neposedné veverky u&nbsp;nás žijí od listopadu 2014. Čipmankové k&nbsp;nám dorazili od soukromého chovatele ve dvou párech. Momentálně je naleznete u&nbsp;voliéry orlů, kde pro ně byla vytvořena speciální expozice s&nbsp;umělou sekvojí. Protože jsou to samotářská zvířata, v&nbsp;pavilonu se obvykle nachází pouze jeden čipmančí pár. Zbylí dva jedinci žijí odděleně v&nbsp;zázemí zoo.
         </AnimalText>
         <AnimalText>
         Jsme první zoologická zahrada v&nbsp;České republice, v&nbsp;níž je možné tento druh zemní veverky zahlédnout. Jejich odchov je všeobecně velmi vzácný. Spousta našich návštěvníků (a zejména ti nejmenší) ale čipmanky již velmi dobře zná. Především díky svému roztomilému vzhledu se stali oblíbenými hrdiny mnoha amerických filmů a seriálů pro děti. Kdo by neznal legendárního Chipa a Dalea z&nbsp;Rychlé roty?
