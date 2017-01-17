@@ -33,7 +33,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Milujeme vodu a vůbec mokrou půdu, proto si nejraději hovíme poblíž jezer, bažin nebo mokřin. A jak rádi se brodíme bahnem! Ale vy to radši nedělejte, rodiče by z&nbsp;vás asi neměli radost. My jsme na to stavění, máme dlouhé nohy, takže si tělo hned tak neumažeme. A když se nám to náhodou povede, nevadí, peří se dobře čistí. Na té hnědé to stejně není moc vidět. Horší je to s&nbsp;tím bílým bříškem. Ale co, ty pochoutky za to stojí. Jaké? Hlavně hmyz, ale také máme rádi třeba rybky, červíky nebo vodní rostliny a jejich semena, prostě co ten náš zobáček tenký jako jehlička zrovna vyšťourá.
+          Milujeme vodu a vůbec mokrou půdu, proto si nejraději hovíme poblíž jezer, bažin nebo mokřin. A jak rádi se brodíme bahnem! Ale vy to radši nedělejte, rodiče by z&nbsp;vás asi neměli radost. My jsme na to stavění, máme dlouhé nohy, takže si tělo hned tak neumažeme. A když se nám to náhodou povede, nevadí, peří se dobře čistí. Na té hnědé to stejně není moc vidět. Horší je to s&nbsp;bílým bříškem. Ale co, ty pochoutky za to stojí. Jaké? Hlavně hmyz, ale také máme rádi třeba rybky, červíky nebo vodní rostliny a jejich semena, prostě co ten náš zobáček tenký jako jehlička zrovna vyšťourá.
         </AnimalText>
         <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
