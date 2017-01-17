@@ -27,7 +27,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-        My orlové jsme velcí, až metr vysocí draví ptáci, když roztáhneme svá křídla, od levého k&nbsp;pravému můžeme měřit téměř 2,5&nbsp;metru, což je například výška medvěda grizzlyho vestoje. Jsme velmi dobří letci, když se do toho opřeme, dosahujeme rychlosti až 160&nbsp;kilometrů za hodinu a za takovou rychlost už bychom mohli mít v&nbsp;Česku i&nbsp;problémy se zákonem. Ve volné přírodě nás můžete spatřit především poblíž větších jezer, rybníků a na mořských pobřežích, a to hlavně v&nbsp;Kanadě, Americe a na severu Mexika. Jsme známí jako národní pták Spojených států amerických a také jako symbol svobody. 
+        My orlové jsme velcí, až metr vysocí draví ptáci, když roztáhneme svá křídla, od levého k&nbsp;pravému můžeme měřit téměř 2,5&nbsp;metru, což je například výška medvěda grizzlyho vestoje. Jsme velmi dobří letci, když se do toho opřeme, dosahujeme rychlosti až 160&nbsp;kilometrů za hodinu. Za takovou rychlost už bychom mohli mít v&nbsp;Česku i&nbsp;problémy se zákonem. Ve volné přírodě nás můžete spatřit především poblíž větších jezer, rybníků a na mořských pobřežích, a to hlavně v&nbsp;Kanadě, Americe a na severu Mexika. Jsme známí jako národní pták Spojených států amerických a také jako symbol svobody. 
         </AnimalText>
         <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
