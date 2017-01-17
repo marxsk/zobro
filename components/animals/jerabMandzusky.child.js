@@ -52,7 +52,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Teď tu tedy děláme ťápoty do bláta spolu. Jak čas plyne, na hlavě se nám oběma dělá čím dál větší červená pleš, ale to vůbec nevadí. Na Dálném východě, odkud pocházíme, jsou totiž jeřábi symbolem dlouhověkosti, a ta pleš k&nbsp;stáří prostě patří.
+          Teď tu tedy děláme ťápoty do bláta spolu. Jak čas plyne, na hlavě se nám oběma dělá čím dál větší červená pleš, ale to vůbec nevadí. Na Dálném východě, odkud pocházíme, jsou totiž jeřábi symbolem dlouhověkosti a ta pleš k&nbsp;stáří prostě patří.
         </AnimalText>
       </AnimalTemplate>
     );
