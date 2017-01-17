@@ -23,7 +23,7 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          A heleme se, lidské mládě! Neboj se a pojď k&nbsp;nám blíž, rádi bychom se ti představili. Říkají nám kozorožci sibiřští a jsme jedním z&nbsp;druhů divokých koz. Bystré hlavičky už možná z&nbsp;našeho jména rozluštily, že pocházíme ze Sibiře. To je oblast v&nbsp;Rusku, kde je opravdu ukrutná zima. Nám to ale nevadí, před chladem nás chrání naše teplá srst.
+          A heleme se, lidské mládě! Neboj se a pojď k&nbsp;nám blíž, rádi bychom se ti představili. Říkají nám kozorožci sibiřští a jsme jedním z&nbsp;druhů divokých koz. Bystré hlavičky už možná z&nbsp;našeho jména rozluštily, že se vyskytujeme na Sibiři – to je oblast v&nbsp;Rusku, kde je opravdu ukrutná zima. Nám to ale nevadí, před chladem nás chrání naše teplá srst. Mimo Sibiř je naší domovinou například Čína, Mongolsko, Afghánistán, dokonce i severní Indie. 
         </AnimalText>
         <AnimalText>
           Jsme k&nbsp;vidění především vysoko v&nbsp;horách a na loukách. Už z&nbsp;dálky nás poznáš podle velkých rohů, které jsou naší největší chloubou. Až si je budeš prohlížet zblízka, všimni si, jaké na nich máme ozdobné prstence. Podle nich se dá poznat, jak jsme staří.
