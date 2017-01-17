@@ -99,7 +99,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
        <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Jaci domácí jsou šikovní pomocníci a v&nbsp;práci zastoupí hned několik zvířat. Náklad tahají jako koně, nechají se podojit jako krávy, z&nbsp;vyčesané srsti se dá tkát jako z&nbsp;ovčí vlny, a jačí trus se dokonce používá jako palivo!
+          Jaci domácí jsou šikovní pomocníci a v&nbsp;práci zastoupí hned několik zvířat. Náklad tahají jako koně, nechají se podojit jako krávy, z&nbsp;vyčesané srsti se dá tkát jako z&nbsp;ovčí vlny a jačí trus se používá jako palivo.
         </AnimalText>
         <AnimalText>
           Mohlo by vás překvapit, že jaci se při té spoustě práce moc nezpotí. Mají k&nbsp;tomu však pádný důvod. Lidem pomáhají hlavně ve vysokých horách v&nbsp;Asii, kde je velká zima. Právě kvůli ní si musejí udržet teplotu svého těla. Kdyby se potili, zbytečně by jim teplo unikalo. Ale o&nbsp;moc víc se nezpotí ani naše domácí krávy.
