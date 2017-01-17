@@ -62,6 +62,13 @@ export default class EventsScene extends React.Component {
 
   componentWillMount() {
     this.props.bg();
+    PushNotificationIOS.checkPermissions(
+      (perm) => {
+        if (! perm.alert) {
+          PushNotificationIOS.requestPermissions();
+        }
+      }
+    );
   }
 
   isTimeSelected(time) {
@@ -87,7 +94,6 @@ export default class EventsScene extends React.Component {
       return null;
     }
   }
-
 
   render() {
     const backgroundColors = [
@@ -184,23 +190,30 @@ export default class EventsScene extends React.Component {
             <TouchableHighlight
             underlayColor='#aaaaaa'
             onPress={() => {
+//                Alert.alert(1000* (this.state.selectedTime + 0));
+                let fireTime = new Date(Date.now());
+                const p = myEvent.time.split(':');
+                fireTime.setHours(p[0]);
+                fireTime.setMinutes(p[1]);
+                fireTime.setSeconds(0);
+
+
+                if (this.isEventSubscribed(myEvent)) {
+                  this.refs.modal2.close();
+                  return;
+                }
+
                 this.props.addNotification(myEvent);
-/*                PushNotificationIOS.scheduleLocalNotification(
+                PushNotificationIOS.scheduleLocalNotification(
                 {
-                  alertBody: (myEvent.name + ' ' + myEvent.place),
-                  fireDate: new Date(Date.now() + (10 * 1000)).getTime(),
+                  alertBody: (myEvent.name + '\n' + myEvent.place + '\n' + myEvent.time),
+                  // @todo - fix
+                  fireDate: new Date(fireTime - ((this.state.selectedTime + 0) * 1000)).getTime(),
                   userInfo: {id: myEvent.id},
                 }
               );
-              PushNotificationIOS.addEventListener(
-                'localNotification',
-                (notif) => {
-                  let mNot = events.filter((event) => {return event['id'] === notif._data.id;})[0];
 
-                  Alert.alert(mNot.name + '\n' + mNot.place + '\n' + mNot.time);
-                }
-              );
-*/              this.refs.modal2.close();
+              this.refs.modal2.close();
             }} style={[localStyles.button, this.isEventSubscribed(myEvent)]}>
             <Text style={localStyles.buttonText}>Ano</Text>
             </TouchableHighlight>
@@ -208,7 +221,20 @@ export default class EventsScene extends React.Component {
             <TouchableHighlight
             underlayColor='#aaaaaa'
             onPress={() => {
-              this.props.removeNotification(myEvent);
+              if (! this.isEventSubscribed(myEvent)) {
+                this.refs.modal2.close();
+                return;
+              }
+
+              PushNotificationIOS.getScheduledLocalNotifications((notifs) => {
+                notifs.forEach((n) => {
+                  if (n.userInfo.id === myEvent.id) {
+                    this.props.removeNotification(myEvent);
+                    PushNotificationIOS.cancelLocalNotifications(n.userInfo);
+                  }
+                });
+                console.log(JSON.stringify(notifs));
+              })
               this.refs.modal2.close();
             }} style={[localStyles.button, this.isEventNotSubscribed(myEvent)]}>
             <Text style={localStyles.buttonText}>Ne</Text>

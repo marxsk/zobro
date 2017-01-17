@@ -44,9 +44,10 @@ export default class AboutScene extends React.Component {
             <Image source={require('../images/icons/email.png')} style={{width: ICONSIZE, height: ICONSIZE}} />
             <Text style={[styles.ctext, {color: 'black', textAlignVertical: 'center', paddingLeft: 10}]}>zoo@zoobrno.cz</Text>
           </View>
-          <Text style={[styles.ctext, {color: 'black'}]}>
-            GPS: 49° 13' 49,6'' N; 16° 31' 59,9'' E
-          </Text>
+          <View style={{flex: 1, flexDirection: 'row', alignItems: 'center'}}>
+            <Image source={require('../images/icons/gps.png')} style={{width: ICONSIZE, height: ICONSIZE}} />
+            <Text style={[styles.ctext, {color: 'black', textAlignVertical: 'center', paddingLeft: 10}]}>49° 13' 49,6'' N;{"\n"}16° 31' 59,9'' E</Text>
+          </View>
           <View style={{flex: 1, flexDirection: 'row', alignItems: 'center'}}>
             <Image source={require('../images/icons/tramvaj.png')} style={{width: ICONSIZE, height: ICONSIZE}} />
             <Text style={[styles.ctext, {color: 'black', textAlignVertical: 'center', paddingLeft: 10}]}>č. 1, 3, 11</Text>

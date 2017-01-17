@@ -2,7 +2,7 @@ import React from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {TouchableHighlight, View, Text, Navigator, TouchableOpacity, Alert, Image, BackAndroid} from 'react-native';
+import {PushNotificationIOS, TouchableHighlight, View, Text, Navigator, TouchableOpacity, Alert, Image, BackAndroid} from 'react-native';
 import styles from '../styles/styles';
 
 import AboutScene from '../components/aboutScene';
@@ -140,6 +140,14 @@ class ZooApp extends React.Component {
       this.props.setReaderLevel('adult');
     }
   }
+
+  componentWillMount() {
+    PushNotificationIOS.addEventListener('localNotification', this._localNotif);
+  }
+
+  _localNotif(notif) {
+    Alert.alert(notif['_alert']);
+  };
 
   render() {
     return (
