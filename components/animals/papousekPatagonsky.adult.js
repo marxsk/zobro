@@ -28,7 +28,7 @@ var AnimalDetail = React.createClass({
           Další zvláštností je jejich odolnost vůči chladu. Zatímco většina jiných papoušků se před příchodem mrazů přesouvá do chovatelského zázemí, patagonci jsou schopni bez větších problémů vydržet ve venkovní voliéře celou zimu díky dispozicím získaným z&nbsp;domoviny.
         </AnimalText>
         <AnimalText>
-          Papoušci patagonští pochází z&nbsp;klimaticky poměrně drsného jihu Jižní Ameriky. Patagonie, jak se tato rozsáhlá oblast nazývá, náleží z&nbsp;větší části Argentině a z&nbsp;menší části Chile. Papoušky zde najdete především v&nbsp;pustých, otevřených oblastech, jako jsou suché stepi a polopouště. Obývají také oblasti ve vyšších nadmořských výškách, kupříkladu v&nbsp;podhůří And, kde často vystupují až do 2&nbsp;000&nbsp;metrů. Jedná se o&nbsp;tažný druh, což znamená, že se v&nbsp;zimě stěhují do teplejších oblastí, zejména do severovýchodní Argentiny a Uruguaye.
+          Papoušci patagonští pochází z&nbsp;klimaticky poměrně drsného jihu Jižní Ameriky. Patagonie, jak se tato rozsáhlá oblast nazývá, náleží z&nbsp;větší části Argentině a z&nbsp;menší části Chile. Papoušky zde najdete především v&nbsp;pustých, otevřených oblastech, jako jsou suché stepi a polopouště. Obývají také oblasti ve vyšších nadmořských výškách, kupříkladu v&nbsp;podhůří And, kde často vystupují až do 2&nbsp;000&nbsp;metrů nad mořem. Jedná se o&nbsp;tažný druh, což znamená, že se v&nbsp;zimě stěhují do teplejších oblastí, zejména do severovýchodní Argentiny a Uruguaye.
         </AnimalText>
         <AnimalText>
           Papoušci patagonští jsou velmi společenští ptáci. Žijí v&nbsp;koloniích, které mnohdy čítají až několik set jedinců. Patagonci si vytvářejí partnerství na celý život a jsou striktně monogamní.
