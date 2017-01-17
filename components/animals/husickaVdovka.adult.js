@@ -36,7 +36,7 @@ var AnimalDetail = React.createClass({
           Husička vdovka má hnízdo nejčastěji jako prostý důlek v&nbsp;zemi, který je nedaleko vody a zároveň je skrytý hustou vegetací.
         </AnimalText>
         <AnimalText>
-          Nejen vzhledem je husička vdovka velmi odlišná od nám dobře známých hus – patří totiž do jiné podčeledi a k&nbsp;husám má stejně daleko jako ke kachnám. Má černobílou hlavu. Peří na zádech a křídlech jí přechází od tmavě hnědé do černé barvy. Spodní strana těla je černá stejně jako ocas. Ten je vzhledem k&nbsp;velikosti těla velmi krátký a šedomodré nohy jsou naproti tomu nezvykle dlouhé. Sameček i&nbsp;samička se od sebe vzhledově ani velikostně neliší, avšak mláďata se malinko různí od rodičů svou méně výrazně zbarvenou hlavou.
+          Nejen vzhledem je husička vdovka velmi odlišná od nám dobře známých hus – patří totiž do jiné podčeledi a k&nbsp;husám má stejně daleko jako ke kachnám (v&nbsp;angličtině jí říkají <Text style={styles.italic}>duck</Text>). Má černobílou hlavu. Peří na zádech a křídlech jí přechází od tmavě hnědé do černé barvy. Spodní strana těla je černá stejně jako ocas. Ten je vzhledem k&nbsp;velikosti těla velmi krátký a šedomodré nohy jsou naproti tomu nezvykle dlouhé. Sameček i&nbsp;samička se od sebe vzhledově ani velikostně neliší, avšak mláďata se malinko různí od rodičů svou méně výrazně zbarvenou hlavou.
         </AnimalText>
         <AnimalText>
           Husička vdovka je všežravá a často se potápí, aby si ulovila svoji potravu. Strava se skládá především z&nbsp;vodního hmyzu, vodních měkkýšů, rostlin a semen.
