@@ -38,8 +38,9 @@ export default class GameScene extends React.Component {
         </View>
 
         <Image source={require('../images/icons/vozicek.png')} style={{width: ICONSIZE, height: ICONSIZE, marginTop: 15}} />
+        <Text style={[styles.ctext, {color: 'black', textAlignVertical: 'center', paddingLeft: 10, fontWeight: 'bold'}]}>Půjčování dětských vozíků</Text>
         <Text style={[styles.ctext, {color: 'black'}]}>
-          Půjčování dětských vozíků zdarma. Pro děti do 30 kg.
+          Půjčování zdarma pro děti do 30&nbsp;kg.
         </Text>
 
         <View style={{flex: 1, flexDirection: 'row', alignItems: 'center'}}>
@@ -47,11 +48,12 @@ export default class GameScene extends React.Component {
           <Text style={[styles.ctext, {color: 'black', textAlignVertical: 'center', paddingLeft: 10, fontWeight: 'bold'}]}>Jízda na ponících v Dětské zoo</Text>
         </View>
         <Text style={[styles.ctext, {color: 'black'}]}>
-        duben–září denně od 10.00 do 17.30 h (kromě dní s nepříznivým počasím)
+        duben–září denně od 10.00 do 17.30&nbsp;h
         </Text><Text style={[styles.ctext, {color: 'black'}]}>
-        říjen–březen denně od 10.00 do 15.30 h (kromě dní s nepříznivým počasím)
+        říjen–březen denně od 10.00 do 15.30&nbsp;h
         </Text><Text style={[styles.ctext, {color: 'black'}]}>
-        jedna jízda stojí 25 Kč
+        Platí mimo dny s&nbsp;nepříznivým počasím.
+        Jedna jízda stojí 25&nbsp;Kč.
         </Text>
 
         <View style={{flex: 1, flexDirection: 'row', alignItems: 'center'}}>
@@ -59,13 +61,13 @@ export default class GameScene extends React.Component {
           <Text style={[styles.ctext, {color: 'black', textAlignVertical: 'center', paddingLeft: 10, fontWeight: 'bold'}]}>Jízda vláčkem</Text>
         </View>
         <Text style={[styles.ctext, {color: 'black'}]}>
-        Od 1. 4. do 30. 4. provoz vláčku pouze o víkendech a svátcích.
+        Od 1.&nbsp;4. do 30.&nbsp;4. provoz vláčku pouze o&nbsp;víkendech a svátcích.
         </Text><Text style={[styles.ctext, {color: 'black'}]}>
-        Od 1. 5. do 15. 9. provoz vláčku denně.
+        Od 1.&nbsp;5. do 15.&nbsp;9. provoz vláčku denně.
         </Text><Text style={[styles.ctext, {color: 'black'}]}>
-        Od 16. 9. do 31. 10. provoz vláčku pouze o víkendech a svátcích.
+        Od 16.&nbsp;9. do 31.&nbsp;10. provoz vláčku pouze o&nbsp;víkendech a svátcích.
         </Text><Text style={[styles.ctext, {color: 'black'}]}>
-        Od 1. 11. do 31. 3. vláček mimo provoz.
+        Od 1.&nbsp;11. do 31.&nbsp;3. vláček mimo provoz.
         </Text>
 
         <Text style={[styles.ctext, {color: 'black', fontWeight: 'bold'}]}>Tohle prosím nedělejte:</Text>
