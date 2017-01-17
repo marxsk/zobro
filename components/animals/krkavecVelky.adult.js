@@ -29,7 +29,7 @@ var AnimalDetail = React.createClass({
           <Text style={styles.italic}>nad knihou či pergamenem v&nbsp;křesle znaven víc a víc.</Text>
         </AnimalText>
         <AnimalText>
-          <Text style={styles.italic}>Bílá můra zaleskla se ve žlutém svitu bílých svic,</Text>
+          <Text style={styles.italic}>Bílá můra zaleskla se v&nbsp;žlutém svitu bílých svic,</Text>
         </AnimalText>
         <AnimalText>
           <Text style={styles.italic}>zobáku už nevyhla se, on smutkem zkřivil svoji líc.</Text>
@@ -53,7 +53,7 @@ var AnimalDetail = React.createClass({
           promiňte za uvítání ponurými verši v&nbsp;metru Poeova Krkavce, kterého většina z&nbsp;vás zná spíše pod Nezvalovým nepřesným překladem Havran.
         </AnimalText>
         <AnimalText>
-          Krkavec je v naší kultuře často spojován s&nbsp;temnými silami či smrtí, proto ne náhodou hlavní hrdina básně propadal úzkosti z&nbsp;přítomnosti tak velkého černého ptáka, kterého někdo naučil mluvit. Ano, čtete správně. Krkavec je totiž největším ptákem, kterého řadíme mezi pěvce, takže dokáže bez problému a k&nbsp;nerozeznání napodobit lidský hlas a naučit se mnoho slov. Jako ostatní krkavcovití se vyznačuje vysokou inteligencí.
+          Krkavec je v naší kultuře často spojován s&nbsp;temnými silami či smrtí, proto ne náhodou hlavní hrdina básně propadal úzkosti z&nbsp;přítomnosti tak velkého černého ptáka, kterého někdo naučil mluvit. Ano, čtete správně. Krkavec je totiž největším ptákem, kterého řadíme mezi pěvce, jelikož dokáže bez problému a k&nbsp;nerozeznání napodobit lidský hlas a naučit se mnoho slov. Jako ostatní krkavcovití se vyznačuje vysokou inteligencí.
         </AnimalText>
         <AnimalText>
           Expozice krkavců velkých, latinsky nazývaných <Text style={styles.italic}>Corvus corax</Text>, je v&nbsp;brněnské zoo umístěna nad správní budovou. Pro zajímavost, pokud vám něco říká saltarello či si někdy poslechnete středověkou hudbu, pak je vám latinský název povědomý díky stejnojmenné hudební skupině.
