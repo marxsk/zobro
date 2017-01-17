@@ -40,7 +40,7 @@ var AnimalDetail = React.createClass({
           Krako byl od té doby respektovaný rytíř. Odháněl turisty od zvířecích obydlí – vždycky se někam schoval, pronesl naučenou větu a lidé šli tam, kam je navedl. Za odměnu si mohl vystlat hnízdo jemným mechem a prvotřídním blátem, které zajistily pohodlí pro šest krkavčích ptáčat.
         </AnimalText>
         <AnimalText>
-          Vědci od té doby říkají, že krkavci jsou dokonce největší ptáci patřící do řádu pěvců. Někteří se naučí napodobovat řeč nebo zpěv lidí víc, jiní se jen schovávají v&nbsp;přírodě, sedí na rameni čarodějnicím nebo radostně krákají v&nbsp;zoo. My, krkavci z&nbsp;brněnské zoo, jsme na svoje krákání pyšní. Když tu u&nbsp;nás chvilku počkáte, určitě vám svůj hlas předvedeme.
+          Vědci od té doby říkají, že krkavci jsou dokonce největší ptáci patřící do řádu pěvců. Někteří se naučí napodobovat řeč nebo zpěv lidí víc, jiní se jen schovávají v&nbsp;přírodě, sedí na rameni čarodějnicím nebo radostně krákají v&nbsp;zoo. My krkavci z&nbsp;brněnské zoo jsme na svoje krákání pyšní. Když tu u&nbsp;nás chvilku počkáte, určitě vám svůj hlas předvedeme.
         </AnimalText>
       </AnimalTemplate>
     );
