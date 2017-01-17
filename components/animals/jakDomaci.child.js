@@ -95,7 +95,7 @@ var AnimalDetail = React.createClass({
         
         </AnimalText>
         <AnimalText>
-          … …
+          …
         </AnimalText>
        <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
