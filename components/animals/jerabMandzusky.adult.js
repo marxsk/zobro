@@ -30,7 +30,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Tito elegantní ptáci spolu žijí v&nbsp;monogamním svazku, který vzájemně utužují společným troubením a tancem, při kterém roztahují křídla, uklánějí se a vyskakují. Jejich troubení je nezaměnitelné. Jeřábi mají kostěnou část průdušnice, což rezonanci ještě zesiluje. Jejich volání se může ozývat i&nbsp;na několik kilometrů. V&nbsp;přírodě se dožívají věku kolem 30&nbsp;let, v&nbsp;lidské péči až 65&nbsp;let. Na Dálném východě jsou jeřábi považováni za posvátný symbol dlouhověkosti a manželského štěstí.
+          Tito elegantní ptáci spolu žijí v&nbsp;monogamním svazku, který vzájemně utužují společným troubením a tancem, při kterém roztahují křídla, uklánějí se a vyskakují. Jejich troubení je nezaměnitelné. Jeřábi mají kostěnou část průdušnice, která je navíc prodloužená a stočená v dutině hrudní kosti, což je unikátní a rezonanci ještě zesiluje. Jejich volání se může ozývat i&nbsp;na několik kilometrů. V&nbsp;přírodě se dožívají věku kolem 30&nbsp;let, v&nbsp;lidské péči až 65&nbsp;let. Na Dálném východě jsou jeřábi považováni za posvátný symbol dlouhověkosti a manželského štěstí.
         </AnimalText>
         <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
