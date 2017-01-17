@@ -30,7 +30,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
       <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Stejně jsme ale nejraději u&nbsp;velké vodní plochy, ulovíme si tam něco na zub, taková rostlinka nebo malý vodní živočich, to je pochutina. A že toho sníme, většinou nás totiž zahlédnete v&nbsp;několikatisícových hejnech. Ale nejsme jen tak obyčejné husičky, my jme totiž velké seriálové herečky a hvězdy. No opravdu, zahrály jsme si v&nbsp;seriálu Hvězdná brána, video, kde nás Hank Landry dokonce imituje, najdete na internetu. Klidně se hned podívejte.
+          Stejně jsme ale nejraději u&nbsp;velké vodní plochy, ulovíme si tam něco na zub. Taková rostlinka nebo malý vodní živočich, to je pochutina! A že toho sníme, většinou nás totiž zahlédnete v&nbsp;několikatisícových hejnech. Ale nejsme jen tak obyčejné husičky, my jme totiž velké seriálové herečky a hvězdy. No opravdu, zahrály jsme si v&nbsp;seriálu Hvězdná brána – video, kde nás Hank Landry dokonce imituje, najdete na internetu. Klidně se hned podívejte.
         </AnimalText>
       <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>

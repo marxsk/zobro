@@ -41,7 +41,7 @@ var AnimalDetail = React.createClass({
           Oblast Zalesněná
         </AnimalText>
         <AnimalText>
-          6&nbsp;915&nbsp;&nbsp;000
+          6&nbsp;915&nbsp;000
         </AnimalText>
         <AnimalText>
           JIŽNÍ AMERIKA
@@ -74,7 +74,7 @@ var AnimalDetail = React.createClass({
 
         </AnimalText>
         <AnimalText>
-          <Text style={styles.strong}>Zaměstnání:</Text> Nezaměstnaný. Potenciál pro využití v&nbsp;tradiční medicíně – tuk na revmatismus; zuby vhodné jako amulety.
+          <Text style={styles.strong}>Zaměstnání:</Text> Nezaměstnaný. Potenciál pro využití v&nbsp;tradiční medicíně – tuk na revmatismus, zuby vhodné jako amulety.
         </AnimalText>
         <AnimalText>
 
@@ -102,7 +102,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
       <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          <Text style={styles.strong}>Nynější onemocnění:</Text> „Jsem předurčen být jako Brněnský drak na Staré radnici… /<Text style={styles.italic}>Co vám brání být jako Brněnský drak?</Text>/... Jsem nejmenší z&nbsp;druhů krokodýlů a délkou nepřekročím 170&nbsp;cm, Brněnský drak je třikrát delší. Pociťuji úzkosti a mám pocit, že můj život ztratil smysl… <Text style={styles.italic}>Kdy potíže začaly a jak dlouho trvají?</Text>/ ... Hantec se učím od roku 2002, pravdu o&nbsp;své maximální délce jsem se dozvěděl, když jsem byl v 95.&nbsp;lekci, netuším, co je teď za měsíc… <Text style={styles.italic}>Proč chcete být jako Brněnský drak?</Text>/ ... Chci viset v&nbsp;průjezdu, kde proudící vzduch připomíná chladnou řeku. Chci, aby se o&nbsp;mně říkaly legendy a aby ke mně lidé vzhlíželi… <Text style={styles.italic}>Nemůžete být malým drakem?</Text>/ ... Ne, musím být velký a chci viset v&nbsp;Brně. Navíc mám nekvalitní kůži na břiše a ke konzervaci nechtějí použít drahé technologie.“
+          <Text style={styles.strong}>Nynější onemocnění:</Text> „Jsem předurčen být jako Brněnský drak na Staré radnici. /<Text style={styles.italic}>Co vám brání být jako Brněnský drak?</Text>/ Jsem nejmenší z&nbsp;druhů krokodýlů a délkou nepřekročím 170&nbsp;cm, Brněnský drak je třikrát delší. Pociťuji úzkosti a mám pocit, že můj život ztratil smysl. /<Text style={styles.italic}>Kdy potíže začaly a jak dlouho trvají?</Text>/ Hantec se učím od roku 2002, pravdu o&nbsp;své maximální délce jsem se dozvěděl, když jsem byl v 95.&nbsp;lekci, netuším, co je teď za měsíc. /<Text style={styles.italic}>Proč chcete být jako Brněnský drak?</Text>/ Chci viset v&nbsp;průjezdu, kde proudící vzduch připomíná chladnou řeku. Chci, aby se o&nbsp;mně říkaly legendy a aby ke mně lidé vzhlíželi. /<Text style={styles.italic}>Nemůžete být malým drakem?</Text>/ Ne, musím být velký a chci viset v&nbsp;Brně. Navíc mám nekvalitní kůži na břiše a ke konzervaci nechtějí použít drahé technologie.“
         </AnimalText>
         <AnimalText>
 

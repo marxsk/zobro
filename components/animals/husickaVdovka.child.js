@@ -23,7 +23,7 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          V&nbsp;naší zoo si husičky vdovky žijí společně s&nbsp;plameňáky. Mají pro sebe velké jezírko. Plameňáci jsou jejich kamarádi, podávají husičkám informace o&nbsp;všem, co se děje. Protože jsou větší a více toho vidí.
+          V&nbsp;naší zoo si husičky vdovky žijí společně s&nbsp;plameňáky. Mají pro sebe velké jezírko. Plameňáci jsou jejich kamarádi, podávají husičkám informace o&nbsp;všem, co se kde děje. To proto, že jsou větší a více toho vidí.
         </AnimalText>
         <AnimalText>
           Husička miluje plavání ve vodě, proto se zdržuje především u&nbsp;jezer, bažin či větších řek. Taková místa jsou pro ni výhodná, protože tam roste vysoká, hustá tráva, kam chodí ráda odpočívat. Často si tam udělá svoje hnízdo, které je jenom jednoduchým důlkem v&nbsp;zemi.

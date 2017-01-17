@@ -36,17 +36,17 @@ var AnimalDetail = React.createClass({
           Husička vdovka má hnízdo nejčastěji jako prostý důlek v&nbsp;zemi, který je nedaleko vody a zároveň je skrytý hustou vegetací.
         </AnimalText>
         <AnimalText>
-          Nejen vzhledem je husička vdovka velmi odlišná od nám dobře známých hus – patří totiž do jiné podčeledi a k&nbsp;husám má stejně daleko jako ke kachnám (v&nbsp;angličtině jí říkají <Text style={styles.italic}>duck</Text>). Má černobílou hlavu. Peří na zádech a křídlech jí přechází od tmavě hnědé do černé barvy. Spodní strana těla je černá stejně jako ocas. Ten je vzhledem k&nbsp;velikosti těla velmi krátký a šedomodré nohy jsou naproti tomu nezvykle dlouhé. Sameček i&nbsp;samička se od sebe vzhledově ani velikostně neliší, avšak mláďata se malinko různí od rodičů svou méně výrazně zbarvenou hlavou.
+          Nejen vzhledem je husička vdovka velmi odlišná od nám dobře známých hus – patří totiž do jiné podčeledi a k&nbsp;husám má stejně daleko jako třeba ke kachnám (v&nbsp;angličtině jí říkají <Text style={styles.italic}>duck</Text>). Má černobílou hlavu. Peří na zádech a křídlech jí přechází od tmavě hnědé do černé barvy. Spodní strana těla je černá stejně jako ocas. Ten je vzhledem k&nbsp;velikosti těla velmi krátký a šedomodré nohy jsou naproti tomu nezvykle dlouhé. Sameček i&nbsp;samička se od sebe vzhledově ani velikostně neliší, avšak mláďata se malinko různí od rodičů svou méně výrazně zbarvenou hlavou.
         </AnimalText>
         <AnimalText>
           Husička vdovka je všežravá a často se potápí, aby si ulovila svoji potravu. Strava se skládá především z&nbsp;vodního hmyzu, vodních měkkýšů, rostlin a semen.
         </AnimalText>
         <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Hnízdění může probíhat jak na zemi v&nbsp;ukrytém důlku, tak na stromě. Samička snese 4–13 &nbsp;vajec a skoro měsíc trvá, než se housata vylíhnou. V&nbsp;sezení se střídají oba rodiče. V&nbsp;této době hnízdění je sameček jediný, kdo se k&nbsp;samičce a vejcím může přiblížit, jinak je samička ke svému okolí značně agresivní a odhání i&nbsp;zástupce svého druhu. Po vyhnízdění přichází perioda, kdy dospělí ptáci pelichají, a ztrácí schopnost létat. Jsou tak zranitelnější a musí se více skrývat v&nbsp;husté vegetaci.
+          Hnízdění může probíhat jak na zemi v&nbsp;ukrytém důlku, tak na stromě. Samička snese 4–13 &nbsp;vajec a skoro měsíc trvá, než se housata vylíhnou. V&nbsp;sezení se střídají oba rodiče. V&nbsp;této době hnízdění je sameček jediný, kdo se k&nbsp;samičce a vejcím může přiblížit, jinak je samička ke svému okolí značně agresivní a odhání i&nbsp;zástupce svého druhu. Po vyhnízdění přichází perioda, kdy dospělí ptáci pelichají a ztrácí schopnost létat. Jsou tak zranitelnější a musí se více skrývat v&nbsp;husté vegetaci.
         </AnimalText>
         <AnimalText>
-          Pozoruhodné je, že se zdá, jako by měla husička kolem hlavy uvázaný černý šátek. Patrně z&nbsp;toho důvodu se jí říká vdovka. Naproti tomu její anglické jméno – <Text style={styles.italic}>White-faced whistling duck</Text> – ji vystihuje ze zcela jiného pohledu. Zmiňuje její typicky bílou tvář, ale také nám říká, že vydává nápadné hvízdavé zvuky. Obě její jména o&nbsp;ní něco napovídají.
+          Pozoruhodné je, že se zdá, jako by měla husička kolem hlavy uvázaný černý šátek. Patrně z&nbsp;toho důvodu se jí říká vdovka. Naproti tomu její anglické jméno – <Text style={styles.italic}>white-faced whistling duck</Text> – ji vystihuje ze zcela jiného úhlu pohledu. Zmiňuje její typicky bílou tvář, ale také nám říká, že vydává nápadné hvízdavé zvuky. Obě její jména o&nbsp;ní mnohé napovídají.
         </AnimalText>
       </AnimalTemplate>
     );

@@ -26,7 +26,7 @@ var AnimalDetail = React.createClass({
           Kozorožec sibiřský (<Text style={styles.italic}>Capra sibirica</Text>) je jedním z&nbsp;druhů divoce žijících koz. Na první pohled vás nepochybně upoutá svými mohutnými, obloukovitě zahnutými rohy. U&nbsp;samců tyto rohy dorůstají průměrné délky 100–148&nbsp;cm, zatímco v&nbsp;případě samic jejich délka obvykle nepřesáhne 40&nbsp;cm. Na rozích si mimo jiné můžete všimnout i&nbsp;vystupujících prstenců, podle nichž lze určit stáří zvířete.
         </AnimalText>
         <AnimalText>
-          Domovem tohoto druhu kozorožce je centrální a severní Asie. Hojně se vyskytuje v&nbsp;horských oblastech jižní Sibiře a na území směrem od Afghánistánu a Pákistánu až po Mongolsko. Jeho přirozeným prostředím jsou vysokohorské tundry, louky a polopouště. Jídelníček kozorožce tedy tvoří převážně horské byliny, trávy, pupeny, mechy a lišejníky. Během léta také s&nbsp;oblibou olizují sůl, která jim dodává potřebné minerály.
+          Domovem tohoto druhu kozorožce je centrální a severní Asie. Hojně se vyskytuje v&nbsp;horských oblastech jižní Sibiře a na území směrem od Afghánistánu a Pákistánu až po Mongolsko. Jeho přirozeným prostředím jsou vysokohorské tundry, louky a polopouště. Jídelníček kozorožce tedy tvoří převážně horské byliny, trávy, pupeny, mechy a lišejníky. Během léta také s&nbsp;oblibou olizuje sůl, která mu dodává potřebné minerály.
         </AnimalText>
       <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
