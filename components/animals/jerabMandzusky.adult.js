@@ -37,7 +37,7 @@ var AnimalDetail = React.createClass({
           Naše samice jeřába mandžuského se narodila v&nbsp;roce 2002 v&nbsp;moskevské zoo a zde žije od roku 2005. Samec se narodil roku 2005 v Zoo Schönbrunn a k&nbsp;nám přijel o&nbsp;rok později.
         </AnimalText>
         <AnimalText>
-          Jedinci opačného pohlaví jsou schopni spolu léta setrvávat společně v&nbsp;jedné expozici, aniž by měli mláďata. O&nbsp;to hodnotnější je pro nás fakt, že brněnští jeřábi tvoří harmonický pár, kterému se v&nbsp;roce 2014 podařilo zplodit první potomky. Další úspěch náš pár čekal hned následující rok, kdy se podíleli na vzniku Evropského záchovného programu. První dvě oplozená vajíčka byla transportována v&nbsp;květnu 2015 do Amurské oblasti (Rusko), kde se z&nbsp;jednoho z&nbsp;nich v&nbsp;biologické stanici úspěšně vyklubalo mládě. Malý jeřáb se poté zapojil do procesu adaptace na okolní prostředí, aby mohl být vypuštěn do volné přírody.
+          Jedinci opačného pohlaví jsou schopni spolu léta setrvávat společně v&nbsp;jedné expozici, aniž by měli mláďata. O&nbsp;to hodnotnější je pro nás fakt, že brněnští jeřábi tvoří harmonický pár, kterému se v&nbsp;roce 2014 podařilo zplodit první potomky. Další úspěch náš pár čekal hned následující rok, kdy se úspěšně podíleli na záchraně svého druhu v&nbsp;rámci Evropského záchovného programu. První dvě oplozená vajíčka byla transportována v&nbsp;květnu 2015 do Amurské oblasti (Rusko), kde se z&nbsp;jednoho z&nbsp;nich v&nbsp;biologické stanici úspěšně vyklubalo mládě. Malý jeřáb se poté zapojil do procesu adaptace na okolní prostředí, aby mohl být vypuštěn do volné přírody.
         </AnimalText>
       </AnimalTemplate>
     );
