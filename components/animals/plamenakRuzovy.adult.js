@@ -23,7 +23,7 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          Plameňák růžový je díky své barvě obvykle definovaný jako velký růžový pták. Dorůstá velikosti nadprůměrného hobita, tedy zhruba 120–145&nbsp;cm. Jeho křídla mají v rozepjatém stavu od 140&nbsp;do&nbsp;165&nbsp;cm (kdyby se postavil na špičku křídla, převyšoval by sebenadprůměrnější trpaslíky). Jako správní ptáci jsou ale na svůj vzrůst velmi lehcí – jejich váha se pohybuje v rozmezí 2&nbsp;až&nbsp;4&nbsp;kg.
+          Plameňák růžový je díky své barvě obvykle definovaný jako velký růžový pták. Dorůstá velikosti nadprůměrného hobita, tedy zhruba 120–145&nbsp;cm. Jeho křídla mají v rozepjatém stavu od 140&nbsp;do&nbsp;165&nbsp;cm (kdyby se postavil na špičku křídla, převyšoval by sebenadprůměrnější trpaslíky). Jako správný pták je ale na svůj vzrůst velmi lehký – jeho váha se pohybuje v rozmezí 2&nbsp;až&nbsp;4&nbsp;kg.
         </AnimalText>
         <AnimalText>
           Plameňáci růžoví jsou společenský druh, žijí v&nbsp;koloniích po stovkách i&nbsp;tisících jedinců. Najít plameňáky je možné ve Středomoří, v&nbsp;Asii (ve dvou velkých „pruzích“ – na jihozápadním pobřeží Saúdské Arábie a v&nbsp;dlouhém pásu od Iráku přes Írán do Pákistánu a Indie), v&nbsp;Africe (na mapě tvoří jejich osídlení véčko, na západě je možné nalézt je v&nbsp;pruhu kolem pobřeží od Konga až do Jihoafrické republiky, ze které se táhne druhá nožička „V“ až do Etiopie a Eritrey) a na Madagaskaru.
