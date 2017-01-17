@@ -36,7 +36,7 @@ var AnimalDetail = React.createClass({
           Proč rybičky? Nejraději ze všeho totiž plaveme. Z&nbsp;dlouhého máčení se ve vodě však nikdy nenachladneme. To díky tomu, že naše srst nepropouští vodu. Při plavání si pomáháme ocasem, který nám slouží jako pádlo, a na zadních nohách máme plovací blány.
         </AnimalText>
         <AnimalText>
-          Kromě plavání také rádi skotačíme v&nbsp;proudu řek, brousíme si zuby o&nbsp;dřevo, stavíme hráze ze stromů nebo si hrajeme ve svém bobřím hradě.  Říkáte si, bobři mají hrad? Ano, z&nbsp;větviček a hlíny!
+          Kromě plavání také rádi skotačíme v&nbsp;proudu řek, brousíme si zuby o&nbsp;dřevo, stavíme hráze ze stromů nebo si hrajeme ve svém bobřím hradě. Říkáte si, bobři mají hrad? Ano, z&nbsp;větviček a hlíny!
         </AnimalText>
         <AnimalText>
           Zajímá vás, jestli míváme také bobří mláďátka? Samozřejmě, každý rok se nám narodí zhruba pět miminek (naposledy to byla 4&nbsp;mláďata na konci června 2016), která buď odcestují do jiných zoologických zahrad, nebo zůstávají tady s&nbsp;námi. Jednou si jedno naše mláďátko odvezli dokonce až do Jižní Koreje!

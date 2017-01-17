@@ -29,7 +29,7 @@ var AnimalDetail = React.createClass({
         Vzpomínáte si na večerníček o&nbsp;slečně Dorotce a jejím papouškovi? Ten papoušek je můj kamarád, ara ararauna jako já. No vážně!
         </AnimalText>
         <AnimalText>
-        Naši předkové pochází z&nbsp;Jižní Ameriky, kde ary osidlují především amazonský prales. V&nbsp;brněnské zoo jsme tři zástupci tohoto druhu. Já se jmenuji Pedro, moje slečna Koko a náš kamarád Eda. Já jsem nejstarší, další v&nbsp;pořadí je Eda, který se narodil v&nbsp;únoru&nbsp;2001 a nejmladší je slečna Koko, ta se narodila až v&nbsp;roce&nbsp;2008. Ptáci jsme poměrně dlouhověcí, v&nbsp;lidské péči se dožíváme až 80&nbsp;let!
+        Naši předkové pochází z&nbsp;Jižní Ameriky, kde ary osidlují především amazonský prales. V&nbsp;brněnské zoo jsme tři zástupci tohoto druhu. Já se jmenuji Pedro, moje slečna Koko a náš kamarád Eda. Já jsem nejstarší, další v&nbsp;pořadí je Eda, který se narodil v&nbsp;únoru&nbsp;2001, a nejmladší je slečna Koko, ta se narodila až v&nbsp;roce&nbsp;2008. Ptáci jsme poměrně dlouhověcí, v&nbsp;lidské péči se dožíváme až 80&nbsp;let!
         </AnimalText>
         <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>

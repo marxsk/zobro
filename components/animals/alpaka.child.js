@@ -23,7 +23,7 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          Jestli někdy pojedete do Jižní Ameriky, zkuste navštívit Peru. Pozor, to není název tamní prádelny! Jmenuje se tak celý jeden stát. Když si na dlouhé cestě konečně vyperete svoje smradlavé a zašpiněné peruánské ponožky, místní obyvatelé podle jejich barvy poznají, jakou srst mají lamy alpaky – zvířecí obyvatelky Peru a okolí. Dobří ponožkoví detektivové poznají, že alpaka může být:
+          Jestli někdy pojedete do Jižní Ameriky, zkuste navštívit Peru. Pozor, to není název tamní prádelny! Jmenuje se tak celý jeden stát. Když si na dlouhé cestě konečně vyperete svoje smradlavé a zašpiněné peruánské ponožky, místní obyvatelé podle jejich barvy poznají, jakou srst měly lamy alpaky, zvířecí obyvatelky Peru a okolí, díky nimž mohly být tyto ponožky vyrobeny. Dobří ponožkoví detektivové poznají, že alpaka může být:
         </AnimalText>
         <AnimalText>
         
@@ -35,7 +35,7 @@ var AnimalDetail = React.createClass({
           Alpaku si Peruánci nevycvičili pro těžkou práci. Slouží jim podobně jako ovce u&nbsp;nás v&nbsp;Evropě – lidé ji jednou za čas ostříhají, čímž získají spoustu vlny. Pletou z&nbsp;ní nejen ponožky, ale i&nbsp;svetry nebo čepice.
         </AnimalText>
       <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
-        <AnimalText>
+      <AnimalText>
           <Text style={styles.strong}>BÉŽOVÁ jako velbloud</Text>
         </AnimalText>
         <AnimalText>

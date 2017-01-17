@@ -29,7 +29,7 @@ var AnimalDetail = React.createClass({
           <Text style={styles.italic}>1.&nbsp;pád: Kdo, co?</Text> Prostě jaguarundi (latinsky též <Text style={styles.italic}>Puma yagouaroundi</Text>).
         </AnimalText>
         <AnimalText>
-          <Text style={styles.italic}>2.&nbsp;pád: Z&nbsp;koho, z&nbsp;čeho?</Text> Přece z&nbsp;Jižní a Střední Ameriky od Argentiny po Mexiko, bez jaguarundi si však život neumí představit ani Floriďané.
+          <Text style={styles.italic}>2.&nbsp;pád: Z&nbsp;koho, z&nbsp;čeho?</Text> Přece z&nbsp;Jižní a Střední Ameriky od Argentiny po Mexiko, bez jaguarundi si však život neumí představit ani na Floridě, kam byla zavlečena lidmi.
         </AnimalText>
         <AnimalText>
           <Text style={styles.italic}>3.&nbsp;pád: Ke komu, k&nbsp;čemu?</Text> K&nbsp;nám do Brna přicestovaly první dvě samice jaguarundi v&nbsp;roce 2009 z&nbsp;Polska. Jedna z&nbsp;nich byla následující rok vyměněna se Zoo Ostrava za samce, který díky své výrazně hnědé srsti s&nbsp;rezavým nádechem dostal jméno Fox.

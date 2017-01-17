@@ -30,7 +30,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-        Jedná se o&nbsp;největší zástupce divokých asijských oslů, ale více než oslům se podobají divokým koním Převalského. Někteří zoologové se na základě analýz DNA shodli na tom, že kiangové by mohli být považováni i&nbsp;za samostatný druh. Kiangové přece nejsou jen hloupí oslové…
+        Jedná se o&nbsp;největší zástupce divokých asijských oslů, ale více než oslům se podobají divokým koním Převalského.
         </AnimalText>
         <AnimalText>
         Zejména někteří samci si svůj život dokážou zařídit vskutku chytře. Bojují spolu a nejlepší z&nbsp;nich může upoutat skupinu samic. Sotva která klisna odolá hřebci barevnému jako latte macchiato, a tak má samec možnost vést a chránit pěti- až dvacetihlavé stádo. Jeho nepřáteli jsou kromě vlků také jiní hřebci, kteří se drží buď v&nbsp;mládeneckých skupinách, nebo vedou samotářský život.
