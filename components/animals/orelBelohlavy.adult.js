@@ -33,14 +33,14 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-        Orel bělohlavý si vyhledává místa především u&nbsp;velkých vodních ploch. Je možné ho zahlédnout na břehu moře, oceánu, u&nbsp;velkých jezer či řek. Není tedy žádným překvapením, že jeho hlavní potravou jsou ryby. Živí se také savci, ptáky a obojživelníky. Jsou to od přírody výborní letci, což jim lov potravy výrazně usnadňuje. Při vodorovném letu dosahují maximální rychlosti 70&nbsp;km/h, při chytání ryb a střemhlavém ponoření až 160&nbsp;km/h.
+        Orel bělohlavý si vyhledává místa především u&nbsp;velkých vodních ploch. Je možné ho zahlédnout na břehu moře, oceánu, u&nbsp;velkých jezer či řek. Není tedy žádným překvapením, že jeho hlavní potravou jsou ryby. Živí se také savci, ptáky a obojživelníky. Je to od přírody výborný letec, což mu lov potravy výrazně usnadňuje. Při vodorovném letu dosahuje maximální rychlosti 70&nbsp;km/h, při chytání ryb a střemhlavém ponoření až 160&nbsp;km/h.
         </AnimalText>
         <AnimalText>
         Většina orlů bělohlavých si vytváří partnerství na celý život. V&nbsp;případě zmizení nebo úmrtí jednoho z&nbsp;páru si však opuštěný jedinec hledá partnera nového. Orlí námluvy často připomínají pozoruhodnou vzdušnou akrobacii, při níž pár létá střemhlav k&nbsp;zemi, nahání se a předvádí nejrůznější přemety.
         </AnimalText>
         <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-        Během doby páření si staví hnízda, která patří k&nbsp;vůbec největším ptačím hnízdům na světě (hloubka 4&nbsp;m a průměr až 2,5&nbsp;m).  Bývají umístěna vysoko na stromech nebo na skalních římsách a orlům mohou sloužit až pět let. Samička ročně snáší jedno až tři vejce, jejichž inkubační doba je kolem 35&nbsp;dnů. Na vejcích střídavě sedí samice i&nbsp;samec. Jen málokdy se ovšem podaří přivést na svět všechna mláďata.
+        Během doby páření si staví orli hnízda, která patří k&nbsp;vůbec největším ptačím hnízdům na světě (hloubka 4&nbsp;m a průměr až 2,5&nbsp;m). Bývají umístěna vysoko na stromech nebo na skalních římsách a orlům mohou sloužit až pět let. Samička ročně snáší jedno až tři vejce, jejichž inkubační doba je kolem 35&nbsp;dnů. Na vejcích střídavě sedí samice i&nbsp;samec. Jen málokdy se ovšem podaří přivést na svět všechna mláďata.
         </AnimalText>
         <AnimalText>
         V&nbsp;Zoo Brno se můžete s&nbsp;těmito dravci seznámit doslova tváří v&nbsp;tvář v&nbsp;unikátní volně průchozí voliéře, která byla slavnostně otevřena v&nbsp;roce&nbsp;2014. Momentálně jsou zde dva jedinci – matka s&nbsp;dcerou. Orlí matka, která do Brna dorazila z&nbsp;liberecké zoo, se narodila ve Frankfurtu nad Mohanem v&nbsp;roce 1988 (je to tedy již opravdová dáma v&nbsp;orlích letech). Její dcera se vylíhla v&nbsp;roce&nbsp;2015 v&nbsp;brněnské zoo, což považujeme za velký úspěch, neboť odchov těchto dravců v&nbsp;zajetí je všeobecně velmi složitý. 
