@@ -30,7 +30,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Děti, jestli z&nbsp;domova, od babičky nebo alespoň z&nbsp;učebnice znáte husu domácí, musíte uznat, že tahle je úplně jiná, taková menší a drobnější. Má velmi krátký ocas a moc dlouhé nohy. Dokonce nejsou ani oranžové, ale šedomodré. Také má úplně jinak zbarvené peří. Čím to je? Tím, že je to jiný druh husy, který se u&nbsp;nás běžně nevyskytuje.
+          Děti, jestli z&nbsp;domova, od babičky nebo alespoň z&nbsp;učebnice znáte husu domácí, musíte uznat, že tahle je úplně jiná, taková menší a drobnější. Má velmi krátký ocas a moc dlouhé nohy. Dokonce nejsou ani oranžové, ale šedomodré. Také má úplně jinak zbarvené peří. Čím to je? Tím, že to vlastně ani husa není, jen má podobné jméno, ale k husám má stejně daleko jako třeba ke kachnám.
         </AnimalText>
         <AnimalText>
           Samečka a samičku husičky vdovky od sebe nerozeznáte, protože mají úplně stejně barevné peří. Jenom jejich mláďata ho mají na hlavě méně nápadné.
