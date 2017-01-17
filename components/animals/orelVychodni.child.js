@@ -30,20 +30,20 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-        Ptáte se, jestli míváme taky děti? Samozřejmě, že ano. Máma orlice snese bílá vajíčka do hnízda, jako to znáte třeba u&nbsp;slepic či jiných ptáků. Své hnízdo míváme vysoko, vysoko ve větvích. To proto, aby nám hnízdo nějaký zvědavec neokukoval. Máma na vajíčkách sedí a zahřívá je, dokud se z&nbsp;nich nevylíhnou malí orli. 
+        Ptáte se, jestli míváme taky děti? Samozřejmě, že ano. Máma orlice snese bílá vajíčka do hnízda, jako to znáte třeba u&nbsp;slepic či jiných ptáků. Své hnízdo míváme vysoko, vysoko ve větvích. To proto, aby nám jej nějaký zvědavec neokukoval. Máma na vajíčkách sedí a zahřívá je, dokud se z&nbsp;nich nevylíhnou malí orli. 
         </AnimalText>
         <AnimalText>
-        Malý orel má peří načepýřené a je celý šedý. Dokonce i&nbsp;zobáček má šedý. Já i&nbsp;máma mu sháníme potravu a krmíme ho. Když oslaví malý orel čtvrté, páté narozeniny, stává se dospělým orlem. 
+        Malý orel má peří načepýřené a je celý šedý. Dokonce i&nbsp;zobáček má šedý. Já i&nbsp;máma mu sháníme potravu a krmíme ho. Když oslaví čtvrté, páté narozeniny, stává se dospělým. 
         </AnimalText>
         <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-        A&nbsp;víte někdo, co my, orli, jíme? Že by rohlík s&nbsp;máslem a marmeládou? Nebo řízek s&nbsp;bramborem? To ne. My si pochutnáváme na jiných věcech. 
+        A&nbsp;víte někdo, co my orli jíme? Že by rohlík s&nbsp;máslem a marmeládou? Nebo řízek s&nbsp;bramborem? To ne. My si pochutnáváme na jiných věcech. 
         </AnimalText>
         <AnimalText>
         Jsme původem z&nbsp;Asie. Nachází se tam hodně řek a jezer, ve kterých najdeme obrovské množství ryb. Chuť na ryby máme prostě od narození. A&nbsp;když zrovna nemáme ryby, spokojíme se s&nbsp;jakýmkoliv jiným masem, ke kterému se dostaneme.  
         </AnimalText>
         <AnimalText>
-        Doufáme, že teď už byste nás poznali, kdybyste nás někde znovu viděli. Tak jak říkáme my, orli: Křídlu zdar! 
+        Doufáme, že teď už byste nás poznali, kdybyste nás někde znovu viděli. Tak jak říkáme my orli: Křídlu zdar! 
         </AnimalText>
       </AnimalTemplate>
     );
