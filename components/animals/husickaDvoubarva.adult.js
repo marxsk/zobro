@@ -30,14 +30,14 @@ var AnimalDetail = React.createClass({
         </AnimalText>
       <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Už jsme zmínili, že peří husičky je zajímavě barevné a vy myslím už vidíte důvod, proč tomu tak je. Díky kombinaci hnědé a černé barvy se husička v&nbsp;hustém porostu stává téměř neviditelnou. Nejčastěji se skrývá v&nbsp;rákosí, kde také hnízdí.
+          Už jsme zmínili, že peří husičky je zajímavě barevné, a vy myslím už vidíte důvod, proč tomu tak je. Díky kombinaci hnědé a černé barvy se husička v&nbsp;hustém porostu stává téměř neviditelnou. Nejčastěji se skrývá v&nbsp;rákosí, kde také hnízdí.
         </AnimalText>
         <AnimalText>
-          Mimo období hnízdění najdete velká hejna husiček, jak spolu plavou. Nicméně, jakmile nastane ta správná doba, husička si najde partnera a jsou jen a jen spolu. Kromě rákosu mohou hnízdit i&nbsp;ve stromových dutinách nebo v&nbsp;opuštěných hnízdech jiných ptáků.
+          Mimo období hnízdění najdete velká hejna husiček, jak spolu plavou. Nicméně jakmile nastane ta správná doba, husička si najde partnera a jsou jen a jen spolu. Kromě rákosu mohou hnízdit i&nbsp;ve stromových dutinách nebo v&nbsp;opuštěných hnízdech jiných ptáků.
         </AnimalText>
       <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Vajec naklade husička přibližně deset a měsíc trvá, než se z&nbsp;nich vylíhnou mláďata. Ta se dožívají desíti až dvanácti let. Zkuste si tedy spočítat, kolik mláďat se za život narodí jedné husičce. Vždyť jich může být až sto!
+          Vajec naklade husička přibližně deset najednou a měsíc trvá, než se z&nbsp;nich vylíhnou mláďata. Ta se dožívají desíti až dvanácti let. Zkuste si tedy spočítat, kolik mláďat se za život narodí jedné husičce. Vždyť jich může být až sto!
         </AnimalText>
       </AnimalTemplate>
     );
