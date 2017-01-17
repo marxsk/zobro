@@ -37,7 +37,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
       <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Prohlídka terária se pomalu chýlí ke konci. Nezbývá než konstatovat, že přes všechny spojitosti s&nbsp;dinosaury nejsou kajmánci žádné vykopávky. Chovat doma je mohou jen ti nejotrlejší. Na zádech i&nbsp;ocasu se kajmánci vyzbrojili kostěnými šupinami. Když se rozhodnou zaútočit, dost to bolí. Kořist, jíž jsou většinou ryby, polykají celou nebo po velkých kusech. Možná se teď ptáte, proč tady v&nbsp;zoo nesežerou kajmánci piraně, které s&nbsp;nimi sdílí terárium. Odpověď je jednoduchá – piraně jsou moc velké, mrštné a kajmánci pravidelně dostávají o&nbsp;dost lepší pochutiny.
+          Prohlídka terária se pomalu chýlí ke konci. Nezbývá než konstatovat, že přes všechny spojitosti s&nbsp;dinosaury nejsou kajmánci žádné vykopávky. Chovat je doma mohou jen ti nejotrlejší. Na zádech i&nbsp;ocasu se kajmánci vyzbrojili kostěnými šupinami. Když se rozhodnou zaútočit, dost to bolí. Kořist, jíž jsou většinou ryby, polykají celou nebo po velkých kusech. Možná se teď ptáte, proč tady v&nbsp;zoo nesežerou kajmánci piraně, které s&nbsp;nimi sdílí terárium. Odpověď je jednoduchá – piraně jsou moc velké, mrštné a kajmánci pravidelně dostávají o&nbsp;dost lepší pochutiny.
         </AnimalText>
       </AnimalTemplate>
     );
