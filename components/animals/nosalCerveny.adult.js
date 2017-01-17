@@ -34,7 +34,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Samice jsou na rozdíl od samců velmi družné a žijí ve smečkách o&nbsp;až 30&nbsp;jedincích. Samci jsou po dovršení dvou let života ze smečky vyhnáni a od té doby žijí samotářským životem. K&nbsp;samičkám se mohou přiblížit pouze v&nbsp;době páření, která je pro všechny samice smečky ve stejnou dobu. Samičky se obvykle páří s&nbsp;více než jedním samcem a po 77&nbsp;dnech porodí až sedm mláďat, o&nbsp;která se pak starají o&nbsp;samotě mimo svou mateřskou skupinu, k&nbsp;níž se po čase zase vrátí. Obecně mají samice tendenci zůstávat u&nbsp;své skupiny po celý život, naproti tomu samci se oddělují a žijí nezávisle.
+          Samice jsou na rozdíl od samců velmi družné a žijí ve smečkách až o&nbsp;30&nbsp;jedincích. Samci jsou po dovršení dvou let života ze smečky vyhnáni a od té doby žijí samotářským životem. K&nbsp;samičkám se mohou přiblížit pouze v&nbsp;době páření, která je pro všechny samice smečky ve stejnou dobu. Samičky se obvykle páří s&nbsp;více než jedním samcem a po 77&nbsp;dnech porodí až sedm mláďat, o&nbsp;která se pak starají o&nbsp;samotě mimo svou mateřskou skupinu, k&nbsp;níž se po čase zase vrátí. Obecně mají samice tendenci zůstávat u&nbsp;své skupiny po celý život, naproti tomu samci se oddělují a žijí nezávisle.
         </AnimalText>
       </AnimalTemplate>
     );
