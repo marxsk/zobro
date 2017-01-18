@@ -21,7 +21,7 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          <Text style={styles.italic}>Coracias garrulus</Text> nese české jméno mandelík hajní podle faktu, že rád číhá na kořist z&nbsp;vyvýšených míst, jako jsou stromy, dráty, sloupy nebo sedí na postavených „panácích“ snopů, kterým se říká mandele.
+          <Text style={styles.italic}>Coracias garrulus</Text> nese české jméno mandelík hajní podle faktu, že rád číhá na kořist na vyvýšených místech, jako jsou stromy, dráty, sloupy nebo „panáky“ snopů, kterým se říká mandele.
         </AnimalText>
         <AnimalText>
           Mandelík se svojí velikostí a stavbou těla podobá vráně. Měří 29–32&nbsp;cm a váží do 190&nbsp;g. Při roztažení křídel má až 58&nbsp;cm. Na rozdíl od vrány však všechny na první pohled uchvátí svým úžasně zbarveným peřím. Rozhodně nepřehlédnete světle modrého ptáka s&nbsp;oslňujícími azurově modrými křídly, jež kontrastují s&nbsp;černými špičkami křídel, tmavším ocasem a hnědavě oranžovými zády. Navíc má oko namalované tenkou černou linkou.
