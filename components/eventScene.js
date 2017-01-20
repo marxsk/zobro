@@ -190,13 +190,11 @@ export default class EventsScene extends React.Component {
             <TouchableHighlight
             underlayColor='#aaaaaa'
             onPress={() => {
-//                Alert.alert(1000* (this.state.selectedTime + 0));
                 let fireTime = new Date(Date.now());
                 const p = myEvent.time.split(':');
                 fireTime.setHours(p[0]);
                 fireTime.setMinutes(p[1]);
                 fireTime.setSeconds(0);
-
 
                 if (this.isEventSubscribed(myEvent)) {
                   this.refs.modal2.close();
@@ -207,7 +205,6 @@ export default class EventsScene extends React.Component {
                 PushNotificationIOS.scheduleLocalNotification(
                 {
                   alertBody: (myEvent.name + '\n' + myEvent.place + '\n' + myEvent.time),
-                  // @todo - fix
                   fireDate: new Date(fireTime - ((this.state.selectedTime + 0) * 1000)).getTime(),
                   userInfo: {id: myEvent.id},
                 }
