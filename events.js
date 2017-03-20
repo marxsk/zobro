@@ -10,6 +10,7 @@ export default events = [
   { id: 'tygr1000', startDate: '2017-03-15', endDate: '2017-09-30', name: 'Tygr sumaterský', time: '10:00', weekdays: [1,3,5], place: 'Tygří skály', thumbnail: require('./images/animals/tygrSumatersky/01-thumb.jpg'), text: 'Lorem ipsum'},
   { id: 'surikata1030', startDate: '2017-03-15', endDate: '2017-09-30', name: 'Surikaty', time: '10:30', weekdays: [2], place: 'Expozice surikat', thumbnail: require('./images/animals/surikata/01-thumb.jpg'), text: 'Lorem ipsum'},
   { id: 'zirafa1400', startDate: '2017-03-15', endDate: '2017-09-30', name: 'Žirafy', time: '14:00', weekdays: [0,4,5,6], place: 'Africká vesnice', thumbnail: require('./images/animals/zirafaSitovana/01-thumb.jpg'), text: 'Lorem ipsum'},
+  { id: 'lemur1130', startDate: '2017-03-15', endDate: '2017-09-30', name: 'Lemur kata', time: '11:30', weekdays: [1,2,3], place: 'Africká vesnice', thumbnail: require('./images/animals/lemurKata/01-thumb.jpg'), text: 'Lorem ipsum'},  
   
   { id: 'vanoce0930', startDate: '2016-12-24', endDate: '2016-12-25', name: 'Tygr sumaterský', time: '9:30', weekdays: [0,1,2,3,4,5,6], place: 'Tygří skály', thumbnail: require('./images/animals/medvedLedni/01-thumb.jpg'), text: 'Lorem ipsum'},
   { id: 'vanoce1015', startDate: '2016-12-24', endDate: '2016-12-25', name: 'Lachtan medvědí', time: '10:15', weekdays: [0,1,2,3,4,5,6], place: 'Expozice lachtanů', thumbnail: require('./images/animals/lachtanMedvedi/01-thumb.jpg'), text: 'Lorem ipsum'},
