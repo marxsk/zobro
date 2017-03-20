@@ -29,7 +29,7 @@ var AnimalDetail = React.createClass({
           Uběhne však jen půl století a všechno se změní. Domovinu jim začínají narušovat lidé. A co hůř, domácí zvířata jim postupně zabírají zdroje pitné vody. Národní poklad už není pokladem, spíš hrstkou čítající pár desítek osamocených mincí v&nbsp;truhle.
         </AnimalText>
         <AnimalText>
-          Nikdo už si pořádně nepamatuje, kdy divokého koně spatřil naposled. Svět se smiřuje s&nbsp;tím, že vyhynuli. Pak se však stane zázrak – ruský generál N.&nbsp;M.&nbsp;Przewalsky na svých cestách narazí na pár osamocených jedinců. Na připomínku této památné chvíle získávají divocí koně přívlastek Převalského.
+          Nikdo už si pořádně nepamatuje, kdy divokého koně spatřil naposled. Svět se smiřuje s&nbsp;tím, že vyhynuli. Pak se však stane zázrak – ruský generál, cestovatel a geograf N.&nbsp;M.&nbsp;Prževalskij na svých cestách narazí na pár osamocených jedinců. Na připomínku této památné chvíle získávají divocí koně přívlastek Převalského.
         </AnimalText>
         <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
@@ -40,7 +40,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-          Jelikož divocí koně patří především do divočiny, začínají se pořádat reintrodukční projekty, které mají za cíl vrátit koně Převalského do jejich domoviny. Poprvé se tak stává v&nbsp;roce 1991 na území Číny, v&nbsp;místech, která původně divocí koně obývali. Mongolové chtějí podpořit svou národní tradici a přispět k&nbsp;zachování kulturního dědictví své země, proto také na svých územích zřizují aklimatizační stanice a v&nbsp;roce 1997 vypouští do přírody, do míst, kde byli naposled spatřeni, první jedince koní Převalských. Již o&nbsp;dva roky později se v&nbsp;divočině rodí první hříbata.
+          Jelikož divocí koně patří především do divočiny, začínají se pořádat reintrodukční projekty, které mají za cíl vrátit koně Převalského do jejich domoviny. Poprvé se tak stává v&nbsp;roce 1991 na území Číny, v&nbsp;místech, která původně divocí koně obývali. Mongolové chtějí podpořit svou národní tradici a přispět k&nbsp;zachování kulturního dědictví své země, proto také na svých územích zřizují aklimatizační stanice a v&nbsp;roce 1997 vypouští do přírody, do míst, kde byli naposled spatřeni, první jedince koní Převalského. Již o&nbsp;dva roky později se v&nbsp;divočině rodí první hříbata.
         </AnimalText>
         <AnimalText>
           Není to tak dávno, co měl svět pouhých třináct posledních koní Převalského.
