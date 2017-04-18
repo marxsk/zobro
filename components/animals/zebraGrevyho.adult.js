@@ -23,10 +23,10 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-          Zebra Grévyho, latinsky <Text style={styles.italic}>Equus grevyi</Text>, je největším druhem zebry. Žije nejseverněji ze všech a původem je z&nbsp;Afriky. Našli bychom ji na polopouštích v&nbsp;Etiopii a v&nbsp;Keni nebo v&nbsp;Somálsku a Súdánu.
+          Zebra Grévyho, latinsky <Text style={styles.italic}>Equus grevyi</Text>, je největším druhem zebry. Žije nejseverněji ze všech a původem je z&nbsp;Afriky. Našli bychom ji v&nbsp;savanách a na polopouštích v&nbsp;Etiopii a v&nbsp;Keni nebo v&nbsp;Somálsku a Súdánu.
         </AnimalText>
         <AnimalText>
-          Podíl na jméně této zebry má francouzský prezident, který se jmenoval Jules Grévy. Ten dostal roku&nbsp;1882 od etiopské vlády jednu zebru darem. V&nbsp;téže době se zjistilo, že v&nbsp;Etiopii existuje dosud neznámý poddruh, který je třeba pojmenovat. A tak, pro vyjádření pocty prezidentovi, dostala zebra přívlastek Grévy.
+          Podíl na jméně této zebry má francouzský prezident, který se jmenoval Jules Grévy. Ten dostal roku&nbsp;1882 od etiopské vlády jednu zebru darem. V&nbsp;téže době se zjistilo, že v&nbsp;Etiopii existuje dosud neznámý druh, který je třeba pojmenovat. A tak, pro vyjádření pocty prezidentovi, dostala zebra přívlastek Grévy.
         </AnimalText>
         <AnimalText>
           V&nbsp;naší zoo chováme dva druhy zeber: zebru Grévyho a zebru Chapmanovu. Zebra Chapmanova se nachází nedaleko odsud – v&nbsp;Africké vesnici. Myslíte, že byste tyto dva druhy od sebe odlišili? Nu, pár rozdílů mezi nimi je.
