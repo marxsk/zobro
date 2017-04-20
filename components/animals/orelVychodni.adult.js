@@ -30,7 +30,7 @@ var AnimalDetail = React.createClass({
         </AnimalText>
         <InPageImage indexes={[1]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
-        Samice orla bývá větší než samec a jednou ročně klade zelenobílá vejce. Obvykle snese do hnízda jedno až tři vejce. Hnízda si orli vytváří z&nbsp;různých větví, které přes sebe skládají. Vypadají tedy spíše jako hromady dřeva než jako malé misky, které vídáme u&nbsp;ptáků v&nbsp;českých lesích. Svá hnízda si orli staví vysoko ve větvích, kam se dostane jen málo predátorů. Přirozeného nepřítele orli nemají, největším nebezpečím jsou pro jejich vajíčka ostatní orli. 
+        Samice orla bývá větší než samec a jednou ročně klade zelenobílá vejce. Obvykle snese do hnízda jedno až tři vejce. Hnízda si orli vytváří z&nbsp;různých větví, které přes sebe skládají. Vypadají tedy spíše jako hromady dřeva než jako malé misky, které vídáme u&nbsp;zpěvných ptáků v&nbsp;českých lesích. Svá hnízda si orli staví vysoko ve větvích, kam se dostane jen málo predátorů. Přirozeného nepřítele orli nemají, největším nebezpečím jsou pro jejich vajíčka ostatní orli. 
         </AnimalText>
         <InPageImage indexes={[2]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator} />
         <AnimalText>
