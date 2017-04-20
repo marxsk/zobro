@@ -23,7 +23,7 @@ var AnimalDetail = React.createClass({
     return (
       <AnimalTemplate firstIndex={[0]} thumbnails={THUMBNAILS} images={IMAGES} navigator={this.props.navigator}>
         <AnimalText>
-       Orel východní neboli kamčatský je nejtěžším dravcem na světě a je také největším orlem planety. Kvůli těžbě ropy a zemního plynu a s&nbsp;tím souvisejícím okolnostem patří k&nbsp;ohroženým druhům – je klasifikován jako zranitelný. Původem je z&nbsp;východní Asie. Hnízdí blízko u&nbsp;vodních toků na Kamčatském poloostrově a v&nbsp;pobřežních oblastech Ochotského moře. Na zimu se přesouvá na jih k&nbsp;Japonsku, kde se vyskytuje hlavně na ostrově Hokkaidó. 
+       Orel východní neboli kamčatský je nejtěžším dravcem na světě a je také největším orlem planety. Nejen kvůli těžbě ropy a zemního plynu a s&nbsp;tím souvisejícím okolnostem patří k&nbsp;ohroženým druhům – je klasifikován jako zranitelný. Původem je z&nbsp;východní Asie. Hnízdí blízko u&nbsp;vodních toků na Kamčatském poloostrově a v&nbsp;pobřežních oblastech Ochotského moře. Na zimu se přesouvá na jih k&nbsp;Japonsku, kde se vyskytuje hlavně na ostrově Hokkaidó. 
         </AnimalText>
         <AnimalText>
         Samec i&nbsp;samice, které máme u&nbsp;nás v&nbsp;zoo, pochází z&nbsp;volné přírody. Orel je vysoký asi jeden metr a rozpětí křídel může mít až 2,5&nbsp;metru. 
