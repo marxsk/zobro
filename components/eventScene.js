@@ -171,7 +171,7 @@ export default class EventsScene extends React.Component {
             {myEvent.place}
           </Text>
           <Text style={{fontSize: 16, width: WIDTH, textAlign: 'center', paddingBottom: 20, paddingTop: 20, color: 'white'}}>
-            Chcete být upozorněni na začátek krmení?
+            Jak dlouho předem vás máme upozornit na začátek krmení?
           </Text>
 
           <View style={{height: 50, flexDirection: 'row'}}>
