@@ -6,8 +6,6 @@ export default events = [
   { id: 'drapkate1430', startDate: '2017-11-01', endDate: '2018-03-14', name: 'Drápkaté opičky, time: '14:30', weekdays: [5,6], place: 'Tropické království', thumbnail: require('./images/animals/kosman/01-thumb.jpg'), text: 'Lorem ipsum'},
   { id: 'vari1130', startDate: '2017-11-01', endDate: '2018-03-14', name: 'Vari černobílý', time: '11:30', weekdays: [6], place: 'Pavilon opic', thumbnail: require('./images/animals/variCernobily/01-thumb.jpg'), text: 'Lorem ipsum'},
 
-
-  
   { id: 'ledved1030', startDate: '2017-03-15', endDate: '2017-09-30', name: 'Medvěd lední', time: '10:30', weekdays: [0,3], place: 'Expozice ledních medvědů', thumbnail: require('./images/animals/medvedLedni/01-thumb.jpg'), text: 'Lorem ipsum'},
   { id: 'ledved1130', startDate: '2017-03-15', endDate: '2017-09-30', name: 'Medvěd lední', time: '11:30', weekdays: [5], place: 'Expozice ledních medvědů', thumbnail: require('./images/animals/medvedLedni/01-thumb.jpg'), text: 'Lorem ipsum'},
   { id: 'kamcat1030', startDate: '2017-03-15', endDate: '2017-09-30', name: 'Medvěd kamčatský', time: '10:30', weekdays: [1,6], place: 'Beringie', thumbnail: require('./images/animals/medvedKamcatsky/01-thumb.jpg'), text: 'Lorem ipsum'},
